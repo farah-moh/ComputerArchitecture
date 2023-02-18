@@ -1,0 +1,320 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Ealu
+Z0 w1676756377
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 79
+Z3 dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1
+Z4 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/ALU.vhd
+Z5 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/ALU.vhd
+l0
+L6 1
+VjCD0XjJ8CecUgJEO:zd9z1
+!s100 BFaLGUY6JPaF<B=MMW0EW3
+Z6 OV;C;2020.1;71
+33
+Z7 !s110 1676756381
+!i10b 1
+Z8 !s108 1676756381.000000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/ALU.vhd|
+!s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/ALU.vhd|
+!i113 1
+Z10 o-work work -2008 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Arunningalu
+R1
+R2
+DEx4 work 3 alu 0 22 jCD0XjJ8CecUgJEO:zd9z1
+!i122 79
+l58
+L18 58
+VD0[U;d7n]=h[i29:AgD^@0
+!s100 <Y2U8>QA4DWJb]`5ICZn]1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/ALU.vhd|
+!i113 1
+R10
+R11
+Epartb
+Z13 w1676731465
+R1
+R2
+!i122 67
+R3
+Z14 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartB.vhd
+Z15 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartB.vhd
+l0
+L4 1
+VE`GZkIzlidC?mHVzRLRRZ0
+!s100 @eff=JXe7b@YCjkzX^D=]2
+R6
+33
+Z16 !s110 1676754430
+!i10b 1
+Z17 !s108 1676754430.000000
+Z18 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartB.vhd|
+Z19 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartB.vhd|
+!i113 1
+R10
+R11
+Apartbdesign
+R1
+R2
+DEx4 work 5 partb 0 22 E`GZkIzlidC?mHVzRLRRZ0
+!i122 67
+l16
+L15 13
+VGTmU9FgbW8EF2==`>YbFe1
+!s100 ePT768Ok_c=B>oG`=[AzZ3
+R6
+33
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R10
+R11
+Epartc
+Z20 w1676731147
+R1
+R2
+!i122 68
+R3
+Z21 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartC.vhd
+Z22 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartC.vhd
+l0
+L4 1
+VCIVFhP<FYa;aTTn7=h6F:3
+!s100 B=CHQGVlVVJVgTJik:6=?2
+R6
+33
+R16
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartC.vhd|
+Z24 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartC.vhd|
+!i113 1
+R10
+R11
+Apartcdesign
+R1
+R2
+DEx4 work 5 partc 0 22 CIVFhP<FYa;aTTn7=h6F:3
+!i122 68
+l15
+Z25 L14 14
+VM`XjTPI@b1RYR3>R<2RKn2
+!s100 PNL6VeOTRO7gRN]Nm0ILM0
+R6
+33
+R16
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R10
+R11
+Epartd
+Z26 w1676747948
+R1
+R2
+!i122 69
+R3
+Z27 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartD.vhd
+Z28 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartD.vhd
+l0
+L4 1
+V2A`>FKAHn^IOL5?nzE9QL1
+!s100 l8NYD7@XYeTV^b3O;D1kE2
+R6
+33
+Z29 !s110 1676754431
+!i10b 1
+R17
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartD.vhd|
+Z31 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/PartD.vhd|
+!i113 1
+R10
+R11
+Apartddesign
+R1
+R2
+DEx4 work 5 partd 0 22 2A`>FKAHn^IOL5?nzE9QL1
+!i122 69
+l15
+R25
+VebB]0TIQY1zC6Vgh1hel:3
+!s100 kn9[:e1a6HO87E]^]mh7[1
+R6
+33
+R29
+!i10b 1
+R17
+R30
+R31
+!i113 1
+R10
+R11
+Etb_lab1c
+w1676751152
+R1
+R2
+!i122 20
+R3
+Z32 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartC.vhd
+Z33 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartC.vhd
+l0
+L6 1
+V@LFZalz7a[HA:AQ<7GS3d3
+!s100 mU;RO8VlWGDeWHV?ASeo10
+R6
+32
+!s110 1676751155
+!i10b 1
+!s108 1676751155.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartC.vhd|
+Z34 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartC.vhd|
+!i113 1
+o-work work -2002 -explicit
+R11
+Etb_partb
+Z35 w1676754936
+R1
+R2
+!i122 77
+R3
+Z36 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartB.vhd
+Z37 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartB.vhd
+l0
+L5 1
+VGk4fS6oj^hb1N_JcMgLa?2
+!s100 aEhPz_3Zj?GC_AcX?ITek1
+R6
+33
+Z38 !s110 1676755167
+!i10b 1
+Z39 !s108 1676755166.000000
+Z40 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartB.vhd|
+Z41 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartB.vhd|
+!i113 1
+R10
+R11
+Atestingpartb
+R1
+R2
+DEx4 work 8 tb_partb 0 22 Gk4fS6oj^hb1N_JcMgLa?2
+!i122 77
+l29
+L9 80
+VNdO5e4FaX0E6ZKBX48m[F2
+!s100 ?mQ2dYEn8d=EQME[F`b9n2
+R6
+33
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R10
+R11
+Etb_partc
+Z42 w1676754064
+R1
+R2
+!i122 70
+R3
+R32
+R33
+l0
+L5 1
+VCmTWYWoCSo@13?TiVU4@f3
+!s100 QKSAdTj4zJi]dh0S:=kEY2
+R6
+33
+R29
+!i10b 1
+Z43 !s108 1676754431.000000
+Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartC.vhd|
+R34
+!i113 1
+R10
+R11
+Atestingpartc
+R1
+R2
+DEx4 work 8 tb_partc 0 22 CmTWYWoCSo@13?TiVU4@f3
+!i122 70
+l27
+L9 107
+VYN]c?e=Lh`3SXc;`<iLj30
+!s100 ^EI]^`F[hm9LCePH:Pbh41
+R6
+33
+R29
+!i10b 1
+R43
+R44
+R34
+!i113 1
+R10
+R11
+Etb_partd
+Z45 w1676754278
+R1
+R2
+!i122 71
+R3
+Z46 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartD.vhd
+Z47 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartD.vhd
+l0
+L6 1
+V<a:i=4QNJVS?fDIEWTUaH3
+!s100 0:d67;D7@Z`@z15J8iUal1
+R6
+33
+R29
+!i10b 1
+R43
+Z48 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartD.vhd|
+Z49 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartD.vhd|
+!i113 1
+R10
+R11
+Atestingpartd
+R1
+R2
+DEx4 work 8 tb_partd 0 22 <a:i=4QNJVS?fDIEWTUaH3
+!i122 71
+l28
+L10 87
+VnPFcOn8>SAnQ=PdR;ETnF3
+!s100 JL=N0URU]@hV6N:zkab6;2
+R6
+33
+R29
+!i10b 1
+R43
+R48
+R49
+!i113 1
+R10
+R11
