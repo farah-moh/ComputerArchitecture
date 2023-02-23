@@ -205,6 +205,107 @@ assert (test_F=x"8780" and test_Cout='0')
 
 wait for 10 ns;
 
+test_sel(3 downto 2) <= "00";
+--Test case 1
+  test_A <= x"0F0F";
+  test_sel(1 downto 0) <= "00";
+  test_Cin <= '0';
+  wait for 10 ns;
+  
+  assert (test_F=x"0F0F" and test_Cout='0')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+  
+--Test case 2
+  test_A <= x"0F0F";
+  test_B <= x"0001";
+  test_sel(1 downto 0)  <= "01";
+  wait for 10 ns;
+  
+  assert (test_F=x"0F10" and test_Cout='0')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+  
+    
+--Test case 3
+  test_A <= x"FFFF";
+  test_B <= x"0001";
+  test_sel(1 downto 0)  <= "10";
+  wait for 10 ns;
+  
+  assert (test_F=x"FFFD" and test_Cout='1')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+  
+    
+--Test case 4
+  test_A <= x"FFFF";
+  test_B <= x"0000";
+  test_sel(1 downto 0)  <= "11";
+  wait for 10 ns;
+  
+  assert (test_F=x"FFFE" and test_Cout='1')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+  
+  --Test case 5
+  test_A <= x"0F0E";
+  test_sel(1 downto 0) <= "00";
+  test_Cin <= '1';
+  wait for 10 ns;
+  
+  assert (test_F=x"0F0F" and test_Cout='0')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+  
+--Test case 6
+  test_A <= x"FFFF";
+  test_B <= x"0001";
+  test_sel(1 downto 0)  <= "01";
+  wait for 10 ns;
+  
+  assert (test_F=x"0001" and test_Cout='1')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+  
+    
+--Test case 7
+  test_A <= x"0F0F";
+  test_B <= x"0001";
+  test_sel(1 downto 0)  <= "10";
+  wait for 10 ns;
+  
+  assert (test_F=x"0F0E" and test_Cout='1')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+  
+    
+--Test case 8
+  test_A <= x"0F0F";
+  test_B <= x"0001";
+  test_sel(1 downto 0)  <= "11";
+  wait for 10 ns;
+  
+  assert (test_F=x"0001" and test_Cout='0')
+  report "Failed case A: " & to_hstring(test_A) &  " B: " & to_hstring(test_B) & 
+  "  Cin: " & std_logic'image(test_Cin) & "  S: " & to_hstring(test_sel) & "  F: " & to_hstring(test_F) 
+  & "  Cout: " & std_logic'image(test_Cout) & "   "
+  severity error;
+
 report "Done";
 wait;
 

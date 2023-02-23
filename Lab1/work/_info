@@ -9,39 +9,39 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1
-Ealu
-Z0 w1676757265
+Eadder16bit
+Z0 w1677139407
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 97
+!i122 171
 Z3 dD:/Boody/CompArch/ComputerArchitecture/Lab1
-Z4 8D:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd
-Z5 FD:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd
+Z4 8D:/Boody/CompArch/ComputerArchitecture/Lab1/adder16bit.vhd
+Z5 FD:/Boody/CompArch/ComputerArchitecture/Lab1/adder16bit.vhd
 l0
-L6 1
-VjCD0XjJ8CecUgJEO:zd9z1
-!s100 BFaLGUY6JPaF<B=MMW0EW3
+L4 1
+V1c`hWgcQkzdd[eNR;cPfJ0
+!s100 HeC?W]jM05T>_aBo;kO`C1
 Z6 OV;C;2020.1;71
-33
-Z7 !s110 1676836211
+32
+Z7 !s110 1677141631
 !i10b 1
-Z8 !s108 1676836211.000000
-Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd|
-Z10 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd|
+Z8 !s108 1677141631.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/adder16bit.vhd|
+Z10 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/adder16bit.vhd|
 !i113 1
-Z11 o-work work -2008 -explicit
+Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
-Arunningalu
+Aarch_adder16bit
 R1
 R2
-DEx4 work 3 alu 0 22 jCD0XjJ8CecUgJEO:zd9z1
-!i122 97
-l58
-L18 58
-VD0[U;d7n]=h[i29:AgD^@0
-!s100 <Y2U8>QA4DWJb]`5ICZn]1
+DEx4 work 10 adder16bit 0 22 1c`hWgcQkzdd[eNR;cPfJ0
+!i122 171
+l34
+L14 29
+VD2lO4aRkHg3:M[04JMDc;2
+!s100 W2>Cl^B^`6KP^b0Ic?0WE3
 R6
-33
+32
 R7
 !i10b 1
 R8
@@ -50,169 +50,374 @@ R10
 !i113 1
 R11
 R12
-Epartb
-R0
+Ealu
+Z13 w1677140856
 R1
 R2
-!i122 91
+!i122 166
 R3
-Z13 8D:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd
-Z14 FD:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd
+Z14 8D:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd
+Z15 FD:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd
+l0
+L6 1
+VjCD0XjJ8CecUgJEO:zd9z1
+!s100 BFaLGUY6JPaF<B=MMW0EW3
+R6
+33
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd|
+Z17 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/ALU.vhd|
+!i113 1
+Z18 o-work work -2008 -explicit
+R12
+Arunningalu
+R1
+R2
+DEx4 work 3 alu 0 22 jCD0XjJ8CecUgJEO:zd9z1
+!i122 166
+l71
+L18 73
+V4T@UBlmjcY64G4L:QHCXA3
+!s100 XbGcb3ZCblMHK]AANQhlk2
+R6
+33
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R18
+R12
+Emy_adder
+Z19 w1676677278
+R1
+R2
+!i122 168
+R3
+Z20 8D:/Boody/CompArch/ComputerArchitecture/Lab1/my_adder.vhd
+Z21 FD:/Boody/CompArch/ComputerArchitecture/Lab1/my_adder.vhd
+l0
+L4 1
+VFjlMaf=9aFlNWPMnMXH?k3
+!s100 A5lJZfMh@V_I]hj`4ZSML1
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/my_adder.vhd|
+Z23 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/my_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R1
+R2
+DEx4 work 8 my_adder 0 22 FjlMaf=9aFlNWPMnMXH?k3
+!i122 168
+l10
+L9 7
+VEOP9;;8K^;kWb:D@aED0N1
+!s100 GNi^[i0bJH4Ed:4A3E4hd2
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Emy_nadder
+Z24 w1677139184
+R1
+R2
+!i122 169
+R3
+Z25 8D:/Boody/CompArch/ComputerArchitecture/Lab1/my_nadder.vhd
+Z26 FD:/Boody/CompArch/ComputerArchitecture/Lab1/my_nadder.vhd
+l0
+L4 1
+V2Uii>7o^mZ>R5ZU2g4=kQ0
+!s100 EJ>g3>J^lMeIZMoTW=Y6=1
+R6
+32
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/my_nadder.vhd|
+Z28 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/my_nadder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R1
+R2
+DEx4 work 9 my_nadder 0 22 2Uii>7o^mZ>R5ZU2g4=kQ0
+!i122 169
+l19
+L12 15
+VniRk;BmlJ88aTo?TfE=HE1
+!s100 IGJSVa3JiZZfD3f?51nCY3
+R6
+32
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Eparta
+Z29 w1677141616
+R1
+R2
+!i122 172
+R3
+Z30 8D:/Boody/CompArch/ComputerArchitecture/Lab1/PartA.vhd
+Z31 FD:/Boody/CompArch/ComputerArchitecture/Lab1/PartA.vhd
+l0
+L4 1
+V3@D?g61;d8V?o8nhUH7]Z3
+!s100 4lUFEOQOd9ZCiH4zQUhiA3
+R6
+32
+Z32 !s110 1677141632
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/PartA.vhd|
+Z34 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/PartA.vhd|
+!i113 1
+R11
+R12
+Apartadesign
+R1
+R2
+DEx4 work 5 parta 0 22 3@D?g61;d8V?o8nhUH7]Z3
+!i122 172
+l31
+L15 34
+V=]W9RMgCZe4[gNMSlz1Xb1
+!s100 BRcDb[?F>[=`5RPZl^??80
+R6
+32
+R32
+!i10b 1
+R8
+R33
+R34
+!i113 1
+R11
+R12
+Epartb
+Z35 w1676757265
+R1
+R2
+!i122 160
+R3
+Z36 8D:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd
+Z37 FD:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd
 l0
 L4 1
 VE`GZkIzlidC?mHVzRLRRZ0
 !s100 @eff=JXe7b@YCjkzX^D=]2
 R6
 33
-Z15 !s110 1676836210
+Z38 !s110 1677141630
 !i10b 1
-Z16 !s108 1676836210.000000
-Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd|
-Z18 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd|
+Z39 !s108 1677141630.000000
+Z40 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd|
+Z41 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/PartB.vhd|
 !i113 1
-R11
+R18
 R12
 Apartbdesign
 R1
 R2
 DEx4 work 5 partb 0 22 E`GZkIzlidC?mHVzRLRRZ0
-!i122 91
+!i122 160
 l16
 L15 13
 VGTmU9FgbW8EF2==`>YbFe1
 !s100 ePT768Ok_c=B>oG`=[AzZ3
 R6
 33
-R15
+R38
 !i10b 1
-R16
-R17
-R18
+R39
+R40
+R41
 !i113 1
-R11
+R18
 R12
 Epartc
-R0
+R35
 R1
 R2
-!i122 92
+!i122 161
 R3
-Z19 8D:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd
-Z20 FD:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd
+Z42 8D:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd
+Z43 FD:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd
 l0
 L4 1
 VCIVFhP<FYa;aTTn7=h6F:3
 !s100 B=CHQGVlVVJVgTJik:6=?2
 R6
 33
-R7
+R38
 !i10b 1
-R16
-Z21 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd|
-Z22 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd|
+R39
+Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd|
+Z45 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/PartC.vhd|
 !i113 1
-R11
+R18
 R12
 Apartcdesign
 R1
 R2
 DEx4 work 5 partc 0 22 CIVFhP<FYa;aTTn7=h6F:3
-!i122 92
+!i122 161
 l15
-Z23 L14 14
+Z46 L14 14
 VM`XjTPI@b1RYR3>R<2RKn2
 !s100 PNL6VeOTRO7gRN]Nm0ILM0
 R6
 33
-R7
+R38
 !i10b 1
-R16
-R21
-R22
+R39
+R44
+R45
 !i113 1
-R11
+R18
 R12
 Epartd
-R0
+R35
 R1
 R2
-!i122 93
+!i122 162
 R3
-Z24 8D:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd
-Z25 FD:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd
+Z47 8D:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd
+Z48 FD:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd
 l0
 L4 1
 V2A`>FKAHn^IOL5?nzE9QL1
 !s100 l8NYD7@XYeTV^b3O;D1kE2
 R6
 33
-R7
+R38
 !i10b 1
-R8
-Z26 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd|
-Z27 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd|
+R39
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd|
+Z50 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/PartD.vhd|
 !i113 1
-R11
+R18
 R12
 Apartddesign
 R1
 R2
 DEx4 work 5 partd 0 22 2A`>FKAHn^IOL5?nzE9QL1
-!i122 93
+!i122 162
 l15
-R23
+R46
 VebB]0TIQY1zC6Vgh1hel:3
 !s100 kn9[:e1a6HO87E]^]mh7[1
 R6
 33
+R38
+!i10b 1
+R39
+R49
+R50
+!i113 1
+R18
+R12
+Eselect_adder
+Z51 w1677139245
+R1
+R2
+!i122 170
+R3
+Z52 8D:/Boody/CompArch/ComputerArchitecture/Lab1/select_adder.vhd
+Z53 FD:/Boody/CompArch/ComputerArchitecture/Lab1/select_adder.vhd
+l0
+L4 1
+V=C?]5]CVgAJca;R4K]PRJ1
+!s100 _9[53?PeiiYmcN_E2g17H0
+R6
+32
 R7
 !i10b 1
 R8
-R26
-R27
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/select_adder.vhd|
+Z55 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/select_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R1
+R2
+DEx4 work 12 select_adder 0 22 =C?]5]CVgAJca;R4K]PRJ1
+!i122 170
+l23
+L12 21
+V;d4P;Pba2RGhKz8^^I7FZ0
+!s100 <IK=2C8gzYF1Y[cToaZho1
+R6
+32
+R7
+!i10b 1
+R8
+R54
+R55
 !i113 1
 R11
 R12
 Etb_alu
-Z28 w1676836815
+Z56 w1677141669
 R1
 R2
-!i122 101
+!i122 173
 R3
-Z29 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd
-Z30 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd
+Z57 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd
+Z58 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd
 l0
 L5 1
 VU6V`<<g5K6EHYz5ZEZfdg3
 !s100 ]XIBQHlHnZd=NiPZ=:jVS2
 R6
 33
-Z31 !s110 1676836820
+Z59 !s110 1677141690
 !i10b 1
-Z32 !s108 1676836820.000000
-Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd|
-Z34 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd|
+Z60 !s108 1677141690.000000
+Z61 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd|
+Z62 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_ALU.vhd|
 !i113 1
-R11
+R18
 R12
 Atestingalu
 R1
 R2
-Z35 DEx4 work 6 tb_alu 0 22 U6V`<<g5K6EHYz5ZEZfdg3
-!i122 101
+Z63 DEx4 work 6 tb_alu 0 22 U6V`<<g5K6EHYz5ZEZfdg3
+!i122 173
 l29
-L9 209
-Vi?KVGl5jbjlKG0dMbLGo?2
-!s100 lJR_VHZI5^icLM2U9BzN^2
+L9 310
+VSh5eUBoHY6UXl7]?kmCFS1
+!s100 fN=i`Q94cKO^E?k5XF]O11
 R6
 33
-R31
+R59
 !i10b 1
-R32
-R33
-R34
+R60
+R61
+R62
 !i113 1
-R11
+R18
 R12
 Etb_lab1c
 w1676751152
@@ -234,16 +439,16 @@ R6
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartC.vhd|
 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/Lab1/tb_PartC.vhd|
 !i113 1
-o-work work -2002 -explicit
+R11
 R12
 Etb_partb
-R0
+R35
 R1
 R2
-!i122 96
+!i122 165
 R3
-Z36 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd
-Z37 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd
+Z64 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd
+Z65 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd
 l0
 L5 1
 VGk4fS6oj^hb1N_JcMgLa?2
@@ -253,16 +458,16 @@ R6
 R7
 !i10b 1
 R8
-Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd|
-Z39 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd|
+Z66 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd|
+Z67 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartB.vhd|
 !i113 1
-R11
+R18
 R12
 Atestingpartb
 R1
 R2
 DEx4 work 8 tb_partb 0 22 Gk4fS6oj^hb1N_JcMgLa?2
-!i122 96
+!i122 165
 l29
 L9 80
 VNdO5e4FaX0E6ZKBX48m[F2
@@ -272,60 +477,60 @@ R6
 R7
 !i10b 1
 R8
-R38
-R39
+R66
+R67
 !i113 1
-R11
+R18
 R12
 Etb_partc
-R0
+R35
 R1
 R2
-!i122 94
+!i122 163
 R3
-Z40 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd
-Z41 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd
+Z68 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd
+Z69 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd
 l0
 L5 1
 VCmTWYWoCSo@13?TiVU4@f3
 !s100 QKSAdTj4zJi]dh0S:=kEY2
 R6
 33
-R7
+R38
 !i10b 1
-R8
-Z42 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd|
-Z43 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd|
+R39
+Z70 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd|
+Z71 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartC.vhd|
 !i113 1
-R11
+R18
 R12
 Atestingpartc
 R1
 R2
 DEx4 work 8 tb_partc 0 22 CmTWYWoCSo@13?TiVU4@f3
-!i122 94
+!i122 163
 l27
 L9 107
 VYN]c?e=Lh`3SXc;`<iLj30
 !s100 ^EI]^`F[hm9LCePH:Pbh41
 R6
 33
-R7
+R38
 !i10b 1
-R8
-R42
-R43
+R39
+R70
+R71
 !i113 1
-R11
+R18
 R12
 Etb_partd
-R0
+R35
 R1
 R2
-!i122 95
+!i122 164
 R3
-Z44 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd
-Z45 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd
+Z72 8D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd
+Z73 FD:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd
 l0
 L6 1
 V<a:i=4QNJVS?fDIEWTUaH3
@@ -334,17 +539,17 @@ R6
 33
 R7
 !i10b 1
-R8
-Z46 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd|
-Z47 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd|
+R39
+Z74 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd|
+Z75 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab1/tb_PartD.vhd|
 !i113 1
-R11
+R18
 R12
 Atestingpartd
 R1
 R2
 DEx4 work 8 tb_partd 0 22 <a:i=4QNJVS?fDIEWTUaH3
-!i122 95
+!i122 164
 l28
 L10 87
 VnPFcOn8>SAnQ=PdR;ETnF3
@@ -353,9 +558,9 @@ R6
 33
 R7
 !i10b 1
-R8
-R46
-R47
+R39
+R74
+R75
 !i113 1
-R11
+R18
 R12
