@@ -31,10 +31,6 @@ Architecture regFileDesign of regFile is
     );
     END component;
 
-    -- signal input0: std_logic_vector(15 downto 0);
-    -- signal input1: std_logic_vector(15 downto 0);
-    -- signal input2: std_logic_vector(15 downto 0);
-    -- signal input3: std_logic_vector(15 downto 0);
     signal output0: std_logic_vector(15 downto 0);
     signal output1: std_logic_vector(15 downto 0);
     signal output2: std_logic_vector(15 downto 0);
@@ -48,39 +44,11 @@ begin
     rg1:  my_nDFF port map(clk,rst,writePort,output1,outDecode(1));
     rg2:  my_nDFF port map(clk,rst,writePort,output2,outDecode(2));
     rg3:  my_nDFF port map(clk,rst,writePort,output3,outDecode(3));
-    
-
-    -- Process(clk) is
-    -- begin
-        -- IF rising_edge(clk) THEN 
-            -- IF readAddress = "00" THEN
-            --         readPort <= output0;
-            --     ELSIF readAddress = "01" THEN
-            --         readPort <= output1;
-            --     ELSIF readAddress = "10" THEN
-            --         readPort <= output2;
-            --     ELSIF readAddress = "11" THEN
-            --         readPort <= output3;
-            --     ELSE
-            --         readPort <= (others => '0');
-            -- END IF;
             
-            readPort <= output0 when readAddress = "00"
-                    else output1 when readAddress = "01"
-                    else output2 when readAddress = "10"
-                    else output3 when readAddress = "11"
-                    else (others => '0');
-
-        -- END IF;
-    -- end process;
+    readPort <= output0 when readAddress = "00"
+            else output1 when readAddress = "01"
+            else output2 when readAddress = "10"
+            else output3 when readAddress = "11"
+            else (others => '0');
 
 end regFileDesign;
-
-
--- force -freeze sim:/regfile/clk 1 0, 0 {50 ps} -r 100
--- force -freeze sim:/regfile/rst 0 0
--- force -freeze sim:/regfile/readAddress 00 0
--- force -freeze sim:/regfile/writeAddress X00 0
--- force -freeze sim:/regfile/writeAddress 00 0
--- force -freeze sim:/regfile/writeEnable 1 0
--- force -freeze sim:/regfile/writePort FFFF 0

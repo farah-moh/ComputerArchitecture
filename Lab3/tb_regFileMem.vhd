@@ -1,13 +1,14 @@
-Library IEEE;
-USE IEEE.std_logic_1164.all;
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
 
 
-ENTITY tb_regFile IS
+ENTITY tb_regFileMem IS
 END ENTITY;
 
-ARCHITECTURE testingRegFile OF tb_regFile IS
+ARCHITECTURE testingRegFileMem OF tb_regFileMem IS
 
-    COMPONENT regFile IS 
+    COMPONENT regFileMem IS 
+    GENERIC (m: integer:= 16);
     PORT  (
         clk:                IN std_logic;
         rst :               IN std_logic;
@@ -28,7 +29,7 @@ ARCHITECTURE testingRegFile OF tb_regFile IS
     SIGNAL test_readPort:      std_logic_vector(15 DOWNTO 0);
 
     BEGIN
-        U1: regFile port map (test_clk,test_rst,test_readAddress,test_writeAddress,test_writeEnable,test_writePort,test_readPort);
+        U1: regFileMem generic map(16) port map (test_clk,test_rst,test_readAddress,test_writeAddress,test_writeEnable,test_writePort,test_readPort);
         
         PROCESS BEGIN
             test_clk <= '0';
@@ -73,4 +74,5 @@ ARCHITECTURE testingRegFile OF tb_regFile IS
 
         END PROCESS;
 
-END testingRegFile;
+END testingRegFileMem;
+

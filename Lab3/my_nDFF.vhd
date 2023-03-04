@@ -3,11 +3,11 @@ USE IEEE.std_logic_1164.all;
 
 
 ENTITY my_nDFF IS
-GENERIC ( n : integer := 16);
-PORT( Clk,Rst : IN std_logic;
- d : IN std_logic_vector(n-1 DOWNTO 0);
- q : OUT std_logic_vector(n-1 DOWNTO 0);
- enable: IN std_logic);
+    GENERIC ( n : integer := 16);
+    PORT( Clk,Rst : IN std_logic;
+    d : IN std_logic_vector(n-1 DOWNTO 0);
+    q : OUT std_logic_vector(n-1 DOWNTO 0);
+    enable: IN std_logic);
 END my_nDFF;
 
 ARCHITECTURE a_my_nDFF OF my_nDFF IS
