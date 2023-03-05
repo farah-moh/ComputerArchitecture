@@ -1,56 +1,8 @@
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFile.vhd was successful.
-# Compile of decoder.vhd was successful.
 # Compile of tb_regFile.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFile.vhd was successful.
-# Compile of decoder.vhd was successful.
 # Compile of tb_regFile.vhd was successful.
-# Compile of regFileMem.vhd failed with 3 errors.
-# 5 compiles, 1 failed with 3 errors.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFile.vhd was successful.
-# Compile of decoder.vhd was successful.
-# Compile of tb_regFile.vhd was successful.
-# Compile of regFileMem.vhd failed with 2 errors.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFile.vhd was successful.
-# Compile of decoder.vhd was successful.
-# Compile of tb_regFile.vhd was successful.
-# Compile of regFileMem.vhd failed with 1 errors.
-# 5 compiles, 1 failed with 1 error.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFile.vhd was successful.
-# Compile of decoder.vhd was successful.
-# Compile of tb_regFile.vhd was successful.
-# Compile of regFileMem.vhd was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of tb_regFileMem.vhd failed with 6 errors.
-# Compile of tb_regFileMem.vhd was successful.
-vsim -gui work.tb_regfilemem
-# vsim -gui work.tb_regfilemem 
-# Start time: 15:04:57 on Mar 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_regfilemem(testingregfilemem)
-# Loading ieee.numeric_std(body)
-# Loading work.regfilemem(regfilememdesign)
-add wave -position insertpoint sim:/tb_regfilemem/*
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_regfilemem/U1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 2  Instance: /tb_regfilemem/U1
-# ** Note: Done
-#    Time: 30 ns  Iteration: 0  Instance: /tb_regfilemem
 vsim -gui work.tb_regfile
-# End time: 15:10:09 on Mar 04,2023, Elapsed time: 0:05:12
-# Errors: 0, Warnings: 13
 # vsim -gui work.tb_regfile 
-# Start time: 15:10:09 on Mar 04,2023
+# Start time: 22:05:36 on Mar 05,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -58,120 +10,51 @@ vsim -gui work.tb_regfile
 # Loading work.regfile(regfiledesign)
 # Loading work.decoder(decoderdesign)
 # Loading work.my_ndff(a_my_ndff)
+run -all
+# ** Error: Failed Case4: 0000
+#    Time: 50 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Done
+#    Time: 50 ns  Iteration: 0  Instance: /tb_regfile
 add wave -position insertpoint sim:/tb_regfile/*
-run -all
-# ** Note: Done
-#    Time: 30 ns  Iteration: 0  Instance: /tb_regfile
-vsim -gui work.tb_regfilemem
-# End time: 15:11:13 on Mar 04,2023, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 1
-# vsim -gui work.tb_regfilemem 
-# Start time: 15:11:13 on Mar 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_regfilemem(testingregfilemem)
-# Loading ieee.numeric_std(body)
-# Loading work.regfilemem(regfilememdesign)
-add wave -position insertpoint sim:/tb_regfilemem/*
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_regfilemem/U1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 2  Instance: /tb_regfilemem/U1
-# ** Note: Done
-#    Time: 30 ns  Iteration: 0  Instance: /tb_regfilemem
-set NumericStdNoWarnings 0
-# 0
-vsim -gui work.tb_regfilemem
-# End time: 15:16:07 on Mar 04,2023, Elapsed time: 0:04:54
-# Errors: 0, Warnings: 3
-# vsim -gui work.tb_regfilemem 
-# Start time: 15:16:07 on Mar 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_regfilemem(testingregfilemem)
-# Loading ieee.numeric_std(body)
-# Loading work.regfilemem(regfilememdesign)
-add wave -position insertpoint sim:/tb_regfilemem/*
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_regfilemem/U1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 2  Instance: /tb_regfilemem/U1
-# ** Note: Done
-#    Time: 30 ns  Iteration: 0  Instance: /tb_regfilemem
-vsim -gui work.tb_regfilemem
-# End time: 15:16:29 on Mar 04,2023, Elapsed time: 0:00:22
-# Errors: 0, Warnings: 3
-# vsim -gui work.tb_regfilemem 
-# Start time: 15:16:29 on Mar 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_regfilemem(testingregfilemem)
-# Loading ieee.numeric_std(body)
-# Loading work.regfilemem(regfilememdesign)
-add wave -position insertpoint sim:/tb_regfilemem/*
-set NumericStdNoWarnings 0
-# 0
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_regfilemem/U1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 2  Instance: /tb_regfilemem/U1
-# ** Note: Done
-#    Time: 30 ns  Iteration: 0  Instance: /tb_regfilemem
-run 0 ps
-set NumericStdNoWarnings 0
-# 0
-vsim -gui work.tb_regfilemem
-# End time: 15:17:40 on Mar 04,2023, Elapsed time: 0:01:11
-# Errors: 0, Warnings: 3
-# vsim -gui work.tb_regfilemem 
-# Start time: 15:17:40 on Mar 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_regfilemem(testingregfilemem)
-# Loading ieee.numeric_std(body)
-# Loading work.regfilemem(regfilememdesign)
-add wave -position insertpoint sim:/tb_regfilemem/*
-run 0 ps
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_regfilemem/U1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 2  Instance: /tb_regfilemem/U1
-set NumericStdNoWarnings 0
-# 0
-run -all
-# ** Note: Done
-#    Time: 30 ns  Iteration: 0  Instance: /tb_regfilemem
-# Compile of regFileMem.vhd was successful.
-# Compile of tb_regFileMem.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.tb_regfilemem
-# End time: 15:26:42 on Mar 04,2023, Elapsed time: 0:09:02
-# Errors: 0, Warnings: 4
-# vsim -gui work.tb_regfilemem 
-# Start time: 15:26:42 on Mar 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.tb_regfilemem(testingregfilemem)
-# Loading ieee.numeric_std(body)
-# Loading work.regfilemem(regfilememdesign)
-run 0 ps
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /tb_regfilemem/U1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 2  Instance: /tb_regfilemem/U1
-add wave -position insertpoint sim:/tb_regfilemem/*
-run -all
-# ** Note: Done
-#    Time: 30 ns  Iteration: 0  Instance: /tb_regfilemem
 # Break key hit
 # Simulation stop requested.
-# End time: 15:38:14 on Mar 04,2023, Elapsed time: 0:11:32
-# Errors: 0, Warnings: 4
+# Compile of tb_regFile.vhd was successful.
+vsim -gui work.tb_regfile
+# End time: 22:11:39 on Mar 05,2023, Elapsed time: 0:06:03
+# Errors: 1, Warnings: 4
+# vsim -gui work.tb_regfile 
+# Start time: 22:11:39 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_regfile(testingregfile)
+# Loading work.regfile(regfiledesign)
+# Loading work.decoder(decoderdesign)
+# Loading work.my_ndff(a_my_ndff)
+run -all
+# ** Note: Done
+#    Time: 80 ns  Iteration: 0  Instance: /tb_regfile
+# Compile of tb_regFileMem.vhd was successful.
+# Compile of tb_regFile.vhd was successful.
+vsim -gui work.tb_regfilemem
+# End time: 22:12:36 on Mar 05,2023, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_regfilemem 
+# Start time: 22:12:36 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_regfilemem(testingregfilemem)
+# Loading ieee.numeric_std(body)
+# Loading work.regfilemem(regfilememdesign)
+run 0ps
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_regfilemem/U1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb_regfilemem/U1
+# Break key hit
+run -all
+# ** Note: Done
+#    Time: 80 ns  Iteration: 0  Instance: /tb_regfilemem
+# End time: 22:12:55 on Mar 05,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 3

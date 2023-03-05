@@ -1,1 +1,275 @@
-cd D:/Boody/CompArch/ComputerArchitecture/Lab3
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd failed with 6 errors.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 1 failed with 6 errors.
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd failed with 3 errors.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd was successful.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# vsim -gui work.tb_alu 
+# Start time: 21:34:12 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(testingalu)
+# Loading work.alu(runningalu)
+# Loading work.parta(partadesign)
+# Loading work.adder16bit(arch_adder16bit)
+# Loading work.my_nadder(a_my_adder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.select_adder(a_my_adder)
+# Loading work.partb(partbdesign)
+# Loading work.partc(partcdesign)
+# Loading work.partd(partddesign)
+# ** Fatal: (vsim-3734) Index value 16 is out of range 15 downto 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/U1/UA/add16/loop1(15)/fx File: D:/Boody/CompArch/ComputerArchitecture/Lab1/adder16bit.vhd Line: 40
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 21:34:13 on Mar 05,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd was successful.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# vsim -gui work.tb_alu 
+# Start time: 21:36:05 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(testingalu)
+# Loading work.alu(runningalu)
+# Loading work.parta(partadesign)
+# Loading work.adder16bit(arch_adder16bit)
+# Loading work.my_nadder(a_my_adder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.select_adder(a_my_adder)
+# Loading work.partb(partbdesign)
+# Loading work.partc(partcdesign)
+# Loading work.partd(partddesign)
+# ** Fatal: (vsim-3734) Index value 16 is out of range 15 downto 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/U1/UA/add16/loop1(15)/fx File: D:/Boody/CompArch/ComputerArchitecture/Lab1/adder16bit.vhd Line: 40
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 21:36:05 on Mar 05,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of adder16bit.vhd was successful.
+vsim -gui work.tb_alu
+# vsim -gui work.tb_alu 
+# Start time: 21:37:10 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(testingalu)
+# Loading work.alu(runningalu)
+# Loading work.parta(partadesign)
+# Loading work.adder16bit(arch_adder16bit)
+# Loading work.my_nadder(a_my_adder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.select_adder(a_my_adder)
+# Loading work.partb(partbdesign)
+# Loading work.partc(partcdesign)
+# Loading work.partd(partddesign)
+add wave -position insertpoint sim:/tb_alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: farah  Hostname: MSI  ProcessID: 3372
+#           Attempting to use alternate WLF file "./wlftj5d215".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj5d215
+run -all
+# ** Note: Done
+#    Time: 270 ns  Iteration: 0  Instance: /tb_alu
+# Compile of PartA.vhd was successful.
+# Compile of PartA.vhd was successful.
+vsim -gui work.tb_alu
+# End time: 21:46:29 on Mar 05,2023, Elapsed time: 0:09:19
+# Errors: 0, Warnings: 6
+# vsim -gui work.tb_alu 
+# Start time: 21:46:29 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(testingalu)
+# Loading work.alu(runningalu)
+# Loading work.parta(partadesign)
+# Loading work.adder16bit(arch_adder16bit)
+# Loading work.my_nadder(a_my_adder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.select_adder(a_my_adder)
+# Loading work.partb(partbdesign)
+# Loading work.partc(partcdesign)
+# Loading work.partd(partddesign)
+run -all
+# ** Note: Done
+#    Time: 270 ns  Iteration: 0  Instance: /tb_alu
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd failed with 9 errors.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd was successful.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 1 failed with 9 errors.
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd was successful.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# End time: 21:53:42 on Mar 05,2023, Elapsed time: 0:07:13
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_alu 
+# Start time: 21:53:42 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(testingalu)
+# Loading work.alu(runningalu)
+# Loading work.parta(partadesign)
+# Loading work.adder16bit(arch_adder16bit)
+# Loading work.my_nadder(a_my_adder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.select_adder(a_my_adder)
+# Loading work.partb(partbdesign)
+# Loading work.partc(partcdesign)
+# Loading work.partd(partddesign)
+add wave -position insertpoint sim:/tb_alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: farah  Hostname: MSI  ProcessID: 3372
+#           Attempting to use alternate WLF file "./wlftkdi71v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkdi71v
+run -all
+# ** Note: Done
+#    Time: 270 ns  Iteration: 0  Instance: /tb_alu
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd was successful.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# End time: 22:00:06 on Mar 05,2023, Elapsed time: 0:06:24
+# Errors: 0, Warnings: 4
+# vsim -gui work.tb_alu 
+# Start time: 22:00:06 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(testingalu)
+# Loading work.alu(runningalu)
+# Loading work.parta(partadesign)
+# Loading work.adder16bit(arch_adder16bit)
+# Loading work.my_nadder(a_my_adder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.select_adder(a_my_adder)
+# Loading work.partb(partbdesign)
+# Loading work.partc(partcdesign)
+# Loading work.partd(partddesign)
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of tb_PartC.vhd was successful.
+# Compile of tb_PartD.vhd was successful.
+# Compile of tb_PartB.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of tb_ALU.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# Compile of adder16bit.vhd was successful.
+# Compile of PartA.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of select_adder.vhd was successful.
+vsim -gui work.tb_alu
+# End time: 22:00:33 on Mar 05,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_alu 
+# Start time: 22:00:33 on Mar 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_alu(testingalu)
+# Loading work.alu(runningalu)
+# Loading work.parta(partadesign)
+# Loading work.adder16bit(arch_adder16bit)
+# Loading work.my_nadder(a_my_adder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.select_adder(a_my_adder)
+# Loading work.partb(partbdesign)
+# Loading work.partc(partcdesign)
+# Loading work.partd(partddesign)
+run -all
+# ** Note: Done
+#    Time: 270 ns  Iteration: 0  Instance: /tb_alu
+# End time: 22:03:59 on Mar 05,2023, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 2
+# Closing project D:/Boody/CompArch/ComputerArchitecture/Lab1/Lab1.mpf

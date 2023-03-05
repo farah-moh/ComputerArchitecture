@@ -21,7 +21,6 @@ END component;
     signal S0,S1 : std_logic_vector( n-1 downto 0);
     signal cout0,cout1:std_logic;
 	BEGIN
-		
 	
         f0:my_nadder generic map(n) port map(a,b,'0',s0,cout0);
         f1:my_nadder generic map(n) port map(a,b,'1',s1,cout1);

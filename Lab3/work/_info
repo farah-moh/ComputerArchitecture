@@ -13,7 +13,7 @@ Edecoder
 Z1 w1677748252
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 86
+!i122 95
 R0
 Z4 8D:/Boody/CompArch/ComputerArchitecture/Lab3/decoder.vhd
 Z5 FD:/Boody/CompArch/ComputerArchitecture/Lab3/decoder.vhd
@@ -23,9 +23,9 @@ VVAWR@5jk8c>gElEa@gXJW2
 !s100 ?QOUNBOIV]_UR1=MfFTTG1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1677934994
+Z7 !s110 1678041496
 !i10b 1
-Z8 !s108 1677934994.000000
+Z8 !s108 1678041496.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab3/decoder.vhd|
 Z10 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab3/decoder.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Adecoderdesign
 R2
 R3
 DEx4 work 7 decoder 0 22 VAWR@5jk8c>gElEa@gXJW2
-!i122 86
+!i122 95
 l14
 L13 21
 V1H^an[VhWIk`PiZSIHeG00
@@ -54,7 +54,7 @@ Emy_ndff
 Z13 w1677934253
 R2
 R3
-!i122 84
+!i122 93
 R0
 Z14 8D:/Boody/CompArch/ComputerArchitecture/Lab3/my_nDFF.vhd
 Z15 FD:/Boody/CompArch/ComputerArchitecture/Lab3/my_nDFF.vhd
@@ -76,7 +76,7 @@ Aa_my_ndff
 R2
 R3
 DEx4 work 7 my_ndff 0 22 <G3]TS:e_fLGVO<<4a<5P3
-!i122 84
+!i122 93
 l14
 L13 13
 VYAeH^:c[<1zWoJF:;D`c`0
@@ -117,7 +117,7 @@ Eregfile
 Z18 w1677934418
 R2
 R3
-!i122 85
+!i122 94
 R0
 Z19 8D:/Boody/CompArch/ComputerArchitecture/Lab3/regFile.vhd
 Z20 FD:/Boody/CompArch/ComputerArchitecture/Lab3/regFile.vhd
@@ -139,7 +139,7 @@ Aregfiledesign
 R2
 R3
 DEx4 work 7 regfile 0 22 7[L`dPO<Z<RW4P^JiQR>l2
-!i122 85
+!i122 94
 l40
 L16 39
 VV:QnI`iNE^lXfRX6oH>Y>1
@@ -155,11 +155,11 @@ R22
 R11
 R12
 Eregfilemem
-Z23 w1677936355
+Z23 w1677936735
 Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R2
 R3
-!i122 91
+!i122 97
 R0
 Z25 8D:/Boody/CompArch/ComputerArchitecture/Lab3/regFileMem.vhd
 Z26 FD:/Boody/CompArch/ComputerArchitecture/Lab3/regFileMem.vhd
@@ -169,11 +169,11 @@ VWih50QCLGXEd3Z[C=UGLE2
 !s100 ^lk:6fBRzW7XiWQD2U8L31
 R6
 32
-Z27 !s110 1677936394
+R7
 !i10b 1
-Z28 !s108 1677936394.000000
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab3/regFileMem.vhd|
-Z30 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab3/regFileMem.vhd|
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab3/regFileMem.vhd|
+Z28 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab3/regFileMem.vhd|
 !i113 1
 R11
 R12
@@ -182,38 +182,38 @@ R24
 R2
 R3
 DEx4 work 10 regfilemem 0 22 Wih50QCLGXEd3Z[C=UGLE2
-!i122 91
-l24
-L18 25
-V`DILW=flP`BIFlEL5CBE[3
-!s100 Jbh80b5c;RiW0657dSYkF0
+!i122 97
+l23
+L18 24
+VR97Tb:7[GVUhEhDkj>MeP3
+!s100 `Q?J=clf9FVB`80WAOg9j0
 R6
 32
-R27
+R7
 !i10b 1
+R8
+R27
 R28
-R29
-R30
 !i113 1
 R11
 R12
 Etb_regfile
-Z31 w1677748465
+Z29 w1678047120
 R2
 R3
-!i122 87
+!i122 103
 R0
-Z32 8D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFile.vhd
-Z33 FD:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFile.vhd
+Z30 8D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFile.vhd
+Z31 FD:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFile.vhd
 l0
 L5 1
 VO^gJd@DWT@=MG@oPSGJl@3
 !s100 C0;gHgej:jVA@nei`0g@70
 R6
 33
-R7
+Z32 !s110 1678047147
 !i10b 1
-R8
+Z33 !s108 1678047147.000000
 Z34 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFile.vhd|
 Z35 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFile.vhd|
 !i113 1
@@ -222,27 +222,27 @@ R12
 Atestingregfile
 R2
 R3
-DEx4 work 10 tb_regfile 0 22 O^gJd@DWT@=MG@oPSGJl@3
-!i122 87
+Z37 DEx4 work 10 tb_regfile 0 22 O^gJd@DWT@=MG@oPSGJl@3
+!i122 103
 l30
-Z37 L8 69
-VWb:H?KDX^^d^N523ei6cd3
-!s100 3^h`Sl0ffiJg]`2LE]lDH0
+L8 123
+V5nL^8mkI?Q>naM@BDS0Tj2
+!s100 SfDHzZi`cjR5`:kS`J;G23
 R6
 33
-R7
+R32
 !i10b 1
-R8
+R33
 R34
 R35
 !i113 1
 R36
 R12
 Etb_regfilemem
-Z38 w1677936387
+Z38 w1678047138
 R2
 R3
-!i122 92
+!i122 102
 R0
 Z39 8D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFileMem.vhd
 Z40 FD:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFileMem.vhd
@@ -252,30 +252,30 @@ VkFE`]a:H_kN>h@Z`7a?9F2
 !s100 3UiX7<co:eAcKj:?3kV190
 R6
 33
-R27
+Z41 !s110 1678047145
 !i10b 1
-R28
-Z41 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFileMem.vhd|
-Z42 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFileMem.vhd|
+Z42 !s108 1678047145.000000
+Z43 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFileMem.vhd|
+Z44 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab3/tb_regFileMem.vhd|
 !i113 1
 R36
 R12
 Atestingregfilemem
 R2
 R3
-Z43 DEx4 work 13 tb_regfilemem 0 22 kFE`]a:H_kN>h@Z`7a?9F2
-!i122 92
+DEx4 work 13 tb_regfilemem 0 22 kFE`]a:H_kN>h@Z`7a?9F2
+!i122 102
 l31
-L8 70
-VTgD^]S<5Q=U23bm>DXIlM0
-!s100 9>PW^E:cJSEWO`0nLG5=41
+Z45 L8 125
+Vmk2ZVL^=oXEhm`2m9mU_L1
+!s100 :Jc1:bIRXeEK>25zIl2Fb2
 R6
 33
-R27
-!i10b 1
-R28
 R41
+!i10b 1
 R42
+R43
+R44
 !i113 1
 R36
 R12

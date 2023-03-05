@@ -2,13 +2,14 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 
 entity PartB is 
+GENERIC (bits: integer := 16);
 port  (
-    A :    	in std_logic_vector(15 downto 0);
-    B :    	in std_logic_vector(15 downto 0); 
+    A :    	in std_logic_vector(bits-1 downto 0);
+    B :    	in std_logic_vector(bits-1 downto 0); 
     sel :       in std_logic_vector (1 downto 0);
     Cin :       in std_logic;
     Cout :      out std_logic;
-    F :         out std_logic_vector(15 downto 0)
+    F :         out std_logic_vector(bits-1 downto 0)
 );
 end entity;
 

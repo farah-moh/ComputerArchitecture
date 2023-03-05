@@ -8,27 +8,28 @@ end entity;
 
 Architecture testingALU of tb_ALU is
 
-component ALU is 
-port  (
-    A :    in std_logic_vector(15 downto 0); 
-    B:     in std_logic_vector(15 downto 0); 
-    sel :  in std_logic_vector (3 downto 0);
-    Cin:   in std_logic;
-    Cout : out std_logic;
-    F :    out std_logic_vector(15 downto 0)
+COMPONENT ALU is 
+GENERIC (bits: integer := 16);
+PORT  (
+    A :    	IN std_logic_vector(bits-1 DOWNTO 0);
+    B :    	IN std_logic_vector(bits-1 DOWNTO 0); 
+    sel :   IN std_logic_vector (3 DOWNTO 0);
+    Cin:    IN std_logic;
+    Cout :  OUT std_logic;
+    F :     OUT std_logic_vector(bits-1 DOWNTO 0)
 );
-end component;
+END COMPONENT;
 
-Signal test_A:      std_logic_vector(15 downto 0);
-Signal test_B:      std_logic_vector(15 downto 0);
-Signal test_sel:    std_logic_vector (3 downto 0);
+Signal test_A:      std_logic_vector(15 DOWNTO 0);
+Signal test_B:      std_logic_vector(15 DOWNTO 0);
+Signal test_sel:    std_logic_vector (3 DOWNTO 0);
 Signal test_Cin:    std_logic;
 Signal test_Cout:   std_logic;
-Signal test_F:      std_logic_vector(15 downto 0);
+Signal test_F:      std_logic_vector(15 DOWNTO 0);
 
 Begin
 
-  U1: ALU port map (test_A,test_B,test_sel,test_Cin,test_Cout,test_F);
+  U1: ALU generic map(16) port map (test_A,test_B,test_sel,test_Cin,test_Cout,test_F);
 process
 begin
 
