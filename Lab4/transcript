@@ -1,0 +1,108 @@
+# Compile of adder16bit.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of my_nDFF.vhd was successful.
+# Compile of PartA.vhd was successful.
+# Compile of PartB.vhd was successful.
+# Compile of PartC.vhd was successful.
+# Compile of PartD.vhd was successful.
+# Compile of regFile.vhd was successful.
+# Compile of regFileMem.vhd was successful.
+# Compile of select_adder.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of PC.vhd failed with 8 errors.
+# Compile of PC.vhd failed with 4 errors.
+# Compile of PC.vhd failed with 3 errors.
+# Compile of PC.vhd failed with 4 errors.
+# Compile of PC.vhd failed with 4 errors.
+# Compile of PC.vhd failed with 4 errors.
+# Compile of PC.vhd failed with 2 errors.
+# Compile of PC.vhd failed with 1 errors.
+# Compile of PC.vhd was successful.
+# Compile of PC.vhd failed with 2 errors.
+# Compile of PC.vhd was successful with warnings.
+vsim -gui work.pc
+# vsim -gui work.pc 
+# Start time: 10:00:45 on Mar 16,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pc(pc_design)
+add wave -position insertpoint sim:/pc/*
+force -freeze sim:/pc/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/pc/reset 1 0 -cancel 2
+force -freeze sim:/pc/enable 1 0
+# Compile of PC.vhd failed with 2 errors.
+# Compile of PC.vhd failed with 2 errors.
+# Compile of PC.vhd was successful.
+vsim -gui work.pc
+# End time: 10:05:43 on Mar 16,2023, Elapsed time: 0:04:58
+# Errors: 0, Warnings: 22
+# vsim -gui work.pc 
+# Start time: 10:05:43 on Mar 16,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pc(pc_design)
+add wave -position insertpoint sim:/pc/*
+force -freeze sim:/pc/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/pc/reset 1 0
+force -freeze sim:/pc/enable 1 0
+run
+force -freeze sim:/pc/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of instructionCache.vhd was successful.
+# Compile of FetchDecodeReg.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of processor.vhd failed with 1 errors.
+# Compile of processor.vhd failed with 4 errors.
+# Compile of processor.vhd failed with 2 errors.
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# End time: 10:50:29 on Mar 16,2023, Elapsed time: 0:44:46
+# Errors: 0, Warnings: 12
+# vsim -gui work.processor 
+# Start time: 10:50:29 on Mar 16,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.processor(processor_design)
+# Loading ieee.numeric_std(body)
+# Loading work.pc(pc_design)
+# Loading work.instructioncache(instructioncache_design)
+# Loading work.controller(controllerdesign)
+add wave -position insertpoint sim:/processor/*
+mem load -filltype value -filldata {1001 } -fillradix hexadecimal /processor/Instruction/ram(0)
+mem load -filltype value -filldata {1100 } -fillradix hexadecimal /processor/Instruction/ram(1)
+mem load -filltype value -filldata 1100110011111000 -fillradix binary /processor/Instruction/ram(0)
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/enable 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/Instruction
+force -freeze sim:/processor/rst 0 0
+mem load -filltype value -filldata 1110011100111100 -fillradix binary /processor/Instruction/ram(0)
+mem load -filltype value -filldata {11111000000000000 } -fillradix binary /processor/Instruction/ram(1)
+# (vsim-3862) Too many digits in data '11111000000000000'.
+mem load -filltype value -filldata {1111111000000000 } -fillradix binary /processor/Instruction/ram(1)
+run
+run
+run

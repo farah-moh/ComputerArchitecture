@@ -1,0 +1,755 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Boody/CompArch/ComputerArchitecture/Lab4
+Eadder16bit
+Z1 w1678045019
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8D:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd
+Z5 FD:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd
+l0
+L4 1
+VF@MAUG]7X@MBA9GdWmPYK2
+!s100 `9Ck0>A1a7e@[BFiilaSO1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1678952366
+!i10b 1
+Z8 !s108 1678952366.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd|
+Z10 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch_adder16bit
+R2
+R3
+DEx4 work 10 adder16bit 0 22 F@MAUG]7X@MBA9GdWmPYK2
+!i122 0
+l35
+L15 33
+VN[>SMLCib?6`][dmkoDOX1
+!s100 847[b6lz^Ol0@hS0Be:BF0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu
+Z13 w1678046371
+R2
+R3
+!i122 1
+R0
+Z14 8D:/Boody/CompArch/ComputerArchitecture/Lab4/ALU.vhd
+Z15 FD:/Boody/CompArch/ComputerArchitecture/Lab4/ALU.vhd
+l0
+L5 1
+VzFXDg95558ca0DAQcGIdZ3
+!s100 =L;nmn4XmIg>ATCDAH_f^3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/ALU.vhd|
+Z17 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/ALU.vhd|
+!i113 1
+R11
+R12
+Arunningalu
+R2
+R3
+DEx4 work 3 alu 0 22 zFXDg95558ca0DAQcGIdZ3
+!i122 1
+l75
+L18 77
+VjYJ?:d`HabUZGW?WIhXLd1
+!s100 ]VNHaBfm[>JMGTm`keO9D3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Econtroller
+Z18 w1678955755
+R2
+R3
+!i122 29
+R0
+Z19 8D:/Boody/CompArch/ComputerArchitecture/Lab4/controller.vhd
+Z20 FD:/Boody/CompArch/ComputerArchitecture/Lab4/controller.vhd
+l0
+L5 1
+VJQz@Mk0mLI9OjhQ]Qfko63
+!s100 dZ3:mQCPfmnPQLEIY1=LY2
+R6
+32
+Z21 !s110 1678955769
+!i10b 1
+Z22 !s108 1678955769.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/controller.vhd|
+Z24 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/controller.vhd|
+!i113 1
+R11
+R12
+Acontrollerdesign
+R2
+R3
+DEx4 work 10 controller 0 22 JQz@Mk0mLI9OjhQ]Qfko63
+!i122 29
+l14
+L13 18
+Vcmh=G_dD2Y_VZ`BPlAT1Q3
+!s100 @dE7dDDLc=6kQIKDYk_f`1
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Edecoder
+Z25 w1677748252
+R2
+R3
+!i122 2
+R0
+Z26 8D:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd
+Z27 FD:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd
+l0
+L5 1
+VVAWR@5jk8c>gElEa@gXJW2
+!s100 ?QOUNBOIV]_UR1=MfFTTG1
+R6
+32
+Z28 !s110 1678952367
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd|
+Z30 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd|
+!i113 1
+R11
+R12
+Adecoderdesign
+R2
+R3
+DEx4 work 7 decoder 0 22 VAWR@5jk8c>gElEa@gXJW2
+!i122 2
+l14
+L13 21
+V1H^an[VhWIk`PiZSIHeG00
+!s100 X@YigBY84m`MTf=I?8b0n2
+R6
+32
+R28
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12
+Efetchdecodereg
+Z31 w1678955099
+R2
+R3
+!i122 28
+R0
+Z32 8D:/Boody/CompArch/ComputerArchitecture/Lab4/FetchDecodeReg.vhd
+Z33 FD:/Boody/CompArch/ComputerArchitecture/Lab4/FetchDecodeReg.vhd
+l0
+L5 1
+VH25ho6oiNWT6WGG<]W]<O2
+!s100 j@Tl28hMNk1[D=15f;N9n2
+R6
+32
+Z34 !s110 1678955103
+!i10b 1
+Z35 !s108 1678955103.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/FetchDecodeReg.vhd|
+Z37 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/FetchDecodeReg.vhd|
+!i113 1
+R11
+R12
+Afetchdecodereg_design
+R2
+R3
+DEx4 work 14 fetchdecodereg 0 22 H25ho6oiNWT6WGG<]W]<O2
+!i122 28
+l13
+L12 13
+VH[<1?P`4EYWoAlF_EVOP[0
+!s100 HPESM5Ra7A0iQAkoUXb9i3
+R6
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R11
+R12
+Einstructioncache
+Z38 w1678954669
+Z39 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 27
+R0
+Z40 8D:/Boody/CompArch/ComputerArchitecture/Lab4/instructionCache.vhd
+Z41 FD:/Boody/CompArch/ComputerArchitecture/Lab4/instructionCache.vhd
+l0
+L5 1
+VjLnllo]4k_3ga0jkYWi=Y0
+!s100 0Uz:2?5CEYM4[2oe_f]LL1
+R6
+32
+Z42 !s110 1678954697
+!i10b 1
+Z43 !s108 1678954697.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/instructionCache.vhd|
+Z45 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/instructionCache.vhd|
+!i113 1
+R11
+R12
+Ainstructioncache_design
+R39
+R2
+R3
+DEx4 work 16 instructioncache 0 22 jLnllo]4k_3ga0jkYWi=Y0
+!i122 27
+l19
+L14 19
+VISaFCVoRzWQ1N5kd=GH8D3
+!s100 dmi[mXVBTBh;Tec`nMOjj2
+R6
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R11
+R12
+Emy_adder
+Z46 w1676677278
+R2
+R3
+!i122 3
+R0
+Z47 8D:/Boody/CompArch/ComputerArchitecture/Lab4/my_adder.vhd
+Z48 FD:/Boody/CompArch/ComputerArchitecture/Lab4/my_adder.vhd
+l0
+L4 1
+VFjlMaf=9aFlNWPMnMXH?k3
+!s100 A5lJZfMh@V_I]hj`4ZSML1
+R6
+32
+R28
+!i10b 1
+Z49 !s108 1678952367.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/my_adder.vhd|
+Z51 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/my_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R2
+R3
+DEx4 work 8 my_adder 0 22 FjlMaf=9aFlNWPMnMXH?k3
+!i122 3
+l10
+L9 7
+VEOP9;;8K^;kWb:D@aED0N1
+!s100 GNi^[i0bJH4Ed:4A3E4hd2
+R6
+32
+R28
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R11
+R12
+Emy_nadder
+Z52 w1677139184
+R2
+R3
+!i122 4
+R0
+Z53 8D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd
+Z54 FD:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd
+l0
+L4 1
+V2Uii>7o^mZ>R5ZU2g4=kQ0
+!s100 EJ>g3>J^lMeIZMoTW=Y6=1
+R6
+32
+R28
+!i10b 1
+R49
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd|
+Z56 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R2
+R3
+DEx4 work 9 my_nadder 0 22 2Uii>7o^mZ>R5ZU2g4=kQ0
+!i122 4
+l19
+L12 15
+VniRk;BmlJ88aTo?TfE=HE1
+!s100 IGJSVa3JiZZfD3f?51nCY3
+R6
+32
+R28
+!i10b 1
+R49
+R55
+R56
+!i113 1
+R11
+R12
+Emy_ndff
+Z57 w1677934253
+R2
+R3
+!i122 5
+R0
+Z58 8D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nDFF.vhd
+Z59 FD:/Boody/CompArch/ComputerArchitecture/Lab4/my_nDFF.vhd
+l0
+L5 1
+V<G3]TS:e_fLGVO<<4a<5P3
+!s100 a<l3KZF3co3bJ6mVPomZP1
+R6
+32
+R28
+!i10b 1
+R49
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nDFF.vhd|
+Z61 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nDFF.vhd|
+!i113 1
+R11
+R12
+Aa_my_ndff
+R2
+R3
+DEx4 work 7 my_ndff 0 22 <G3]TS:e_fLGVO<<4a<5P3
+!i122 5
+l14
+L13 13
+VYAeH^:c[<1zWoJF:;D`c`0
+!s100 [LQ>o]V[foKGGA^h7c35j3
+R6
+32
+R28
+!i10b 1
+R49
+R60
+R61
+!i113 1
+R11
+R12
+Eparta
+Z62 w1678045571
+R2
+R3
+!i122 6
+R0
+Z63 8D:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd
+Z64 FD:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd
+l0
+L4 1
+VH?D4ZF5V4>`J@:?gDzNWX0
+!s100 STD>lhF]FlMlTLm6zNKWU0
+R6
+32
+R28
+!i10b 1
+R49
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd|
+Z66 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd|
+!i113 1
+R11
+R12
+Apartadesign
+R2
+R3
+DEx4 work 5 parta 0 22 H?D4ZF5V4>`J@:?gDzNWX0
+!i122 6
+l33
+L16 35
+Va4ljW_>I63]OZII:VmldA3
+!s100 FYSQSG;3fDJ=c<F96lifV2
+R6
+32
+R28
+!i10b 1
+R49
+R65
+R66
+!i113 1
+R11
+R12
+Epartb
+Z67 w1678045660
+R2
+R3
+!i122 7
+R0
+Z68 8D:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd
+Z69 FD:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd
+l0
+L4 1
+VfOWjM_<_HYCKl1bG@UUV20
+!s100 ^]zB;D=YIL5`8[YjL92i]2
+R6
+32
+R28
+!i10b 1
+R49
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd|
+Z71 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd|
+!i113 1
+R11
+R12
+Apartbdesign
+R2
+R3
+DEx4 work 5 partb 0 22 fOWjM_<_HYCKl1bG@UUV20
+!i122 7
+l17
+L16 13
+VzdHe[^:O>6ScRlETWYP@]2
+!s100 YzWb13R>KGodS=0ZaN^6f2
+R6
+32
+R28
+!i10b 1
+R49
+R70
+R71
+!i113 1
+R11
+R12
+Epartc
+Z72 w1678046171
+R2
+R3
+!i122 8
+R0
+Z73 8D:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd
+Z74 FD:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd
+l0
+L4 1
+V7?FJ4eA;I^HFM:_S`:g]f0
+!s100 634cN>abnChzj9VeKaR983
+R6
+32
+R28
+!i10b 1
+R49
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd|
+Z76 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd|
+!i113 1
+R11
+R12
+Apartcdesign
+R2
+R3
+DEx4 work 5 partc 0 22 7?FJ4eA;I^HFM:_S`:g]f0
+!i122 8
+l16
+Z77 L15 14
+VGzQFN2MEOKSD3JeU0;][j0
+!s100 U_WJX8_;cOZNKjJ:NQi^K2
+R6
+32
+R28
+!i10b 1
+R49
+R75
+R76
+!i113 1
+R11
+R12
+Epartd
+Z78 w1678046308
+R2
+R3
+!i122 9
+R0
+Z79 8D:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd
+Z80 FD:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd
+l0
+L4 1
+V4?W7lzhmX2zBWfzWEefCh0
+!s100 0aUX@HoYf00@^73Sj@DM=3
+R6
+32
+R28
+!i10b 1
+R49
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd|
+Z82 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd|
+!i113 1
+R11
+R12
+Apartddesign
+R2
+R3
+DEx4 work 5 partd 0 22 4?W7lzhmX2zBWfzWEefCh0
+!i122 9
+l16
+R77
+VzPG1h0g3<i9I5O=EB5I0^3
+!s100 g=?mjGe57:8=LKB@ajI2F0
+R6
+32
+R28
+!i10b 1
+R49
+R81
+R82
+!i113 1
+R11
+R12
+Epc
+Z83 w1678953921
+R39
+R2
+R3
+!i122 26
+R0
+Z84 8D:/Boody/CompArch/ComputerArchitecture/Lab4/PC.vhd
+Z85 FD:/Boody/CompArch/ComputerArchitecture/Lab4/PC.vhd
+l0
+L5 1
+V7c51e@>ZlI5QeUPimZa<z2
+!s100 hf1A8^DlBJ6DUi5cOTN>M3
+R6
+33
+Z86 !s110 1678953924
+!i10b 1
+Z87 !s108 1678953924.000000
+Z88 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/PC.vhd|
+Z89 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/PC.vhd|
+!i113 1
+Z90 o-work work -2008 -explicit
+R12
+Apc_design
+R39
+R2
+R3
+DEx4 work 2 pc 0 22 7c51e@>ZlI5QeUPimZa<z2
+!i122 26
+l12
+L11 19
+VD_^?fS[K`2;lZhfXLcSKH1
+!s100 K>eOWLNo^m4DRNbk0ReEk2
+R6
+33
+R86
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R90
+R12
+Eprocessor
+Z91 w1678956445
+R2
+R3
+!i122 32
+R0
+Z92 8D:/Boody/CompArch/ComputerArchitecture/Lab4/processor.vhd
+Z93 FD:/Boody/CompArch/ComputerArchitecture/Lab4/processor.vhd
+l0
+L5 1
+VjUU16bbR5b`0:8=:WRWak2
+!s100 Q3b6W]0B25;ZY]>IRnNDb3
+R6
+32
+Z94 !s110 1678956448
+!i10b 1
+Z95 !s108 1678956448.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/processor.vhd|
+!s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/processor.vhd|
+!i113 1
+R11
+R12
+Aprocessor_design
+R2
+R3
+DEx4 work 9 processor 0 22 jUU16bbR5b`0:8=:WRWak2
+!i122 32
+l43
+L13 36
+V_f;zFSX<6_XRC5Lc3FY;l2
+!s100 C[eiYfU[=NLRmN1R_<Z=W3
+R6
+32
+R94
+!i10b 1
+R95
+R96
+Z97 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/processor.vhd|
+!i113 1
+R11
+R12
+Eregfile
+Z98 w1677934418
+R2
+R3
+!i122 10
+R0
+Z99 8D:/Boody/CompArch/ComputerArchitecture/Lab4/regFile.vhd
+Z100 FD:/Boody/CompArch/ComputerArchitecture/Lab4/regFile.vhd
+l0
+L4 1
+V7[L`dPO<Z<RW4P^JiQR>l2
+!s100 l>Pi2]bzY1og05J29QUCK2
+R6
+32
+R28
+!i10b 1
+R49
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/regFile.vhd|
+Z102 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/regFile.vhd|
+!i113 1
+R11
+R12
+Aregfiledesign
+R2
+R3
+DEx4 work 7 regfile 0 22 7[L`dPO<Z<RW4P^JiQR>l2
+!i122 10
+l40
+L16 39
+VV:QnI`iNE^lXfRX6oH>Y>1
+!s100 70Zha7SjTEl_Cj4jIZZkG1
+R6
+32
+R28
+!i10b 1
+R49
+R101
+R102
+!i113 1
+R11
+R12
+Eregfilemem
+Z103 w1677936735
+R39
+R2
+R3
+!i122 11
+R0
+Z104 8D:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd
+Z105 FD:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd
+l0
+L5 1
+VWih50QCLGXEd3Z[C=UGLE2
+!s100 ^lk:6fBRzW7XiWQD2U8L31
+R6
+32
+Z106 !s110 1678952368
+!i10b 1
+R49
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd|
+Z108 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd|
+!i113 1
+R11
+R12
+Aregfilememdesign
+R39
+R2
+R3
+DEx4 work 10 regfilemem 0 22 Wih50QCLGXEd3Z[C=UGLE2
+!i122 11
+l23
+L18 24
+VR97Tb:7[GVUhEhDkj>MeP3
+!s100 `Q?J=clf9FVB`80WAOg9j0
+R6
+32
+R106
+!i10b 1
+R49
+R107
+R108
+!i113 1
+R11
+R12
+Eselect_adder
+Z109 w1678043760
+R2
+R3
+!i122 12
+R0
+Z110 8D:/Boody/CompArch/ComputerArchitecture/Lab4/select_adder.vhd
+Z111 FD:/Boody/CompArch/ComputerArchitecture/Lab4/select_adder.vhd
+l0
+L4 1
+V=C?]5]CVgAJca;R4K]PRJ1
+!s100 _9[53?PeiiYmcN_E2g17H0
+R6
+32
+R106
+!i10b 1
+Z112 !s108 1678952368.000000
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Lab4/select_adder.vhd|
+Z114 !s107 D:/Boody/CompArch/ComputerArchitecture/Lab4/select_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R2
+R3
+DEx4 work 12 select_adder 0 22 =C?]5]CVgAJca;R4K]PRJ1
+!i122 12
+l23
+L12 20
+VEFgO>iJ0GW^c7[DbT26nV3
+!s100 zER2Z[lGm?Q?R[ZQ5Q1QY3
+R6
+32
+R106
+!i10b 1
+R112
+R113
+R114
+!i113 1
+R11
+R12
