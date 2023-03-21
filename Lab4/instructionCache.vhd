@@ -15,7 +15,7 @@ ARCHITECTURE instructionCache_design OF instructionCache  IS
     TYPE ram_type IS ARRAY(0 TO 2**6 - 1) OF std_logic_vector(m-1 DOWNTO 0);
     
     SIGNAL ram : ram_type ;
-
+    
 BEGIN
     
     PROCESS (rst)

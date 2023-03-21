@@ -76,7 +76,7 @@ BEGIN
     UA: PartA generic map(bits) port map (A,B,sel(1 downto 0),Cin,coutA,outputA);
     UB: PartB generic map(bits) port map (A,B,sel(1 downto 0),Cin,coutB,outputB);
     UC: PartC generic map(bits) port map (A,sel(1 downto 0),Cin,coutC,outputC);
-    UD: PartD port map (A,sel(1 downto 0),Cin,coutD,outputD);
+    UD: PartD generic map(bits) port map (A,sel(1 downto 0),Cin,coutD,outputD);
 
     F <= outputB     when sel(3 downto 2) = "01"
     else outputC     when sel(3 downto 2) = "10"

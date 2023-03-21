@@ -1,0 +1,7 @@
+Tue Mar 21 20:58:25 CAT 2023
+Trace back: bad window path name ".main_pane.memdata.interior.cs.body.datapane.dpane2.tframe2.text.e"
+    while executing
+".vcop Eval Transcript::SimOptionsDlg"
+    (menu invoke)
+  <2:C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {bad window path name ".main_pane.memdata.interior.cs.body.datapane.dpane2.tframe2.text.e"}
+  <1:eval:1: ::tk::dialog::error::bgerror {bad window path name ".main_pane.memdata.interior.cs.body.datapane.dpane2.tframe2.text.e"}
