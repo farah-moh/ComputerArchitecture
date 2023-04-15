@@ -1,0 +1,20 @@
+{F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Lab Exam/2023 spring s2p/labexam/tests2p (1).vhd} {2 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Lab Exam/2023 spring s2p/labexam/tests2p (1).vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package ENV
+** Warning: F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Lab Exam/2023 spring s2p/labexam/tests2p (1).vhd(4): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity tests2p
+-- Compiling architecture tbs2p of tests2p
+
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO/s2p.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO/s2p.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity s2p
+-- Compiling architecture a_s2p of s2p
+
+} {} {}}

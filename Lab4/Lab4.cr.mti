@@ -88,13 +88,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity FetchDecodeReg
 -- Compiling architecture FetchDecodeReg_design of FetchDecodeReg
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/processor.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Processor
--- Compiling architecture Processor_design of Processor
+-- Loading package NUMERIC_STD
+-- Compiling entity regFileMem
+-- Compiling architecture regFileMemDesign of regFileMem
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/my_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/my_adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -104,14 +105,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity my_adder
 -- Compiling architecture a_my_adder of my_adder
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/regFileMem.vhd
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/processor.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity regFileMem
--- Compiling architecture regFileMemDesign of regFileMem
+-- Compiling entity Processor
+-- Compiling architecture Processor_design of Processor
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder
+-- Compiling architecture decoderDesign of decoder
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/instructionCache.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/instructionCache.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -122,14 +130,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity instructionCache
 -- Compiling architecture instructionCache_design of instructionCache
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/decoder.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity decoder
--- Compiling architecture decoderDesign of decoder
-
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/select_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/select_adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -137,6 +137,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity select_adder
 -- Compiling architecture a_my_adder of select_adder
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PartA
+-- Compiling architecture partADesign of PartA
+
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/my_nDFF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/my_nDFF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture a_my_nDFF of my_nDFF
 
 } {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PC.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PC.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -147,21 +163,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity PC
 -- Compiling architecture PC_design of PC
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/my_nDFF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/my_nDFF.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity my_nDFF
--- Compiling architecture a_my_nDFF of my_nDFF
-
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartA.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity PartA
--- Compiling architecture partADesign of PartA
+-- Compiling entity PartB
+-- Compiling architecture partBDesign of PartB
 
 } {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/controller.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -171,13 +179,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity controller
 -- Compiling architecture controllerDesign of controller
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartB.vhd
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity PartB
--- Compiling architecture partBDesign of PartB
+-- Compiling entity PartC
+-- Compiling architecture partCDesign of PartC
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/ALU.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -187,29 +195,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity ALU
 -- Compiling architecture runningALU of ALU
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartC.vhd
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity PartC
--- Compiling architecture partCDesign of PartC
+-- Compiling entity PartD
+-- Compiling architecture partDDesign of PartD
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/decoder.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity decoder
--- Compiling architecture decoderDesign of decoder
-
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/adder16bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/adder16bit.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity adder16bit
--- Compiling architecture arch_adder16bit of adder16bit
+-- Compiling entity my_nadder
+-- Compiling architecture a_my_adder of my_nadder
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PC.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PC.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -220,21 +220,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity PC
 -- Compiling architecture PC_design of PC
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/my_nadder.vhd
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/adder16bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/adder16bit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity my_nadder
--- Compiling architecture a_my_adder of my_nadder
+-- Compiling entity adder16bit
+-- Compiling architecture arch_adder16bit of adder16bit
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/PartD.vhd
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/decoder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity PartD
--- Compiling architecture partDDesign of PartD
+-- Compiling entity decoder
+-- Compiling architecture decoderDesign of decoder
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/controller.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -252,13 +252,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity PartA
 -- Compiling architecture partADesign of PartA
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartB.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity PartB
--- Compiling architecture partBDesign of PartB
+-- Compiling entity adder16bit
+-- Compiling architecture arch_adder16bit of adder16bit
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/regFile.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/regFile.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -268,21 +268,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity regFile
 -- Compiling architecture regFileDesign of regFile
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Lab4/adder16bit.vhd
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartB.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity adder16bit
--- Compiling architecture arch_adder16bit of adder16bit
-
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartC.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity PartC
--- Compiling architecture partCDesign of PartC
+-- Compiling entity PartB
+-- Compiling architecture partBDesign of PartB
 
 } {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/ALU.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -291,5 +283,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity ALU
 -- Compiling architecture runningALU of ALU
+
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4/PartC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PartC
+-- Compiling architecture partCDesign of PartC
 
 } {} {}}

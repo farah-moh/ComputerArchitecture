@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO
+Emultiply
+Z0 w1681345324
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 37
+Z4 dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply
+Z5 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/multiply.vhd
+Z6 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/multiply.vhd
+l0
+L5 1
+VQ8J=1DfD<?CF4Uke<0;Tk1
+!s100 GY74E][jgXz2:9Ri>iSCH0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1681345328
+!i10b 1
+Z9 !s108 1681345328.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/multiply.vhd|
+Z11 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/multiply.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aa_multiply
+R1
+R2
+R3
+DEx4 work 8 multiply 0 22 Q8J=1DfD<?CF4Uke<0;Tk1
+!i122 37
+l17
+L15 33
+VgH`[Wi[KdjcFETIH;nUM^2
+!s100 ?:RMJkLSMJ6S@LRmK`c`J2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_elevator
+Z14 w1681365856
+Z15 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R2
+R3
+!i122 38
+R4
+Z16 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/tb_elevator.vhd
+Z17 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/tb_elevator.vhd
+l0
+L8 1
+VkWI9lD=72ZC1MBlIEf[[00
+!s100 _=f^J8;zKWN8>>F3hnPG=1
+R7
+32
+Z18 !s110 1681365858
+!i10b 1
+Z19 !s108 1681365858.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/tb_elevator.vhd|
+!s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/tb_elevator.vhd|
+!i113 1
+R12
+R13
+Atbs2p
+R15
+R2
+R3
+DEx4 work 11 tb_elevator 0 22 kWI9lD=72ZC1MBlIEf[[00
+!i122 38
+l51
+L11 213
+VHJPX3Se:AKF3dTMAMm^:V2
+!s100 M9BoMo8gO<LH5bfcHc62[0
+R7
+32
+R18
+!i10b 1
+R19
+R20
+Z21 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply/tb_elevator.vhd|
+!i113 1
+R12
+R13

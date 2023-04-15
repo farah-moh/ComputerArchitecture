@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1
+Es2p
+Z0 w1681333017
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 31
+Z4 dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO
+Z5 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO/s2p.vhd
+Z6 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO/s2p.vhd
+l0
+L5 1
+VUKeYk;C_]YDhzHDcG1aXO2
+!s100 Jz3VImGkGY<6o6;L`=6GH0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1681333023
+!i10b 1
+Z9 !s108 1681333023.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO/s2p.vhd|
+Z11 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 2 - SIPO/s2p.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aa_s2p
+R1
+R2
+R3
+Z14 DEx4 work 3 s2p 0 22 UKeYk;C_]YDhzHDcG1aXO2
+!i122 31
+l15
+Z15 L13 49
+VNJQBcOe56c`H8AEG@2]?^3
+!s100 <E`S@U2OfB0QWb_GmcHjA2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etests2p
+Z16 w1681331346
+Z17 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R2
+R3
+!i122 23
+R4
+Z18 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Lab Exam/2023 spring s2p/labexam/tests2p (1).vhd
+Z19 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Lab Exam/2023 spring s2p/labexam/tests2p (1).vhd
+l0
+L7 1
+V@<Tl7mDhS[88`BaBeoMG32
+!s100 :TkmSTNh_<3?_zmAgN=M`0
+R7
+32
+Z20 !s110 1681331399
+!i10b 1
+Z21 !s108 1681331399.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Lab Exam/2023 spring s2p/labexam/tests2p (1).vhd|
+Z23 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Lab Exam/2023 spring s2p/labexam/tests2p (1).vhd|
+!i113 1
+R12
+R13
+Atbs2p
+R17
+R2
+R3
+DEx4 work 7 tests2p 0 22 @<Tl7mDhS[88`BaBeoMG32
+!i122 23
+l61
+L10 188
+V^jQ:[?BnYQSMY6`1KnVOP0
+!s100 dNocTNEEdKGWmDcJDc;i>1
+R7
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R12
+R13

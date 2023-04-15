@@ -1,0 +1,138 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab4
+Egcd
+Z0 w1681001408
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 48
+Z4 dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1
+Z5 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Main.vhd
+Z6 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Main.vhd
+l0
+L5 1
+VQFjXEKDin9H_SiBf4ZRK81
+!s100 ;kb37kke^9BhU=@GSZ@nP2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1681001422
+!i10b 1
+Z9 !s108 1681001422.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Main.vhd|
+Z11 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Main.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aa_gcd
+R1
+R2
+R3
+Z14 DEx4 work 3 gcd 0 22 QFjXEKDin9H_SiBf4ZRK81
+!i122 48
+l40
+Z15 L17 54
+Vi[fUm8Rn]Bea7nPN^0C;i0
+!s100 4VaJKVZ7aAmlg7Qbod1zV2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emy_modulu
+Z16 w1680995773
+R1
+R2
+R3
+!i122 43
+R4
+Z17 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Modulu.vhd
+Z18 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Modulu.vhd
+l0
+L5 1
+Vgzm3_@YhaJBCBn;I4jLLK0
+!s100 Z:<S8:3iHN82l6I>O:QH02
+R7
+32
+Z19 !s110 1680998370
+!i10b 1
+Z20 !s108 1680998370.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Modulu.vhd|
+Z22 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Modulu.vhd|
+!i113 1
+R12
+R13
+Aa_my_modulu
+R1
+R2
+R3
+DEx4 work 9 my_modulu 0 22 gzm3_@YhaJBCBn;I4jLLK0
+!i122 43
+l14
+L13 5
+VXlcl<V_76@9SYii9N>L3_3
+!s100 gE]Mol3n800idYe9<41g:2
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Emy_ndff
+Z23 w1680998363
+R2
+R3
+!i122 42
+R4
+Z24 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Register.vhd
+Z25 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Register.vhd
+l0
+L5 1
+VWS11TRFe@Y4GkFd]jGo=B2
+!s100 I9XPen@Ke8dG<6e?TNPK@0
+R7
+32
+Z26 !s110 1680998369
+!i10b 1
+Z27 !s108 1680998369.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Register.vhd|
+Z29 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 1/Register.vhd|
+!i113 1
+R12
+R13
+Aa_my_ndff
+R2
+R3
+DEx4 work 7 my_ndff 0 22 WS11TRFe@Y4GkFd]jGo=B2
+!i122 42
+l13
+L12 11
+VTzh_SbnUC:8>oS:oJ7dLY1
+!s100 =g5;e1[[1fW]gc>F_jZ[C3
+R7
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R12
+R13

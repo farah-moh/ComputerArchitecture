@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam 3 - Multiply
+Econtroller
+Z0 w1681370460
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 29
+Z4 dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual
+Z5 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/controller.vhd
+Z6 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/controller.vhd
+l0
+L5 1
+VbU?;agk0497PEc:5eOA1W0
+!s100 5U<k>f@CP7BHJ`;6oHK2[1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1681370555
+!i10b 1
+Z9 !s108 1681370555.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/controller.vhd|
+Z11 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/controller.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aa_controller
+R1
+R2
+R3
+Z14 DEx4 work 10 controller 0 22 bU?;agk0497PEc:5eOA1W0
+!i122 29
+l16
+L14 68
+VYD[0ZH3C@j6@IYjHBP0V60
+!s100 7LI8_`dmZDG;TYJUO]8LG1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_elevator
+Z15 w1681368357
+Z16 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R2
+R3
+!i122 28
+R4
+Z17 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/tb__elevator.vhd
+Z18 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/tb__elevator.vhd
+l0
+L7 1
+VBePd;C@Ib=GnQ`5eL8FKG2
+!s100 50Ul4Uon31zU4j@]nRGjY2
+R7
+32
+Z19 !s110 1681370553
+!i10b 1
+Z20 !s108 1681370552.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/tb__elevator.vhd|
+Z22 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/tb__elevator.vhd|
+!i113 1
+R12
+R13
+Atbs2p
+R16
+R2
+R3
+DEx4 work 11 tb_elevator 0 22 BePd;C@Ib=GnQ`5eL8FKG2
+!i122 28
+l50
+L10 213
+VnlnlFSOb4iaF:67>NhlAn1
+!s100 hzDM[L=P0z239BIMG`EKJ0
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13

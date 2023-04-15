@@ -1,0 +1,846 @@
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project controller
+# Compile of tb_elevator.vhd was successful with warnings.
+# Compile of controller.vhd failed with 1 errors.
+# Compile of controller.vhd failed with 8 errors.
+# Compile of controller.vhd failed with 4 errors.
+# Compile of controller.vhd failed with 7 errors.
+# Compile of controller.vhd failed with 7 errors.
+# Compile of controller.vhd failed with 7 errors.
+# Compile of controller.vhd failed with 2 errors.
+# Compile of controller.vhd failed with 3 errors.
+# Compile of controller.vhd failed with 1 errors.
+# Compile of controller.vhd was successful.
+# Compile of tb_elevator.vhd was successful with warnings.
+vsim -gui work.tb_elevator
+# vsim -gui work.tb_elevator 
+# Start time: 08:44:40 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading std.env(body)
+# Loading work.tb_elevator(tbs2p)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+# Compile of tb__elevator.vhd was successful with warnings.
+vsim -gui work.tb_elevator
+# End time: 08:46:20 on Apr 13,2023, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 32
+# vsim -gui work.tb_elevator 
+# Start time: 08:46:20 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading std.env(body)
+# Loading work.tb_elevator(tbs2p)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+run -all
+# ** Note: 1:Reset check
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 2:read action
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 3:move up action
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 4:move up action
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 5:move up action
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 6:move up action
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 7:open door
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 8:continue moving upwards
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 9:open door
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 10:move downwards
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 11:move downwards
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 12:move downwards
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 13:open door
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 14:move upwards
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 15:move up
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 16:move up
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 17:move up
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 18:open
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 19:idle
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 20:move downwards
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 21:move up
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 22:open
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 23:idle
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Number of failed test cases:26
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Process line__61 at F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/tb__elevator.vhd line 219
+vsim -gui work.controller
+# End time: 08:50:45 on Apr 13,2023, Elapsed time: 0:04:25
+# Errors: 26, Warnings: 1
+# vsim -gui work.controller 
+# Start time: 08:50:45 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+run
+# Compile of controller.vhd was successful.
+vsim -gui work.tb_elevator
+# End time: 08:56:05 on Apr 13,2023, Elapsed time: 0:05:20
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_elevator 
+# Start time: 08:56:05 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading std.env(body)
+# Loading work.tb_elevator(tbs2p)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+run -all
+# ** Note: 1:Reset check
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 2:read action
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 3:move up action
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 4:move up action
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 5:move up action
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 6:move up action
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 7:open door
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 8:continue moving upwards
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 9:open door
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 10:move downwards
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 11:move downwards
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 12:move downwards
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 13:open door
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 14:move upwards
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 15:move up
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 16:move up
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 17:move up
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 18:open
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 19:idle
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 20:move downwards
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 21:move up
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 22:open
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 23:idle
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong floor
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Error: Failed:  wrong action
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Number of failed test cases:32
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Process line__61 at F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/tb__elevator.vhd line 219
+vsim -gui work.controller
+# End time: 08:56:22 on Apr 13,2023, Elapsed time: 0:00:17
+# Errors: 32, Warnings: 1
+# vsim -gui work.controller 
+# Start time: 08:56:22 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of controller.vhd was successful.
+# Load canceled
+vsim -gui work.controller
+# End time: 09:00:10 on Apr 13,2023, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 2
+# vsim -gui work.controller 
+# Start time: 09:00:10 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of controller.vhd was successful.
+vsim -gui work.controller
+# End time: 09:03:51 on Apr 13,2023, Elapsed time: 0:03:41
+# Errors: 0, Warnings: 2
+# vsim -gui work.controller 
+# Start time: 09:03:51 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/numeric_std/*
+# ** UI-Msg: (vish-4014) No objects found matching '/numeric_std/*'.
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/numeric_std/*
+# ** UI-Msg: (vish-4014) No objects found matching '/numeric_std/*'.
+vsim -gui work.controller
+# End time: 09:04:18 on Apr 13,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim -gui work.controller 
+# Start time: 09:04:18 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of controller.vhd failed with 2 errors.
+# Compile of controller.vhd failed with 1 errors.
+# Compile of controller.vhd failed with 2 errors.
+# Compile of controller.vhd failed with 1 errors.
+# Compile of controller.vhd was successful.
+vsim -gui work.controller
+# End time: 09:12:51 on Apr 13,2023, Elapsed time: 0:08:33
+# Errors: 0, Warnings: 6
+# vsim -gui work.controller 
+# Start time: 09:12:51 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of controller.vhd was successful.
+vsim -gui work.controller
+# End time: 09:13:45 on Apr 13,2023, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 2
+# vsim -gui work.controller 
+# Start time: 09:13:45 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of controller.vhd was successful.
+vsim -gui work.controller
+# End time: 09:16:13 on Apr 13,2023, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 2
+# vsim -gui work.controller 
+# Start time: 09:16:13 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+# Compile of controller.vhd was successful.
+vsim -gui work.controller
+# End time: 09:16:48 on Apr 13,2023, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 2
+# vsim -gui work.controller 
+# Start time: 09:16:48 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of controller.vhd failed with 1 errors.
+# Compile of controller.vhd failed with 1 errors.
+# Compile of controller.vhd failed with 3 errors.
+# Compile of controller.vhd failed with 2 errors.
+# Compile of controller.vhd was successful.
+vsim -gui work.controller
+# End time: 09:20:39 on Apr 13,2023, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 6
+# vsim -gui work.controller 
+# Start time: 09:20:39 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+add wave -position insertpoint sim:/controller/*
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/controller/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/controller/Rst 1 0
+run
+force -freeze sim:/controller/Rst 0 0
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 101 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+force -freeze sim:/controller/Valid 1 0
+force -freeze sim:/controller/Choice 100 0
+run
+force -freeze sim:/controller/Valid 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb__elevator.vhd was successful with warnings.
+# Compile of controller.vhd was successful.
+vsim -gui work.tb_elevator
+# End time: 09:22:44 on Apr 13,2023, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 3
+# vsim -gui work.tb_elevator 
+# Start time: 09:22:44 on Apr 13,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading std.env(body)
+# Loading work.tb_elevator(tbs2p)
+# Loading ieee.numeric_std(body)
+# Loading work.controller(a_controller)
+run -all
+# ** Note: 1:Reset check
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 10 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 2:read action
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 20 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 3:move up action
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 30 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 4:move up action
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 40 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 5:move up action
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 50 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 6:move up action
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 60 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 7:open door
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 70 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 8:continue moving upwards
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 80 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 9:open door
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 90 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 10:move downwards
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 100 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 11:move downwards
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 110 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 12:move downwards
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 120 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 13:open door
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 130 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 14:move upwards
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 140 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 15:move up
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 150 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 16:move up
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 160 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 17:move up
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 170 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 18:open
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 180 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 19:idle
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 190 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 20:move downwards
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 200 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 21:move up
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 210 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 22:open
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 220 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: 23:idle
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed floor test
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Passed action test
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# ** Note: Number of failed test cases:0
+#    Time: 230 ns  Iteration: 0  Instance: /tb_elevator
+# Break in Process line__61 at F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Lab Exam/Lab Exam Actual/tb__elevator.vhd line 219
+# End time: 09:25:12 on Apr 13,2023, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 1
