@@ -1,10 +1,222 @@
 m255
 K4
 z2
+!s11e MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/Boody/CompArch/ComputerArchitecture/Project
+Z0 dD:/Boody/CompArch/ComputerArchitecture/Project
+Einstructioncache
+Z1 w1681649234
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 18
+R0
+Z5 8D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
+Z6 FD:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
+l0
+L5 1
+VlfU^WmkdSK[04UiQ7@?iN1
+!s100 0Uz:2?5CEYM4[2oe_f]LL1
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1681649490
+!i10b 1
+Z9 !s108 1681649490.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd|
+Z11 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Ainstructioncache_design
+R2
+R3
+R4
+DEx4 work 16 instructioncache 0 22 lfU^WmkdSK[04UiQ7@?iN1
+!i122 18
+l19
+L14 19
+VQ6eK11FZ]NF<?g:HnmFcN2
+!s100 _g91hXJHk^:2[AiAbG=cP3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emy_ndff
+Z14 w1679439107
+R3
+R4
+!i122 19
+R0
+Z15 8D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
+Z16 FD:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
+l0
+L5 1
+V]T:7DA>@ZL1HQmiZe6:543
+!s100 a<l3KZF3co3bJ6mVPomZP1
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
+Z18 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
+!i113 1
+R12
+R13
+Aa_my_ndff
+R3
+R4
+DEx4 work 7 my_ndff 0 22 ]T:7DA>@ZL1HQmiZe6:543
+!i122 19
+l14
+L13 13
+VgRnf=;W>B=e]B_TkIo^lQ0
+!s100 70]nkXAEPk[>EQS1k2VK23
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Epc
+Z19 w1681649063
+R2
+R3
+R4
+!i122 17
+R0
+Z20 8D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
+Z21 FD:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
+l0
+L5 1
+VaXNb?Q?K^Z@7@gV609[IJ1
+!s100 9XCLd<G5=18:@hWc6@Hm_1
+R7
+33
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
+Z23 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
+!i113 1
+R12
+R13
+Apc_design
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 aXNb?Q?K^Z@7@gV609[IJ1
+!i122 17
+l13
+L12 19
+V<[V?8CXDG>^l>5=kj?Q3^0
+!s100 mJSmRhjUn;lU<I>>4f1L10
+R7
+33
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Eregfile
+Z24 w1677934418
+R3
+R4
+!i122 7
+R0
+Z25 8D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+Z26 FD:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+l0
+L4 1
+V7NWHjOO;J52E9WV9Y3g<Q0
+!s100 l>Pi2]bzY1og05J29QUCK2
+R7
+33
+Z27 !s110 1681648922
+!i10b 1
+Z28 !s108 1681648922.000000
+Z29 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+Z30 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+!i113 1
+R12
+R13
+Aregfiledesign
+R3
+R4
+DEx4 work 7 regfile 0 22 7NWHjOO;J52E9WV9Y3g<Q0
+!i122 7
+l40
+L16 39
+V2g[3L5N4ca50h8kfXX_9b0
+!s100 70Zha7SjTEl_Cj4jIZZkG1
+R7
+33
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Eregfilemem
+Z31 w1681649460
+R2
+R3
+R4
+!i122 20
+R0
+Z32 8D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
+Z33 FD:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
+l0
+L5 1
+VWih50QCLGXEd3Z[C=UGLE2
+!s100 ^lk:6fBRzW7XiWQD2U8L31
+R7
+32
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+Z35 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+!i113 1
+Z36 o-work work -2002 -explicit
+R13
+Aregfilememdesign
+R2
+R3
+R4
+Z37 DEx4 work 10 regfilemem 0 22 Wih50QCLGXEd3Z[C=UGLE2
+!i122 20
+l23
+Z38 L18 24
+Z39 V7>H?eRGG0eRhSa]0Wb8Y73
+Z40 !s100 BR8]SPbo9j6=EC_BJMGi]0
+R7
+32
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R36
+R13
