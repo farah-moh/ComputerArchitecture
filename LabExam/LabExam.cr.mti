@@ -1,0 +1,68 @@
+D:/Boody/CompArch/ComputerArchitecture/LabExam/tests2p_1.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/LabExam/tests2p_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package ENV
+** Warning: D:/Boody/CompArch/ComputerArchitecture/LabExam/tests2p_1.vhd(4): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity tests2p
+-- Compiling architecture tbs2p of tests2p
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/LabExam/s2p.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/LabExam/s2p.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity s2p
+-- Compiling architecture s2p_design of s2p
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bcd
+-- Compiling architecture bcd_design of bcd
+** Error (suppressible): D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd(32): (vcom-1272) Length of formal "A" is 8; length of actual is 20.
+** Error (suppressible): D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd(32): (vcom-1272) Length of formal "F" is 8; length of actual is 20.
+** Note: D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd(47): VHDL Compiler exiting
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/LabExam/shiftLeft.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/LabExam/shiftLeft.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shiftL
+-- Compiling architecture shiftL_design of shiftL
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/LabExam/gcd.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/LabExam/gcd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity gcd
+-- Compiling architecture gcd_design of gcd
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/LabExam/multi.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/LabExam/multi.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity multi
+-- Compiling architecture multi_design of multi
+
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/LabExam/mod.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/LabExam/mod.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity modo
+-- Compiling architecture mod_design of modo
+
+} {} {}}

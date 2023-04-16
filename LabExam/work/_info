@@ -1,0 +1,292 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Boody/CompArch/ComputerArchitecture/LabExam
+Ebcd
+w1681337783
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 88
+R0
+8D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd
+FD:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd
+l0
+L5 1
+VWaG^a6j<P^:aoVXc5JFoZ0
+!s100 g51i>]eIlXGPZh^XALoe^3
+Z4 OV;C;2020.1;71
+32
+!s110 1681338342
+!i10b 1
+!s108 1681338342.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd|
+!s107 D:/Boody/CompArch/ComputerArchitecture/LabExam/bcd.vhd|
+!i113 1
+Z5 o-work work -2002 -explicit
+Z6 tExplicit 1 CvgOpt 0
+Egcd
+Z7 w1681328580
+R1
+R2
+R3
+!i122 46
+R0
+Z8 8D:/Boody/CompArch/ComputerArchitecture/LabExam/gcd.vhd
+Z9 FD:/Boody/CompArch/ComputerArchitecture/LabExam/gcd.vhd
+l0
+L5 1
+V[jd]cP]MBe>oQD^@o@H?31
+!s100 ;iB6gCM[7YJ0Z1A=C9Kgl2
+R4
+33
+Z10 !s110 1681329071
+!i10b 1
+Z11 !s108 1681329071.000000
+Z12 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/LabExam/gcd.vhd|
+Z13 !s107 D:/Boody/CompArch/ComputerArchitecture/LabExam/gcd.vhd|
+!i113 1
+Z14 o-work work -2008 -explicit
+R6
+Agcd_design
+R1
+R2
+R3
+DEx4 work 3 gcd 0 22 [jd]cP]MBe>oQD^@o@H?31
+!i122 46
+l35
+L19 51
+VZiMRV_U6R>IT3@m7ODIQ_3
+!s100 d@0>UH6ckTz:@V1K6MST]1
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R6
+Emodo
+Z15 w1680993672
+R1
+R2
+R3
+!i122 2
+R0
+Z16 8D:/Boody/CompArch/ComputerArchitecture/LabExam/mod.vhd
+Z17 FD:/Boody/CompArch/ComputerArchitecture/LabExam/mod.vhd
+l0
+L6 1
+VMA7=<=3?[]f2caX35O@hN2
+!s100 8VCPgEM@BD<kIWml>2;e;3
+R4
+33
+Z18 !s110 1680993673
+!i10b 1
+Z19 !s108 1680993673.000000
+Z20 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/LabExam/mod.vhd|
+Z21 !s107 D:/Boody/CompArch/ComputerArchitecture/LabExam/mod.vhd|
+!i113 1
+R14
+R6
+Amod_design
+R1
+R2
+R3
+DEx4 work 4 modo 0 22 MA7=<=3?[]f2caX35O@hN2
+!i122 2
+l16
+L15 6
+VQ>JPa]UJEg_XH5Zc`e1<50
+!s100 oT<kd=4kZ7KdNY8VgC`n@1
+R4
+33
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R14
+R6
+Emulti
+Z22 w1681345336
+R1
+R2
+R3
+!i122 125
+R0
+Z23 8D:/Boody/CompArch/ComputerArchitecture/LabExam/multi.vhd
+Z24 FD:/Boody/CompArch/ComputerArchitecture/LabExam/multi.vhd
+l0
+L5 1
+Vk2In[gbALV1b`XG6:jN;71
+!s100 UBDWj?mAm8^cW9zCl_P091
+R4
+32
+Z25 !s110 1681347130
+!i10b 1
+Z26 !s108 1681347130.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/LabExam/multi.vhd|
+Z28 !s107 D:/Boody/CompArch/ComputerArchitecture/LabExam/multi.vhd|
+!i113 1
+R5
+R6
+Amulti_design
+R1
+R2
+R3
+Z29 DEx4 work 5 multi 0 22 k2In[gbALV1b`XG6:jN;71
+!i122 125
+l17
+Z30 L16 30
+Z31 VoXE;]]naZScTM`Q1=3W[d2
+Z32 !s100 <LzBOiVZPAROA=m@C^n^e3
+R4
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R5
+R6
+Es2p
+Z33 w1681335361
+R1
+R2
+R3
+!i122 85
+R0
+Z34 8D:/Boody/CompArch/ComputerArchitecture/LabExam/s2p.vhd
+Z35 FD:/Boody/CompArch/ComputerArchitecture/LabExam/s2p.vhd
+l0
+L5 1
+VGH^O0gYAJ5aYVhBb76W762
+!s100 J5kFLD[G<TZKg6=WQfg`j0
+R4
+33
+Z36 !s110 1681336339
+!i10b 1
+Z37 !s108 1681336339.000000
+Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/LabExam/s2p.vhd|
+Z39 !s107 D:/Boody/CompArch/ComputerArchitecture/LabExam/s2p.vhd|
+!i113 1
+R14
+R6
+As2p_design
+R1
+R2
+R3
+DEx4 work 3 s2p 0 22 GH^O0gYAJ5aYVhBb76W762
+!i122 85
+l17
+L16 50
+V7G6o^4V_;mGLI0^AM6_1j3
+!s100 H0=nWISGHQC^c3?TGOWZ>3
+R4
+33
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R14
+R6
+Eshiftl
+Z40 w1681337152
+R1
+R2
+R3
+!i122 89
+R0
+Z41 8D:/Boody/CompArch/ComputerArchitecture/LabExam/shiftLeft.vhd
+Z42 FD:/Boody/CompArch/ComputerArchitecture/LabExam/shiftLeft.vhd
+l0
+L6 1
+V`DK7G?hl2KQd[`_lM[?ID3
+!s100 WgVW=>?AN0ZDD:iJBnZ>E1
+R4
+32
+Z43 !s110 1681338343
+!i10b 1
+Z44 !s108 1681338343.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/LabExam/shiftLeft.vhd|
+Z46 !s107 D:/Boody/CompArch/ComputerArchitecture/LabExam/shiftLeft.vhd|
+!i113 1
+R5
+R6
+Ashiftl_design
+R1
+R2
+R3
+DEx4 work 6 shiftl 0 22 `DK7G?hl2KQd[`_lM[?ID3
+!i122 89
+l14
+L13 6
+Voi=E=UMocdoZ<7SgH_J=E3
+!s100 [<XYNkNH>?^QhBHR[zTWF0
+R4
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R5
+R6
+Etests2p
+Z47 w1681332174
+Z48 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R2
+R3
+!i122 67
+R0
+Z49 8D:/Boody/CompArch/ComputerArchitecture/LabExam/tests2p_1.vhd
+Z50 FD:/Boody/CompArch/ComputerArchitecture/LabExam/tests2p_1.vhd
+l0
+L7 1
+V@<Tl7mDhS[88`BaBeoMG32
+!s100 :TkmSTNh_<3?_zmAgN=M`0
+R4
+32
+Z51 !s110 1681332188
+!i10b 1
+Z52 !s108 1681332188.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/LabExam/tests2p_1.vhd|
+Z54 !s107 D:/Boody/CompArch/ComputerArchitecture/LabExam/tests2p_1.vhd|
+!i113 1
+R5
+R6
+Atbs2p
+R48
+R2
+R3
+DEx4 work 7 tests2p 0 22 @<Tl7mDhS[88`BaBeoMG32
+!i122 67
+l61
+L10 188
+VlNk>[>;<o?dfnEXF9oYB[1
+!s100 eLT`HM8@m;S`ZL<97]3eB3
+R4
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R5
+R6
