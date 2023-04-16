@@ -25,3 +25,11 @@
 # Compile of my_nDFF.vhd was successful.
 # Compile of regFileMem.vhd was successful.
 # 4 compiles, 0 failed with no errors.
+# Compile of controlUnit.vhd failed with 11 errors.
+# Compile of controlUnit.vhd failed with 9 errors.
+# Compile of controlUnit.vhd failed with 8 errors.
+# Compile of controlUnit.vhd failed with 9 errors.
+# Compile of controlUnit.vhd failed with 6 errors.
+# Compile of controlUnit.vhd failed with 9 errors.
+# Compile of controlUnit.vhd was successful.
+# Compile of controlUnit.vhd was successful.
