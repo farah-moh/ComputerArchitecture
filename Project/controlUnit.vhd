@@ -7,7 +7,6 @@ ENTITY controlUnit IS
 PORT( 
  instruction : IN std_logic_vector(15 DOWNTO 0);
  regWrite:     OUT std_logic;
- PCSrc:        OUT std_logic;
  memRead:      OUT std_logic;
  memWrite:     OUT std_logic;
  memToReg:     OUT std_logic;
@@ -39,7 +38,6 @@ BEGIN
     BEGIN
         instType := TYPES'val(to_integer(unsigned(instruction(15 DOWNTO 14))));
         regWrite<='0';
-        PCSrc<='0';
         memRead<='0';
         memWrite<='0';
         memToReg<='0';
@@ -76,7 +74,6 @@ BEGIN
         ELSIF instType = JTYPE THEN
             funcTypeJ := JTypeInstructions'val(to_integer(unsigned(instruction(13 DOWNTO 11))));
 
-            PCSrc <= '1';
             IF funcTypeJ = CALL THEN
                 memWrite <= '1';
                 spDec <= '1';

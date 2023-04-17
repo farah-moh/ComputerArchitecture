@@ -1,7 +1,6 @@
 vsim -gui work.controlunit_tb
 add wave -position end  sim:/controlunit_tb/instructionTest
 add wave -position end  sim:/controlunit_tb/testregWrite
-add wave -position end  sim:/controlunit_tb/testPCSrc
 add wave -position end  sim:/controlunit_tb/testmemRead
 add wave -position end  sim:/controlunit_tb/testmemWrite
 add wave -position end  sim:/controlunit_tb/testmemToReg
