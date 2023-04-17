@@ -22,7 +22,7 @@ END controlUnit;
 
 ARCHITECTURE controlUnitDesign OF controlUnit IS
 TYPE TYPES IS
-    (ADHOC,JTYPE,ITYPE,RTYPE);
+    (ADHOC,ITYPE,JTYPE,RTYPE);
 TYPE ITypeInstructions IS
     (PUSH,POP,LDM,LDD,STD);
 TYPE JTypeInstructions IS
@@ -38,7 +38,17 @@ BEGIN
         variable funcTypeA:  AdhocInstructions;
     BEGIN
         instType := TYPES'val(to_integer(unsigned(instruction(15 DOWNTO 14))));
-
+        regWrite<='0';
+        PCSrc<='0';
+        memRead<='0';
+        memWrite<='0';
+        memToReg<='0';
+        inPort<='0';
+        outPort<='0';
+        setC<='0';
+        clrC<='0';
+        spInc<='0';
+        spDec<='0';
         IF instType = RTYPE THEN
             regWrite <= '1';
 
