@@ -12,7 +12,7 @@ ENTITY instructionCache IS
 END ENTITY instructionCache;
 
 ARCHITECTURE instructionCache_design OF instructionCache  IS 
-    TYPE ram_type IS ARRAY(0 TO 2**8 - 1) OF std_logic_vector(m-1 DOWNTO 0);
+    TYPE ram_type IS ARRAY(0 TO 2**m - 1) OF std_logic_vector(m-1 DOWNTO 0);
     
     SIGNAL ram : ram_type ;
     

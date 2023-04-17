@@ -11,6 +11,7 @@ component controlUnit is
   port(
     instruction : IN std_logic_vector(15 DOWNTO 0);
     regWrite:     OUT std_logic;
+    PCSrc:        OUT std_logic;
     memRead:      OUT std_logic;
     memWrite:     OUT std_logic;
     memToReg:     OUT std_logic;
@@ -24,10 +25,10 @@ component controlUnit is
 end component;
 
 Signal instructionTest: std_logic_vector(15 DOWNTO 0);
-Signal testregWrite,testmemRead,testmemWrite,testmemToReg,testinPort,testoutPort,testsetC,testclrC,testspInc,testspDec: std_logic;
+Signal testregWrite,testPCSrc,testmemRead,testmemWrite,testmemToReg,testinPort,testoutPort,testsetC,testclrC,testspInc,testspDec: std_logic;
 
 begin
-  U1: controlUnit port map (instructionTest,testregWrite,testmemRead,testmemWrite,testmemToReg,testinPort,testoutPort,testsetC,testclrC,testspInc,testspDec);
+  U1: controlUnit port map (instructionTest,testregWrite,testPCSrc,testmemRead,testmemWrite,testmemToReg,testinPort,testoutPort,testsetC,testclrC,testspInc,testspDec);
 process
   begin
     --NOT
@@ -123,33 +124,42 @@ process
 
     --JZ
     instructionTest<="1000000000000000";
+    assert(testPcSrc='1')
+    report "Failed case DEC"
+    severity error;
     wait for 10 ns;
 
     --JC
     instructionTest<="1000100000000000";
+    assert(testPcSrc='1')
+    report "Failed case DEC"
+    severity error;
     wait for 10 ns;
 
     --JMP
     instructionTest<="1001000000000000";
+    assert(testPcSrc='1')
+    report "Failed case DEC"
+    severity error;
     wait for 10 ns;
 
     --CALL
     instructionTest<="1001100000000000";
-    assert(testmemWrite='1' and testSpDec='1')
+    assert(testPcSrc='1' and testmemWrite='1' and testSpDec='1')
     report "Failed case DEC"
     severity error;
     wait for 10 ns;
 
     --RET
     instructionTest<="1010000000000000";
-    assert(testmemRead='1' and testSpInc='1')
+    assert(testPcSrc='1' and testmemRead='1' and testSpInc='1')
     report "Failed case DEC"
     severity error;
     wait for 10 ns;
 
     --RTI
     instructionTest<="1010100000000000";
-    assert(testmemRead='1' and testSpInc='1')
+    assert(testPcSrc='1' and testmemRead='1' and testSpInc='1')
     report "Failed case DEC"
     severity error;
     wait for 10 ns;
@@ -174,7 +184,7 @@ process
 
     --IN
     instructionTest<="0001100000000000";
-    assert(testinPort='1')
+    assert(testinPort='1' and testregWrite='1')
     report "Failed case DEC"
     severity error;
     wait for 10 ns;
