@@ -13,14 +13,9 @@ PORT(
 END flagControlUnit;
 
 ARCHITECTURE flagControlUnitDesign OF flagControlUnit IS
-
-TYPE OPERATIONS IS
-    (NOTT,INC,DEC,MOV,ADD,SUB,ANDD,ORR);
 BEGIN
     -- The immediate signal is passed through the buffers
     PROCESS (opcode,zeroFlag,negFlag,carryFlag) 
-        variable operation: OPERATIONS;
-        variable result: std_logic_vector(16 DOWNTO 0);
     BEGIN
         IF opcode(4 downto 3) = "11" THEN    -- ALU
             flags <= (carryFlag & negFlag & zeroFlag);
