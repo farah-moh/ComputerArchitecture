@@ -6,12 +6,10 @@ USE IEEE.numeric_std.all;
 
 ENTITY ALU IS
 PORT( 
- A,B:          IN std_logic_vector(15 DOWNTO 0);
- ALUOp:        IN std_logic_vector(2 DOWNTO 0);
- ALUOut:       OUT std_logic_vector(15 DOWNTO 0);
- zeroFlag:     OUT std_logic;
- negFlag:      OUT std_logic;
- carryFlag:    OUT std_logic
+ A,B:                           IN std_logic_vector(15 DOWNTO 0);
+ ALUOp:                         IN std_logic_vector(2 DOWNTO 0);
+ ALUOut:                        OUT std_logic_vector(15 DOWNTO 0);
+ zeroFlag,negFlag,carryFlag:    OUT std_logic
 );
 END ALU;
 
