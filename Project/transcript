@@ -1,35 +1,7 @@
-# Compile of PC.vhd failed with 1 errors.
-# Compile of instructionCache.vhd was successful.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFile.vhd was successful.
-# 4 compiles, 1 failed with 1 error.
-# Load canceled
-# Compile of PC.vhd was successful.
-# Compile of instructionCache.vhd was successful.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFile.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of PC.vhd was successful.
 # Compile of PC.vhd was successful.
 # Compile of instructionCache.vhd was successful.
 # Compile of my_nDFF.vhd was successful.
 # Compile of regFileMem.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of PC.vhd was successful.
-# Compile of instructionCache.vhd was successful.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFileMem.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of PC.vhd was successful.
-# Compile of instructionCache.vhd was successful.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFileMem.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of controlUnit.vhd failed with 11 errors.
-# Compile of controlUnit.vhd failed with 9 errors.
-# Compile of controlUnit.vhd failed with 8 errors.
-# Compile of controlUnit.vhd failed with 9 errors.
-# Compile of controlUnit.vhd failed with 6 errors.
-# Compile of controlUnit.vhd failed with 9 errors.
 # Compile of controlUnit.vhd was successful.
-# Compile of controlUnit.vhd was successful.
+# Compile of ControlUnit_TB.vhd was successful.
+# 6 compiles, 0 failed with no errors.
