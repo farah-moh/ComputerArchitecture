@@ -7,11 +7,13 @@ ENTITY regFileMem IS
     PORT (
         clk:                IN std_logic;
         rst :               IN std_logic;
-        readAddress :    	IN std_logic_vector(1 DOWNTO 0);
-        writeAddress :    	IN std_logic_vector(1 DOWNTO 0); 
+        RS1 :               IN std_logic_vector(2 DOWNTO 0);
+        RS2 :               IN std_logic_vector(2 DOWNTO 0);
+        RD :    	        IN std_logic_vector(2 DOWNTO 0); 
         writeEnable :       IN std_logic;
-        writePort :         IN std_logic_vector(m-1 DOWNTO 0);
-        readPort :          OUT std_logic_vector(m-1 DOWNTO 0) 
+        writeData :         IN std_logic_vector(m-1 DOWNTO 0);
+        RS1Data :           OUT std_logic_vector(m-1 DOWNTO 0);
+        RS2Data :           OUT std_logic_vector(m-1 DOWNTO 0) 
     );
 END ENTITY regFileMem;
 
@@ -25,17 +27,18 @@ BEGIN
     PROCESS (clk,rst)
     BEGIN
         IF rst = '1' THEN
-            loop1: FOR i IN 0 TO 3 LOOP
+            loop1: FOR i IN 0 TO 7 LOOP
                 ram(i) <= (OTHERS => '0');
             END LOOP;
             
         ELSIF rising_edge(clk) THEN
             IF writeEnable = '1' THEN
-                ram(to_integer(unsigned(writeAddress))) <= writePort;
+                ram(to_integer(unsigned(RD))) <= writeData;
             END IF;
         END IF;
     END PROCESS;
 
-    readPort <= ram(to_integer(unsigned(readAddress)));
+    RS1Data <= ram(to_integer(unsigned(RS1)));
+    RS2Data <= ram(to_integer(unsigned(RS2)));
 
 END regFileMemDesign;
