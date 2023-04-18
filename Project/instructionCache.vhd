@@ -22,10 +22,10 @@ BEGIN
     PROCESS (rst)
     BEGIN
         IF rst = '1' THEN
-            loop1: FOR i IN 0 TO 3 LOOP
+            loop1: FOR i IN 0 TO 2**7-1 LOOP
                 ram(i) <= (OTHERS => '0');
             END LOOP;
-        END IF;
+        END IF;     
     END PROCESS;
 
     instruction  <= ram(to_integer(unsigned(readAddress)));

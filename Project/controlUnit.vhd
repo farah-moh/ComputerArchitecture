@@ -13,8 +13,6 @@ PORT(
  memToReg:     OUT std_logic;
  inPort:       OUT std_logic;
  outPort:      OUT std_logic;
- setC:         OUT std_logic;
- clrC:         OUT std_logic;
  spInc:        OUT std_logic;
  spDec:        OUT std_logic
  );
@@ -45,8 +43,6 @@ BEGIN
         memToReg<='0';
         inPort<='0';
         outPort<='0';
-        setC<='0';
-        clrC<='0';
         spInc<='0';
         spDec<='0';
         IF instType = RTYPE THEN
@@ -88,11 +84,7 @@ BEGIN
         ELSIF instType = ADHOC THEN
             funcTypeA := AdhocInstructions'val(to_integer(unsigned(instruction(13 DOWNTO 11))));
 
-            IF funcTypeA = SETCC THEN
-                setC <= '1';
-            ELSIF funcTypeA = CLRCC  THEN
-                clrC <= '1';
-            ELSIF funcTypeA = INN  THEN
+            IF funcTypeA = INN  THEN
                 inPort <= '1';
                 regWrite <= '1';
             ELSIF funcTypeA = OUTT  THEN
