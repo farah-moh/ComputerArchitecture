@@ -5,3 +5,330 @@
 # Compile of controlUnit.vhd was successful.
 # Compile of ControlUnit_TB.vhd was successful.
 # 6 compiles, 0 failed with no errors.
+# Compile of PC.vhd was successful.
+# Compile of instructionCache.vhd was successful.
+# Compile of my_nDFF.vhd was successful.
+# Compile of regFileMem.vhd was successful.
+# Compile of controlUnit.vhd was successful.
+# Compile of ControlUnit_TB.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of PC.vhd was successful.
+# Compile of instructionCache.vhd was successful.
+# Compile of my_nDFF.vhd was successful.
+# Compile of regFileMem.vhd was successful.
+# Compile of controlUnit.vhd was successful.
+# Compile of ControlUnit_TB.vhd was successful.
+# Compile of ALU.vhd failed with 18 errors.
+# 7 compiles, 1 failed with 18 errors.
+# Compile of ALU.vhd failed with 8 errors.
+# Compile of ALU.vhd failed with 7 errors.
+# Compile of ALU.vhd failed with 3 errors.
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu(aludesign)
+# vsim -gui work.alu(aludesign) 
+# Start time: 03:46:18 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(aludesign)
+add wave -position insertpoint sim:/alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftm10b1j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm10b1j
+force -freeze sim:/alu/A 16 0
+force -freeze sim:/alu/ALUOp 1 0
+run
+force -freeze sim:/alu/A 65535 0
+run
+# Compile of ALU.vhd failed with 1 errors.
+# Compile of ALU.vhd was successful.
+# Load canceled
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu(aludesign)
+force -freeze sim:/alu/A 65535 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu(aludesign)
+# End time: 03:50:47 on Apr 18,2023, Elapsed time: 0:04:29
+# Errors: 0, Warnings: 3
+# vsim -gui work.alu(aludesign) 
+# Start time: 03:50:47 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(aludesign)
+add wave -position insertpoint sim:/std_logic_1164/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftsim5w3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsim5w3
+# ** UI-Msg: (vish-4014) No objects found matching '/std_logic_1164/*'.
+add wave -position insertpoint sim:/alu/*
+force -freeze sim:/alu/ALUOp 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /alu
+force -freeze sim:/alu/A 65535 0
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/alu/A 65535 0
+force -freeze sim:/alu/ALUOp 1 0
+run
+force -freeze sim:/alu/A 65535 0
+force -freeze sim:/alu/ALUOp 1 0
+run
+force -freeze sim:/alu/A 0 0
+force -freeze sim:/alu/ALUOp 0 0
+run
+restart
+force -freeze sim:/alu/A 0 0
+force -freeze sim:/alu/ALUOp 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+force -freeze sim:/alu/A 65535 0
+force -freeze sim:/alu/ALUOp 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu(aludesign)
+# End time: 03:58:21 on Apr 18,2023, Elapsed time: 0:07:34
+# Errors: 0, Warnings: 2
+# vsim -gui work.alu(aludesign) 
+# Start time: 03:58:22 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(aludesign)
+add wave -position insertpoint sim:/alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftq19zce".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq19zce
+add wave -position insertpoint sim:/alu/line__24/*
+force -freeze sim:/alu/A 0 0
+force -freeze sim:/alu/ALUOp 2 0
+run
+force -freeze sim:/alu/A 89 0
+run
+force -freeze sim:/alu/A 20 0
+force -freeze sim:/alu/B 56 0
+force -freeze sim:/alu/ALUOp 4 0
+run
+force -freeze sim:/alu/ALUOp 4 0
+run
+force -freeze sim:/alu/ALUOp 5 0
+run
+force -freeze sim:/alu/ALUOp 3 0
+run
+force -freeze sim:/alu/ALUOp 4 0
+run
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu(aludesign)
+# End time: 04:03:46 on Apr 18,2023, Elapsed time: 0:05:24
+# Errors: 0, Warnings: 4
+# vsim -gui work.alu(aludesign) 
+# Start time: 04:03:46 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(aludesign)
+add wave -position insertpoint sim:/alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftzkv4sm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzkv4sm
+force -freeze sim:/alu/A 20 0
+force -freeze sim:/alu/B 40 0
+force -freeze sim:/alu/ALUOp 4 0
+run
+force -freeze sim:/alu/ALUOp 5 0
+run
+force -freeze sim:/alu/ALUOp 6 0
+run
+force -freeze sim:/alu/ALUOp 7 0
+run
+# Compile of ALU.vhd failed with 7 errors.
+# Compile of ALU.vhd failed with 14 errors.
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu(aludesign)
+# End time: 04:26:27 on Apr 18,2023, Elapsed time: 0:22:41
+# Errors: 0, Warnings: 6
+# vsim -gui work.alu(aludesign) 
+# Start time: 04:26:27 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(aludesign)
+add wave -position insertpoint sim:/alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftrhbz6c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrhbz6c
+force -freeze sim:/alu/A 0 0
+force -freeze sim:/alu/ALUOp 0 0
+run
+force -freeze sim:/alu/A 65535 0
+force -freeze sim:/alu/ALUOp 1 0
+run
+# Compile of ALU.vhd was successful.
+vsim -gui work.alu(aludesign)
+# End time: 04:30:33 on Apr 18,2023, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 4
+# vsim -gui work.alu(aludesign) 
+# Start time: 04:30:33 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(aludesign)
+add wave -position insertpoint sim:/alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftnkmsx2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnkmsx2
+force -freeze sim:/alu/A 0 0
+force -freeze sim:/alu/ALUOp 0 0
+run
+force -freeze sim:/alu/A 65535 0
+force -freeze sim:/alu/ALUOp 1 0
+run
+force -freeze sim:/alu/A 65535 0
+run
+force -freeze sim:/alu/A 65534 0
+run
+force -freeze sim:/alu/A FFFE 0
+run
+force -freeze sim:/alu/A FFFF 0
+run
+force -freeze sim:/alu/A 4 0
+force -freeze sim:/alu/ALUOp 2 0
+run
+run
+force -freeze sim:/alu/A 0 0
+run
+force -freeze sim:/alu/A 1 0
+run
+force -freeze sim:/alu/A 30 0
+force -freeze sim:/alu/B 900 0
+force -freeze sim:/alu/ALUOut 4 0
+run
+force -freeze sim:/alu/ALUOp 4 0
+run
+force -freeze sim:/alu/B 30 0
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/alu/A 30 0
+force -freeze sim:/alu/B 30 0
+force -freeze sim:/alu/ALUOp 4 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/alu/A 0 0
+force -freeze sim:/alu/B 0 0
+run
+force -freeze sim:/alu/A 65535 0
+force -freeze sim:/alu/B 1 0
+run
+force -freeze sim:/alu/ALUOp 5 0
+run
+force -freeze sim:/alu/B 0 0
+run
+force -freeze sim:/alu/A 1 0
+run
+force -freeze sim:/alu/B 1 0
+run
+force -freeze sim:/alu/A 2 0
+force -freeze sim:/alu/B 4 0
+force -freeze sim:/alu/ALUOp 6 0
+run
+force -freeze sim:/alu/ALUOp 7 0
+run
+# Compile of ALU.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of flagControlUnit.vhd failed with 14 errors.
+# Compile of flagControlUnit.vhd failed with 8 errors.
+# Compile of flagControlUnit.vhd was successful.
+vsim -gui work.flagcontrolunit(flagcontrolunitdesign)
+# End time: 05:08:26 on Apr 18,2023, Elapsed time: 0:37:53
+# Errors: 0, Warnings: 9
+# vsim -gui work.flagcontrolunit(flagcontrolunitdesign) 
+# Start time: 05:08:26 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.flagcontrolunit(flagcontrolunitdesign)
+add wave -position insertpoint sim:/flagcontrolunit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftns0wka".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftns0wka
+force -freeze sim:/flagcontrolunit/opcode 11100 0
+force -freeze sim:/flagcontrolunit/zeroFlag 1 0
+force -freeze sim:/flagcontrolunit/negFlag 0 0
+force -freeze sim:/flagcontrolunit/carryFlag 1 0
+run
+force -freeze sim:/flagcontrolunit/opcode 00001 0
+run
+force -freeze sim:/flagcontrolunit/carryFlag 0 0
+force -freeze sim:/flagcontrolunit/zeroFlag 0 0
+run
+force -freeze sim:/flagcontrolunit/opcode 11000 0
+force -freeze sim:/flagcontrolunit/zeroFlag 0 0
+run
+force -freeze sim:/flagcontrolunit/opcode 00001 0
+run
+force -freeze sim:/flagcontrolunit/opcode 00010 0
+run
+force -freeze sim:/flagcontrolunit/opcode 10000 0
+run
+force -freeze sim:/flagcontrolunit/opcode 00001 0
+run
+force -freeze sim:/flagcontrolunit/opcode 10001 0
+run
