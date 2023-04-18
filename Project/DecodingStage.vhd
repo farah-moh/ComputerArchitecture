@@ -15,7 +15,7 @@ ENTITY DecodingStage IS
         Instruction:        IN std_logic_vector(m-1 DOWNTO 0);
         RS1Data :           OUT std_logic_vector(m-1 DOWNTO 0);
         RS2Data :           OUT std_logic_vector(m-1 DOWNTO 0);
-        regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec:        OUT std_logic;
+        regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec:        OUT std_logic
 
     );
 END ENTITY DecodingStage;
