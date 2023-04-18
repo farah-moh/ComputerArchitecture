@@ -46,6 +46,24 @@ operands = {
 "R7":"111",
 }
 
+hexaToBinary = {
+"0":"0000",
+"1":"0001",
+"2":"0010",
+"3":"0011",
+"4":"0100",
+"5":"0101",
+"6":"0110",
+"7":"0111",
+"8":"1000",
+"9":"1001",
+"A":"1010",
+"B":"1011",
+"C":"1100",
+"D":"1101",
+"E":"1110",
+"F":"1111",
+}
 
 file1 = open('Commands.txt', 'r')
 Lines = file1.readlines()
@@ -67,7 +85,7 @@ for instruction in editedInstructions: #remove empty strings
     for item in instruction:
         if item == "":
             instruction.remove(item)
-            
+
 BinaryInstructions = []
 for instruction in editedInstructions:
     temp = ""
@@ -113,13 +131,20 @@ for instruction in editedInstructions:
         temp += operands[instruction[2]] #RS1
         temp += "0000"
         BinaryInstructions.append(temp)
-        BinaryInstructions.append(instruction[3]) #Immediate
+        immediate = ""
+        for char in instruction[3]:
+            immediate+=hexaToBinary[char]
+        BinaryInstructions.append(immediate)
+ 
     elif instruction[0] == "LDM": #LDM RD, immediate
         temp += commands[instruction[0]] #opcode
         temp += operands[instruction[1]] #RD
         temp += "0000000"
         BinaryInstructions.append(temp)
-        BinaryInstructions.append(instruction[2]) #Immediate
+        immediate = ""
+        for char in instruction[3]:
+            immediate+=hexaToBinary[char]
+        BinaryInstructions.append(immediate)
 
 file1 = open('binaryCommands.txt', 'w')
 #mem load -filltype value -filldata {1000010000010000 } -fillradix binary /processor/Instruction/ram(0)
