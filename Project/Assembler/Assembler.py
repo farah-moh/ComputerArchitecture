@@ -149,7 +149,7 @@ for instruction in editedInstructions:
 file1 = open('binaryCommands.txt', 'w')
 #mem load -filltype value -filldata {1000010000010000} -fillradix binary /processor/Instruction/ram(0)
 for i,instruction in enumerate(BinaryInstructions):
-    file1.write(f"mem load -filltype value -filldata {{{instruction+' '}}} -fillradix binary /fetchstage/instructions/ram({i})\n")
+    file1.write(f"mem load -filltype value -filldata {{{instruction+' '}}} -fillradix binary /processor/fetchStagee/instructions/ram({i})\n")
 
 
 file1.close()
