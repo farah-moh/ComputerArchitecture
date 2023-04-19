@@ -1,5 +1,6 @@
 vsim -gui work.processor
 add wave -position insertpoint  \*
+mem load -filltype value -filldata 0000 -fillradix hexadecimal /processor/memoryStagee/dataMemory/ram(0)
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/processor/reset 1 0
 force -freeze sim:/processor/enable 1 0
