@@ -76,7 +76,7 @@ BEGIN
 
     -- We need to buffer the data from the memory, so that it is delayed by one cycle       (n bits)
     -- and also the control signals for the WB stage                                        (3 bits)
-    -- so, 16+1+1+1 = 19 bits (or n + 3)
+    -- so, 16+1+1+1+16+1+3 = 19 bits (or n + 3)
     MemOutput_ControlSignals <= dataMemOutput & ALUoutput & RD &regWrite_in & MemToReg_in & INN_in & OUTT_in;
     buffer_Mem1_Mem2: my_nDFF GENERIC MAP(n+23) PORT MAP(clk, rst, MemOutput_ControlSignals, bufferedData, '1');             -- the first buffer (delays mem by one cycle)
     -- bufferedData <= delayedMemoryOutput;
