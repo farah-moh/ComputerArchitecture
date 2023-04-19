@@ -5,7 +5,8 @@ USE IEEE.numeric_std.all;
 ENTITY PC IS
 	PORT (clk, reset, enable : IN  std_logic;
           inc : IN std_logic_vector(15 DOWNTO 0);
-		  pc : OUT std_logic_vector(15 DOWNTO 0)
+		  pc : OUT std_logic_vector(15 DOWNTO 0);
+          memZero: IN std_logic_vector(15 DOWNTO 0)
         );
 END PC;
 
@@ -16,7 +17,8 @@ BEGIN
     variable pcINC:std_logic_vector(15 downto 0);
     BEGIN
         IF reset = '1' THEN
-            pc <= (others => '0');
+            -- pc <= (others => '0');
+            pc <= memZero;
             pcINC := (others => '0');
             
         ELSIF rising_edge(clk) THEN

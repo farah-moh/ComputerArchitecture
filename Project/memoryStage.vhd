@@ -32,7 +32,11 @@ PORT(
     regWrite_out :                    OUT std_logic;
     MemToReg_out :                    OUT std_logic;
     INN_out :                         OUT std_logic;
-    OUTT_out :                        OUT std_logic
+    OUTT_out :                        OUT std_logic;
+
+    -- Memzero for the PC in case of reset
+    Memzero :           OUT std_logic_vector(n-1 DOWNTO 0)       -- value of PC in case of reset
+
 );
 END memoryStage;
 
@@ -56,7 +60,8 @@ PORT(
     writeAddress:      IN std_logic_vector(9 DOWNTO 0);        -- 10 bit address
     writeEnable:       IN std_logic;
     writeData:         IN std_logic_vector(n-1 DOWNTO 0);
-    readData:          OUT std_logic_vector(n-1 DOWNTO 0)      -- the data that has been read
+    readData:          OUT std_logic_vector(n-1 DOWNTO 0);      -- the data that has been read
+    Memzero :           OUT std_logic_vector(n-1 DOWNTO 0)       -- value of PC in case of reset
 );
 END COMPONENT;
 
@@ -71,7 +76,7 @@ signal BufferedMemOutput_ControlSignals:       std_logic_vector(n-1+39 DOWNTO 0)
 
 BEGIN
 
-    dataMemory: dataMem GENERIC MAP(n) PORT MAP(clk, rst, readAddress, readEnable, writeAddress, writeEnable, writeData, dataMemOutput);
+    dataMemory: dataMem GENERIC MAP(n) PORT MAP(clk, rst, readAddress, readEnable, writeAddress, writeEnable, writeData, dataMemOutput, Memzero);
     
 
     -- We need to buffer the data from the memory, so that it is delayed by one cycle       (n bits)

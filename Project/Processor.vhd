@@ -43,6 +43,7 @@ Architecture Processor_design of Processor is
     signal trashOut_MEM, memDataOut_MEM, ALUoutput_MEM, RS1Data_MEM: std_logic_vector(15 DOWNTO 0);
     signal RD_MEM: std_logic_vector(2 DOWNTO 0);
     signal regWriteOut_MEM, memToRegOut_MEM, inPortOut_MEM, outPortOut_MEM: std_logic;
+    signal memZero: std_logic_vector(15 DOWNTO 0);
     --##################MEMORY/WRITEBACK BUFFER############
     signal regWriteOut_WB: std_logic;
     signal writeBackData_WB: std_logic_vector(15 DOWNTO 0);
@@ -53,7 +54,7 @@ Architecture Processor_design of Processor is
 
 BEGIN
 
-    fetchStagee: entity work.fetchStage port map(clk, reset, instruction_IF, immediate_IF, PC_IF);
+    fetchStagee: entity work.fetchStage port map(clk, reset, instruction_IF, immediate_IF, PC_IF, memZero);
     IF_ID_bufferr: entity work.IF_ID_buffer port map(clk, reset, instruction_IF, immediate_IF, PC_IF, RS1_IF_ID_buff, RS2_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff);
     --Not completed yet
     decodeStagee: entity work.decodingStage port map(clk, reset, RS1_IF_ID_buff, RS2_IF_ID_buff , RD_WB, regWriteOut_WB, writeBackData_WB, instruction_IF_ID_buff
@@ -70,7 +71,7 @@ BEGIN
                                                     , regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff);
 
     memoryStagee: entity work.memoryStage port map(clk, reset, RD_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff(9 downto 0), memReadOut_EX_MEM1_buff, RS2dataOut_EX_MEM1_buff(9 downto 0), memWriteOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff,trashOut_MEM, memDataOut_MEM
-                                                    , RD_MEM, ALUoutput_MEM, RS1Data_MEM, regWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, regWriteOut_MEM, memToRegOut_MEM, inPortOut_MEM, outPortOut_MEM);
+                                                    , RD_MEM, ALUoutput_MEM, RS1Data_MEM, regWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, regWriteOut_MEM, memToRegOut_MEM, inPortOut_MEM, outPortOut_MEM, memZero);
 
     writeBackStagee: entity work.WriteBackStage port map(regWriteOut_MEM, memToRegOut_MEM, inPortOut_MEM, outPortOut_MEM, RD_MEM, ALUoutput_MEM, memDataOut_MEM, INPort, RS1Data_MEM, regWriteOut_WB, writeBackData_WB, OUTPort, RD_WB);
     

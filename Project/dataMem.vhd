@@ -12,7 +12,8 @@ port(
     writeAddress :    	IN std_logic_vector(9 DOWNTO 0);        -- 10 bit address
     writeEnable :       IN std_logic;
     writeData :         IN std_logic_vector(n-1 DOWNTO 0);
-    readData :          OUT std_logic_vector(n-1 DOWNTO 0)      -- the data that has been read
+    readData :          OUT std_logic_vector(n-1 DOWNTO 0);      -- the data that has been read
+    Memzero :           OUT std_logic_vector(n-1 DOWNTO 0)       -- value of PC in case of reset
 );
 end entity;
 
@@ -26,25 +27,28 @@ begin
 
     PROCESS (clk,rst)
     BEGIN
-        IF rst = '1' THEN
-            -- we can do it like this
-            -- loop1: FOR i IN 0 TO 2**10-1 LOOP
-            --     ram(i) <= (OTHERS => '0');
-            -- END LOOP;
+        -- IF rst = '1' THEN            -- Mem doesnt have reset
+        --     -- we can do it like this
+        --     -- loop1: FOR i IN 0 TO 2**10-1 LOOP
+        --     --     ram(i) <= (OTHERS => '0');
+        --     -- END LOOP;
 
-            -- or this
-            -- ram <= (others=>x"0000");
+        --     -- or this
+        --     -- ram <= (others=>x"0000");
 
-            -- or preferably this
-            ram <= (others=>(others=>'0'));
+        --     -- or preferably this
+        --     ram <= (others=>(others=>'0'));
             
-        ELSIF rising_edge(clk) THEN
-            IF writeEnable = '1' THEN
+        -- ELSIF rising_edge(clk) THEN
+        IF rising_edge(clk) and writeEnable = '1' THEN
                 ram(to_integer(unsigned(writeAddress))) <= writeData;
-            END IF;
+            ELSE
+            -- END IF;
         END IF;
     END PROCESS;
 
-    readData <= ram(to_integer(unsigned((readAddress)))) WHEN readEnable = '1';   -- synthesizable? Latch?
+    Memzero <= ram(0);      -- value of PC in case of reset
+    readData <= ram(to_integer(unsigned((readAddress)))) WHEN readEnable = '1'
+    ELSE (OTHERS => '0');   -- synthesizable? Latch?
     
 end dataMemDesign;
