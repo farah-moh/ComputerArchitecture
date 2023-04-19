@@ -24,7 +24,7 @@ ARCHITECTURE decoding OF DecodingStage  IS
 
 BEGIN
     ControlU : entity work.ControlUnit port map(Instruction,regWrite, pcSrc, memRead, memWrite, memToReg, inPort, outPort, spInc, spDec);
-    regFile: entity work.RegFileMem port map(clk, rst, Instruction(6 downto 4), Instruction(3 downto 1), Instruction(9 downto 7), writeEnable, writeData, RS1Data, RS2Data);
+    regFile: entity work.RegFileMem port map(clk, rst, Instruction(6 downto 4), Instruction(3 downto 1), RD, writeEnable, writeData, RS1Data, RS2Data);
     -- regFile: entity work.RegFileMem port map(clk, rst, RS1, RS2, RD, writeEnable, writeData, RS1Data, RS2Data);
 
 END decoding;

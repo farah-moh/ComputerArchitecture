@@ -16,7 +16,7 @@ Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z4 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 257
+!i122 522
 Z7 dC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project
 Z8 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd
 Z9 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd
@@ -26,9 +26,9 @@ Vn1EW^1:M1oe=VKc>KFkOQ0
 !s100 mfL9YOMWS7C21cH^8FkE:0
 Z10 OV;C;2020.1;71
 32
-Z11 !s110 1681859877
+Z11 !s110 1681877630
 !i10b 1
-Z12 !s108 1681859877.000000
+Z12 !s108 1681877630.000000
 Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd|
 Z14 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd|
 !i113 1
@@ -40,12 +40,12 @@ R3
 R4
 R5
 R6
-Z17 DEx4 work 3 alu 0 22 n1EW^1:M1oe=VKc>KFkOQ0
-!i122 257
+DEx4 work 3 alu 0 22 n1EW^1:M1oe=VKc>KFkOQ0
+!i122 522
 l20
-Z18 L16 90
-Z19 VgLMX5J>9YPdcKRzlSUJAS0
-Z20 !s100 9;F<@;lZV1LB3L0=k>V9B2
+L16 90
+VgLMX5J>9YPdcKRzlSUJAS0
+!s100 9;F<@;lZV1LB3L0=k>V9B2
 R10
 32
 R11
@@ -61,21 +61,21 @@ R1
 R2
 R5
 R6
-!i122 246
+!i122 511
 R7
-Z21 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd
-Z22 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd
+Z17 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd
+Z18 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd
 l0
 L6 1
 Ve@;^[LPNGFmg?bKDZXalN1
 !s100 46hPmRNVdZ^lghUS<92EF3
 R10
 32
-Z23 !s110 1681859875
+Z19 !s110 1681877628
 !i10b 1
-Z24 !s108 1681859875.000000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd|
-Z26 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd|
+Z20 !s108 1681877628.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd|
+Z22 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd|
 !i113 1
 R15
 R16
@@ -83,41 +83,41 @@ Acontrolunitdesign
 R2
 R5
 R6
-Z27 DEx4 work 11 controlunit 0 22 e@;^[LPNGFmg?bKDZXalN1
-!i122 246
+Z23 DEx4 work 11 controlunit 0 22 e@;^[LPNGFmg?bKDZXalN1
+!i122 511
 l30
 L21 78
 VOPQ0cAS0IAVUQI:DI2;C:0
 !s100 cQ=@94lLI3bc6]aJNM5I=0
 R10
 32
-R23
+R19
 !i10b 1
-R24
-R25
-R26
+R20
+R21
+R22
 !i113 1
 R15
 R16
 Econtrolunit_tb
-Z28 w1681743425
+Z24 w1681743425
 R5
 R6
-!i122 247
+!i122 512
 R7
-Z29 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd
-Z30 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd
+Z25 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd
+Z26 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd
 l0
 L5 1
 VK31gkEah`V:BWFzQkgC<83
 !s100 m?lEo3YaYP1W=VDMnolYg2
 R10
 32
-R23
+R19
 !i10b 1
-R24
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd|
-Z32 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd|
+R20
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd|
+Z28 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd|
 !i113 1
 R15
 R16
@@ -125,18 +125,18 @@ Atb
 R5
 R6
 DEx4 work 14 controlunit_tb 0 22 K31gkEah`V:BWFzQkgC<83
-!i122 247
+!i122 512
 l30
 L8 196
 V9fln1aXQWXlHieehF`5N^0
 !s100 >>UMdU^O<7Wz^i75SZL`W1
 R10
 32
-R23
+R19
 !i10b 1
-R24
-R31
-R32
+R20
+R27
+R28
 !i113 1
 R15
 R16
@@ -145,21 +145,21 @@ R1
 R2
 R5
 R6
-!i122 250
+!i122 515
 R7
-Z33 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd
-Z34 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd
+Z29 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd
+Z30 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd
 l0
 L5 1
 V7g<@?OjYHTUzi3;79>1V]0
 !s100 d4C6?XG5fN<YizIFk=A2c1
 R10
 32
-R23
+Z31 !s110 1681877629
 !i10b 1
-R24
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd|
-Z36 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd|
+Z32 !s108 1681877629.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd|
+Z34 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd|
 !i113 1
 R15
 R16
@@ -168,88 +168,88 @@ R2
 R5
 R6
 DEx4 work 7 datamem 0 22 7g<@?OjYHTUzi3;79>1V]0
-!i122 250
+!i122 515
 l25
 L21 30
 VZJ3BYLUCIkS94FbH=T62g0
 !s100 P0N4OP1jDG]NI86dT`U832
 R10
 32
-R23
+R31
 !i10b 1
-R24
-R35
-R36
+R32
+R33
+R34
 !i113 1
 R15
 R16
 Edecodingstage
-Z37 w1681859869
+Z35 w1681877164
 R2
 R5
 R6
-!i122 249
+!i122 514
 R7
-Z38 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd
-Z39 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd
+Z36 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd
+Z37 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd
 l0
 L5 1
 VBeaCHC8dfK47KBe3?gH@l0
 !s100 Q96gCgL;nnkLBVZ?h9IeT0
 R10
 32
-R23
+R31
 !i10b 1
-R24
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd|
-Z41 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd|
+R32
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd|
+Z39 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd|
 !i113 1
 R15
 R16
 Adecoding
-Z42 DEx4 work 10 regfilemem 0 22 VUF9:zUJCUTXlmV0Yi1CG2
-R27
+Z40 DEx4 work 10 regfilemem 0 22 VUF9:zUJCUTXlmV0Yi1CG2
+R23
 R2
 R5
 R6
-DEx4 work 13 decodingstage 0 22 BeaCHC8dfK47KBe3?gH@l0
-!i122 249
+Z41 DEx4 work 13 decodingstage 0 22 BeaCHC8dfK47KBe3?gH@l0
+!i122 514
 l25
 L23 8
-VRNHL=?jQ@HXacID:YLhOh0
-!s100 ]SQg8]NT`BMk6C<`[1Q;22
+V?TRoY0zBHF4g?iN2JUD=50
+!s100 cCGGSXcW@aSkSe9NgYkXm2
 R10
 32
-R23
+R31
 !i10b 1
-R24
-R40
-R41
+R32
+R38
+R39
 !i113 1
 R15
 R16
 Eex_mem1_buffer
-R1
+Z42 w1681876186
 R2
 R3
 R4
 R5
 R6
-!i122 251
+!i122 516
 R7
 Z43 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
 Z44 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
 l0
 L7 1
-V=fl8ficncF<`<V786VOO]0
-!s100 `ddC8Z:IL=9^0I8mXEbQ=2
+Vc=@OggLg_Nh3I2G^c@G]X1
+!s100 Pg0QVHQIl7X?CRZB9VT<i0
 R10
 32
-Z45 !s110 1681859876
+R31
 !i10b 1
-R24
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
-Z47 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
+R32
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
+Z46 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
 !i113 1
 R15
 R16
@@ -259,42 +259,42 @@ R3
 R4
 R5
 R6
-DEx4 work 14 ex_mem1_buffer 0 22 =fl8ficncF<`<V786VOO]0
-!i122 251
-l35
-L20 28
-VlGGOMF0BXBN29`9OWbJQ`2
-!s100 M95<7JD?_XmljYVY9hOJX2
+Z47 DEx4 work 14 ex_mem1_buffer 0 22 c=@OggLg_Nh3I2G^c@G]X1
+!i122 516
+l37
+L22 36
+VlSQk`kP::1Mk]`P@ZhiTR1
+!s100 P6SeFI18A@9Of<G@SNA2Q1
 R10
 32
-R45
+R31
 !i10b 1
-R24
+R32
+R45
 R46
-R47
 !i113 1
 R15
 R16
 Eexecutionstage
-R1
+Z48 w1681872573
 R2
 R3
 R4
 R5
 R6
-!i122 252
+!i122 517
 R7
-Z48 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd
-Z49 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd
+Z49 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd
+Z50 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd
 l0
 L7 1
-Vl2hA9coZMUW?k59[eOf4P1
-!s100 VGU<G5:L2gER5`Ua8FjHa1
+Vo8R=CRN:5=kAbcAfVZ5Sd0
+!s100 KHQa<7[_:T:S4F[5c=JJl3
 R10
 32
-R45
+R31
 !i10b 1
-Z50 !s108 1681859876.000000
+R32
 Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd|
 Z52 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd|
 !i113 1
@@ -306,44 +306,44 @@ R3
 R4
 R5
 R6
-DEx4 work 14 executionstage 0 22 l2hA9coZMUW?k59[eOf4P1
-!i122 252
-l50
-L18 42
-V4]LC]bRXJeb`KbQlmRFic3
-!s100 m2^A1nlTj8NF]989IR=zk2
+Z53 DEx4 work 14 executionstage 0 22 o8R=CRN:5=kAbcAfVZ5Sd0
+!i122 517
+l51
+L19 44
+VDJXJdoa=UnoFTR4lnMoo20
+!s100 EcEl3I;^nKF_;XDi[>JVE2
 R10
 32
-R45
+R31
 !i10b 1
-R50
+R32
 R51
 R52
 !i113 1
 R15
 R16
 Efetchstage
-R1
+Z54 w1681864234
 R2
 R3
 R4
 R5
 R6
-!i122 253
+!i122 518
 R7
-Z53 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd
-Z54 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd
+Z55 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd
+Z56 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd
 l0
 L7 1
-V_Sn8=:1;7e03j=^7V]bcn0
-!s100 JWm5oW4H:04?iHWiY2VXI0
+VE0FljdJj81iE5lB1_YizW1
+!s100 C`=hLJb<=z4R?hMQLh1nz0
 R10
 32
-R45
+R31
 !i10b 1
-R50
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd|
-Z56 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd|
+R32
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd|
+Z58 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd|
 !i113 1
 R15
 R16
@@ -353,44 +353,44 @@ R3
 R4
 R5
 R6
-DEx4 work 10 fetchstage 0 22 _Sn8=:1;7e03j=^7V]bcn0
-!i122 253
+Z59 DEx4 work 10 fetchstage 0 22 E0FljdJj81iE5lB1_YizW1
+!i122 518
 l38
-L14 34
-V[7m[@Oj_>XHGKdL;HohOR1
-!s100 jl7P6nnz?oM<JnCE0aCGi3
+L14 35
+VndUdLkX?;a?fVl8l8^J<42
+!s100 X_aX2lhJH@V]V[950Qnl`0
 R10
 32
-R45
+R31
 !i10b 1
-R50
-R55
-R56
+R32
+R57
+R58
 !i113 1
 R15
 R16
 Eflagcontrolunit
-Z57 w1681811973
+Z60 w1681811973
 R2
 R3
 R4
 R5
 R6
-!i122 254
+!i122 519
 R7
-Z58 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd
-Z59 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd
+Z61 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd
+Z62 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd
 l0
 L7 1
 V4fcQleOlUIZ_f6XIKbZ553
 !s100 E?A<Y34]bc:`8GD9MNCI90
 R10
 32
-R45
+R31
 !i10b 1
-R50
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd|
-Z61 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd|
+R32
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd|
+Z64 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd|
 !i113 1
 R15
 R16
@@ -401,43 +401,43 @@ R4
 R5
 R6
 DEx4 work 15 flagcontrolunit 0 22 4fcQleOlUIZ_f6XIKbZ553
-!i122 254
+!i122 519
 l16
 L15 19
 V[8J69`aba1`TIX4e9ezI?3
 !s100 gnnl_P3AO?4f935DAJ@0]0
 R10
 32
-R45
+R31
 !i10b 1
-R50
-R60
-R61
+R32
+R63
+R64
 !i113 1
 R15
 R16
 Eid_ex_buffer
-R1
+Z65 w1681861056
 R2
 R3
 R4
 R5
 R6
-!i122 255
+!i122 520
 R7
-Z62 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd
-Z63 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd
+Z66 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd
+Z67 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd
 l0
 L7 1
-VXd=<S<0^T5]cQP@ZR;eJA3
-!s100 fO1K<><OdZd3m50eE`:M41
+V;?I75YcZgT`OT_0>5^<Z72
+!s100 a40^^DBKb<Xj8WVG<lSW;2
 R10
 32
-R45
+R31
 !i10b 1
-R50
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd|
-Z65 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd|
+R32
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd|
+Z69 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd|
 !i113 1
 R15
 R16
@@ -447,19 +447,66 @@ R3
 R4
 R5
 R6
-DEx4 work 12 id_ex_buffer 0 22 Xd=<S<0^T5]cQP@ZR;eJA3
-!i122 255
-l40
-L25 33
-V]9hSD2GKKTEmb16A5jbgo1
-!s100 :6n7d82?mTbI@O7Bijj5o3
+Z70 DEx4 work 12 id_ex_buffer 0 22 ;?I75YcZgT`OT_0>5^<Z72
+!i122 520
+l41
+L26 41
+VBRmo1;_Qz2VPNXBOiaQc71
+!s100 0e6i=iz0S:I7Qf2ii[CN12
 R10
 32
-R45
+R31
 !i10b 1
-R50
-R64
-R65
+R32
+R68
+R69
+!i113 1
+R15
+R16
+Eif_id_buffer
+Z71 w1681876136
+R2
+R3
+R4
+R5
+R6
+!i122 523
+R7
+Z72 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd
+Z73 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd
+l0
+L7 1
+V5fdY6j3k9KEJLag0nTf?I2
+!s100 d^6FkP]7]j6bKAhcYCOoM0
+R10
+32
+R11
+!i10b 1
+R12
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+Z75 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+!i113 1
+R15
+R16
+Aif_id_bufferdesign
+R2
+R3
+R4
+R5
+R6
+Z76 DEx4 work 12 if_id_buffer 0 22 5fdY6j3k9KEJLag0nTf?I2
+!i122 523
+l35
+L20 28
+V84IQQG4AnXGHflI856e]Z1
+!s100 fPl[:kRDC1iPglz^JAD>30
+R10
+32
+R11
+!i10b 1
+R12
+R74
+R75
 !i113 1
 R15
 R16
@@ -468,66 +515,66 @@ R1
 R2
 R5
 R6
-!i122 243
+!i122 508
 R7
-Z66 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd
-Z67 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd
+Z77 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd
+Z78 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd
 l0
 L5 1
 Vg_]H^z:m8H3C9f<PoLjAQ2
 !s100 FCRa6AoQ:`X;h9=K8nnJ[1
 R10
 33
-Z68 !s110 1681859874
+R19
 !i10b 1
-Z69 !s108 1681859874.000000
-Z70 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd|
-Z71 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd|
+R20
+Z79 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd|
+Z80 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd|
 !i113 1
-Z72 o-work work -2008 -explicit
+Z81 o-work work -2008 -explicit
 R16
 Ainstructioncache_design
 R2
 R5
 R6
 DEx4 work 16 instructioncache 0 22 g_]H^z:m8H3C9f<PoLjAQ2
-!i122 243
+!i122 508
 l20
 L15 20
 VH?YI1HPNjYoA<Z^`5SMO>1
 !s100 ^i;Y7ZRfJ;3g?<VQ[]jXY1
 R10
 33
-R68
+R19
 !i10b 1
-R69
-R70
-R71
+R20
+R79
+R80
 !i113 1
-R72
+R81
 R16
 Ememorystage
-R1
+Z82 w1681875289
 R2
 R3
 R4
 R5
 R6
-!i122 256
+!i122 521
 R7
-Z73 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd
-Z74 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd
+Z83 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd
+Z84 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd
 l0
 L7 1
-VeQo6elFla]XdE12V8Ii750
-!s100 UM;Da7N?kzU5]9HPYmM_R1
+VW_5JGPYOcSS2Y@OF@llCn0
+!s100 gVfHk8IbS8>kEeLJnkFOM0
 R10
 32
 R11
 !i10b 1
-R50
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd|
-Z76 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd|
+R32
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd|
+Z86 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd|
 !i113 1
 R15
 R16
@@ -537,127 +584,180 @@ R3
 R4
 R5
 R6
-DEx4 work 11 memorystage 0 22 eQo6elFla]XdE12V8Ii750
-!i122 256
-l65
-L30 57
-VWcCz_TZAjDUFH2j?gN?e>0
-!s100 85::cT?6Oe3[ol8GRnCU<2
+Z87 DEx4 work 11 memorystage 0 22 W_5JGPYOcSS2Y@OF@llCn0
+!i122 521
+l72
+L37 60
+VM?DN]EW^PMi=n[@DlM[k63
+!s100 SXl]RY8fTTAR[08h49_8e0
 R10
 32
 R11
 !i10b 1
-R50
-R75
-R76
+R32
+R85
+R86
 !i113 1
 R15
 R16
 Emy_ndff
-Z77 w1681677810
+Z88 w1681677810
 R5
 R6
-!i122 244
+!i122 509
 R7
-Z78 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd
-Z79 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd
+Z89 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd
+Z90 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd
 l0
 L5 1
 V]T:7DA>@ZL1HQmiZe6:543
 !s100 a<l3KZF3co3bJ6mVPomZP1
 R10
 33
-R68
+R19
 !i10b 1
-R69
-Z80 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
-Z81 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
+R20
+Z91 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
+Z92 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
 !i113 1
-R72
+R81
 R16
 Aa_my_ndff
 R5
 R6
 DEx4 work 7 my_ndff 0 22 ]T:7DA>@ZL1HQmiZe6:543
-!i122 244
+!i122 509
 l14
 L13 13
 VgRnf=;W>B=e]B_TkIo^lQ0
 !s100 70]nkXAEPk[>EQS1k2VK23
 R10
 33
-R68
+R19
 !i10b 1
-R69
-R80
-R81
+R20
+R91
+R92
 !i113 1
-R72
+R81
 R16
 Epc
-R77
+R88
 R2
 R5
 R6
-!i122 242
+!i122 507
 R7
-Z82 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
-Z83 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
+Z93 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
+Z94 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
 l0
 L5 1
 VaXNb?Q?K^Z@7@gV609[IJ1
 !s100 9XCLd<G5=18:@hWc6@Hm_1
 R10
 33
-R68
+R19
 !i10b 1
-R69
-Z84 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
-Z85 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
+R20
+Z95 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
+Z96 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
 !i113 1
-R72
+R81
 R16
 Apc_design
 R2
 R5
 R6
 DEx4 work 2 pc 0 22 aXNb?Q?K^Z@7@gV609[IJ1
-!i122 242
+!i122 507
 l13
 L12 19
 V<[V?8CXDG>^l>5=kj?Q3^0
 !s100 mJSmRhjUn;lU<I>>4f1L10
 R10
 33
-R68
+R19
 !i10b 1
-R69
-R84
-R85
+R20
+R95
+R96
 !i113 1
-R72
+R81
+R16
+Eprocessor
+Z97 w1681876058
+R2
+R5
+R6
+!i122 524
+R7
+Z98 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
+Z99 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
+l0
+L6 1
+VJ327nmVYe:Pde@koBa;jT1
+!s100 aEld=9GPaPE3aPIm7[@PJ2
+R10
+32
+R11
+!i10b 1
+R12
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
+Z101 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
+!i113 1
+R15
+R16
+Aprocessor_design
+Z102 DEx4 work 14 writebackstage 0 22 N@C::XbNCb4i28HgE;A:Q2
+R87
+R47
+R53
+R70
+R41
+R76
+R3
+R4
+R59
+R2
+R5
+R6
+DEx4 work 9 processor 0 22 J327nmVYe:Pde@koBa;jT1
+!i122 524
+l54
+L15 62
+V8gJJHSX:>IJ>EGd>V[J000
+!s100 kdTW7]gKoAbWa9kGR=d@h1
+R10
+32
+R11
+!i10b 1
+R12
+R100
+R101
+!i113 1
+R15
 R16
 Eregfile
-Z86 w1677934418
+Z103 w1677934418
 R5
 R6
 !i122 7
 R0
-Z87 8D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
-Z88 FD:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+Z104 8D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+Z105 FD:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
 l0
 L4 1
 V7NWHjOO;J52E9WV9Y3g<Q0
 !s100 l>Pi2]bzY1og05J29QUCK2
 R10
 33
-Z89 !s110 1681648922
+Z106 !s110 1681648922
 !i10b 1
-Z90 !s108 1681648922.000000
-Z91 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
-Z92 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+Z107 !s108 1681648922.000000
+Z108 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+Z109 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
 !i113 1
-R72
+R81
 R16
 Aregfiledesign
 R5
@@ -670,34 +770,34 @@ V2g[3L5N4ca50h8kfXX_9b0
 !s100 70Zha7SjTEl_Cj4jIZZkG1
 R10
 33
-R89
+R106
 !i10b 1
-R90
-R91
-R92
+R107
+R108
+R109
 !i113 1
-R72
+R81
 R16
 Eregfilemem
-Z93 w1681813133
+Z110 w1681813133
 R2
 R5
 R6
-!i122 245
+!i122 510
 R7
-Z94 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
-Z95 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
+Z111 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
+Z112 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
 l0
 L5 1
 VVUF9:zUJCUTXlmV0Yi1CG2
 !s100 M4`PjnPo>L5:0bbJ6ej4c2
 R10
 32
-R68
+R19
 !i10b 1
-R69
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
-Z97 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
+R20
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
+Z114 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
 !i113 1
 R15
 R16
@@ -705,42 +805,42 @@ Aregfilememdesign
 R2
 R5
 R6
-R42
-!i122 245
+R40
+!i122 510
 l25
 L20 25
 VaPRbG0j8NSo@[khM3na_<2
 !s100 mNa<69lOXRgkD<]MT;k?H0
 R10
 32
-R68
+R19
 !i10b 1
-R69
-R96
-R97
+R20
+R113
+R114
 !i113 1
 R15
 R16
 Ewritebackmux
-Z98 w1681813618
+Z115 w1681874017
 R2
 R5
 R6
-!i122 248
+!i122 513
 R7
-Z99 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd
-Z100 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd
+Z116 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd
+Z117 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd
 l0
 L5 1
 VPVfP;n1fBa@lZG>Rie1Ve1
 !s100 f9J=QmfUF4EERC7X]MmL^1
 R10
 32
-R23
+R19
 !i10b 1
-R24
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
-Z102 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
+R20
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
+Z119 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
 !i113 1
 R15
 R16
@@ -749,18 +849,61 @@ R2
 R5
 R6
 DEx4 work 12 writebackmux 0 22 PVfP;n1fBa@lZG>Rie1Ve1
-!i122 248
+!i122 513
 l16
 L15 4
 VPoPf3m9KL4;eWRiO^BA;00
 !s100 ][H?eh]TYa27ZeA_NGl0a1
 R10
 32
-R23
+R19
 !i10b 1
-R24
-R101
+R20
+R118
+R119
+!i113 1
+R15
+R16
+Ewritebackstage
+Z120 w1681874912
+R2
+R5
+R6
+!i122 525
+R7
+Z121 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
+Z122 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
+l0
+L5 1
+VN@C::XbNCb4i28HgE;A:Q2
+!s100 BbW`[==Zf6;U3S1]2@eDz2
+R10
+32
+R11
+!i10b 1
+R12
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z124 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
+!i113 1
+R15
+R16
+Amywritebackstage
+R2
+R5
+R6
 R102
+!i122 525
+l20
+Z125 L19 6
+Z126 VoTlOQLn0`N`^VXENmYn6d2
+Z127 !s100 J<8^<4@Cij4dbeX1o^F^I0
+R10
+32
+R11
+!i10b 1
+R12
+R123
+R124
 !i113 1
 R15
 R16

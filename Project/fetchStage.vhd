@@ -7,7 +7,7 @@ USE IEEE.numeric_std.all;
 ENTITY fetchStage IS
 PORT( 
  clk, reset :                    IN  std_logic; 
- instruction,immediate:          OUT std_logic_vector(15 DOWNTO 0)
+ instruction,immediate,pcOut:          OUT std_logic_vector(15 DOWNTO 0)  
 );
 END fetchStage;
 
@@ -43,6 +43,7 @@ BEGIN
     instruction <= outInstruction;
     increment <= x"0002" when isImmediate='0'
                          else x"0004"; 
+    pcOut <= pcOutput;
 
 END fetchStageDesign;
 

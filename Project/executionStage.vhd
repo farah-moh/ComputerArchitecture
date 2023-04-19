@@ -11,6 +11,7 @@ PORT(
  opcode:                         IN std_logic_vector(4 DOWNTO 0);
  isImmediate:                    IN std_logic;
  execOutput:                     OUT std_logic_vector(15 DOWNTO 0);
+ MUXOutput:                      OUT std_logic_vector(15 DOWNTO 0);
  flags:                          OUT std_logic_vector(2 DOWNTO 0) -- 2: carry, 1: negative, 0: zero
 );
 END executionStage;
@@ -51,6 +52,8 @@ BEGIN
     
     secondALUoperand <= RS2Data when isImmediate = '0'
                                 else immediate;
+
+    MUXOutput<=secondALUoperand;
 
     ALUU:           ALU port map (RS1Data,secondALUoperand,opcode(2 DOWNTO 0),execOutput,zeroSignal,negSignal,carrySignal);
     flagControl:    flagControlUnit port map(opcode,zeroSignal,negSignal,carrySignal,controlFlags);
