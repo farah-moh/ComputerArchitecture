@@ -1,1 +1,1 @@
-mem load -filltype value -filldata {0110000000100010 } -fillradix binary /processor/fetchStagee/instructions/ram(0)
+mem load -filltype value -filldata {1101000010010000 } -fillradix binary /processor/fetchStagee/instructions/ram(0)

@@ -5,4 +5,4 @@ force -freeze sim:/processor/reset 1 0
 force -freeze sim:/processor/enable 1 0
 run
 force -freeze sim:/processor/reset 0 0
-mem load -filltype value -filldata {0110000000100010 } -fillradix binary /processor/fetchStagee/instructions/ram(0)
+mem load -filltype value -filldata {1101000010010000 } -fillradix binary /processor/fetchStagee/instructions/ram(0)
