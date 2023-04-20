@@ -65,6 +65,7 @@ hexaToBinary = {
 "F":"1111",
 }
 
+
 file1 = open('Commands.txt', 'r')
 Lines = file1.readlines()
  

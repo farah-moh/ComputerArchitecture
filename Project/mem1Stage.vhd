@@ -61,7 +61,7 @@ BEGIN
 
     -- Rs2Data w EX/MEM1.PC + 1 hy5osho 3la mux, wl output howa el data
     -- bs dh next phase, for now hya Rs2Data 3la tool
-    Data <= Rs2Data;
+    Data <= Rs1Data;
     
 
 END mem1StageDesign;
