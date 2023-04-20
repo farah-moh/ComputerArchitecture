@@ -73,7 +73,13 @@ instructions = []
 editedInstructions = []
 # Strips the newline character
 for line in Lines:
-    instructions.append(line.strip())
+    line = line.strip()
+    if line[0] == "#":
+        continue
+    if line[0] == ".":
+        continue
+    print(line)
+    instructions.append(line)
 
 file1.close()
 for instruction in instructions: #remove commas
