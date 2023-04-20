@@ -74,6 +74,8 @@ editedInstructions = []
 # Strips the newline character
 for line in Lines:
     line = line.strip()
+    if line == "":
+        continue
     if line[0] == "#":
         continue
     if line[0] == ".":
@@ -87,13 +89,19 @@ for instruction in instructions: #remove commas
     instruction = instruction.split(" ")
     editedInstructions.append(instruction)
 
+removedSpacesInstr = []
 for instruction in editedInstructions: #remove empty strings
+    tempList = []
     for item in instruction:
         if item == "":
-            instruction.remove(item)
+            continue
+        item = item.upper()
+        tempList.append(item)
+    removedSpacesInstr.append(tempList)
+
 
 BinaryInstructions = []
-for instruction in editedInstructions:
+for instruction in removedSpacesInstr:
     temp = ""
     if instruction[0] in noOperands:
         temp += commands[instruction[0]]
