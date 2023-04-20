@@ -8,7 +8,7 @@ ENTITY mem1Stage IS
 PORT( 
     clk, reset :                           IN  std_logic; 
     spInc, spDec:                          IN std_logic;        -- sp increment or decrement according to push or pop
-    sp_in:                                 IN std_logic_vector(15 DOWNTO 0);
+    -- sp_in:                                 IN std_logic_vector(15 DOWNTO 0);
     writeEnable:                           IN std_logic;        -- write enable signal
     readEnable:                            IN std_logic;        -- read enable signal
     -- will take interrupt input as well in the next phase
@@ -35,7 +35,7 @@ ARCHITECTURE mem1StageDesign OF mem1Stage IS
 COMPONENT SP IS
 	PORT (clk, reset : IN  std_logic;
           inc : IN std_logic_vector(1 DOWNTO 0);            -- inc value (1 or -1)
-          sp_in : IN std_logic_vector(15 DOWNTO 0);         -- sp before inc
+        --   sp_in : IN std_logic_vector(15 DOWNTO 0);         -- sp before inc
 		  sp : OUT std_logic_vector(15 DOWNTO 0) 
         );
 END COMPONENT;
@@ -51,7 +51,7 @@ BEGIN
     inc <= "01" when spInc = '1' else "11" when spDec = '1' else "00";
     -- inc = 1 when spInc = '1' else -1 when spDec = '1' else 0;
 
-    sp_component: SP port map(clk,reset,inc,sp_in,sp_out);
+    sp_component: SP port map(clk,reset,inc,sp_out);
 
     -- sp_out w RS1Data w RS2Data hy5osho 3la mux, el output bta3o howa el address
     Address <= sp_out(9 downto 0) when spInc = '1' OR spDec = '1' else

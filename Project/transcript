@@ -260,3 +260,141 @@ run
 quit -sim
 # End time: 02:46:10 on Apr 20,2023, Elapsed time: 0:00:41
 # Errors: 0, Warnings: 3
+# Compile of ALU.vhd was successful.
+# Compile of controlUnit.vhd was successful.
+# Compile of ControlUnit_TB.vhd was successful.
+# Compile of dataMem.vhd was successful.
+# Compile of DecodingStage.vhd was successful.
+# Compile of EX_MEM1_buffer.vhd was successful.
+# Compile of executionStage.vhd was successful.
+# Compile of fetchStage.vhd was successful.
+# Compile of flagControlUnit.vhd was successful.
+# Compile of ID_EX_buffer.vhd was successful.
+# Compile of IF_ID_Buffer.vhd was successful.
+# Compile of instructionCache.vhd was successful.
+# Compile of memoryStage.vhd was successful.
+# Compile of my_nDFF.vhd was successful.
+# Compile of PC.vhd was successful.
+# Compile of Processor.vhd failed with 3 errors.
+# Compile of regFileMem.vhd was successful.
+# Compile of writeBackMux.vhd was successful.
+# Compile of WriteBackStage.vhd was successful.
+# Compile of SP.vhd failed with 1 errors.
+# Compile of mem1Stage.vhd was successful.
+# 21 compiles, 2 failed with 4 errors.
+# Compile of SP.vhd was successful.
+# Compile of Processor.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of controlUnit.vhd was successful.
+# Compile of ControlUnit_TB.vhd was successful.
+# Compile of dataMem.vhd was successful.
+# Compile of DecodingStage.vhd was successful.
+# Compile of EX_MEM1_buffer.vhd was successful.
+# Compile of executionStage.vhd was successful.
+# Compile of fetchStage.vhd was successful.
+# Compile of flagControlUnit.vhd was successful.
+# Compile of ID_EX_buffer.vhd was successful.
+# Compile of IF_ID_Buffer.vhd was successful.
+# Compile of instructionCache.vhd was successful.
+# Compile of memoryStage.vhd was successful.
+# Compile of my_nDFF.vhd was successful.
+# Compile of PC.vhd was successful.
+# Compile of Processor.vhd was successful.
+# Compile of regFileMem.vhd was successful.
+# Compile of writeBackMux.vhd was successful.
+# Compile of WriteBackStage.vhd was successful.
+# Compile of SP.vhd was successful.
+# Compile of mem1Stage.vhd was successful.
+# 21 compiles, 0 failed with no errors.
+# Load canceled
+do testprocessor.do
+# vsim -gui work.processor 
+# Start time: 03:02:39 on Apr 20,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.processor(processor_design)
+# Loading work.fetchstage(fetchstagedesign)
+# Loading work.pc(pc_design)
+# Loading work.instructioncache(instructioncache_design)
+# Loading work.if_id_buffer(if_id_bufferdesign)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.decodingstage(decoding)
+# Loading work.controlunit(controlunitdesign)
+# Loading work.regfilemem(regfilememdesign)
+# Loading work.id_ex_buffer(id_ex_bufferdesign)
+# Loading work.executionstage(executionstagedesign)
+# Loading work.alu(aludesign)
+# Loading work.flagcontrolunit(flagcontrolunitdesign)
+# Loading work.ex_mem1_buffer(ex_mem1_bufferdesign)
+# Loading work.mem1stage(mem1stagedesign)
+# Loading work.sp(sp_design)
+# Loading work.memorystage(memorystagedesign)
+# Loading work.datamem(datamemdesign)
+# Loading work.writebackstage(mywritebackstage)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftjc5ti7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjc5ti7
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 03:04:35 on Apr 20,2023, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 30

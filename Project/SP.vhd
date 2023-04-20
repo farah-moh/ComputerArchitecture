@@ -5,7 +5,7 @@ USE IEEE.numeric_std.all;
 ENTITY SP IS
 	PORT (clk, reset : IN  std_logic;
           inc : IN std_logic_vector(1 DOWNTO 0);            -- inc value (1 or -1)
-          sp_in : IN std_logic_vector(15 DOWNTO 0);         -- sp before inc
+        --   sp_in : IN std_logic_vector(15 DOWNTO 0);         -- sp before inc
 		  sp : OUT std_logic_vector(15 DOWNTO 0)            -- sp after inc
         );
 END SP;
@@ -22,7 +22,7 @@ BEGIN
             
         ELSIF rising_edge(clk) THEN
             -- IF enable = '1' THEN
-            spINC := std_logic_vector(signed(sp_in)+signed(inc));      -- made it signed, so that it would either add or subtract (+- 1) (extending the bits correctly)
+            spINC := std_logic_vector(signed(sp)+signed(inc));      -- made it signed, so that it would either add or subtract (+- 1) (extending the bits correctly)
             sp <= spINC;
             -- END IF;
         END IF;
