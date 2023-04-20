@@ -992,3 +992,290 @@ do testprocessor.do
 #    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+force -freeze sim:/processor/INPort 1111111111111110 0
+quit -sim
+# End time: 04:09:58 on Apr 20,2023, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 25
+do testprocessor.do
+# vsim -gui work.processor 
+# Start time: 04:10:01 on Apr 20,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.processor(processor_design)
+# Loading work.fetchstage(fetchstagedesign)
+# Loading work.pc(pc_design)
+# Loading work.instructioncache(instructioncache_design)
+# Loading work.if_id_buffer(if_id_bufferdesign)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.decodingstage(decoding)
+# Loading work.controlunit(controlunitdesign)
+# Loading work.regfilemem(regfilememdesign)
+# Loading work.id_ex_buffer(id_ex_bufferdesign)
+# Loading work.executionstage(executionstagedesign)
+# Loading work.alu(aludesign)
+# Loading work.flagcontrolunit(flagcontrolunitdesign)
+# Loading work.ex_mem1_buffer(ex_mem1_bufferdesign)
+# Loading work.mem1stage(mem1stagedesign)
+# Loading work.sp(sp_design)
+# Loading work.memorystage(memorystagedesign)
+# Loading work.datamem(datamemdesign)
+# Loading work.writebackstage(mywritebackstage)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlft9bvdyk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9bvdyk
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+force -freeze sim:/processor/INPort FFFE 0
+run
+run
+run
+run
+run
+force -freeze sim:/processor/INPort 0001 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/processor/INPort 000F 0
+run
+force -freeze sim:/processor/INPort 00C8 0
+run
+force -freeze sim:/processor/INPort 001F 0
+run
+force -freeze sim:/processor/INPort 00FC 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 04:35:30 on Apr 20,2023, Elapsed time: 0:25:29
+# Errors: 0, Warnings: 25
+do GivenInstructions.do
+# vsim -gui work.processor 
+# Start time: 04:36:39 on Apr 20,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.processor(processor_design)
+# Loading work.fetchstage(fetchstagedesign)
+# Loading work.pc(pc_design)
+# Loading work.instructioncache(instructioncache_design)
+# Loading work.if_id_buffer(if_id_bufferdesign)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.decodingstage(decoding)
+# Loading work.controlunit(controlunitdesign)
+# Loading work.regfilemem(regfilememdesign)
+# Loading work.id_ex_buffer(id_ex_bufferdesign)
+# Loading work.executionstage(executionstagedesign)
+# Loading work.alu(aludesign)
+# Loading work.flagcontrolunit(flagcontrolunitdesign)
+# Loading work.ex_mem1_buffer(ex_mem1_bufferdesign)
+# Loading work.mem1stage(mem1stagedesign)
+# Loading work.sp(sp_design)
+# Loading work.memorystage(memorystagedesign)
+# Loading work.datamem(datamemdesign)
+# Loading work.writebackstage(mywritebackstage)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlfttr3snm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttr3snm
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+quit -sim
+# End time: 04:36:57 on Apr 20,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 25
+do givenInstructions.do
+# vsim -gui work.processor 
+# Start time: 04:37:32 on Apr 20,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.processor(processor_design)
+# Loading work.fetchstage(fetchstagedesign)
+# Loading work.pc(pc_design)
+# Loading work.instructioncache(instructioncache_design)
+# Loading work.if_id_buffer(if_id_bufferdesign)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.decodingstage(decoding)
+# Loading work.controlunit(controlunitdesign)
+# Loading work.regfilemem(regfilememdesign)
+# Loading work.id_ex_buffer(id_ex_bufferdesign)
+# Loading work.executionstage(executionstagedesign)
+# Loading work.alu(aludesign)
+# Loading work.flagcontrolunit(flagcontrolunitdesign)
+# Loading work.ex_mem1_buffer(ex_mem1_bufferdesign)
+# Loading work.mem1stage(mem1stagedesign)
+# Loading work.sp(sp_design)
+# Loading work.memorystage(memorystagedesign)
+# Loading work.datamem(datamemdesign)
+# Loading work.writebackstage(mywritebackstage)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
+#           Attempting to use alternate WLF file "./wlftfmzg53".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfmzg53
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processor/executeStagee/ALUU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/decodeStagee/ControlU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/fetchStagee/instructions
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processor/executeStagee/flagControl
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/decodeStagee/regFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/fetchStagee/instructions
+# End time: 04:38:12 on Apr 20,2023, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 25
