@@ -64,7 +64,23 @@ hexaToBinary = {
 "E":"1110",
 "F":"1111",
 }
+file2 = open('binaryCommands.do', 'w')
+file2.write("")
+file2.close()
+file2 = open('binaryCommands.do', 'a')
 
+
+def check_org(instruction):
+        global org
+        global file2
+        file2.write(f"mem load -filltype value -filldata {{{instruction+' '}}} -fillradix hexadecimal /processor/fetchStagee/instructions/ram({org})\n")
+        org+=1
+
+def removeComments(Line):
+    for char in Line:
+        if char == "#":
+            return Line[:Line.index(char)]
+    return line
 
 file1 = open('Commands.txt', 'r')
 Lines = file1.readlines()
@@ -75,13 +91,13 @@ editedInstructions = []
 # Strips the newline character
 for line in Lines:
     line = line.strip()
+    line = removeComments(line)
+
     if line == "":
         continue
     if line[0] == "#":
         continue
-    if line[0] == ".":
-        continue
-    print(line)
+        
     instructions.append(line)
 
 file1.close()
@@ -101,70 +117,69 @@ for instruction in editedInstructions: #remove empty strings
     removedSpacesInstr.append(tempList)
 
 
-BinaryInstructions = []
+
+org = 0
+isImmidiate = False
+
 for instruction in removedSpacesInstr:
     temp = ""
+    
     if instruction[0] in noOperands:
         temp += commands[instruction[0]]
         temp += "0000000000"
-        BinaryInstructions.append(temp)
-
     elif instruction[0] in ThreeOperands:
         temp += commands[instruction[0]] 
         temp += operands[instruction[1]]
         temp += operands[instruction[2]]
         temp += operands[instruction[3]]
         temp += "0"
-        BinaryInstructions.append(temp)
     elif instruction[0] in Rd_Rs1:
         temp += commands[instruction[0]]
         temp += operands[instruction[1]]
         temp += operands[instruction[2]]
         temp += "0000"
-        BinaryInstructions.append(temp)
     elif instruction[0] in Rd:
         temp += commands[instruction[0]]
         temp += operands[instruction[1]]
         temp += "0000000"
-        BinaryInstructions.append(temp)
     elif instruction[0] in Rs1:
         temp += commands[instruction[0]]
         temp += "000"
         temp += operands[instruction[1]]
         temp += "0000"
-        BinaryInstructions.append(temp)
     elif instruction[0] == "STD": #STD RS2,RS1
         temp += commands[instruction[0]] #opcode
         temp += "000" #RD
         temp += operands[instruction[2]]   #RS1
         temp += operands[instruction[1]]   #RS2
         temp += "0"
-        BinaryInstructions.append(temp)
     elif instruction[0] == "IADD": #IADD RD,RS1, immediate
+        isImmidiate = True
         temp += commands[instruction[0]] #opcode
         temp += operands[instruction[1]] #RD
         temp += operands[instruction[2]] #RS1
         temp += "0000"
-        BinaryInstructions.append(temp)
-        immediate = ""
-        for char in instruction[3]:
-            immediate+=hexaToBinary[char]
-        BinaryInstructions.append(immediate)
+        immediate = instruction[3]
+
  
     elif instruction[0] == "LDM": #LDM RD, immediate
+        isImmidiate = True
         temp += commands[instruction[0]] #opcode
         temp += operands[instruction[1]] #RD
         temp += "0000000"
-        BinaryInstructions.append(temp)
-        immediate = ""
-        for char in instruction[3]:
-            immediate+=hexaToBinary[char]
-        BinaryInstructions.append(immediate)
+        immediate = instruction[2]
 
-file1 = open('binaryCommands.txt', 'w')
-#mem load -filltype value -filldata {1000010000010000} -fillradix binary /processor/Instruction/ram(0)
-for i,instruction in enumerate(BinaryInstructions):
-    file1.write(f"mem load -filltype value -filldata {{{instruction+' '}}} -fillradix binary /processor/fetchStagee/instructions/ram({i})\n")
-
-
-file1.close()
+    if instruction[0] == ".ORG":
+        org = int(instruction[1],16)
+        continue
+    elif instruction[0][0] in hexaToBinary:
+        check_org(instruction[0])
+    else:
+        file2.write(f"mem load -filltype value -filldata {{{temp+' '}}} -fillradix binary /processor/fetchStagee/instructions/ram({org})\n")
+        org += 1
+        if isImmidiate:
+            file2.write(f"mem load -filltype value -filldata {{{immediate+' '}}} -fillradix hexadecimal /processor/fetchStagee/instructions/ram({org})\n")
+            org += 1
+            isImmidiate = False
+    
+file2.close()
