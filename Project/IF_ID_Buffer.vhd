@@ -38,14 +38,14 @@ BEGIN
     bufferr:         my_nDFF generic map(64) port map (clk,reset,bufferInput,bufferOutput,'1');
 
     bufferInput <=InPortDataIN & instruction & immediate & PC;
-    -- 47->42 opcode, 41->39 RS1, 38->36 RS2, 35->32 RD, 31->16 immediate, 15->0 PC
+    -- 47->42 opcode, 41->39 RD, 38->36 RS1, 35->33 RS2, 31->16 immediate, 15->0 PC
 
     InPortDataOUT   <= bufferOutput(63 DOWNTO 48);
     instructionOut  <= bufferOutput(47 DOWNTO 32);
     immediateOut    <= bufferOutput(31 DOWNTO 16);
     pcOut           <= bufferOutput(15 DOWNTO 0);
-    RS1             <= bufferOutput(41 DOWNTO 39);
-    RS2             <= bufferOutput(38 DOWNTO 36);
+    RS1             <= bufferOutput(38 DOWNTO 36);
+    RS2             <= bufferOutput(35 DOWNTO 33);
 END IF_ID_bufferDesign;
 
 
