@@ -16,7 +16,7 @@ PORT(
     OUTT_out, INN_out, MemToReg_out, regWrite_out: OUT  std_logic;
     RDOut:                                         OUT  std_logic_vector(2 DOWNTO 0);
     ALUoutputOUT, RS1DataOut, writeDataOut:        OUT  std_logic_vector(15 DOWNTO 0);
-    MEM2_WB_buffer_Output:                         OUT  std_logic_vector(15 DOWNTO 0);      -- el Write back data (btb2a either el ALUoutput aw el writeDataOut)
+    -- MEM2_WB_buffer_Output:                         OUT  std_logic_vector(15 DOWNTO 0);      -- el Write back data (btb2a either el ALUoutput aw el writeDataOut)
     writeEnableOut, readEnableOut:                 OUT  std_logic;
     writeAddressOut, readAddressOut:               OUT  std_logic_vector(9 DOWNTO 0)
 
@@ -59,7 +59,8 @@ BEGIN
     -- 5aly el output either ALU output aw writeDataOut
     -- if readmem = 1 and regwrite = 1, LDD aw pop, yb2a writeback elly 2areto mn el memory, 8eir kda hyb2a el ALU
     -- actually kfaya check 3la mem to reg, l2n dh = 1 fy 7alet el LDD wl POP bs
-    MEM2_WB_buffer_Output <= writeDataOut when (MemToReg_out = '1') else ALUoutputOUT;
+    -- MEM2_WB_buffer_Output <= writeDataOut when (MemToReg_out = '1') else ALUoutputOUT;
+    -- This is done in the WB stage, no need to handle it here
     
 END MEM2_WB_bufferDesign;
 
