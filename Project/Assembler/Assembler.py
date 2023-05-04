@@ -120,6 +120,7 @@ for instruction in editedInstructions: #remove empty strings
 
 org = 0
 isImmidiate = False
+instructionFlag = False
 
 for instruction in removedSpacesInstr:
     temp = ""
@@ -127,32 +128,41 @@ for instruction in removedSpacesInstr:
     if instruction[0] in noOperands:
         temp += commands[instruction[0]]
         temp += "0000000000"
+        instructionFlag = True
     elif instruction[0] in ThreeOperands:
         temp += commands[instruction[0]] 
         temp += operands[instruction[1]]
         temp += operands[instruction[2]]
         temp += operands[instruction[3]]
         temp += "0"
+        instructionFlag = True
     elif instruction[0] in Rd_Rs1:
         temp += commands[instruction[0]]
         temp += operands[instruction[1]]
         temp += operands[instruction[2]]
         temp += "0000"
+        instructionFlag = True
     elif instruction[0] in Rd:
         temp += commands[instruction[0]]
         temp += operands[instruction[1]]
         temp += "0000000"
+        instructionFlag = True
+
     elif instruction[0] in Rs1:
         temp += commands[instruction[0]]
         temp += "000"
         temp += operands[instruction[1]]
         temp += "0000"
+        instructionFlag = True
+
     elif instruction[0] == "STD": #STD RS2,RS1
         temp += commands[instruction[0]] #opcode
         temp += "000" #RD
         temp += operands[instruction[2]]   #RS1
         temp += operands[instruction[1]]   #RS2
         temp += "0"
+        instructionFlag = True
+
     elif instruction[0] == "IADD": #IADD RD,RS1, immediate
         isImmidiate = True
         temp += commands[instruction[0]] #opcode
@@ -160,7 +170,7 @@ for instruction in removedSpacesInstr:
         temp += operands[instruction[2]] #RS1
         temp += "0000"
         immediate = instruction[3]
-
+        instructionFlag = True
  
     elif instruction[0] == "LDM": #LDM RD, immediate
         isImmidiate = True
@@ -168,11 +178,12 @@ for instruction in removedSpacesInstr:
         temp += operands[instruction[1]] #RD
         temp += "0000000"
         immediate = instruction[2]
+        instructionFlag = True
 
     if instruction[0] == ".ORG":
         org = int(instruction[1],16)
         continue
-    elif instruction[0][0] in hexaToBinary:
+    elif instruction[0][0] in hexaToBinary and not instructionFlag:
         check_org(instruction[0])
     else:
         file2.write(f"mem load -filltype value -filldata {{{temp+' '}}} -fillradix binary /processor/fetchStagee/instructions/ram({org})\n")
@@ -181,5 +192,6 @@ for instruction in removedSpacesInstr:
             file2.write(f"mem load -filltype value -filldata {{{immediate+' '}}} -fillradix hexadecimal /processor/fetchStagee/instructions/ram({org})\n")
             org += 1
             isImmidiate = False
+    instructionFlag = False
     
 file2.close()
