@@ -6,6 +6,7 @@ USE IEEE.numeric_std.all;
 ENTITY controlUnit IS
 PORT( 
  instruction : IN std_logic_vector(15 DOWNTO 0);
+ stall:        IN std_logic;
  regWrite:     OUT std_logic;
  pcSrc:        OUT std_logic;
  memRead:      OUT std_logic;
@@ -29,7 +30,7 @@ TYPE AdhocInstructions IS
     (NOP,SETCC,CLRCC,INN,OUTT);
 BEGIN
     -- The immediate signal is passed through the buffers
-    PROCESS (instruction) 
+    PROCESS (instruction,stall) 
         variable instType: TYPES;
         variable funcTypeI:  ITypeInstructions;
         variable funcTypeJ:  JTypeInstructions;
@@ -45,7 +46,9 @@ BEGIN
         outPort<='0';
         spInc<='0';
         spDec<='0';
-        IF instType = RTYPE THEN
+        IF stall = '1' THEN
+
+        ELSIF instType = RTYPE THEN
             regWrite <= '1';
 
         ELSIF instType = ITYPE THEN

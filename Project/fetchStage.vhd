@@ -6,7 +6,7 @@ USE IEEE.numeric_std.all;
 
 ENTITY fetchStage IS
 PORT( 
- clk, reset :                           IN  std_logic; 
+ clk, reset, enable :                           IN  std_logic; 
  instruction,immediate,pcOut:           OUT std_logic_vector(15 DOWNTO 0)
 --  memZero:                               IN std_logic_vector(15 DOWNTO 0)  
 );
@@ -41,7 +41,7 @@ signal isImmediate:                         std_logic;
 
 BEGIN
     
-    pcc:            PC port map(clk,reset,'1',increment,pcOutput, memZero);
+    pcc:            PC port map(clk,reset,enable,increment,pcOutput, memZero);
     instructions:   instructionCache port map(reset, pcOutput(9 downto 0),outInstruction,immediate,memZero);
     isImmediate <= outInstruction(10);
     instruction <= outInstruction;
