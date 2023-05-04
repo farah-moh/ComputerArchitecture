@@ -18,6 +18,8 @@ Architecture Processor_design of Processor is
     --##################FETCH/DECODE BUFFER###############
     signal RS1_IF_ID_buff, RS2_IF_ID_buff : std_logic_vector(2 DOWNTO 0);
     signal InPortData_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff : std_logic_vector(15 DOWNTO 0);
+     --####################HAZARD DETECTION UNIT#####################
+    signal stall: std_logic;
     --####################DECODE STAGE#####################
     signal RS1Data_ID, RS2Data_ID: std_logic_vector(15 DOWNTO 0);
     signal regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID: std_logic;
@@ -73,12 +75,13 @@ Architecture Processor_design of Processor is
 
 BEGIN
 
-    fetchStagee: entity work.fetchStage port map(clk, reset, instruction_IF, immediate_IF, PC_IF);
+    fetchStagee: entity work.fetchStage port map(clk, reset,not stall, instruction_IF, immediate_IF, PC_IF);
     IF_ID_bufferr: entity work.IF_ID_buffer port map(clk, reset, INPort, instruction_IF, immediate_IF, PC_IF,InPortData_IF_ID_buff, RS1_IF_ID_buff, RS2_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff);
     --Not completed yet
-    decodeStagee: entity work.decodingStage port map(clk, reset, RS1_IF_ID_buff, RS2_IF_ID_buff , RD_WB, regWriteOut_WB, writeBackData_WB, instruction_IF_ID_buff
+    HazardDetection: entity work.hazardDetectionUnit port map(instruction_IF_ID_buff,RS1_IF_ID_buff,RS2_IF_ID_buff,RD_ID_EX_buff,regwrite_ID_EX_buff, memread_ID_EX_buff,RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff,stall);
+    decodeStagee: entity work.decodingStage port map(clk, stall, reset, RS1_IF_ID_buff, RS2_IF_ID_buff , RD_WB, regWriteOut_WB, writeBackData_WB, instruction_IF_ID_buff
                                                     , RS1Data_ID, RS2Data_ID, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID);
-
+                                                    
     ID_EX_bufferr: entity work.ID_EX_buffer port map(clk, reset, InPortData_IF_ID_buff, RS1Data_ID, RS2Data_ID, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID
                                                     , InPortData_ID_EX_buff, RS1Data_ID_EX_buff, RS2Data_ID_EX_buff, opcode_ID_EX_buff, isImmediate_ID_EX_buff, RD_ID_EX_buff, RS1_ID_EX_buff, RS2_ID_EX_buff, immediateOut_ID_EX_buff, PCout_ID_EX_buff
                                                     , regwrite_ID_EX_buff, pcSrc_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff, outPort_ID_EX_buff, spInc_ID_EX_buff, spDec_ID_EX_buff);
