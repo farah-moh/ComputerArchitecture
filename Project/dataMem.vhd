@@ -12,8 +12,8 @@ port(
     writeAddress :    	IN std_logic_vector(9 DOWNTO 0);        -- 10 bit address
     writeEnable :       IN std_logic;
     writeData :         IN std_logic_vector(n-1 DOWNTO 0);
-    readData :          OUT std_logic_vector(n-1 DOWNTO 0);      -- the data that has been read
-    Memzero :           OUT std_logic_vector(n-1 DOWNTO 0)       -- value of PC in case of reset
+    readData :          OUT std_logic_vector(n-1 DOWNTO 0)      -- the data that has been read
+    -- Memzero :           OUT std_logic_vector(n-1 DOWNTO 0)       -- value of PC in case of reset
 );
 end entity;
 
@@ -47,7 +47,7 @@ begin
         END IF;
     END PROCESS;
 
-    Memzero <= ram(0);      -- value of PC in case of reset
+    -- Memzero <= ram(0);      -- value of PC in case of reset
     readData <= ram(to_integer(unsigned((readAddress)))) WHEN readEnable = '1'
     ELSE (OTHERS => '0');   -- synthesizable? Latch?
     

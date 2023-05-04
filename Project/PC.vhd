@@ -13,7 +13,7 @@ END PC;
 ARCHITECTURE PC_design OF PC IS
 BEGIN
 
-    PROCESS (clk,reset)
+    PROCESS (clk,reset,memZero)
     variable pcINC:std_logic_vector(15 downto 0);
     BEGIN
         IF reset = '1' THEN
