@@ -94,7 +94,7 @@ BEGIN
                                                     , regwrite_ID_EX_buff, pcSrc_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff, outPort_ID_EX_buff, spInc_ID_EX_buff, spDec_ID_EX_buff);
 
     forwardingUnit: entity work.forwardingExecute port map(RS1_ID_EX_buff,RS2_ID_EX_buff,RS1Data_ID_EX_buff,RS2Data_ID_EX_buff,RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff,ALUresultOut_EX_MEM1_buff,RD_MEM1_MEM2_buff,regWriteOut_MEM1_MEM2_buff,ALUoutput_MEM1_MEM2_buff,
-                                                          RD_MEM2_WB_buff,regWriteOut_MEM2_WB_buff, bufferOutput_MEM2_WB_buff,RS1dataOutForwarded,RS2dataOutForwarded);
+                                                          RD_MEM2_WB_buff,regWriteOut_MEM2_WB_buff, writeBackData_WB,RS1dataOutForwarded,RS2dataOutForwarded);
 
     executeStagee: entity work.executionStage port map(clk, reset, InPortData_ID_EX_buff, RS1dataOutForwarded, RS2dataOutForwarded, immediateOut_ID_EX_buff, opcode_ID_EX_buff, isImmediate_ID_EX_buff,inPort_ID_EX_buff, execOutput_EX, MuxOut_EX, flags_EX);
 
