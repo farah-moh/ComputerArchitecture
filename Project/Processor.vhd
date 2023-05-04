@@ -63,6 +63,7 @@ Architecture Processor_design of Processor is
     signal regWriteOut_MEM2_WB_buff, memToRegOut_MEM2_WB_buff, inPortOut_MEM2_WB_buff, outPortOut_MEM2_WB_buff: std_logic;
     signal RD_MEM2_WB_buff: std_logic_vector(2 DOWNTO 0);
     signal ALUoutput_MEM2_WB_buff, RS1DataOut_MEM2_WB_buff, writeDataOut_MEM2_WB_buff: std_logic_vector(15 DOWNTO 0);
+    signal bufferOutput_MEM2_WB_buff: std_logic_vector(15 DOWNTO 0);        -- el data elly tal3a mn el buffer (b3d ma 3mlna mux bein ALUoutput w writeDataOut)
     signal writeEnableOut_MEM2_WB_buff, readEnableOut_MEM2_WB_buff: std_logic;
     signal writeAddressOut_MEM2_WB_buff, readAddressOut_MEM2_WB_buff: std_logic_vector(9 DOWNTO 0);
 
@@ -115,7 +116,7 @@ BEGIN
 
     MEM2_WB_bufferr: entity work.MEM2_WB_buffer port map (clk, reset, outPortOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff, RD_MEM1_MEM2_buff, ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, DataOut_MEM2
                                                     , writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff, outPortOut_MEM2_WB_buff, inPortOut_MEM2_WB_buff, memToRegOut_MEM2_WB_buff, regWriteOut_MEM2_WB_buff
-                                                    , RD_MEM2_WB_buff, ALUoutput_MEM2_WB_buff, RS1DataOut_MEM2_WB_buff, writeDataOut_MEM2_WB_buff, writeEnableOut_MEM2_WB_buff, readEnableOut_MEM2_WB_buff, writeAddressOut_MEM2_WB_buff, readAddressOut_MEM2_WB_buff);
+                                                    , RD_MEM2_WB_buff, ALUoutput_MEM2_WB_buff, RS1DataOut_MEM2_WB_buff, writeDataOut_MEM2_WB_buff, bufferOutput_MEM2_WB_buff, writeEnableOut_MEM2_WB_buff, readEnableOut_MEM2_WB_buff, writeAddressOut_MEM2_WB_buff, readAddressOut_MEM2_WB_buff);
 
     -- memoryStagee: entity work.memoryStage port map(clk, reset, RD_EX_MEM1_buff, AddressOut_MEM1, memReadOut_EX_MEM1_buff, AddressOut_MEM1, memWriteOut_EX_MEM1_buff, DataOut_MEM1, ALUresultOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_bufftrashOut_MEM, memDataOut_MEM
     --                                                 , RD_MEM, ALUoutput_MEM, RS1Data_MEM, regWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, regWriteOut_MEM, memToRegOut_MEM, inPortOut_MEM, outPortOut_MEM);

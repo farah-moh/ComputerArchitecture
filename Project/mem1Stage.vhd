@@ -59,8 +59,8 @@ BEGIN
                 Rs2Data(9 downto 0) when writeEnable = '1' else
                 (others => '0');
 
-    -- Rs2Data w EX/MEM1.PC + 1 hy5osho 3la mux, wl output howa el data
-    -- bs dh next phase, for now hya Rs2Data 3la tool
+    -- Rs1Data w EX/MEM1.PC + 1 hy5osho 3la mux, wl output howa el data
+    -- bs dh next phase, for now hya Rs1Data 3la tool
     Data <= Rs1Data;
     
 
