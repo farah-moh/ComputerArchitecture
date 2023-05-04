@@ -169,7 +169,8 @@ for instruction in removedSpacesInstr:
         temp += commands[instruction[0]] #opcode
         temp += operands[instruction[1]] #RD
         temp += operands[instruction[2]] #RS1
-        temp += "0000"
+        temp += operands[instruction[2]] #RS1
+        temp += "0"
         immediate = instruction[3]
         instructionFlag = True
  
