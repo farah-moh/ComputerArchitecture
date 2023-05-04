@@ -1,68 +1,60 @@
-# Compile of PC.vhd was successful.
-# Compile of instructionCache.vhd was successful.
-# Compile of my_nDFF.vhd was successful.
-# Compile of regFileMem.vhd was successful.
+# Compile of executionStage.vhd was successful.
+# Compile of forwardingExecute.vhd failed with 1 errors.
+# Compile of forwardingExecute.vhd failed with 1 errors.
+# Compile of forwardingExecute.vhd failed with 1 errors.
+# Compile of forwardingExecute.vhd was successful.
+# Compile of ALU.vhd was successful.
 # Compile of controlUnit.vhd was successful.
 # Compile of ControlUnit_TB.vhd was successful.
-# Compile of ALU.vhd was successful.
-# Compile of flagControlUnit.vhd was successful.
+# Compile of dataMem.vhd was successful.
+# Compile of DecodingStage.vhd was successful.
+# Compile of EX_MEM1_buffer.vhd was successful.
 # Compile of executionStage.vhd was successful.
 # Compile of fetchStage.vhd was successful.
-# Compile of ID_EX_buffer.vhd was successful.
-# Compile of EX_MEM1_buffer.vhd was successful.
+# Compile of flagControlUnit.vhd was successful.
+# Compile of forwardingExecute.vhd was successful.
 # Compile of hazardDetectionUnit.vhd was successful.
-# 13 compiles, 0 failed with no errors.
-vsim -gui work.controlunit
-# vsim -gui work.controlunit 
-# Start time: 18:14:01 on May 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.controlunit(controlunitdesign)
-# Trace back: Error QStructure::sort: invalid command name ""
-#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
-#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
-#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
-#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
-#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
-#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
-add wave -position insertpoint sim:/controlunit/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
-#           Attempting to use alternate WLF file "./wlfteigayn".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfteigayn
-force -freeze sim:/controlunit/instruction 1100000010100000 0
-run
-force -freeze sim:/controlunit/stall 0 0
-run
-force -freeze sim:/controlunit/stall 1 0
-run
+# Compile of ID_EX_buffer.vhd was successful.
+# Compile of IF_ID_Buffer.vhd was successful.
+# Compile of instructionCache.vhd was successful.
+# Compile of MEM1_MEM2_buffer.vhd was successful.
+# Compile of mem1Stage.vhd was successful.
+# Compile of MEM2_WB_buffer.vhd was successful.
+# Compile of mem2Stage.vhd was successful.
+# Compile of memoryStage.vhd was successful.
+# Compile of my_nDFF.vhd was successful.
+# Compile of PC.vhd failed with 1 errors.
+# Compile of Processor.vhd failed with 1 errors.
+# Compile of regFileMem.vhd was successful.
+# Compile of SP.vhd failed with 1 errors.
+# Compile of writeBackMux.vhd was successful.
+# Compile of WriteBackStage.vhd was successful.
+# 26 compiles, 3 failed with 3 errors.
+# Compile of ALU.vhd was successful.
 # Compile of controlUnit.vhd was successful.
-vsim -gui work.controlunit(controlunitdesign)
-# End time: 18:16:42 on May 04,2023, Elapsed time: 0:02:41
-# Errors: 0, Warnings: 5
-# vsim -gui work.controlunit(controlunitdesign) 
-# Start time: 18:16:42 on May 04,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.controlunit(controlunitdesign)
-add wave -position insertpoint sim:/controlunit/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: zisak  Hostname: DESKTOP-4K2M8O4  ProcessID: 18936
-#           Attempting to use alternate WLF file "./wlftaghag5".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftaghag5
-force -freeze sim:/controlunit/instruction 1100000010100000 0
-force -freeze sim:/controlunit/stall 1 0
-run
-force -freeze sim:/controlunit/stall 0 0
-run
-force -freeze sim:/controlunit/instruction 0001100010000000 0
-run
-force -freeze sim:/controlunit/stall 1 0
-run
+# Compile of ControlUnit_TB.vhd was successful.
+# Compile of dataMem.vhd was successful.
+# Compile of DecodingStage.vhd was successful.
+# Compile of EX_MEM1_buffer.vhd was successful.
+# Compile of executionStage.vhd was successful.
 # Compile of fetchStage.vhd was successful.
+# Compile of flagControlUnit.vhd was successful.
+# Compile of forwardingExecute.vhd was successful.
+# Compile of hazardDetectionUnit.vhd was successful.
+# Compile of ID_EX_buffer.vhd was successful.
+# Compile of IF_ID_Buffer.vhd was successful.
+# Compile of instructionCache.vhd was successful.
+# Compile of MEM1_MEM2_buffer.vhd was successful.
+# Compile of mem1Stage.vhd was successful.
+# Compile of MEM2_WB_buffer.vhd was successful.
+# Compile of mem2Stage.vhd was successful.
+# Compile of memoryStage.vhd was successful.
+# Compile of my_nDFF.vhd was successful.
+# Compile of PC.vhd was successful.
+# Compile of Processor.vhd was successful.
+# Compile of regFileMem.vhd was successful.
+# Compile of SP.vhd was successful.
+# Compile of writeBackMux.vhd was successful.
+# Compile of WriteBackStage.vhd was successful.
+# 26 compiles, 0 failed with no errors.
+# Compile of Processor.vhd was successful.

@@ -16,18 +16,20 @@ ARCHITECTURE flagControlUnitDesign OF flagControlUnit IS
 BEGIN
     -- The immediate signal is passed through the buffers
     PROCESS (opcode,zeroFlag,negFlag,carryFlag) 
+    variable flagSig: std_logic_vector(2 DOWNTO 0):="000";
     BEGIN
         IF opcode(4 downto 3) = "11" THEN    -- ALU
-            flags <= (carryFlag & negFlag & zeroFlag);
+            flagSig := (carryFlag & negFlag & zeroFlag);
         ELSIF opcode = "00001" THEN         -- SETC
-            flags(2) <= '1';
+            flagSig(2) := '1';
         ELSIF opcode = "00010" THEN         --CLRC
-            flags(2) <= '0';
+            flagSig(2) := '0';
         ELSIF opcode = "10000" THEN         --JZ
-            flags(0) <= '0';
+            flagSig(0) := '0';
         ELSIF opcode = "10001" THEN         --JC
-            flags(2) <= '0';
+            flagSig(2) := '0';
         ELSE
         END IF;
+        flags <= flagSig;
     END PROCESS;
 END flagControlUnitDesign;
