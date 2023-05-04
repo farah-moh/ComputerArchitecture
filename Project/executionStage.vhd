@@ -7,9 +7,11 @@ USE IEEE.numeric_std.all;
 ENTITY executionStage IS
 PORT( 
  clk, reset : IN  std_logic; 
- RS1Data,RS2Data,immediate:      IN std_logic_vector(15 DOWNTO 0);
+ INPortDataIN, RS1Data,RS2Data,immediate:      IN std_logic_vector(15 DOWNTO 0);
  opcode:                         IN std_logic_vector(4 DOWNTO 0);
  isImmediate:                    IN std_logic;
+ inPort:                          IN std_logic;
+
  execOutput:                     OUT std_logic_vector(15 DOWNTO 0);
  MUXOutput:                      OUT std_logic_vector(15 DOWNTO 0);
  flags:                          OUT std_logic_vector(2 DOWNTO 0) -- 2: carry, 1: negative, 0: zero
@@ -55,9 +57,11 @@ BEGIN
 
     MUXOutput<=secondALUoperand;
 
-    ALUU:           ALU port map (RS1Data,secondALUoperand,opcode(2 DOWNTO 0),execOutput,zeroSignal,negSignal,carrySignal);
+    ALUU:           ALU port map (RS1Data,secondALUoperand,opcode(2 DOWNTO 0),ALUoutput,zeroSignal,negSignal,carrySignal);
     flagControl:    flagControlUnit port map(opcode,zeroSignal,negSignal,carrySignal,controlFlags);
     flagRegister:   my_nDFF generic map(3) port map (clk,reset,controlFlags,flags,'1');
 
+    execOutput <= ALUoutput when inPort = '0'
+                                else INPortDataIN;
 END executionStageDesign;
 
