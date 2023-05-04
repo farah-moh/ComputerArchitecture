@@ -1,5 +1,5 @@
 ThreeOperands = {"ADD","SUB","AND","OR",} # OPCODE,RD,RS1,Rs2,0
-Rd_Rs1 = {"NOT","INC","DEC","MOV","LDD"} # OPCODE,RD,RS1,000,0
+Rd_Rs1 = {"NOT","INC","DEC","MOV","LDD"} # OPCODE,RD,RS1,Rs1,0
 Rs1 = {"OUT","PUSH"} # OPCODE,000,RS1,000,0
 Rd ={"IN","POP","JZ","JC","JMP","CALL"} # OPCODE,RD,000,000,0
 noOperands = {"NOP", "SETC", "CLRC", "RET", "RTI"} # OPCODE,000,000,000,0
@@ -140,7 +140,8 @@ for instruction in removedSpacesInstr:
         temp += commands[instruction[0]]
         temp += operands[instruction[1]]
         temp += operands[instruction[2]]
-        temp += "0000"
+        temp += operands[instruction[2]]
+        temp += "0"
         instructionFlag = True
     elif instruction[0] in Rd:
         temp += commands[instruction[0]]
