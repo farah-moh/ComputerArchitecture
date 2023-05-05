@@ -596,7 +596,7 @@ R62
 R63
 R16
 R17
-!i122 1558
+!i122 1587
 Z85 dF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project
 Z86 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ALU.vhd
 Z87 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ALU.vhd
@@ -606,9 +606,9 @@ VC4^JoX[F]=[LfGc;0]Dcl0
 !s100 mfL9YOMWS7C21cH^8FkE:0
 R4
 33
-Z88 !s110 1683236103
+Z88 !s110 1683295172
 !i10b 1
-Z89 !s108 1683236103.000000
+Z89 !s108 1683295172.000000
 Z90 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ALU.vhd|
 Z91 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ALU.vhd|
 !i113 1
@@ -621,7 +621,7 @@ R63
 R16
 R17
 DEx4 work 3 alu 0 22 C4^JoX[F]=[LfGc;0]Dcl0
-!i122 1558
+!i122 1587
 l20
 L16 90
 Va3g`ZR56W_IkB[n?<8k:K1
@@ -641,7 +641,7 @@ Z92 w1683213349
 R15
 R16
 R17
-!i122 1559
+!i122 1588
 R85
 Z93 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/controlUnit.vhd
 Z94 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/controlUnit.vhd
@@ -664,7 +664,7 @@ R15
 R16
 R17
 Z97 DEx4 work 11 controlunit 0 22 S=9:8UW]dIOAI^4K6aZ2Q0
-!i122 1559
+!i122 1588
 l31
 L22 80
 VX5]9dCHOZeJ_R;KA6B;J[0
@@ -683,7 +683,7 @@ Econtrolunit_tb
 Z98 w1681779317
 R16
 R17
-!i122 1560
+!i122 1589
 R85
 Z99 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ControlUnit_TB.vhd
 Z100 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ControlUnit_TB.vhd
@@ -693,7 +693,7 @@ V5h>32LX00DTzZO^K=?6890
 !s100 m?lEo3YaYP1W=VDMnolYg2
 R4
 33
-Z101 !s110 1683236104
+Z101 !s110 1683295173
 !i10b 1
 R89
 Z102 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ControlUnit_TB.vhd|
@@ -705,7 +705,7 @@ Atb
 R16
 R17
 DEx4 work 14 controlunit_tb 0 22 5h>32LX00DTzZO^K=?6890
-!i122 1560
+!i122 1589
 l30
 L8 196
 V1Tik=;d`[FX^Pizb]nD2o3
@@ -725,7 +725,7 @@ Z104 w1683165901
 R15
 R16
 R17
-!i122 1561
+!i122 1590
 R85
 Z105 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd
 Z106 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd
@@ -737,7 +737,7 @@ R4
 33
 R101
 !i10b 1
-Z107 !s108 1683236104.000000
+Z107 !s108 1683295173.000000
 Z108 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd|
 Z109 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd|
 !i113 1
@@ -748,7 +748,7 @@ R15
 R16
 R17
 DEx4 work 7 datamem 0 22 B^lfj@^nAG683?IWL[WMd3
-!i122 1561
+!i122 1590
 l26
 L22 33
 VSZhNiH3MB_2Y[@G``cjN>1
@@ -768,7 +768,7 @@ Z110 w1683213174
 R15
 R16
 R17
-!i122 1562
+!i122 1591
 R85
 Z111 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/DecodingStage.vhd
 Z112 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/DecodingStage.vhd
@@ -793,7 +793,7 @@ R15
 R16
 R17
 Z116 DEx4 work 13 decodingstage 0 22 :b_<Tmf>T0MXbP]i>61X@0
-!i122 1562
+!i122 1591
 l26
 L24 8
 V3e>lA7:;[@i7GmeTgV^I12
@@ -815,7 +815,7 @@ R62
 R63
 R16
 R17
-!i122 1563
+!i122 1592
 R85
 Z118 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
 Z119 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
@@ -840,7 +840,7 @@ R63
 R16
 R17
 Z122 DEx4 work 14 ex_mem1_buffer 0 22 naML4WkkzR3bcY;CL5lG10
-!i122 1563
+!i122 1592
 l37
 L22 36
 V2oS3]mV3<joFo6keanLMm0
@@ -856,13 +856,13 @@ R121
 R70
 R55
 Eexecutionstage
-Z123 w1683228120
+Z123 w1683294847
 R15
 R62
 R63
 R16
 R17
-!i122 1564
+!i122 1593
 R85
 Z124 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd
 Z125 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd
@@ -872,11 +872,11 @@ VJ6ahcEY2M[6PL8ebA6ded0
 !s100 1:@IT5Sj903n<]0@MQD5D1
 R4
 33
-Z126 !s110 1683236105
+R101
 !i10b 1
 R107
-Z127 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd|
-Z128 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd|
+Z126 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd|
+Z127 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd|
 !i113 1
 R70
 R55
@@ -886,44 +886,44 @@ R62
 R63
 R16
 R17
-Z129 DEx4 work 14 executionstage 0 22 J6ahcEY2M[6PL8ebA6ded0
-!i122 1564
+Z128 DEx4 work 14 executionstage 0 22 J6ahcEY2M[6PL8ebA6ded0
+!i122 1593
 l53
-L21 47
-V@VNKgQZU^UJ?m0dLO6:gS2
-!s100 R@[a<;i7Ch:ACm5nZhVoH3
+L21 48
+V8g`>nKULkCk5=6fI?eo6S2
+!s100 ;HZ7AocfzE?a:ggYcMIZ@2
 R4
 33
-R126
+R101
 !i10b 1
 R107
+R126
 R127
-R128
 !i113 1
 R70
 R55
 Efetchstage
-Z130 w1683213539
+Z129 w1683213539
 R15
 R62
 R63
 R16
 R17
-!i122 1565
+!i122 1594
 R85
-Z131 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd
-Z132 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd
+Z130 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd
+Z131 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd
 l0
 L7 1
 VA?<84`eVWNQgKO8MPCh2b2
 !s100 h@6Q4RW:NW;VXeghXgV9[0
 R4
 33
-R126
+Z132 !s110 1683295174
 !i10b 1
-Z133 !s108 1683236105.000000
-Z134 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd|
-Z135 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd|
+R107
+Z133 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd|
+Z134 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd|
 !i113 1
 R70
 R55
@@ -933,42 +933,42 @@ R62
 R63
 R16
 R17
-Z136 DEx4 work 10 fetchstage 0 22 A?<84`eVWNQgKO8MPCh2b2
-!i122 1565
+Z135 DEx4 work 10 fetchstage 0 22 A?<84`eVWNQgKO8MPCh2b2
+!i122 1594
 l42
 L15 38
 VW@KID_Yf;7eXESz5YoL]m3
 !s100 A<caQ4kYK;JBWZYL334iN0
 R4
 33
-R126
+R132
 !i10b 1
+R107
 R133
 R134
-R135
 !i113 1
 R70
 R55
 Eflagcontrolunit
-Z137 w1683223908
+Z136 w1683223908
 R15
 R62
 R63
 R16
 R17
-!i122 1566
+!i122 1595
 R85
-Z138 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd
-Z139 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd
+Z137 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd
+Z138 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd
 l0
 L7 1
 VL9Q2L^2^fDB`UQ1T;c;6V0
 !s100 E?A<Y34]bc:`8GD9MNCI90
 R4
 33
-R126
+R132
 !i10b 1
-R133
+Z139 !s108 1683295174.000000
 Z140 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd|
 Z141 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd|
 !i113 1
@@ -981,112 +981,151 @@ R63
 R16
 R17
 DEx4 work 15 flagcontrolunit 0 22 L9Q2L^2^fDB`UQ1T;c;6V0
-!i122 1566
+!i122 1595
 l16
 L15 21
 V7@oabZGCZ]1Y]5`KYOQK]1
 !s100 8IiE8`9^[VMK4UF7ioHhW1
 R4
 33
-R126
+R132
 !i10b 1
-R133
+R139
 R140
 R141
 !i113 1
 R70
 R55
 Eforwardingexecute
-Z142 w1683229641
+Z142 w1683295707
 R15
-R62
-Z143 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R16
 R17
-!i122 1567
+!i122 1615
 R85
-Z144 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd
-Z145 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd
+Z143 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd
+Z144 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd
 l0
-L6 1
-V;O?QckmfH_ab2Ae92kJ8O0
-!s100 ;P`1oC8MRCbgo0X7@ZoOj2
+L5 1
+VK?:Jj8`X2PYef43eYmNG11
+!s100 dM<?k_SjUF^M4GlVnP>d>0
 R4
 33
-R126
+Z145 !s110 1683295713
 !i10b 1
-R133
-Z146 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd|
-Z147 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd|
+Z146 !s108 1683295713.000000
+Z147 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd|
+Z148 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd|
 !i113 1
 R70
 R55
 Aforwardingexecutedesign
 R15
-R62
-R143
 R16
 R17
-Z148 DEx4 work 17 forwardingexecute 0 22 ;O?QckmfH_ab2Ae92kJ8O0
-!i122 1567
-l29
-L28 27
-VhBIn]MGGflX;@>Y@<d99=3
-!s100 WaoR@UA?INO3Ke@OY;@>T0
+DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
+!i122 1615
+l28
+L27 27
+Vc=>c5PBf@MO3b2[GS<;A50
+!s100 M:aI=o<JSS]YYcmdjlRUD1
 R4
 33
-R126
+R145
 !i10b 1
-R133
 R146
 R147
+R148
 !i113 1
 R70
 R55
-Ehazarddetectionunit
-Z149 w1683241079
+Eforwardingmemory
+Z149 w1683295703
 R15
-R62
-R143
 R16
 R17
-!i122 1586
+!i122 1616
 R85
-Z150 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd
-Z151 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd
+Z150 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingMemory.vhd
+Z151 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingMemory.vhd
+l0
+L5 1
+V1W72ZSij3m]5]S7_?CB3z0
+!s100 Y[_8`aB0hRdS[[7Ua<ONf2
+R4
+32
+R145
+!i10b 1
+R146
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingMemory.vhd|
+!s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingMemory.vhd|
+!i113 1
+R54
+R55
+Aforwardingmemorydesign
+R15
+R16
+R17
+DEx4 work 16 forwardingmemory 0 22 1W72ZSij3m]5]S7_?CB3z0
+!i122 1616
+l20
+L19 19
+VA_1jo:dB46V?`l2l?o3>L3
+!s100 V_MMmgTRM0S[8TJIeb3S?3
+R4
+32
+R145
+!i10b 1
+R146
+R152
+Z153 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingMemory.vhd|
+!i113 1
+R54
+R55
+Ehazarddetectionunit
+Z154 w1683295017
+R15
+R62
+Z155 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R16
+R17
+!i122 1597
+R85
+Z156 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd
+Z157 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd
 l0
 L6 1
 VKHVkn4=7mA<3QWT6LR56I2
 !s100 Rz5bH7QHIEXSgFlI<DOJK2
 R4
 33
-Z152 !s110 1683241083
+R132
 !i10b 1
-Z153 !s108 1683241082.000000
-Z154 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
-Z155 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
+R139
+Z158 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
+Z159 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
 !i113 1
 R70
 R55
 Ahazarddetectionunitdesign
 R15
 R62
-R143
+R155
 R16
 R17
-Z156 DEx4 work 19 hazarddetectionunit 0 22 KHVkn4=7mA<3QWT6LR56I2
-!i122 1586
+Z160 DEx4 work 19 hazarddetectionunit 0 22 KHVkn4=7mA<3QWT6LR56I2
+!i122 1597
 l29
-L19 33
-V0<9jm6=N7JEVbWXbPQ`a`2
-!s100 0;>^h7UX9JgHFS:cPPQLz2
+L19 47
+VNfH;5]:02abbMQLlLg^F`3
+!s100 MzK7b82BWGmEeD:<f20g^1
 R4
 33
-R152
+R132
 !i10b 1
-R153
-R154
-R155
+R139
+R158
+R159
 !i113 1
 R70
 R55
@@ -1097,21 +1136,21 @@ R62
 R63
 R16
 R17
-!i122 1569
+!i122 1598
 R85
-Z157 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd
-Z158 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd
+Z161 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd
+Z162 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd
 l0
 L7 1
 VID==1ZQmKBCX>k_DFm^_U0
 !s100 cU]h=dG>AFE?PA2aN0Rh`2
 R4
 33
-Z159 !s110 1683236106
+Z163 !s110 1683295175
 !i10b 1
-Z160 !s108 1683236106.000000
-Z161 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd|
-Z162 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd|
+R139
+Z164 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd|
+Z165 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/ID_EX_buffer.vhd|
 !i113 1
 R70
 R55
@@ -1121,44 +1160,44 @@ R62
 R63
 R16
 R17
-Z163 DEx4 work 12 id_ex_buffer 0 22 ID==1ZQmKBCX>k_DFm^_U0
-!i122 1569
+Z166 DEx4 work 12 id_ex_buffer 0 22 ID==1ZQmKBCX>k_DFm^_U0
+!i122 1598
 l41
 L26 42
 VfLNB4h_>c:Z:1>]>SlL^U3
 !s100 ;kGaV>z:Cd@Iil98?Si=S2
 R4
 33
-R159
+R163
 !i10b 1
-R160
-R161
-R162
+R139
+R164
+R165
 !i113 1
 R70
 R55
 Eif_id_buffer
-R104
+Z167 w1683241692
 R15
 R62
 R63
 R16
 R17
-!i122 1570
+!i122 1599
 R85
-Z164 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd
-Z165 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd
+Z168 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd
+Z169 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd
 l0
 L7 1
 VGSn`1jI3DH@OkzjHC9:?i1
 !s100 Ohg5DOOQ^^lIiPzoODS_[1
 R4
 33
-R159
+R163
 !i10b 1
-R160
-Z166 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
-Z167 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+Z170 !s108 1683295175.000000
+Z171 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+Z172 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
 !i113 1
 R70
 R55
@@ -1168,19 +1207,19 @@ R62
 R63
 R16
 R17
-Z168 DEx4 work 12 if_id_buffer 0 22 GSn`1jI3DH@OkzjHC9:?i1
-!i122 1570
+Z173 DEx4 work 12 if_id_buffer 0 22 GSn`1jI3DH@OkzjHC9:?i1
+!i122 1599
 l36
 L21 29
-VNo7_=cHKEQzYi;LPL1>U82
-!s100 T<l8FDeT>2bK9Nd3UnLE]2
+V^[EQLg0NUCcO>m]>7<[H@1
+!s100 F;MhYE]F;PB1@]eL>?9`O0
 R4
 33
-R159
+R163
 !i10b 1
-R160
-R166
-R167
+R170
+R171
+R172
 !i113 1
 R70
 R55
@@ -1189,21 +1228,21 @@ R104
 R15
 R16
 R17
-!i122 1571
+!i122 1600
 R85
-Z169 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd
-Z170 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd
+Z174 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd
+Z175 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd
 l0
 L5 1
 VE;PA:Kjz=0jBTZA0bCG@m3
 !s100 A5e_OfXj`9V^?]_V4Wfo93
 R4
 33
-R159
+R163
 !i10b 1
-R160
-Z171 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd|
-Z172 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd|
+R170
+Z176 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd|
+Z177 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/instructionCache.vhd|
 !i113 1
 R70
 R55
@@ -1212,43 +1251,43 @@ R15
 R16
 R17
 DEx4 work 16 instructioncache 0 22 E;PA:Kjz=0jBTZA0bCG@m3
-!i122 1571
+!i122 1600
 l22
 L17 21
 VQ?<TobK79aAleDAd:=lOf0
 !s100 hm;g;?Q]72407J==@Ci]o2
 R4
 33
-R159
+R163
 !i10b 1
-R160
-R171
-R172
+R170
+R176
+R177
 !i113 1
 R70
 R55
 Emem1_mem2_buffer
-Z173 w1683224996
+Z178 w1683224996
 R15
 R62
 R63
 R16
 R17
-!i122 1572
+!i122 1601
 R85
-Z174 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
-Z175 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
+Z179 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
+Z180 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
 l0
 L7 1
 VbNA`7J15InbX9SC<g^RSi0
 !s100 S7CeY:S6e65bAW1>^DoTh1
 R4
 33
-R159
+R163
 !i10b 1
-R160
-Z176 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
-Z177 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
+R170
+Z181 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
+Z182 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
 !i113 1
 R70
 R55
@@ -1258,44 +1297,44 @@ R62
 R63
 R16
 R17
-Z178 DEx4 work 16 mem1_mem2_buffer 0 22 bNA`7J15InbX9SC<g^RSi0
-!i122 1572
+Z183 DEx4 work 16 mem1_mem2_buffer 0 22 bNA`7J15InbX9SC<g^RSi0
+!i122 1601
 l40
 L25 34
 V^F^zXEgTIj?Ub:NT];XES2
 !s100 CW`RBbGQZS:V^ie:deiQ]3
 R4
 33
-R159
+R163
 !i10b 1
-R160
-R176
-R177
+R170
+R181
+R182
 !i113 1
 R70
 R55
 Emem1stage
-Z179 w1683232550
+Z184 w1683232550
 R15
 R62
 R63
 R16
 R17
-!i122 1573
+!i122 1602
 R85
-Z180 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd
-Z181 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd
+Z185 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd
+Z186 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd
 l0
 L7 1
 Vg:`G7ML9=?U=aSHS_l]5S1
 !s100 EREI<fE3>c:`O]ZPc<]QY1
 R4
 33
-Z182 !s110 1683236107
+Z187 !s110 1683295176
 !i10b 1
-Z183 !s108 1683236107.000000
-Z184 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd|
-Z185 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd|
+R170
+Z188 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd|
+Z189 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem1Stage.vhd|
 !i113 1
 R70
 R55
@@ -1305,44 +1344,44 @@ R62
 R63
 R16
 R17
-Z186 DEx4 work 9 mem1stage 0 22 g:`G7ML9=?U=aSHS_l]5S1
-!i122 1573
+Z190 DEx4 work 9 mem1stage 0 22 g:`G7ML9=?U=aSHS_l]5S1
+!i122 1602
 l48
 L33 35
 VJnO6G2hagmKB@CmYL>7mo1
 !s100 lU@L_I0=2E>SggLWE?aP21
 R4
 33
-R182
+R187
 !i10b 1
-R183
-R184
-R185
+R170
+R188
+R189
 !i113 1
 R70
 R55
 Emem2_wb_buffer
-R179
+Z191 w1683244850
 R15
 R62
 R63
 R16
 R17
-!i122 1574
+!i122 1603
 R85
-Z187 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
-Z188 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
+Z192 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
+Z193 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
 l0
 L7 1
-V@^PbNeAhM?dWb6iGMH@Se1
-!s100 =g<2LBaac0A`GS73AiQ4=1
+V1P0USXRocXBRlN_a;a:_i2
+!s100 UIjiXmn`Bc7mTL>STU5;50
 R4
 33
-R182
+R187
 !i10b 1
-R183
-Z189 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
-Z190 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
+Z194 !s108 1683295176.000000
+Z195 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
+Z196 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
 !i113 1
 R70
 R55
@@ -1352,44 +1391,44 @@ R62
 R63
 R16
 R17
-Z191 DEx4 work 14 mem2_wb_buffer 0 22 @^PbNeAhM?dWb6iGMH@Se1
-!i122 1574
+Z197 DEx4 work 14 mem2_wb_buffer 0 22 1P0USXRocXBRlN_a;a:_i2
+!i122 1603
 l41
-L26 39
-VF0@R9X<W?[?`CbiX0kkaP2
-!s100 EAOO_];NYROXJPcG]M<nm0
+L26 40
+VUVHQcN91<H83alC9k2a`33
+!s100 XU5FdlYEWnGC=:bABL@Za0
 R4
 33
-R182
+R187
 !i10b 1
-R183
-R189
-R190
+R194
+R195
+R196
 !i113 1
 R70
 R55
 Emem2stage
-R173
+R178
 R15
 R62
 R63
 R16
 R17
-!i122 1575
+!i122 1604
 R85
-Z192 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd
-Z193 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd
+Z198 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd
+Z199 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd
 l0
 L8 1
 VzZ;P2@iD?9=GJVDZ=`S880
 !s100 8a4QIeLNH`ZfkDa2Kdfa]3
 R4
 33
-R182
+R187
 !i10b 1
-R183
-Z194 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd|
-Z195 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd|
+R194
+Z200 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd|
+Z201 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/mem2Stage.vhd|
 !i113 1
 R70
 R55
@@ -1399,91 +1438,44 @@ R62
 R63
 R16
 R17
-Z196 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
-!i122 1575
+Z202 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
+!i122 1604
 l41
 L23 21
 V1m5gUBgQ>FYd0iMnYHgSI1
 !s100 :HfUl4^c5OQJF0fT3h42_2
 R4
 33
-R182
+R187
 !i10b 1
-R183
 R194
-R195
-!i113 1
-R70
-R55
-Ememorystage
-R104
-R15
-R62
-R63
-R16
-R17
-!i122 1576
-R85
-Z197 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd
-Z198 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd
-l0
-L7 1
-Z199 VT3=W1Jj?d]d0jN_zzbOGo0
-Z200 !s100 C?Nfi4;`eZW8_H2k1S6RN3
-R4
-33
-R182
-!i10b 1
-R183
-Z201 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd|
-Z202 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd|
-!i113 1
-R70
-R55
-Amemorystagedesign
-R15
-R62
-R63
-R16
-R17
-Z203 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
-!i122 1576
-l77
-R83
-Z204 V9nEQai=2Ok`FH<6^=Bom91
-Z205 !s100 zSEA;HiZc:=810iLkfeTb3
-R4
-33
-R182
-!i10b 1
-R183
-R201
-R202
-!i113 1
-R70
-R55
-Ememorystage
-R104
-R15
-R62
-R63
-R16
-R17
-!i122 1549
-R85
-R197
-R198
-l0
-L7 1
-R199
 R200
+R201
+!i113 1
+R70
+R55
+Ememorystage
+R104
+R15
+R62
+R63
+R16
+R17
+!i122 1576
+R85
+Z203 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd
+Z204 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd
+l0
+L7 1
+Z205 VT3=W1Jj?d]d0jN_zzbOGo0
+Z206 !s100 C?Nfi4;`eZW8_H2k1S6RN3
 R4
 33
-Z206 !s110 1683229731
+Z207 !s110 1683236107
 !i10b 1
-Z207 !s108 1683229731.000000
-R201
-R202
+Z208 !s108 1683236107.000000
+Z209 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd|
+Z210 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd|
 !i113 1
 R70
 R55
@@ -1493,82 +1485,129 @@ R62
 R63
 R16
 R17
-R203
-!i122 1549
+Z211 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
+!i122 1576
 l77
 R83
-R204
-R205
+Z212 V9nEQai=2Ok`FH<6^=Bom91
+Z213 !s100 zSEA;HiZc:=810iLkfeTb3
 R4
 33
-R206
-!i10b 1
 R207
-R201
-R202
-!i113 1
-R70
-R55
-Emy_ndff
-R98
-R16
-R17
-!i122 1550
-R85
-Z208 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd
-Z209 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd
-l0
-L5 1
-R81
-R82
-R4
-33
-Z210 !s110 1683229732
 !i10b 1
-R207
-Z211 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd|
-Z212 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd|
-!i113 1
-R70
-R55
-Aa_my_ndff
-R16
-R17
-R77
-!i122 1550
-l14
-R78
-R79
-R80
-R4
-33
-R210
-!i10b 1
-R207
-R211
-R212
-!i113 1
-R70
-R55
-Emy_ndff
-R98
-R16
-R17
-!i122 1577
-R85
 R208
 R209
+R210
+!i113 1
+R70
+R55
+Ememorystage
+R104
+R15
+R62
+R63
+R16
+R17
+!i122 1605
+R85
+R203
+R204
+l0
+L7 1
+R205
+R206
+R4
+33
+R187
+!i10b 1
+R194
+R209
+R210
+!i113 1
+R70
+R55
+Amemorystagedesign
+R15
+R62
+R63
+R16
+R17
+R211
+!i122 1605
+l77
+R83
+R212
+R213
+R4
+33
+R187
+!i10b 1
+R194
+R209
+R210
+!i113 1
+R70
+R55
+Emy_ndff
+R98
+R16
+R17
+!i122 1606
+R85
+Z214 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd
+Z215 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd
 l0
 L5 1
 R81
 R82
 R4
 33
-Z213 !s110 1683236108
+Z216 !s110 1683295177
 !i10b 1
-Z214 !s108 1683236108.000000
-R211
-R212
+R194
+Z217 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd|
+Z218 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/my_nDFF.vhd|
+!i113 1
+R70
+R55
+Aa_my_ndff
+R16
+R17
+R77
+!i122 1606
+l14
+R78
+R79
+R80
+R4
+33
+R216
+!i10b 1
+R194
+R217
+R218
+!i113 1
+R70
+R55
+Emy_ndff
+R98
+R16
+R17
+!i122 1577
+R85
+R214
+R215
+l0
+L5 1
+R81
+R82
+R4
+33
+Z219 !s110 1683236108
+!i10b 1
+Z220 !s108 1683236108.000000
+R217
+R218
 !i113 1
 R70
 R55
@@ -1583,11 +1622,11 @@ R79
 R80
 R4
 33
-R213
+R219
 !i10b 1
-R214
-R211
-R212
+R220
+R217
+R218
 !i113 1
 R70
 R55
@@ -1596,21 +1635,21 @@ R104
 R15
 R16
 R17
-!i122 1578
+!i122 1607
 R85
-Z215 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd
-Z216 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd
+Z221 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd
+Z222 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd
 l0
 L5 1
 R75
 R76
 R4
 33
-R213
+R216
 !i10b 1
-R214
-Z217 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd|
-Z218 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd|
+Z223 !s108 1683295177.000000
+Z224 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd|
+Z225 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/PC.vhd|
 !i113 1
 R70
 R55
@@ -1619,102 +1658,102 @@ R15
 R16
 R17
 R72
-!i122 1578
+!i122 1607
 l14
 R73
 V<koe?O@6U<1e_D`^S>k@A3
 !s100 >6E6j<0MAZ4cTWHW^_;8]2
 R4
 33
-R213
+R216
 !i10b 1
-R214
-R217
-R218
+R223
+R224
+R225
 !i113 1
 R70
 R55
 Eprocessor
-Z219 w1683232653
+Z226 w1683295483
 R15
 R16
 R17
-!i122 1579
+!i122 1613
 R85
-Z220 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd
-Z221 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd
+Z227 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd
+Z228 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd
 l0
 L6 1
 VcaoPIVmEYF@hFk^>aR9<40
 R71
 R4
 33
-R213
+Z229 !s110 1683295678
 !i10b 1
-R214
-Z222 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd|
-Z223 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd|
+Z230 !s108 1683295678.000000
+Z231 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd|
+Z232 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/Processor.vhd|
 !i113 1
 R70
 R55
 Aprocessor_design
-Z224 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
-R191
-R196
-R178
-R186
+Z233 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
+R197
+R202
+R183
+R190
 R122
-R129
-R148
-R163
+R128
+DEx4 work 17 forwardingexecute 0 22 ;O?QckmfH_ab2Ae92kJ8O0
+R166
 R116
-R143
-R156
-R168
+R155
+R160
+R173
 R62
 R63
-R136
+R135
 R15
 R16
 R17
 DEx4 work 9 processor 0 22 caoPIVmEYF@hFk^>aR9<40
-!i122 1579
-l83
-L15 113
-VdFVh1EI0G74]>RmGCbM2W0
-!s100 8C=:O`Vca9MM6eHjVNleW2
+!i122 1613
+l85
+L15 115
+VNc^_OT4aiAo8gRlci2`7^0
+!s100 d?HmS^lPRFGbOjEQX;;?60
 R4
 33
-R213
+R229
 !i10b 1
-R214
-R222
-R223
+R230
+R231
+R232
 !i113 1
 R70
 R55
 Eregfile
 R0
 Eregfilemem
-Z225 w1681829866
+Z234 w1681829866
 R15
 R16
 R17
-!i122 1580
+!i122 1609
 R85
-Z226 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd
-Z227 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd
+Z235 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd
+Z236 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd
 l0
 L5 1
 VJ[9EhVI`<1zg[?zP2060K1
 R69
 R4
 33
-R213
+R216
 !i10b 1
-R214
-Z228 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd|
-Z229 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd|
+R223
+Z237 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd|
+Z238 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd|
 !i113 1
 R70
 R55
@@ -1723,41 +1762,41 @@ R15
 R16
 R17
 R115
-!i122 1580
+!i122 1609
 l25
 R67
 VoVAWj:Pm=JK]8_LMC_2@Y3
 R68
 R4
 33
-R213
+R216
 !i10b 1
-R214
-R228
-R229
+R223
+R237
+R238
 !i113 1
 R70
 R55
 Esp
-Z230 w1681955569
+Z239 w1681955569
 R15
 R16
 R17
-!i122 1581
+!i122 1610
 R85
-Z231 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd
-Z232 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd
+Z240 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd
+Z241 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd
 l0
 L5 1
 V8a_VizA_1MN:46lGI8F991
 !s100 KD^NlR2Gn9>FY;0RkE^Qf1
 R4
 33
-Z233 !s110 1683236109
+Z242 !s110 1683295178
 !i10b 1
-R214
-Z234 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd|
-Z235 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd|
+R223
+Z243 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd|
+Z244 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/SP.vhd|
 !i113 1
 R70
 R55
@@ -1766,104 +1805,104 @@ R15
 R16
 R17
 DEx4 work 2 sp 0 22 8a_VizA_1MN:46lGI8F991
-!i122 1581
+!i122 1610
 l14
 L13 19
 Vda1Y9o1ZR?TjZMLj3O`=i0
 !s100 JziB`P>UYf9UUQ5D[A>cm1
 R4
 33
-R233
-!i10b 1
-R214
-R234
-R235
-!i113 1
-R70
-R55
-Ewritebackmux
-R225
-R15
-R16
-R17
-!i122 1582
-R85
-Z236 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd
-Z237 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd
-l0
-L5 1
-Z238 V0z];HVFF<_9P1oM7MfZfD3
-R66
-R4
-33
-R233
-!i10b 1
-Z239 !s108 1683236109.000000
-Z240 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd|
-Z241 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd|
-!i113 1
-R70
-R55
-Amymux
-R15
-R16
-R17
-Z242 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
-!i122 1582
-l16
-R64
-Z243 V=?ZX]8MkEnM3nXHZf7U=Y3
-R65
-R4
-33
-R233
-!i10b 1
-R239
-R240
-R241
-!i113 1
-R70
-R55
-Ewritebackmux
-R225
-R15
-R16
-R17
-!i122 1555
-R85
-R236
-R237
-l0
-L5 1
-R238
-R66
-R4
-33
-Z244 !s110 1683229733
-!i10b 1
-Z245 !s108 1683229733.000000
-R240
-R241
-!i113 1
-R70
-R55
-Amymux
-R15
-R16
-R17
 R242
-!i122 1555
+!i10b 1
+R223
+R243
+R244
+!i113 1
+R70
+R55
+Ewritebackmux
+R234
+R15
+R16
+R17
+!i122 1582
+R85
+Z245 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd
+Z246 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd
+l0
+L5 1
+Z247 V0z];HVFF<_9P1oM7MfZfD3
+R66
+R4
+33
+Z248 !s110 1683236109
+!i10b 1
+Z249 !s108 1683236109.000000
+Z250 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd|
+Z251 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd|
+!i113 1
+R70
+R55
+Amymux
+R15
+R16
+R17
+Z252 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
+!i122 1582
 l16
 R64
-R243
+Z253 V=?ZX]8MkEnM3nXHZf7U=Y3
 R65
 R4
 33
-R244
+R248
 !i10b 1
+R249
+R250
+R251
+!i113 1
+R70
+R55
+Ewritebackmux
+R234
+R15
+R16
+R17
+!i122 1611
+R85
 R245
-R240
-R241
+R246
+l0
+L5 1
+R247
+R66
+R4
+33
+R242
+!i10b 1
+Z254 !s108 1683295178.000000
+R250
+R251
+!i113 1
+R70
+R55
+Amymux
+R15
+R16
+R17
+R252
+!i122 1611
+l16
+R64
+R253
+R65
+R4
+33
+R242
+!i10b 1
+R254
+R250
+R251
 !i113 1
 R70
 R55
@@ -1872,21 +1911,21 @@ R104
 R15
 R16
 R17
-!i122 1583
+!i122 1612
 R85
-Z246 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd
-Z247 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd
+Z255 8F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd
+Z256 FF:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd
 l0
 L5 1
 V4nPRRQ26=8WSHO^ESN3hJ2
 !s100 oMRo4j;b40RMi;cfVI[[=3
 R4
 33
-R233
+R242
 !i10b 1
-R239
-Z248 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd|
-Z249 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd|
+R254
+Z257 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z258 !s107 F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd|
 !i113 1
 R70
 R55
@@ -1894,19 +1933,19 @@ Amywritebackstage
 R15
 R16
 R17
-R224
-!i122 1583
+R233
+!i122 1612
 l18
 L17 13
 V2b2o2;JQBdMj9V809CSQH0
 !s100 1PFMkBOb;VM;eWFm>;L061
 R4
 33
-R233
+R242
 !i10b 1
-R239
-R248
-R249
+R254
+R257
+R258
 !i113 1
 R70
 R55
