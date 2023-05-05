@@ -1,6 +1,12 @@
-jmp r3
-jz r1
-jc r2
-call r7
-in r5
-pop r4
+.org 0 
+2
+.org 2
+dec R1,R1
+jc R0
+
+.org 90
+inc R1,R1
+inc R1,R1
+inc R1,R1
+inc R1,R1
+inc R1,R1

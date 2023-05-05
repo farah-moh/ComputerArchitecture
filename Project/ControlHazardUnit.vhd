@@ -1,6 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 USE IEEE.numeric_std.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity ControlHazardUnit is
 port(
@@ -25,19 +26,19 @@ end entity;
 
 architecture MYControlHazardUnit of ControlHazardUnit is
 begin
-    PcData<=RS1DataID when PcSrcID='1' else
-            RS1DataEX when PcSrcEX='1' else
-            BufferOutputMEM2_Wb when PcSrcMEM2_WB='1' else
-            (others=>'0');
+    PcData <= RS1DataID - 1 when PcSrcID = '1' else
+              RS1DataEX - 1 when PcSrcEX = '1' else
+              BufferOutputMEM2_Wb - 1 when PcSrcMEM2_WB = '1' else
+              (others=>'0');
     
-    PcSelect<=PcSrcID or PcSrcEX or PcSrcMEM2_WB;
+    PcSelect <= PcSrcID or PcSrcEX or PcSrcMEM2_WB;
     
 
-    IF_ID_Flush<=PcSrcID or PcSrcEX or PcSrcMEM2_WB;
-    ID_EX_Flush<=PcSrcEX or PcSrcMEM2_WB;
-    EX_MEM1_Flush<=PcSrcMEM2_WB;
-    MEM1_MEM2_Flush<=PcSrcMEM2_WB;
-    MEM2_WB_Flush<=PcSrcMEM2_WB;
+    IF_ID_Flush <= PcSrcID or PcSrcEX or PcSrcMEM2_WB;
+    ID_EX_Flush <= PcSrcEX or PcSrcMEM2_WB;
+    EX_MEM1_Flush <= PcSrcMEM2_WB;
+    MEM1_MEM2_Flush <= PcSrcMEM2_WB;
+    MEM2_WB_Flush <= PcSrcMEM2_WB;
     
  
     

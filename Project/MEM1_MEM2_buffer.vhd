@@ -46,7 +46,7 @@ BEGIN
     INN_out             <= bufferOutput(1);                 -- 1 bit
     MemToReg_out        <= bufferOutput(2);                 -- 1 bit
     regWrite_out        <= bufferOutput(3);                 -- 1 bit
-    pcSrc_out           <= bufferOutput(4);                 -- 1 bit
+    pcSrc_out           <= bufferOutput(4) and bufferOutput(67);                 -- 1 bit
     RDOut               <= bufferOutput(7 DOWNTO 5);        -- 3 bits
     ALUoutputOUT        <= bufferOutput(23 DOWNTO 8);       -- 16 bits
     RS1DataOut          <= bufferOutput(39 DOWNTO 24);      -- 16 bits

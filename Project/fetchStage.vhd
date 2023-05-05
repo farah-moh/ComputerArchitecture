@@ -39,8 +39,8 @@ BEGIN
     instructions:   instructionCache port map(reset, pcOutput(9 downto 0),outInstruction,immediate,memZero);
     isImmediate <= outInstruction(10);
     instruction <= outInstruction;
-    increment <= x"0001" when isImmediate='0'
-                         else x"0002";
+    increment <= x"0002" when isImmediate='1'
+                         else x"0001";
     pcOut <= pcOutput;
 
 END fetchStageDesign;

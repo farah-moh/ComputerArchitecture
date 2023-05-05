@@ -27,20 +27,20 @@ begin
 
     PROCESS (clk,rst)
     BEGIN
-        -- IF rst = '1' THEN            -- Mem doesnt have reset
-        --     -- we can do it like this
-        --     -- loop1: FOR i IN 0 TO 2**10-1 LOOP
-        --     --     ram(i) <= (OTHERS => '0');
-        --     -- END LOOP;
+        IF rst = '1' THEN            -- Mem doesnt have reset
+            -- we can do it like this
+            -- loop1: FOR i IN 0 TO 2**10-1 LOOP
+            --     ram(i) <= (OTHERS => '0');
+            -- END LOOP;
 
-        --     -- or this
-        --     -- ram <= (others=>x"0000");
+            -- or this
+            -- ram <= (others=>x"0000");
 
-        --     -- or preferably this
-        --     ram <= (others=>(others=>'0'));
+            -- or preferably this
+            ram <= (others=>(others=>'0'));
             
         -- ELSIF rising_edge(clk) THEN
-        IF rising_edge(clk) and writeEnable = '1' THEN
+        ELSIF rising_edge(clk) and writeEnable = '1' THEN
                 ram(to_integer(unsigned(writeAddress))) <= writeData;
             ELSE
             -- END IF;
