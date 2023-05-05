@@ -1,6 +1,5 @@
 LIBRARY IEEE;
 USE IEEE.std_logic_1164.all;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
 USE IEEE.numeric_std.all;
 
 ENTITY forwardingExecute IS
@@ -29,8 +28,6 @@ ARCHITECTURE forwardingExecuteDesign OF forwardingExecute IS
 BEGIN
     PROCESS (RS1, RS2, RS1Data, RS2Data, RD_EX_MEM1, regwrite_EX_MEM1, RD_MEM1_MEM2, regwrite_MEM1_MEM2, RD_MEM2_WB, regwrite_MEM2_WB,WBData_EX_MEM1,WBData_MEM1_MEM2,WBData_MEM2_WB) 
     BEGIN
-        RS1DataOut <= RS1Data;
-        RS2DataOut <= RS2Data;
 
         IF regwrite_EX_MEM1 = '1' and RD_EX_MEM1 = RS1 THEN
             RS1DataOut <= WBData_EX_MEM1;
@@ -39,6 +36,7 @@ BEGIN
         ELSIF regwrite_MEM2_WB = '1'and RD_MEM2_WB = RS1 THEN
             RS1DataOut <= WBData_MEM2_WB;
         ELSE
+            RS1DataOut <= RS1Data;
         END IF;
 
         IF regwrite_EX_MEM1 = '1' and RD_EX_MEM1 = RS2 THEN
@@ -48,6 +46,7 @@ BEGIN
         ELSIF regwrite_MEM2_WB = '1'and RD_MEM2_WB = RS2 THEN
             RS2DataOut <= WBData_MEM2_WB;
         ELSE
+            RS2DataOut <= RS2Data;
         END IF;
 
     END PROCESS;

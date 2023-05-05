@@ -62,7 +62,8 @@ BEGIN
     flagRegister:   my_nDFF generic map(3) port map (clk,reset,controlFlags,flags,'1');
 
     execOutput <= ALUoutput when inPort = '0'
-             else immediate when opcode = "01010"
+             else immediate when opcode = "01010" -- when LDM
+             else RS1Data  when opcode = "11011" -- when MOV
              else INPortDataIN;
 END executionStageDesign;
 
