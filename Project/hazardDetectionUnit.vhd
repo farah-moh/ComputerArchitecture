@@ -38,9 +38,10 @@ BEGIN
         -- instructions that might stall TWICE -> all R-type - JZ - JC
         -- instructions that only stall ONCE   -> STD - LDD - PUSH
         -- instructions lessa msh 3arefen      -> OUT - MOV - JMP - CALL
+        -- out will stall at most once, and will be handled in memory data forwarding
         -- jz: 10000, jc: 10001
-        -- std: 01100, ldd: 01011, push: 01000
-        -- out: , mov: , jmp: , call:
+        -- std: 01100, ldd: 01011, push: 01000, out: 00100
+        -- mov: , jmp: , call:
 
         IF (instType = RTYPE or opcode = "10000" or opcode = "10001")  THEN
             IF ((RD_ID_EX = RS1 or RD_ID_EX = RS2) and regwrite_ID_EX = '1' and memread_ID_EX = '1') THEN
@@ -51,8 +52,8 @@ BEGIN
             ELSE
                 stall <= '0';
             END IF;
-        -- in case of a memory operation, we only need to stall once if previous instruction is a load, otherwise proper forwarding will get the correct values
-        ELSIF (opcode = "01100" or opcode = "01011" or opcode = "01000")  THEN
+        -- in case of a memory operation or an OUT, we only need to stall once if previous instruction is a load, otherwise proper forwarding will get the correct values
+        ELSIF (opcode = "01100" or opcode = "01011" or opcode = "01000" or opcode ="00100")  THEN
             IF ((RD_ID_EX = RS1 or RD_ID_EX = RS2) and regwrite_ID_EX = '1' and memread_ID_EX = '1') THEN
                 stall <= '1';
             ELSE
