@@ -3,7 +3,6 @@ USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.numeric_std.all;
 
 ENTITY DecodingStage IS
-    GENERIC (m: integer:= 16);
     PORT (
         clk:                IN std_logic;
         stall:              IN std_logic;
@@ -12,10 +11,10 @@ ENTITY DecodingStage IS
         RS2 :               IN std_logic_vector(2 DOWNTO 0);
         RD :    	        IN std_logic_vector(2 DOWNTO 0); 
         writeEnable :       IN std_logic;
-        writeData :         IN std_logic_vector(m-1 DOWNTO 0);
-        Instruction:        IN std_logic_vector(m-1 DOWNTO 0);
-        RS1Data :           OUT std_logic_vector(m-1 DOWNTO 0);
-        RS2Data :           OUT std_logic_vector(m-1 DOWNTO 0);
+        writeData :         IN std_logic_vector(15 DOWNTO 0);
+        Instruction:        IN std_logic_vector(15 DOWNTO 0);
+        RS1Data :           OUT std_logic_vector(15 DOWNTO 0);
+        RS2Data :           OUT std_logic_vector(15 DOWNTO 0);
         regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec:        OUT std_logic
 
     );

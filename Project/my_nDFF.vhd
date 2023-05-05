@@ -14,7 +14,7 @@ ARCHITECTURE a_my_nDFF OF my_nDFF IS
 BEGIN
     PROCESS (Clk,Rst)
     BEGIN
-        IF Rst = '1' THEN
+        IF Rst = '1' and falling_edge(Clk) THEN
             q <= (OTHERS=>'0');
         ELSIF falling_edge(Clk) THEN
             IF enable = '1' THEN

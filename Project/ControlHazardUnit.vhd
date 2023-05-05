@@ -4,19 +4,19 @@ USE IEEE.numeric_std.all;
 
 entity ControlHazardUnit is
 port(
-    PcSrcEX:                IN std_logic;
     PcSrcID:                IN std_logic;
+    PcSrcEX:                IN std_logic;
     PcSrcMEM2_WB:           IN std_logic;
     RS1DataID:              IN std_logic_vector(15 downto 0);
     RS1DataEX:              IN std_logic_vector(15 downto 0);
     BufferOutputMEM2_Wb:    IN std_logic_vector(15 downto 0);
     PcSelect:               OUT std_logic;
+    PcData:                 OUT std_logic_vector(15 downto 0);
     IF_ID_Flush:            OUT std_logic;
     ID_EX_Flush:            OUT std_logic;
     EX_MEM1_Flush:          OUT std_logic;
     MEM1_MEM2_Flush:        OUT std_logic;
-    MEM2_WB_Flush:          OUT std_logic;
-    PcData:                 OUT std_logic_vector(15 downto 0)
+    MEM2_WB_Flush:          OUT std_logic
 
 );
 end entity;
