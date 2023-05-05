@@ -45,22 +45,22 @@ Architecture Processor_design of Processor is
     signal RD_EX_MEM1_buff: std_logic_vector(2 DOWNTO 0);
     signal RS1dataOut_EX_MEM1_buff, RS2dataOut_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff: std_logic_vector(15 DOWNTO 0);
     signal PCout_EX_MEM1_buff: std_logic_vector(15 DOWNTO 0);
-    signal regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff: std_logic;
+    signal regWriteOut_EX_MEM1_buff,pcSrcOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff: std_logic;
 
     --####################MEMORY1 STAGE#####################
     signal DataOut_MEM1 : std_logic_vector(15 DOWNTO 0);
     signal AddressOut_MEM1 : std_logic_vector(9 DOWNTO 0);
 
     --##################MEMORY1/MEMORY2 BUFFER##############
-    signal regWriteOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, outPortOut_MEM1_MEM2_buff: std_logic;
+    signal regWriteOut_MEM1_MEM2_buff, pcSrcOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, outPortOut_MEM1_MEM2_buff: std_logic;
     signal RD_MEM1_MEM2_buff: std_logic_vector(2 DOWNTO 0);
     signal ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, writeDataOut_MEM1_MEM2_buff: std_logic_vector(15 DOWNTO 0);
     signal writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff: std_logic;
     signal writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff: std_logic_vector(9 DOWNTO 0);
     --####################MEMORY2 STAGE#####################
     signal DataOut_MEM2 : std_logic_vector(15 DOWNTO 0);
-    --##################MEMORY1/MEMORY2 BUFFER##############
-    signal regWriteOut_MEM2_WB_buff, memToRegOut_MEM2_WB_buff, inPortOut_MEM2_WB_buff, outPortOut_MEM2_WB_buff: std_logic;
+    --##################MEMORY2/WRITE BACK BUFFER##############
+    signal regWriteOut_MEM2_WB_buff,pcSrcOut_MEM2_WB_buff, memToRegOut_MEM2_WB_buff, inPortOut_MEM2_WB_buff, outPortOut_MEM2_WB_buff: std_logic;
     signal RD_MEM2_WB_buff: std_logic_vector(2 DOWNTO 0);
     signal ALUoutput_MEM2_WB_buff, RS1DataOut_MEM2_WB_buff, writeDataOut_MEM2_WB_buff: std_logic_vector(15 DOWNTO 0);
     -- signal bufferOutput_MEM2_WB_buff: std_logic_vector(15 DOWNTO 0);        -- el data elly tal3a mn el buffer (b3d ma 3mlna mux bein ALUoutput w writeDataOut)
@@ -98,24 +98,24 @@ BEGIN
 
     executeStagee: entity work.executionStage port map(clk, reset, InPortData_ID_EX_buff, RS1dataOutForwarded, RS2dataOutForwarded, immediateOut_ID_EX_buff, opcode_ID_EX_buff, isImmediate_ID_EX_buff,inPort_ID_EX_buff, execOutput_EX, MuxOut_EX, flags_EX);
 
-    EX_MEM1_bufferr: entity work.EX_MEM1_buffer port map(clk, reset, RD_ID_EX_buff, RS1Data_ID_EX_buff, MuxOut_EX, execOutput_EX, PCout_ID_EX_buff, regwrite_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff
+    EX_MEM1_bufferr: entity work.EX_MEM1_buffer port map(clk, reset, RD_ID_EX_buff, RS1Data_ID_EX_buff, MuxOut_EX, execOutput_EX, PCout_ID_EX_buff, regwrite_ID_EX_buff,pcSrc_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff
                                                     , outPort_ID_EX_buff, spInc_ID_EX_buff, spDec_ID_EX_buff, RD_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff, RS2dataOut_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff, PCout_EX_MEM1_buff
-                                                    , regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff);
+                                                    , regWriteOut_EX_MEM1_buff, pcSrcOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff);
 
     mem1Stagee: entity work.mem1Stage port map (clk, reset, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff, RS2dataOut_EX_MEM1_buff, DataOut_MEM1, AddressOut_MEM1);
 
     
     
     
-    MEM1_MEM2_bufferr: entity work.MEM1_MEM2_buffer port map (clk, reset, outPortOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, regWriteOut_EX_MEM1_buff, RD_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff, DataOut_MEM1
-                                                    , memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, AddressOut_MEM1, AddressOut_MEM1, outPortOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff
+    MEM1_MEM2_bufferr: entity work.MEM1_MEM2_buffer port map (clk, reset, outPortOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, regWriteOut_EX_MEM1_buff,pcSrcOut_EX_MEM1_buff, RD_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff, DataOut_MEM1
+                                                    , memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, AddressOut_MEM1, AddressOut_MEM1, outPortOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff, pcSrcOut_MEM1_MEM2_buff
                                                     , RD_MEM1_MEM2_buff, ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, writeDataOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff);
 
 
     mem2Stagee: entity work.mem2Stage port map(clk, reset, readAddressOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, writeDataOut_MEM1_MEM2_buff, DataOut_MEM2);
 
-    MEM2_WB_bufferr: entity work.MEM2_WB_buffer port map (clk, reset, outPortOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff, RD_MEM1_MEM2_buff, ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, DataOut_MEM2
-                                                    , writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff, outPortOut_MEM2_WB_buff, inPortOut_MEM2_WB_buff, memToRegOut_MEM2_WB_buff, regWriteOut_MEM2_WB_buff
+    MEM2_WB_bufferr: entity work.MEM2_WB_buffer port map (clk, reset, outPortOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff,pcSrcOut_MEM1_MEM2_buff, RD_MEM1_MEM2_buff, ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, DataOut_MEM2
+                                                    , writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff, outPortOut_MEM2_WB_buff, inPortOut_MEM2_WB_buff, memToRegOut_MEM2_WB_buff, regWriteOut_MEM2_WB_buff, pcSrcOut_MEM2_WB_buff
                                                     , RD_MEM2_WB_buff, ALUoutput_MEM2_WB_buff, RS1DataOut_MEM2_WB_buff, writeDataOut_MEM2_WB_buff, writeEnableOut_MEM2_WB_buff, readEnableOut_MEM2_WB_buff, writeAddressOut_MEM2_WB_buff, readAddressOut_MEM2_WB_buff);
 
     -- memoryStagee: entity work.memoryStage port map(clk, reset, RD_EX_MEM1_buff, AddressOut_MEM1, memReadOut_EX_MEM1_buff, AddressOut_MEM1, memWriteOut_EX_MEM1_buff, DataOut_MEM1, ALUresultOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_bufftrashOut_MEM, memDataOut_MEM

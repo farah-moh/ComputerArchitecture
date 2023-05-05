@@ -1,3 +1,6 @@
-NOT r1,r3
-inc r0,r5
-mov r2,r7
+jmp r3
+jz r1
+jc r2
+call r7
+in r5
+pop r4

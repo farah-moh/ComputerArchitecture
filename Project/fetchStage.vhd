@@ -6,7 +6,8 @@ USE IEEE.numeric_std.all;
 
 ENTITY fetchStage IS
 PORT( 
- clk, reset, enable :                           IN  std_logic; 
+ clk, reset, enable, pcSel:                           IN  std_logic; 
+ pcData:                                              IN  std_logic_vector(15 DOWNTO 0);
  instruction,immediate,pcOut:           OUT std_logic_vector(15 DOWNTO 0)
 --  memZero:                               IN std_logic_vector(15 DOWNTO 0)  
 );
@@ -14,13 +15,6 @@ END fetchStage;
 
 ARCHITECTURE fetchStageDesign OF fetchStage IS
 
-COMPONENT PC IS
-	PORT (clk, reset, enable : IN  std_logic;
-          inc : IN std_logic_vector(15 DOWNTO 0);
-		  pc : OUT std_logic_vector(15 DOWNTO 0);
-          memZero: IN std_logic_vector(15 DOWNTO 0)
-        );
-END COMPONENT;
 
 COMPONENT instructionCache IS
     GENERIC (m: integer:= 16);
@@ -41,14 +35,12 @@ signal isImmediate:                         std_logic;
 
 BEGIN
     
-    pcc:            PC port map(clk,reset,enable,increment,pcOutput, memZero);
+    pcc:            entity work.PC port map(clk, reset, enable, increment, pcSel, pcData, pcOutput, memZero);
     instructions:   instructionCache port map(reset, pcOutput(9 downto 0),outInstruction,immediate,memZero);
     isImmediate <= outInstruction(10);
     instruction <= outInstruction;
     increment <= x"0001" when isImmediate='0'
-                         else x"0002"; 
+                         else x"0002";
     pcOut <= pcOutput;
 
 END fetchStageDesign;
-
-

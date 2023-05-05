@@ -5,6 +5,8 @@ USE IEEE.numeric_std.all;
 ENTITY PC IS
 	PORT (clk, reset, enable : IN  std_logic;
           inc : IN std_logic_vector(15 DOWNTO 0);
+          pcSel : IN std_logic;
+          pcData : IN std_logic_vector(15 DOWNTO 0);
 		  pc : OUT std_logic_vector(15 DOWNTO 0);
           memZero: IN std_logic_vector(15 DOWNTO 0)
         );
@@ -24,7 +26,11 @@ BEGIN
         ELSIF rising_edge(clk) THEN
             IF enable = '1' THEN
                 pcINC := std_logic_vector(unsigned(pc)+unsigned(inc));
-                pc <= pcINC;
+                IF pcSel = '1' THEN
+                    pc <= pcData;
+                ELSE
+                    pc <= pcINC;
+                END IF;
             END IF;
         END IF;
     END PROCESS;

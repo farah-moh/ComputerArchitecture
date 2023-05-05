@@ -146,7 +146,12 @@ for instruction in removedSpacesInstr:
     elif instruction[0] in Rd:
         temp += commands[instruction[0]]
         temp += operands[instruction[1]]
-        temp += "0000000"
+        if instruction[0] == "IN" or instruction[0] == "POP" :
+            temp += "0000000"
+        else:
+            temp += operands[instruction[1]]
+            temp += operands[instruction[1]]
+            temp += "0"
         instructionFlag = True
 
     elif instruction[0] in Rs1:

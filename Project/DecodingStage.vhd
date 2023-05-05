@@ -22,10 +22,12 @@ ENTITY DecodingStage IS
 END ENTITY DecodingStage;
 
 ARCHITECTURE decoding OF DecodingStage  IS 
-
+--  signal RS1_or_RD : std_logic_vector(2 DOWNTO 0);
 BEGIN
+
+    -- RS1_or_RD <= RD when pcSrc = '1' and memRead = '0' else RS1;
     ControlU : entity work.ControlUnit port map(Instruction,stall,regWrite, pcSrc, memRead, memWrite, memToReg, inPort, outPort, spInc, spDec);
-    regFile: entity work.RegFileMem port map(clk, rst, Instruction(6 downto 4), Instruction(3 downto 1), RD, writeEnable, writeData, RS1Data, RS2Data);
+    regFile: entity work.RegFileMem port map(clk, rst, RS1, RS2, RD, writeEnable, writeData, RS1Data, RS2Data); -- RS1 and RS2 check themmm! 
     -- regFile: entity work.RegFileMem port map(clk, rst, RS1, RS2, RD, writeEnable, writeData, RS1Data, RS2Data);
 
 END decoding;
