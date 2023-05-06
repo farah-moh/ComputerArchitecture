@@ -62,10 +62,10 @@ BEGIN
     flagControl:    flagControlUnit port map(opcode,zeroSignal,negSignal,carrySignal,controlFlags);
     flagRegister:   my_nDFF generic map(3) port map (clk,reset,controlFlags,flags,'1');
 
-    execOutput <= ALUoutput when inPort = '0'
+    execOutput <= INPortDataIN when inPort = '1'
              else immediate when opcode = "01010" -- when LDM
              else RS1Data  when opcode = "11011" -- when MOV
-             else INPortDataIN;
+             else ALUoutput;
 
     pcSrcOut <= '1' when opcode = "10000" and flags(0) = '1' 
                 else '1' when opcode = "10001" and flags(2) = '1'
