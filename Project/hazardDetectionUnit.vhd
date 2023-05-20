@@ -43,7 +43,7 @@ BEGIN
         -- out will stall at most once, and will be handled in memory data forwarding
         -- jz: 10000, jc: 10001
         -- std: 01100, ldd: 01011, push: 01000, out: 00100
-        -- mov: , jmp: 10010 , call: 10011
+        -- mov: 11011 , jmp: 10010 , call: 10011
 
         IF (instType = RTYPE or opcode = "10000" or opcode = "10001")  THEN
             IF ((RD_ID_EX = RS1 or RD_ID_EX = RS2) and regwrite_ID_EX = '1' and memread_ID_EX = '1') THEN

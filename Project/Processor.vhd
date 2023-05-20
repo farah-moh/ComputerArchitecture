@@ -30,7 +30,8 @@ Architecture Processor_design of Processor is
     
     --####################HAZARD DETECTION UNIT#####################
     signal stall: std_logic;
-    
+    --####################DECODE FORWARDING UNIT####################
+    signal RS1dataOutForwardedDecode: std_logic_vector(15 DOWNTO 0);
     --####################DECODE STAGE#####################
     signal RS1Data_ID, RS2Data_ID: std_logic_vector(15 DOWNTO 0);
     signal regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID: std_logic;
@@ -98,7 +99,10 @@ BEGIN
     --Not completed yet
     hazardDetection:    entity work.hazardDetectionUnit port map(instruction_IF_ID_buff,RS1_IF_ID_buff,RS2_IF_ID_buff,RD_ID_EX_buff,regwrite_ID_EX_buff, memread_ID_EX_buff,memWrite_ID_EX_buff,RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff,memWriteOut_EX_MEM1_buff,
                                                                  RD_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, stall);
-    
+
+    forwardingUnitDecode:  entity work.forwardingDecode port map(instruction_IF_ID_buff, RS1_IF_ID_buff, RS1Data_ID, RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff,ALUresultOut_EX_MEM1_buff,RD_MEM1_MEM2_buff,regWriteOut_MEM1_MEM2_buff,ALUoutput_MEM1_MEM2_buff,
+    RD_MEM2_WB_buff,regWriteOut_MEM2_WB_buff, writeBackData_WB,RS1dataOutForwardedDecode);
+                                                                
     decodeStagee:       entity work.decodingStage port map(clk, stall, reset, RS1_IF_ID_buff, RS2_IF_ID_buff , RD_WB, regWriteOut_WB, writeBackData_WB, instruction_IF_ID_buff
                                                     , RS1Data_ID, RS2Data_ID, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID);
                                                     
