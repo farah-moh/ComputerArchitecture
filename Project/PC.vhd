@@ -23,7 +23,7 @@ BEGIN
             pc <= memZero;
             pcINC := (others => '0');
         -- Wsa rising
-        ELSIF falling_edge(clk) THEN
+        ELSIF rising_edge(clk) THEN
             IF enable = '1' THEN
                 pcINC := std_logic_vector(unsigned(pc)+unsigned(inc));
                 IF pcSel = '1' THEN

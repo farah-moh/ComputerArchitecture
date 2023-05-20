@@ -1,11 +1,13 @@
 .org 0 
 2
 .org 2
-call R0
+inc R1,R1
+jmp R1
 
 .org 90
+inc R5,R5
 inc R1,R1
 inc R1,R1
-inc R1,R1
+inc R1,R
 inc R1,R1
 inc R1,R1

@@ -49,13 +49,13 @@ BEGIN
 
         -- #################### DATA HAZARDS [LOAD USE CASE] ####################
         -- in case of POSSIBLY 3 stalls
-        IF (opcode = "10010" or opcode ="10011") THEN
-            IF ((RD_ID_EX = RS1 or RD_ID_EX = RS2) and regwrite_ID_EX = '1') THEN
+        IF ((opcode = "10010") or (opcode ="10011")) THEN
+            IF (((RD_ID_EX = RS1) or (RD_ID_EX = RS2)) and (regwrite_ID_EX = '1')) THEN
                 stall <= '1';
                 -- in case of a store, we only need to stall once if previous instruction is a load, otherwise proper forwarding will get the correct values
-            ELSIF ((RD_EX_MEM1 = RS1 or RD_EX_MEM1 = RS2) and regwrite_EX_MEM1 = '1') THEN
+            ELSIF ((RD_EX_MEM1 = RS1 or RD_EX_MEM1 = RS2) and regwrite_EX_MEM1 = '1' and memread_EX_MEM1 = '1') THEN
                 stall <= '1';
-            ELSIF ((RD_MEM1_MEM2 = RS1 or RD_MEM1_MEM2 = RS2) and regwrite_MEM1_MEM2 = '1') THEN
+            ELSIF ((RD_MEM1_MEM2 = RS1 or RD_MEM1_MEM2 = RS2) and regwrite_MEM1_MEM2 = '1' and memread_MEM1_MEM2 = '1') THEN
                 stall <= '1';
             ELSE
                 stall <= '0';
@@ -78,7 +78,7 @@ BEGIN
                 stall <= '0';
             END IF;
         ELSE 
-            stall <= '0';
+            -- stall <= '0';
         END IF;
 
         -- #################### STRUCTURAL HAZARDS ####################
@@ -86,7 +86,7 @@ BEGIN
         IF ((memread_me = '1' or memwrite_me ='1') and(memread_ID_EX='1' or memwrite_ID_EX='1'))  THEN
             stall <= '1';
         ELSE 
-            stall <= '0';
+            -- stall <= '0';
         END IF;
     END PROCESS;
 END hazardDetectionUnitDesign;

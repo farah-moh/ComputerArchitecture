@@ -93,7 +93,7 @@ Architecture Processor_design of Processor is
 
 
 BEGIN
-    ControlHazardUnit:  entity work.ControlHazardUnit port map(pcSrc_ID, pcSrc_EX, pcSrcOut_MEM2_WB_buff, RS1Data_ID, RS1dataOutForwarded1, writeDataOut_MEM2_WB_buff, PcSelect, PcData, IF_ID_Flush, ID_EX_Flush, EX_MEM1_Flush, MEM1_MEM2_Flush, MEM2_WB_Flush);
+    ControlHazardUnit:  entity work.ControlHazardUnit port map(pcSrc_ID, pcSrc_EX, pcSrcOut_MEM2_WB_buff, RS1dataOutForwardedDecode, RS1dataOutForwarded1, writeDataOut_MEM2_WB_buff, PcSelect, PcData, IF_ID_Flush, ID_EX_Flush, EX_MEM1_Flush, MEM1_MEM2_Flush, MEM2_WB_Flush);
     fetchStagee:        entity work.fetchStage port map(clk, reset,not stall,PcSelect, PcData, instruction_IF, immediate_IF, PC_IF);
     IF_ID_bufferr:      entity work.IF_ID_buffer port map(clk, reset or IF_ID_Flush, INPort, instruction_IF, immediate_IF, PC_IF,InPortData_IF_ID_buff, RS1_IF_ID_buff, RS2_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff);
     --Not completed yet
