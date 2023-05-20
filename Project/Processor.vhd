@@ -97,7 +97,7 @@ BEGIN
     fetchStagee:        entity work.fetchStage port map(clk, reset,not stall,PcSelect, PcData, instruction_IF, immediate_IF, PC_IF);
     IF_ID_bufferr:      entity work.IF_ID_buffer port map(clk, reset or IF_ID_Flush, INPort, instruction_IF, immediate_IF, PC_IF,InPortData_IF_ID_buff, RS1_IF_ID_buff, RS2_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff);
     --Not completed yet
-    hazardDetection:    entity work.hazardDetectionUnit port map(instruction_IF_ID_buff,RS1_IF_ID_buff,RS2_IF_ID_buff,RD_ID_EX_buff,regwrite_ID_EX_buff, memread_ID_EX_buff,memWrite_ID_EX_buff,RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff,memWriteOut_EX_MEM1_buff,
+    hazardDetection:    entity work.hazardDetectionUnit port map(instruction_IF_ID_buff,RS1_IF_ID_buff,RS2_IF_ID_buff,memread_ID,memWrite_ID,RD_ID_EX_buff,regwrite_ID_EX_buff, memread_ID_EX_buff,memWrite_ID_EX_buff,RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff,memWriteOut_EX_MEM1_buff,
                                                                  RD_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, stall);
 
     forwardingUnitDecode:  entity work.forwardingDecode port map(instruction_IF_ID_buff, RS1_IF_ID_buff, RS1Data_ID, RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff,ALUresultOut_EX_MEM1_buff,RD_MEM1_MEM2_buff,regWriteOut_MEM1_MEM2_buff,ALUoutput_MEM1_MEM2_buff,
