@@ -1,8 +1,7 @@
 .org 0 
 2
 .org 2
-dec R1,R1
-jc R0
+call R0
 
 .org 90
 inc R1,R1
