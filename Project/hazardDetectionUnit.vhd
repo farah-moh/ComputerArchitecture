@@ -5,14 +5,16 @@ USE IEEE.numeric_std.all;
 
 ENTITY hazardDetectionUnit IS
 PORT( 
-    instruction :                                  IN std_logic_vector(15 DOWNTO 0);
-    RS1 :                                          IN std_logic_vector(2 DOWNTO 0);
-    RS2 :                                          IN std_logic_vector(2 DOWNTO 0);
-    RD_ID_EX:                                      IN std_logic_vector(2 DOWNTO 0);
-    regwrite_ID_EX, memread_ID_EX:                 IN std_logic;
-    RD_EX_MEM1:                                    IN std_logic_vector(2 DOWNTO 0);
-    regwrite_EX_MEM1, memread_EX_MEM1:             IN std_logic;
-    stall:                                         OUT std_logic
+    instruction :                                               IN std_logic_vector(15 DOWNTO 0);
+    RS1 :                                                       IN std_logic_vector(2 DOWNTO 0);
+    RS2 :                                                       IN std_logic_vector(2 DOWNTO 0);
+    RD_ID_EX:                                                   IN std_logic_vector(2 DOWNTO 0);
+    regwrite_ID_EX, memread_ID_EX,memwrite_ID_EX:               IN std_logic;
+    RD_EX_MEM1:                                                 IN std_logic_vector(2 DOWNTO 0);
+    regwrite_EX_MEM1, memread_EX_MEM1,memwrite_EX_MEM1:         IN std_logic;
+    RD_MEM1_MEM2:                                               IN std_logic_vector(2 DOWNTO 0);
+    regwrite_MEM1_MEM2, memread_MEM1_MEM2,memwrite_MEM1_MEM2:   IN std_logic;
+    stall:                                                      OUT std_logic
  );
 END hazardDetectionUnit;
 
@@ -41,7 +43,7 @@ BEGIN
         -- out will stall at most once, and will be handled in memory data forwarding
         -- jz: 10000, jc: 10001
         -- std: 01100, ldd: 01011, push: 01000, out: 00100
-        -- mov: , jmp: , call:
+        -- mov: , jmp: 10010 , call: 10011
 
         IF (instType = RTYPE or opcode = "10000" or opcode = "10001")  THEN
             IF ((RD_ID_EX = RS1 or RD_ID_EX = RS2) and regwrite_ID_EX = '1' and memread_ID_EX = '1') THEN

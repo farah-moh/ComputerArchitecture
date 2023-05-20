@@ -7,12 +7,12 @@ USE IEEE.numeric_std.all;
 ENTITY EX_MEM1_buffer IS
 PORT( 
  clk, reset :                                   IN  std_logic; 
- RDreg:                                         IN  std_logic_vector(2 DOWNTO 0);
+ RS1reg,RS2reg,RDreg:                           IN  std_logic_vector(2 DOWNTO 0);
  RS1data, RS2data, ALUresult:                   IN  std_logic_vector(15 DOWNTO 0);
  PC:                                            IN std_logic_vector(15 DOWNTO 0);
  regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec:        IN std_logic;
 
- RDregOut:                                      OUT  std_logic_vector(2 DOWNTO 0);
+ RS1regOut,RS2regOut,RDregOut:                  OUT  std_logic_vector(2 DOWNTO 0);
  RS1dataOut, RS2dataOut,ALUresultOut:           OUT  std_logic_vector(15 DOWNTO 0);
  PCout:                                         OUT  std_logic_vector(15 DOWNTO 0);
  regWriteOut,pcSrcOut,memReadOut,memWriteOut,memToRegOut,inPortOut,outPortOut,spIncOut,spDecOut:        OUT std_logic
@@ -29,17 +29,19 @@ COMPONENT my_nDFF IS
     enable: IN std_logic);
 END COMPONENT;
 
-signal bufferInput:                   std_logic_vector(75 DOWNTO 0);
-signal bufferOutput:                  std_logic_vector(75 DOWNTO 0);
+signal bufferInput:                   std_logic_vector(81 DOWNTO 0);
+signal bufferOutput:                  std_logic_vector(81 DOWNTO 0);
 
 -- RDaddress(3) - rs1data(16) - rs2data(16) - ALUoutput(16) - PC(16) - control signals(8)
 
 BEGIN
     
-    bufferr:         my_nDFF generic map(76) port map (clk,reset,bufferInput,bufferOutput,'1');
+    bufferr:         my_nDFF generic map(82) port map (clk,reset,bufferInput,bufferOutput,'1');
 
-    bufferInput <= RDreg & RS1data & RS2data & ALUresult & PC & regWrite & pcSrc & memRead & memWrite & memToReg & inPort & outPort & spInc & spDec;
+    bufferInput <=  RS1reg & RS2reg & RDreg & RS1data & RS2data & ALUresult & PC & regWrite & pcSrc & memRead & memWrite & memToReg & inPort & outPort & spInc & spDec;
 
+    RS1regOut           <= bufferOutput(81 downto 79);
+    RS2regOut           <= bufferOutput(78 downto 76);
     RDregOut            <= bufferOutput(75 downto 73);
     RS1dataOut          <= bufferOutput(72 downto 57); 
     RS2dataOut          <= bufferOutput(56 downto 41);
