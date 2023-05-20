@@ -25,7 +25,11 @@ PORT(
     -- WBData:                          IN std_logic_vector(15 DOWNTO 0)           -- data from WB stage 
     -- WBData will be used in the next phase (hazards)
     Data:                                OUT std_logic_vector(15 DOWNTO 0);        -- data to be written to the address (if write enable is 1)
-    Address:                             OUT std_logic_vector(9 DOWNTO 0)         -- address that will be given to the memory
+    Address:                             OUT std_logic_vector(9 DOWNTO 0);         -- address that will be given to the memory
+
+    pcSrc:                               IN std_logic;                           
+    PC:                                  IN std_logic_vector(15 DOWNTO 0);
+    InterruptSignal:                     IN std_logic                             -- interrupt signal from the interrupt controller
     
 );
 END mem1Stage;
@@ -44,6 +48,7 @@ END COMPONENT;
 signal inc:                                 std_logic_vector(1 DOWNTO 0);
 -- signal sp_in:                               std_logic_vector(15 DOWNTO 0);
 signal sp_out:                              std_logic_vector(15 DOWNTO 0);
+signal PCresult:                            std_logic_vector(15 DOWNTO 0);
 
 BEGIN
     
@@ -60,8 +65,15 @@ BEGIN
                 (others => '0');
 
     -- Rs1Data w EX/MEM1.PC + 1 hy5osho 3la mux, wl output howa el data
+    -- wl interrupts hteb2a PC bs badal PC + 1
     -- bs dh next phase, for now hya Rs1Data 3la tool
-    Data <= Rs1Data;
+    
+    -- yenfa3 a3ml + 1 3ady kda wala lazem gowa process?
+    Data <= PC when InterruptSignal = '1' else              -- Check on interrupt first, as it has highest priority
+            PC + 1 when spDec = '1' and pcSrc = '1' else
+            Rs1Data when spDec = '1' else    
+            (others => '0');
+    -- Data <= Rs1Data;
     
 
 END mem1StageDesign;

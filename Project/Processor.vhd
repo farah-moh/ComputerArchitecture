@@ -92,6 +92,12 @@ Architecture Processor_design of Processor is
 
 
 
+
+    --####################Interrupt testing signals kda, hb2a ashelha b3dein####################
+    signal interruptsignal: std_logic;
+
+
+
 BEGIN
     ControlHazardUnit:  entity work.ControlHazardUnit port map(pcSrc_ID, pcSrc_EX, pcSrcOut_MEM2_WB_buff, RS1Data_ID, RS1dataOutForwarded1, writeDataOut_MEM2_WB_buff, PcSelect, PcData, IF_ID_Flush, ID_EX_Flush, EX_MEM1_Flush, MEM1_MEM2_Flush, MEM2_WB_Flush);
     fetchStagee:        entity work.fetchStage port map(clk, reset,not stall,PcSelect, PcData, instruction_IF, immediate_IF, PC_IF);
@@ -121,7 +127,7 @@ BEGIN
     
     forwardingUnitMem:  entity work.forwardingMemory port map(RS1_EX_MEM1_buff,RS2_EX_MEM1_buff,RS1dataOut_EX_MEM1_buff,RS2dataOut_EX_MEM1_buff,RD_MEM2_WB_buff, regWriteOut_MEM2_WB_buff, writeBackData_WB, RS1dataOutForwardedMEM, RS2dataOutForwardedMEM);
 
-    mem1Stagee:         entity work.mem1Stage port map (clk, reset, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, RS1dataOutForwardedMEM, RS2dataOutForwardedMEM, DataOut_MEM1, AddressOut_MEM1);
+    mem1Stagee:         entity work.mem1Stage port map (clk, reset, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, RS1dataOutForwardedMEM, RS2dataOutForwardedMEM, DataOut_MEM1, AddressOut_MEM1, pcSrcOut_EX_MEM1_buff, PCout_EX_MEM1_buff, interruptsignal);
 
     
     
