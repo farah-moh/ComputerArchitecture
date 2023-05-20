@@ -34,7 +34,7 @@ Architecture Processor_design of Processor is
     signal RS1dataOutForwardedDecode: std_logic_vector(15 DOWNTO 0);
     --####################DECODE STAGE#####################
     signal RS1Data_ID, RS2Data_ID: std_logic_vector(15 DOWNTO 0);
-    signal regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID: std_logic;
+    signal regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID, pcSrcJmpORcall_ID: std_logic;
     
     --##################DECODE/EXECUTE BUFFER##############
     signal RS1Data_ID_EX_buff, RS2Data_ID_EX_buff: std_logic_vector(15 DOWNTO 0);
@@ -99,7 +99,7 @@ Architecture Processor_design of Processor is
 
 
 BEGIN
-    ControlHazardUnit:  entity work.ControlHazardUnit port map(pcSrc_ID, pcSrc_EX, pcSrcOut_MEM2_WB_buff, RS1dataOutForwardedDecode, RS1dataOutForwarded1, writeDataOut_MEM2_WB_buff, PcSelect, PcData, IF_ID_Flush, ID_EX_Flush, EX_MEM1_Flush, MEM1_MEM2_Flush, MEM2_WB_Flush);
+    ControlHazardUnit:  entity work.ControlHazardUnit port map(pcSrcJmpORcall_ID, pcSrc_EX, pcSrcOut_MEM2_WB_buff, RS1dataOutForwardedDecode, RS1dataOutForwarded1, writeDataOut_MEM2_WB_buff, PcSelect, PcData, IF_ID_Flush, ID_EX_Flush, EX_MEM1_Flush, MEM1_MEM2_Flush, MEM2_WB_Flush);
     fetchStagee:        entity work.fetchStage port map(clk, reset,not stall,PcSelect, PcData, instruction_IF, immediate_IF, PC_IF);
     IF_ID_bufferr:      entity work.IF_ID_buffer port map(clk, reset or IF_ID_Flush, INPort, instruction_IF, immediate_IF, PC_IF,InPortData_IF_ID_buff, RS1_IF_ID_buff, RS2_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff);
     --Not completed yet
@@ -110,7 +110,7 @@ BEGIN
     RD_MEM2_WB_buff,regWriteOut_MEM2_WB_buff, writeBackData_WB,RS1dataOutForwardedDecode);
                                                                 
     decodeStagee:       entity work.decodingStage port map(clk, stall, reset, RS1_IF_ID_buff, RS2_IF_ID_buff , RD_WB, regWriteOut_WB, writeBackData_WB, instruction_IF_ID_buff
-                                                    , RS1Data_ID, RS2Data_ID, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID);
+                                                    , RS1Data_ID, RS2Data_ID, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID,pcSrcJmpORcall_ID);
                                                     
     ID_EX_bufferr:      entity work.ID_EX_buffer port map(clk, reset or ID_EX_Flush, InPortData_IF_ID_buff, RS1Data_ID, RS2Data_ID, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID
                                                     , InPortData_ID_EX_buff, RS1Data_ID_EX_buff, RS2Data_ID_EX_buff, opcode_ID_EX_buff, isImmediate_ID_EX_buff, RD_ID_EX_buff, RS1_ID_EX_buff, RS2_ID_EX_buff, immediateOut_ID_EX_buff, PCout_ID_EX_buff

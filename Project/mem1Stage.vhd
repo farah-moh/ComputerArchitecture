@@ -59,10 +59,11 @@ BEGIN
     sp_component: SP port map(clk,reset,inc,sp_out);
 
     -- sp_out w RS1Data w RS2Data hy5osho 3la mux, el output bta3o howa el address
-    Address <= sp_out(9 downto 0) when spInc = '1' OR spDec = '1' else
-                Rs1Data(9 downto 0) when readEnable = '1' else
-                Rs2Data(9 downto 0) when writeEnable = '1' else
-                (others => '0');
+    Address <= sp_out(9 downto 0) when spInc = '1' else
+               sp_out(9 downto 0) + 1 when spDec = '1' else
+               Rs1Data(9 downto 0) when readEnable = '1' else
+               Rs2Data(9 downto 0) when writeEnable = '1' else
+               (others => '0');
 
     -- Rs1Data w EX/MEM1.PC + 1 hy5osho 3la mux, wl output howa el data
     -- wl interrupts hteb2a PC bs badal PC + 1
@@ -71,8 +72,8 @@ BEGIN
     -- yenfa3 a3ml + 1 3ady kda wala lazem gowa process?
     Data <= PC when InterruptSignal = '1' else              -- Check on interrupt first, as it has highest priority
             PC + 1 when spDec = '1' and pcSrc = '1' else
-            Rs1Data when spDec = '1' else    
-            (others => '0');
+            Rs1Data; --when spDec = '1' else    
+            --(others => '0');
     -- Data <= Rs1Data;
     
 

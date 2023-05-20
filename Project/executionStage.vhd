@@ -64,7 +64,7 @@ BEGIN
 
     execOutput <= INPortDataIN when inPort = '1'
              else immediate when opcode = "01010" -- when LDM
-             else RS1Data  when opcode = "11011" -- when MOV
+             else RS1Data  when (opcode = "11011" OR opcode = "00100") -- when MOV or OUT
              else ALUoutput;
 
     pcSrcOut <= '1' when opcode = "10000" and flags(0) = '1' 

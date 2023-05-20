@@ -40,7 +40,7 @@ begin
             ram <= (others=>(others=>'0'));
             
         -- ELSIF rising_edge(clk) THEN
-        ELSIF rising_edge(clk) and writeEnable = '1' THEN
+        ELSIF falling_edge(clk) and writeEnable = '1' THEN
                 ram(to_integer(unsigned(writeAddress))) <= writeData;
             ELSE
             -- END IF;
