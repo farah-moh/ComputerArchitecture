@@ -27,10 +27,10 @@ end entity;
 architecture MYControlHazardUnit of ControlHazardUnit is
 begin
     -- Was -1
-    PcData <= RS1DataID - 1  when PcSrcID = '1' else
-              RS1DataEX - 1  when PcSrcEX = '1' else
-              BufferOutputMEM2_Wb - 1  when PcSrcMEM2_WB = '1' else
-              (others=>'0');
+    PcData <=   BufferOutputMEM2_Wb - 1  when PcSrcMEM2_WB = '1' else
+                RS1DataEX - 1  when PcSrcEX = '1' else
+                RS1DataID - 1  when PcSrcID = '1' else
+                (others=>'0');
     
     PcSelect <= PcSrcID or PcSrcEX or PcSrcMEM2_WB;
     

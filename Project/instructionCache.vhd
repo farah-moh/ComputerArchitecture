@@ -9,7 +9,8 @@ ENTITY instructionCache IS
         readAddress :    	IN std_logic_vector(9 DOWNTO 0);
         instruction :       OUT std_logic_vector(m-1 DOWNTO 0); 
         immediate :         OUT std_logic_vector(m-1 DOWNTO 0);
-        memZero :           OUT std_logic_vector(m-1 DOWNTO 0)
+        memZero :           OUT std_logic_vector(m-1 DOWNTO 0);
+        memOne :           OUT std_logic_vector(m-1 DOWNTO 0)
 
     );
 END ENTITY instructionCache;
@@ -31,6 +32,7 @@ BEGIN
     -- END PROCESS;
 
     memZero <= ram(0);
+    memOne <= ram(1);
     instruction  <= ram(to_integer(unsigned(readAddress)));
     immediate    <= ram(to_integer(unsigned(readAddress))+1);
 

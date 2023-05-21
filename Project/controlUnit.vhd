@@ -16,7 +16,8 @@ PORT(
  outPort:      OUT std_logic;
  spInc:        OUT std_logic;
  spDec:        OUT std_logic;
- INTERRUPTsig: IN std_logic
+ INTERRUPTsig: IN std_logic;
+ NOPP:          OUT std_logic_vector(15 downto 0)
  );
 END controlUnit;
 
@@ -47,13 +48,14 @@ BEGIN
         outPort<='0';
         spInc<='0';
         spDec<='0';
+        NOPP <= (others=>'1');
         
         IF INTERRUPTsig = '1' THEN      -- interrupt has the highest priority
             memWrite <= '1';            -- msh mot2aked mn el 7eta dyh? bs most
                                         -- probably ah, 3lshan n3rf nktb el PC fl dataMemory[SP]
             spDec <= '1';
         ELSIF stall = '1' THEN
-
+            NOPP <= (others=>'0');
         ELSIF instType = RTYPE THEN
             regWrite <= '1';
 

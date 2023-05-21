@@ -15,7 +15,6 @@ PORT(
     regwrite_EX_MEM1, memread_EX_MEM1,memwrite_EX_MEM1:         IN std_logic;
     RD_MEM1_MEM2:                                               IN std_logic_vector(2 DOWNTO 0);
     regwrite_MEM1_MEM2, memread_MEM1_MEM2,memwrite_MEM1_MEM2:   IN std_logic;
-    stall:                                                      OUT std_logic;
     memStall,dataStall:                                         OUT std_logic
  );
 END hazardDetectionUnit;
