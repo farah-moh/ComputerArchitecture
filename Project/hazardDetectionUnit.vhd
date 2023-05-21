@@ -15,7 +15,8 @@ PORT(
     regwrite_EX_MEM1, memread_EX_MEM1,memwrite_EX_MEM1:         IN std_logic;
     RD_MEM1_MEM2:                                               IN std_logic_vector(2 DOWNTO 0);
     regwrite_MEM1_MEM2, memread_MEM1_MEM2,memwrite_MEM1_MEM2:   IN std_logic;
-    stall:                                                      OUT std_logic
+    stall:                                                      OUT std_logic;
+    memStall,dataStall:                                         OUT std_logic
  );
 END hazardDetectionUnit;
 
@@ -29,15 +30,21 @@ TYPE JTypeInstructions IS
 TYPE AdhocInstructions IS
     (NOP,SETCC,CLRCC,INN,OUTT);
 
+SIGNAL memStallSig: std_logic := '0';
+-- SIGNAL dataStall: std_logic := '0';
+
 BEGIN
-    PROCESS (all) 
+-- instruction, RS1, RS2, memread_me, memwrite_me, RD_ID_EX, regwrite_ID_EX, memread_ID_EX,memwrite_ID_EX, RD_EX_MEM1, regwrite_EX_MEM1, memread_EX_MEM1, memwrite_EX_MEM1, RD_MEM1_MEM2, regwrite_MEM1_MEM2, memread_MEM1_MEM2,memwrite_MEM1_MEM2
+    PROCESS (instruction, RS1, RS2, RD_ID_EX, regwrite_ID_EX, memread_ID_EX,memwrite_ID_EX, RD_EX_MEM1, regwrite_EX_MEM1, memread_EX_MEM1, memwrite_EX_MEM1, RD_MEM1_MEM2, regwrite_MEM1_MEM2, memread_MEM1_MEM2,memwrite_MEM1_MEM2) 
         variable instType: TYPES;
         variable opcode: std_logic_vector(4 DOWNTO 0);
     BEGIN
         -- Get the type of instruction
         instType := TYPES'val(to_integer(unsigned(instruction(15 DOWNTO 14)))); 
         opcode := instruction(15 DOWNTO 11);
-        stall <= '0';
+        dataStall <= '0';
+        -- memStall <= '0';
+        -- stall <= '0';
         -- Data hazards -> stall when load use case is detected
         -- instructions that might stall TWICE (will be handled by execute forwarding) -> all R-type - JZ - JC
         -- instructions that only stall ONCE (will be handled by memory forwarding)  -> STD - LDD - PUSH - OUT - MOV
@@ -47,44 +54,63 @@ BEGIN
         -- std: 01100, ldd: 01011, push: 01000, out: 00100
         -- mov: 11011 , jmp: 10010 , call: 10011
 
-        -- #################### STRUCTURAL HAZARDS ####################
-        -- only one possible stall EVER, if I am a memory instruction and the one right before me is also a memory instruction
-        IF ((memread_me = '1' or memwrite_me ='1') and(memread_ID_EX='1' or memwrite_ID_EX='1'))  THEN
-            stall <= '1';
         -- #################### DATA HAZARDS [LOAD USE CASE] ####################
         -- in case of POSSIBLY 3 stalls
-        ELSIF ((opcode = "10010") or (opcode ="10011")) THEN
+        IF ((opcode = "10010") or (opcode ="10011")) THEN
             IF (((RD_ID_EX = RS1) or (RD_ID_EX = RS2)) and (regwrite_ID_EX = '1')) THEN
-                stall <= '1';
+                dataStall <= '1';
                 -- in case of a store, we only need to stall once if previous instruction is a load, otherwise proper forwarding will get the correct values
             ELSIF (((RD_EX_MEM1 = RS1) or (RD_EX_MEM1 = RS2)) and (regwrite_EX_MEM1 = '1') and (memread_EX_MEM1 = '1')) THEN
-                stall <= '1';
+                dataStall <= '1';
             ELSIF (((RD_MEM1_MEM2 = RS1) or (RD_MEM1_MEM2 = RS2)) and (regwrite_MEM1_MEM2 = '1') and (memread_MEM1_MEM2 = '1')) THEN
-                stall <= '1';
+                dataStall <= '1';
             ELSE
-                stall <= '0';
+                dataStall <= '0';
             END IF;
         -- in case of POSSIBLY 2 stalls
         ELSIF (instType = RTYPE or opcode = "10000" or opcode = "10001")  THEN
             IF ((RD_ID_EX = RS1 or RD_ID_EX = RS2) and regwrite_ID_EX = '1' and memread_ID_EX = '1') THEN
-                stall <= '1';
+                dataStall <= '1';
             -- in case of a store, we only need to stall once if previous instruction is a load, otherwise proper forwarding will get the correct values
             ELSIF ((RD_EX_MEM1 = RS1 or RD_EX_MEM1 = RS2) and regwrite_EX_MEM1 = '1' and memread_EX_MEM1 = '1') THEN
-                stall <= '1';
+                dataStall <= '1';
             ELSE
-                stall <= '0';
+                dataStall <= '0';
             END IF;
         -- in case of a memory operation or an OUT or a MOV, we only need to stall once if previous instruction is a load, otherwise proper forwarding will get the correct values
         ELSIF (opcode = "01100" or opcode = "01011" or opcode = "01000" or opcode ="00100" or opcode ="11011")  THEN
             IF ((RD_ID_EX = RS1 or RD_ID_EX = RS2) and regwrite_ID_EX = '1' and memread_ID_EX = '1') THEN
-                stall <= '1';
+                dataStall <= '1';
             ELSE
-                stall <= '0';
+                dataStall <= '0';
             END IF;
         ELSE 
-            stall <= '0';
+            dataStall <= '0';
         END IF;
 
-        
+        -- #################### STRUCTURAL HAZARDS ####################
+        -- only one possible stall EVER, if I am a memory instruction and the one right before me is also a memory instruction
+        -- IF ((memread_me = '1' or memwrite_me ='1') and(memread_ID_EX='1' or memwrite_ID_EX='1'))  THEN
+        --     memStall <= '1';
+        -- ELSE
+        -- memStall <= '0';
+        -- END IF;
+        -- stall <= dataStall OR memStall;
     END PROCESS;
+
+    PROCESS (instruction, memread_me, memwrite_me,memread_ID_EX,memwrite_ID_EX) 
+    BEGIN
+        memStallSig <= '0';
+        -- #################### STRUCTURAL HAZARDS ####################
+        -- only one possible stall EVER, if I am a memory instruction and the one right before me is also a memory instruction
+        IF ((memread_me = '1' or memwrite_me ='1') and (memread_ID_EX='1' or memwrite_ID_EX='1'))  THEN
+            memStallSig <= '1';
+        ELSE
+            memStallSig <= '0';
+        END IF;
+        memStall <= memStallSig;
+        -- stall <= dataStall OR memStall;
+    END PROCESS;
+
+
 END hazardDetectionUnitDesign;

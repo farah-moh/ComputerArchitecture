@@ -596,7 +596,7 @@ R74
 R75
 R17
 R18
-!i122 3512
+!i122 3677
 R0
 R21
 Z91 FD:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
@@ -606,9 +606,9 @@ VC4^JoX[F]=[LfGc;0]Dcl0
 !s100 mfL9YOMWS7C21cH^8FkE:0
 R4
 33
-Z92 !s110 1684625878
+Z92 !s110 1684676853
 !i10b 1
-Z93 !s108 1684625878.000000
+Z93 !s108 1684676852.000000
 Z94 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
 Z95 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
 !i113 1
@@ -621,7 +621,7 @@ R75
 R17
 R18
 DEx4 work 3 alu 0 22 C4^JoX[F]=[LfGc;0]Dcl0
-!i122 3512
+!i122 3677
 l20
 L16 90
 Va3g`ZR56W_IkB[n?<8k:K1
@@ -643,7 +643,7 @@ Z97 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R16
 R17
 R18
-!i122 3513
+!i122 3678
 R0
 Z98 8D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
 Z99 FD:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
@@ -655,9 +655,9 @@ R4
 33
 R92
 !i10b 1
-R93
-Z100 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
-Z101 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
+Z100 !s108 1684676853.000000
+Z101 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
+Z102 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
 !i113 1
 R82
 R67
@@ -667,8 +667,8 @@ R97
 R16
 R17
 R18
-Z102 DEx4 work 17 controlhazardunit 0 22 =O_VBi3B90lhPOfge3_i00
-!i122 3513
+Z103 DEx4 work 17 controlhazardunit 0 22 =O_VBi3B90lhPOfge3_i00
+!i122 3678
 l28
 L27 18
 VVS6>Sk_VUY>IL[oRS@T2J2
@@ -677,30 +677,30 @@ R4
 33
 R92
 !i10b 1
-R93
 R100
 R101
+R102
 !i113 1
 R82
 R67
 Econtrolunit
-Z103 w1683219845
+Z104 w1683219845
 R16
 R17
 R18
-!i122 3514
+!i122 3679
 R0
-Z104 8D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
-Z105 FD:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
+Z105 8D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
+Z106 FD:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
 l0
 L6 1
 VS=9:8UW]dIOAI^4K6aZ2Q0
 !s100 bFEkO20Vd:_14N_j<<VYM0
 R4
 33
-Z106 !s110 1684625879
+R92
 !i10b 1
-R93
+R100
 Z107 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
 R24
 !i113 1
@@ -711,16 +711,16 @@ R16
 R17
 R18
 Z108 DEx4 work 11 controlunit 0 22 S=9:8UW]dIOAI^4K6aZ2Q0
-!i122 3514
+!i122 3679
 l31
 L22 80
 VX5]9dCHOZeJ_R;KA6B;J[0
 !s100 g[k2ESg<>0YE;oMLTNF[Y1
 R4
 33
-R106
+R92
 !i10b 1
-R93
+R100
 R107
 R24
 !i113 1
@@ -730,7 +730,7 @@ Econtrolunit_tb
 Z109 w1681758824
 R17
 R18
-!i122 3515
+!i122 3680
 R0
 Z110 8D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
 Z111 FD:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
@@ -740,9 +740,9 @@ V5h>32LX00DTzZO^K=?6890
 !s100 m?lEo3YaYP1W=VDMnolYg2
 R4
 33
-R106
+Z112 !s110 1684676854
 !i10b 1
-Z112 !s108 1684625879.000000
+R100
 Z113 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
 Z114 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
 !i113 1
@@ -752,16 +752,16 @@ Atb
 R17
 R18
 DEx4 work 14 controlunit_tb 0 22 5h>32LX00DTzZO^K=?6890
-!i122 3515
+!i122 3680
 l30
 L8 196
 V1Tik=;d`[FX^Pizb]nD2o3
 !s100 >>UMdU^O<7Wz^i75SZL`W1
 R4
 33
-R106
-!i10b 1
 R112
+!i10b 1
+R100
 R113
 R114
 !i113 1
@@ -772,7 +772,7 @@ Z115 w1684617179
 R16
 R17
 R18
-!i122 3516
+!i122 3681
 R0
 Z116 8D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd
 Z117 FD:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd
@@ -782,11 +782,11 @@ VB^lfj@^nAG683?IWL[WMd3
 !s100 FHI7anIj7IE]LRSQ9zVk?1
 R4
 33
-R106
-!i10b 1
 R112
-Z118 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
-Z119 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
+!i10b 1
+Z118 !s108 1684676854.000000
+Z119 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
+Z120 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
 !i113 1
 R82
 R67
@@ -795,86 +795,86 @@ R16
 R17
 R18
 DEx4 work 7 datamem 0 22 B^lfj@^nAG683?IWL[WMd3
-!i122 3516
+!i122 3681
 l26
 L22 33
 VfB_cO0KCIHZee]d=S7=[:3
 !s100 JnzFA84PUQ27F39?5]iVB3
 R4
 33
-R106
-!i10b 1
 R112
+!i10b 1
 R118
 R119
+R120
 !i113 1
 R82
 R67
 Edecodingstage
-Z120 w1684625801
+Z121 w1684668506
 R16
 R17
 R18
-!i122 3517
+!i122 3682
 R0
-Z121 8D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
-Z122 FD:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
+Z122 8D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
+Z123 FD:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
 l0
 L5 1
 V[]>dDZS3<6bHJHhQKQm[k3
 !s100 cKnK?B`hnS4KV]DXc>QJI1
 R4
 33
-R106
-!i10b 1
 R112
-Z123 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
-Z124 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
+!i10b 1
+R118
+Z124 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
+Z125 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
 !i113 1
 R82
 R67
 Adecoding
-Z125 DEx4 work 10 regfilemem 0 22 J[9EhVI`<1zg[?zP2060K1
+Z126 DEx4 work 10 regfilemem 0 22 J[9EhVI`<1zg[?zP2060K1
 R108
 R16
 R17
 R18
-Z126 DEx4 work 13 decodingstage 0 22 []>dDZS3<6bHJHhQKQm[k3
-!i122 3517
+Z127 DEx4 work 13 decodingstage 0 22 []>dDZS3<6bHJHhQKQm[k3
+!i122 3682
 l25
-L23 11
-V]cJ6JC^XDH1aARh][Gfa01
-!s100 V@m_4JX^IJ?WMcE]^4nf30
+L23 12
+VefdG4TT=Sa;hdIz^iL[=l0
+!s100 WS66=bdDge@O]29YdgAHb1
 R4
 33
-R106
-!i10b 1
 R112
-R123
+!i10b 1
+R118
 R124
+R125
 !i113 1
 R82
 R67
 Eex_mem1_buffer
-Z127 w1684591577
+Z128 w1684591577
 R16
 R74
 R75
 R17
 R18
-!i122 3518
+!i122 3683
 R0
-Z128 8D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
-Z129 FD:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
+Z129 8D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
+Z130 FD:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
 l0
 L7 1
 V:>XkiGYYDW2:GeNIQLLk>3
 !s100 ;GMl<4<lCbhPid@POiZMd3
 R4
 33
-Z130 !s110 1684625880
+Z131 !s110 1684676855
 !i10b 1
-Z131 !s108 1684625880.000000
+R118
 Z132 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
 Z133 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
 !i113 1
@@ -887,16 +887,16 @@ R75
 R17
 R18
 Z134 DEx4 work 14 ex_mem1_buffer 0 22 :>XkiGYYDW2:GeNIQLLk>3
-!i122 3518
+!i122 3683
 l37
 L22 39
 VYhS[1QXiGH?Xf@[HYC3dJ2
 !s100 OX5l4Xz4Fbz]7Ado?en:F2
 R4
 33
-R130
-!i10b 1
 R131
+!i10b 1
+R118
 R132
 R133
 !i113 1
@@ -909,7 +909,7 @@ R74
 R75
 R17
 R18
-!i122 3519
+!i122 3684
 R0
 R47
 Z136 FD:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd
@@ -919,11 +919,11 @@ Vn:`nFjQkX2QRA6W;I?@kg2
 !s100 ih]@6D6NCP0H?[Fn>ZXTC1
 R4
 33
-R130
-!i10b 1
 R131
-Z137 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
-Z138 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
+!i10b 1
+Z137 !s108 1684676855.000000
+Z138 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
+Z139 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
 !i113 1
 R82
 R67
@@ -933,32 +933,32 @@ R74
 R75
 R17
 R18
-Z139 DEx4 work 14 executionstage 0 22 n:`nFjQkX2QRA6W;I?@kg2
-!i122 3519
+Z140 DEx4 work 14 executionstage 0 22 n:`nFjQkX2QRA6W;I?@kg2
+!i122 3684
 l54
 L22 52
 V:WZF^76kiaI3_ooIWzAE`2
 !s100 2jMJn4D>k3F3ZXH>>9?:l3
 R4
 33
-R130
-!i10b 1
 R131
+!i10b 1
 R137
 R138
+R139
 !i113 1
 R82
 R67
 Efetchstage
-Z140 w1683323197
+Z141 w1683323197
 R16
 R74
 R75
 R17
 R18
-!i122 3520
+!i122 3685
 R0
-Z141 8D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
+Z142 8D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
 R48
 l0
 L7 1
@@ -966,59 +966,59 @@ Vn09T]il2T4mGOIA]<m<Sf0
 !s100 0W;<4Lo4MXjZ6bk9IGJ7=1
 R4
 33
-R130
-!i10b 1
 R131
-Z142 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
-Z143 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
+!i10b 1
+R137
+Z143 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
+Z144 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
 !i113 1
 R82
 R67
 Afetchstagedesign
-Z144 DEx4 work 2 pc 0 22 M@_jD]?l_fEY^j4:`0KDc1
+Z145 DEx4 work 2 pc 0 22 M@_jD]?l_fEY^j4:`0KDc1
 R16
 R74
 R75
 R17
 R18
-Z145 DEx4 work 10 fetchstage 0 22 n09T]il2T4mGOIA]<m<Sf0
-!i122 3520
+Z146 DEx4 work 10 fetchstage 0 22 n09T]il2T4mGOIA]<m<Sf0
+!i122 3685
 l36
 L16 31
 VPFG4eeT<jj=fI;7M1QKDC3
 !s100 GM`FZlAKLF`dgU@binCSM0
 R4
 33
-R130
-!i10b 1
 R131
-R142
+!i10b 1
+R137
 R143
+R144
 !i113 1
 R82
 R67
 Eflagcontrolunit
-Z146 w1683229909
+Z147 w1683229909
 R16
 R74
 R75
 R17
 R18
-!i122 3521
+!i122 3686
 R0
-Z147 8D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
-Z148 FD:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
+Z148 8D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
+Z149 FD:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
 l0
 L7 1
 VL9Q2L^2^fDB`UQ1T;c;6V0
 !s100 E?A<Y34]bc:`8GD9MNCI90
 R4
 33
-Z149 !s110 1684625881
+Z150 !s110 1684676856
 !i10b 1
-R131
-Z150 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
-Z151 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
+R137
+Z151 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
+Z152 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
 !i113 1
 R82
 R67
@@ -1029,41 +1029,41 @@ R75
 R17
 R18
 DEx4 work 15 flagcontrolunit 0 22 L9Q2L^2^fDB`UQ1T;c;6V0
-!i122 3521
+!i122 3686
 l16
 L15 21
 V7@oabZGCZ]1Y]5`KYOQK]1
 !s100 8IiE8`9^[VMK4UF7ioHhW1
 R4
 33
-R149
-!i10b 1
-R131
 R150
+!i10b 1
+R137
 R151
+R152
 !i113 1
 R82
 R67
 Eforwardingdecode
-Z152 w1684597956
+Z153 w1684597956
 R16
 R17
 R18
-!i122 3540
+!i122 3705
 R0
-Z153 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
-Z154 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
+Z154 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
+Z155 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
 l0
 L5 1
 V4>ln0GUYo3M^9CX_V[jS?3
 !s100 b11`L32bJYWX<]CW:nh;70
 R4
 32
-Z155 !s110 1684625887
+Z156 !s110 1684676862
 !i10b 1
-Z156 !s108 1684625887.000000
-Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
-Z158 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
+Z157 !s108 1684676862.000000
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
+Z159 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
 !i113 1
 R66
 R67
@@ -1071,42 +1071,42 @@ Aforwardingdecodedesign
 R16
 R17
 R18
-Z159 DEx4 work 16 forwardingdecode 0 22 4>ln0GUYo3M^9CX_V[jS?3
-!i122 3540
+Z160 DEx4 work 16 forwardingdecode 0 22 4>ln0GUYo3M^9CX_V[jS?3
+!i122 3705
 l29
-Z160 L28 22
-Z161 VEY<E_6LJUlIjZ?0EGJQ=^2
-Z162 !s100 Fk[`f??gmn]?U1djC^eQ]3
+L28 22
+VEY<E_6LJUlIjZ?0EGJQ=^2
+!s100 Fk[`f??gmn]?U1djC^eQ]3
 R4
 32
-R155
-!i10b 1
 R156
+!i10b 1
 R157
 R158
+R159
 !i113 1
 R66
 R67
 Eforwardingexecute
-Z163 w1683307645
+Z161 w1683307645
 R16
 R17
 R18
-!i122 3522
+!i122 3687
 R0
-Z164 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
-Z165 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
+Z162 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
+Z163 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
 l0
 L5 1
 VK?:Jj8`X2PYef43eYmNG11
 !s100 dM<?k_SjUF^M4GlVnP>d>0
 R4
 33
-R149
+R150
 !i10b 1
-Z166 !s108 1684625881.000000
-Z167 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
-Z168 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
+Z164 !s108 1684676856.000000
+Z165 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
+Z166 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
 !i113 1
 R82
 R67
@@ -1114,42 +1114,42 @@ Aforwardingexecutedesign
 R16
 R17
 R18
-Z169 DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
-!i122 3522
+Z167 DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
+!i122 3687
 l28
 L27 27
 Vc=>c5PBf@MO3b2[GS<;A50
 !s100 M:aI=o<JSS]YYcmdjlRUD1
 R4
 33
-R149
+R150
 !i10b 1
+R164
+R165
 R166
-R167
-R168
 !i113 1
 R82
 R67
 Eforwardingmemory
-R163
+R161
 R16
 R17
 R18
-!i122 3523
+!i122 3688
 R0
-Z170 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
-Z171 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
+Z168 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
+Z169 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
 l0
 L5 1
 V9lIzC9?3=`3<n0eHkX2VT3
 !s100 Y[_8`aB0hRdS[[7Ua<ONf2
 R4
 33
-R149
+R150
 !i10b 1
-R166
-Z172 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
-Z173 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
+R164
+Z170 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
+Z171 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
 !i113 1
 R82
 R67
@@ -1157,44 +1157,44 @@ Aforwardingmemorydesign
 R16
 R17
 R18
-Z174 DEx4 work 16 forwardingmemory 0 22 9lIzC9?3=`3<n0eHkX2VT3
-!i122 3523
+Z172 DEx4 work 16 forwardingmemory 0 22 9lIzC9?3=`3<n0eHkX2VT3
+!i122 3688
 l20
 L19 19
 V5H3Z2_PIRgk]miZZg<J:32
 !s100 V_MMmgTRM0S[8TJIeb3S?3
 R4
 33
-R149
+R150
 !i10b 1
-R166
-R172
-R173
+R164
+R170
+R171
 !i113 1
 R82
 R67
 Ehazarddetectionunit
-Z175 w1684619936
+Z173 w1684679782
 R16
 R74
 R97
 R17
 R18
-!i122 3524
+!i122 3716
 R0
-Z176 8D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
-Z177 FD:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
+Z174 8D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
+Z175 FD:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
 l0
 L6 1
-VePYC4mBZKNY5z_KfeM]>10
-!s100 2`58DaK5^n16f`@>MI_Ra2
+VfXW^:1So6[Ei_kDH2:bPI2
+!s100 MX?N4zU?Czaod1LBG;ajg2
 R4
 33
-Z178 !s110 1684625882
+Z176 !s110 1684679787
 !i10b 1
-R166
-Z179 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
-Z180 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
+Z177 !s108 1684679787.000000
+Z178 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
+Z179 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
 !i113 1
 R82
 R67
@@ -1204,42 +1204,42 @@ R74
 R97
 R17
 R18
-Z181 DEx4 work 19 hazarddetectionunit 0 22 ePYC4mBZKNY5z_KfeM]>10
-!i122 3524
-l32
-L22 69
-VNb^SDjjL2jzQ_6^UEeL[a2
-!s100 GlaKj[fV22Ca4TRE[NG>12
+Z180 DEx4 work 19 hazarddetectionunit 0 22 fXW^:1So6[Ei_kDH2:bPI2
+!i122 3716
+l36
+L23 94
+VZMIYfF@KP7Xb]KJdafmB[2
+!s100 oSPBdJP@WEgVdTM?9T:c?2
 R4
 33
-R178
+R176
 !i10b 1
-R166
+R177
+R178
 R179
-R180
 !i113 1
 R82
 R67
 Eid_ex_buffer
-Z182 w1683211905
+Z181 w1683211905
 R16
 R74
 R75
 R17
 R18
-!i122 3525
+!i122 3690
 R0
-Z183 8D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
-Z184 FD:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
+Z182 8D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
+Z183 FD:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
 l0
 L7 1
 VID==1ZQmKBCX>k_DFm^_U0
 !s100 cU]h=dG>AFE?PA2aN0Rh`2
 R4
 33
-R178
+Z184 !s110 1684676857
 !i10b 1
-Z185 !s108 1684625882.000000
+Z185 !s108 1684676857.000000
 Z186 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
 Z187 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
 !i113 1
@@ -1252,14 +1252,14 @@ R75
 R17
 R18
 Z188 DEx4 work 12 id_ex_buffer 0 22 ID==1ZQmKBCX>k_DFm^_U0
-!i122 3525
+!i122 3690
 l41
 L26 42
 VfLNB4h_>c:Z:1>]>SlL^U3
 !s100 ;kGaV>z:Cd@Iil98?Si=S2
 R4
 33
-R178
+R184
 !i10b 1
 R185
 R186
@@ -1274,7 +1274,7 @@ R74
 R75
 R17
 R18
-!i122 3526
+!i122 3691
 R0
 Z190 8D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd
 Z191 FD:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd
@@ -1284,7 +1284,7 @@ VGSn`1jI3DH@OkzjHC9:?i1
 !s100 Ohg5DOOQ^^lIiPzoODS_[1
 R4
 33
-R178
+R184
 !i10b 1
 R185
 Z192 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
@@ -1299,14 +1299,14 @@ R75
 R17
 R18
 Z194 DEx4 work 12 if_id_buffer 0 22 GSn`1jI3DH@OkzjHC9:?i1
-!i122 3526
+!i122 3691
 l36
 L21 29
 V^[EQLg0NUCcO>m]>7<[H@1
 !s100 F;MhYE]F;PB1@]eL>?9`O0
 R4
 33
-R178
+R184
 !i10b 1
 R185
 R192
@@ -1319,7 +1319,7 @@ Z195 w1683162396
 R16
 R17
 R18
-!i122 3527
+!i122 3692
 R0
 Z196 8D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
 R12
@@ -1329,7 +1329,7 @@ VE;PA:Kjz=0jBTZA0bCG@m3
 !s100 A5e_OfXj`9V^?]_V4Wfo93
 R4
 33
-Z197 !s110 1684625883
+Z197 !s110 1684676858
 !i10b 1
 R185
 Z198 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd|
@@ -1342,7 +1342,7 @@ R16
 R17
 R18
 DEx4 work 16 instructioncache 0 22 E;PA:Kjz=0jBTZA0bCG@m3
-!i122 3527
+!i122 3692
 l22
 L17 21
 VQ?<TobK79aAleDAd:=lOf0
@@ -1364,7 +1364,7 @@ R74
 R75
 R17
 R18
-!i122 3528
+!i122 3693
 R0
 Z201 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
 Z202 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
@@ -1376,7 +1376,7 @@ R4
 33
 R197
 !i10b 1
-Z203 !s108 1684625883.000000
+Z203 !s108 1684676858.000000
 Z204 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
 Z205 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
 !i113 1
@@ -1389,7 +1389,7 @@ R75
 R17
 R18
 Z206 DEx4 work 16 mem1_mem2_buffer 0 22 zBaM5?2cIfbB^8Wk5jW[b2
-!i122 3528
+!i122 3693
 l40
 L25 37
 VTgQC3gY<7cbI3>;KZ>V`01
@@ -1411,7 +1411,7 @@ R74
 R75
 R17
 R18
-!i122 3529
+!i122 3694
 R0
 Z208 8D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
 Z209 FD:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
@@ -1436,7 +1436,7 @@ R75
 R17
 R18
 Z212 DEx4 work 9 mem1stage 0 22 ]:H<AYR`be]g5OjKTkDRQ2
-!i122 3529
+!i122 3694
 l53
 L37 44
 VJ1iNFoH:FEBT`6]8]=NWX0
@@ -1452,13 +1452,13 @@ R211
 R82
 R67
 Emem2_wb_buffer
-R163
+R161
 R16
 R74
 R75
 R17
 R18
-!i122 3530
+!i122 3695
 R0
 Z213 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
 Z214 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
@@ -1468,7 +1468,7 @@ V:Pe6SzSnz4?VZ8a6PWQXc0
 !s100 69kBHz3U[?M^H`BanlKG03
 R4
 33
-Z215 !s110 1684625884
+Z215 !s110 1684676859
 !i10b 1
 R203
 Z216 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
@@ -1483,7 +1483,7 @@ R75
 R17
 R18
 Z218 DEx4 work 14 mem2_wb_buffer 0 22 :Pe6SzSnz4?VZ8a6PWQXc0
-!i122 3530
+!i122 3695
 l41
 L26 41
 V>UB086gmHXiNVj7I<C]2:1
@@ -1505,7 +1505,7 @@ R74
 R75
 R17
 R18
-!i122 3531
+!i122 3696
 R0
 Z220 8D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
 Z221 FD:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
@@ -1517,7 +1517,7 @@ R4
 33
 R215
 !i10b 1
-Z222 !s108 1684625884.000000
+Z222 !s108 1684676859.000000
 Z223 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
 Z224 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
 !i113 1
@@ -1530,7 +1530,7 @@ R75
 R17
 R18
 Z225 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
-!i122 3531
+!i122 3696
 l41
 L23 21
 V1m5gUBgQ>FYd0iMnYHgSI1
@@ -1552,7 +1552,7 @@ R74
 R75
 R17
 R18
-!i122 3532
+!i122 3664
 R0
 R54
 R68
@@ -1562,10 +1562,10 @@ Z226 VT3=W1Jj?d]d0jN_zzbOGo0
 Z227 !s100 C?Nfi4;`eZW8_H2k1S6RN3
 R4
 33
-R215
+Z228 !s110 1684676457
 !i10b 1
-R222
-Z228 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
+Z229 !s108 1684676457.000000
+Z230 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
 R65
 !i113 1
 R82
@@ -1576,18 +1576,18 @@ R74
 R75
 R17
 R18
-Z229 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
-!i122 3532
+Z231 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
+!i122 3664
 l77
 R89
-Z230 V9nEQai=2Ok`FH<6^=Bom91
-Z231 !s100 zSEA;HiZc:=810iLkfeTb3
+Z232 V9nEQai=2Ok`FH<6^=Bom91
+Z233 !s100 zSEA;HiZc:=810iLkfeTb3
 R4
 33
-R215
-!i10b 1
-R222
 R228
+!i10b 1
+R229
+R230
 R65
 !i113 1
 R82
@@ -1599,7 +1599,7 @@ R74
 R75
 R17
 R18
-!i122 3503
+!i122 3697
 R0
 R54
 R68
@@ -1609,10 +1609,10 @@ R226
 R227
 R4
 33
-Z232 !s110 1684623354
+R215
 !i10b 1
-Z233 !s108 1684623354.000000
-R228
+R222
+R230
 R65
 !i113 1
 R82
@@ -1623,18 +1623,18 @@ R74
 R75
 R17
 R18
-R229
-!i122 3503
+R231
+!i122 3697
 l77
 R89
-R230
-R231
+R232
+R233
 R4
 33
-R232
+R215
 !i10b 1
-R233
-R228
+R222
+R230
 R65
 !i113 1
 R82
@@ -1643,7 +1643,7 @@ Emy_ndff
 Z234 w1684608336
 R17
 R18
-!i122 3504
+!i122 3698
 R0
 Z235 8D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
 Z236 FD:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
@@ -1653,9 +1653,9 @@ R87
 R88
 R4
 33
-Z237 !s110 1684623355
+Z237 !s110 1684676860
 !i10b 1
-R233
+R222
 R59
 R60
 !i113 1
@@ -1665,7 +1665,7 @@ Aa_my_ndff
 R17
 R18
 R85
-!i122 3504
+!i122 3698
 l14
 R86
 Z238 VmFH]mN[n8JbF=n16BQV0k1
@@ -1674,7 +1674,7 @@ R4
 33
 R237
 !i10b 1
-R233
+R222
 R59
 R60
 !i113 1
@@ -1684,7 +1684,7 @@ Emy_ndff
 R234
 R17
 R18
-!i122 3533
+!i122 3665
 R0
 R235
 R236
@@ -1694,9 +1694,9 @@ R87
 R88
 R4
 33
-Z240 !s110 1684625885
+R228
 !i10b 1
-R222
+R229
 R59
 R60
 !i113 1
@@ -1706,27 +1706,27 @@ Aa_my_ndff
 R17
 R18
 R85
-!i122 3533
+!i122 3665
 l14
 R86
 R238
 R239
 R4
 33
-R240
+R228
 !i10b 1
-R222
+R229
 R59
 R60
 !i113 1
 R82
 R67
 Epc
-Z241 w1684617497
+Z240 w1684617497
 R16
 R17
 R18
-!i122 3534
+!i122 3699
 R0
 R57
 R58
@@ -1736,9 +1736,9 @@ VM@_jD]?l_fEY^j4:`0KDc1
 !s100 ]jhIZgnB?1nTf=<H]`_g>3
 R4
 33
-R240
+R237
 !i10b 1
-Z242 !s108 1684625885.000000
+Z241 !s108 1684676860.000000
 R52
 R53
 !i113 1
@@ -1748,28 +1748,28 @@ Apc_design
 R16
 R17
 R18
-R144
-!i122 3534
+R145
+!i122 3699
 l16
 L15 24
 VJic<UeXL_nG[G2SPI_gN<0
 !s100 RbKGMk<;MGB7;eEzSNX?D3
 R4
 33
-R240
+R237
 !i10b 1
-R242
+R241
 R52
 R53
 !i113 1
 R82
 R67
 Eprocessor
-Z243 w1684625869
+Z242 w1684676990
 R16
 R17
 R18
-!i122 3535
+!i122 3706
 R0
 R49
 R50
@@ -1779,49 +1779,49 @@ VcaoPIVmEYF@hFk^>aR9<40
 R83
 R4
 33
-R240
+Z243 !s110 1684677012
 !i10b 1
-R242
-Z244 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
+Z244 !s108 1684677012.000000
+Z245 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
 R42
 !i113 1
 R82
 R67
 Aprocessor_design
-Z245 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
+Z246 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
 R218
 R225
 R206
 R212
-R174
+R172
 R134
-R139
-R169
+R140
+R167
 R188
-R126
-R159
-R181
+R127
+R160
+R180
 R194
 R75
-R145
+R146
 R74
 R97
-R102
+R103
 R16
 R17
 R18
 DEx4 work 9 processor 0 22 caoPIVmEYF@hFk^>aR9<40
-!i122 3535
+!i122 3706
 l101
 L15 138
-V0=EVK]zQ5<FOVkL[eODA:1
-!s100 ^ol?nMA6<M@lF`;FYHCz@1
+V4Qf44PV2A7LW4nW@3TEV^2
+!s100 gFkM[a;Wai^hajZn_c?Xk3
 R4
 33
-R240
+R243
 !i10b 1
-R242
 R244
+R245
 R42
 !i113 1
 R82
@@ -1833,7 +1833,7 @@ R31
 R16
 R17
 R18
-!i122 3536
+!i122 3701
 R0
 R32
 R33
@@ -1843,10 +1843,10 @@ VJ[9EhVI`<1zg[?zP2060K1
 R81
 R4
 33
-Z246 !s110 1684625886
+Z247 !s110 1684676861
 !i10b 1
-R242
-Z247 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+R241
+Z248 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
 R28
 !i113 1
 R82
@@ -1855,42 +1855,42 @@ Aregfilememdesign
 R16
 R17
 R18
-R125
-!i122 3536
+R126
+!i122 3701
 l25
 R79
 VoVAWj:Pm=JK]8_LMC_2@Y3
 R80
 R4
 33
-R246
-!i10b 1
-R242
 R247
+!i10b 1
+R241
+R248
 R28
 !i113 1
 R82
 R67
 Esp
-Z248 w1684617615
+Z249 w1684669158
 R16
 R17
 R18
-!i122 3537
+!i122 3702
 R0
-Z249 8D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
-Z250 FD:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
+Z250 8D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
+Z251 FD:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
 l0
 L5 1
 V8a_VizA_1MN:46lGI8F991
 !s100 KD^NlR2Gn9>FY;0RkE^Qf1
 R4
 33
-R246
+R247
 !i10b 1
-Z251 !s108 1684625886.000000
-Z252 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
-Z253 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
+Z252 !s108 1684676861.000000
+Z253 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
+Z254 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
 !i113 1
 R82
 R67
@@ -1899,83 +1899,40 @@ R16
 R17
 R18
 DEx4 work 2 sp 0 22 8a_VizA_1MN:46lGI8F991
-!i122 3537
+!i122 3702
 l14
 L13 19
 Vda1Y9o1ZR?TjZMLj3O`=i0
 !s100 JziB`P>UYf9UUQ5D[A>cm1
 R4
 33
-R246
+R247
 !i10b 1
-R251
 R252
 R253
-!i113 1
-R82
-R67
-Ewritebackmux
-R13
-R16
-R17
-R18
-!i122 3538
-R0
-Z254 8D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
-Z255 FD:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
-l0
-L5 1
-Z256 V0z];HVFF<_9P1oM7MfZfD3
-R78
-R4
-33
-R246
-!i10b 1
-R251
-Z257 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
-R23
-!i113 1
-R82
-R67
-Amymux
-R16
-R17
-R18
-Z258 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
-!i122 3538
-l16
-R76
-Z259 V=?ZX]8MkEnM3nXHZf7U=Y3
-R77
-R4
-33
-R246
-!i10b 1
-R251
-R257
-R23
-!i113 1
-R82
-R67
-Ewritebackmux
-R13
-R16
-R17
-R18
-!i122 3509
-R0
 R254
-R255
+!i113 1
+R82
+R67
+Ewritebackmux
+R13
+R16
+R17
+R18
+!i122 3670
+R0
+Z255 8D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
+Z256 FD:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
 l0
 L5 1
-R256
+Z257 V0z];HVFF<_9P1oM7MfZfD3
 R78
 R4
 33
-Z260 !s110 1684623356
+Z258 !s110 1684676458
 !i10b 1
-Z261 !s108 1684623356.000000
-R257
+Z259 !s108 1684676458.000000
+Z260 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
 R23
 !i113 1
 R82
@@ -1984,28 +1941,71 @@ Amymux
 R16
 R17
 R18
-R258
-!i122 3509
+Z261 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
+!i122 3670
 l16
 R76
-R259
+Z262 V=?ZX]8MkEnM3nXHZf7U=Y3
 R77
 R4
 33
-R260
+R258
 !i10b 1
-R261
+R259
+R260
+R23
+!i113 1
+R82
+R67
+Ewritebackmux
+R13
+R16
+R17
+R18
+!i122 3703
+R0
+R255
+R256
+l0
+L5 1
 R257
+R78
+R4
+33
+R247
+!i10b 1
+R252
+R260
+R23
+!i113 1
+R82
+R67
+Amymux
+R16
+R17
+R18
+R261
+!i122 3703
+l16
+R76
+R262
+R77
+R4
+33
+R247
+!i10b 1
+R252
+R260
 R23
 !i113 1
 R82
 R67
 Ewritebackstage
-Z262 w1684623332
+Z263 w1684623332
 R16
 R17
 R18
-!i122 3539
+!i122 3704
 R0
 R19
 R20
@@ -2015,10 +2015,10 @@ V4nPRRQ26=8WSHO^ESN3hJ2
 !s100 oMRo4j;b40RMi;cfVI[[=3
 R4
 33
-R155
+R156
 !i10b 1
-R251
-Z263 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
+R252
+Z264 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
 R8
 !i113 1
 R82
@@ -2027,18 +2027,18 @@ Amywritebackstage
 R16
 R17
 R18
-R245
-!i122 3539
+R246
+!i122 3704
 l18
 L17 13
 VVFh`YklkMVA_FTfiM3R1h0
 !s100 b<F:z<MZHd?Y67MigC3DV3
 R4
 33
-R155
+R156
 !i10b 1
-R251
-R263
+R252
+R264
 R8
 !i113 1
 R82
