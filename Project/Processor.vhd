@@ -7,7 +7,8 @@ entity Processor is
 PORT  (
     clk, reset, enable:    	IN std_logic;
     INPort:             	IN std_logic_vector(15 DOWNTO 0);
-    OUTPort:           	    OUT std_logic_vector(15 DOWNTO 0)
+    OUTPort:           	    OUT std_logic_vector(15 DOWNTO 0);
+    InterruptSignal:        IN std_logic
 );
 end entity;
 
@@ -27,6 +28,7 @@ Architecture Processor_design of Processor is
     --##################FETCH/DECODE BUFFER###############
     signal RS1_IF_ID_buff, RS2_IF_ID_buff : std_logic_vector(2 DOWNTO 0);
     signal InPortData_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff : std_logic_vector(15 DOWNTO 0);
+    signal Interrupt_IF_ID_buff: std_logic;
     
     --####################HAZARD DETECTION UNIT#####################
     signal stall: std_logic;
@@ -44,6 +46,7 @@ Architecture Processor_design of Processor is
     signal InPortData_ID_EX_buff, immediateOut_ID_EX_buff: std_logic_vector(15 DOWNTO 0);
     signal PCout_ID_EX_buff:        std_logic_vector(15 DOWNTO 0);
     signal regwrite_ID_EX_buff, pcSrc_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff, outPort_ID_EX_buff, spInc_ID_EX_buff, spDec_ID_EX_buff: std_logic;
+    signal Interrupt_ID_EX_buff:           std_logic;
     
     --####################EXECUTE FORWARDING UNIT####################
     signal RS1dataOutForwarded1, RS2dataOutForwarded1: std_logic_vector(15 DOWNTO 0);
@@ -56,6 +59,7 @@ Architecture Processor_design of Processor is
     signal RS1dataOut_EX_MEM1_buff, RS2dataOut_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff: std_logic_vector(15 DOWNTO 0);
     signal PCout_EX_MEM1_buff: std_logic_vector(15 DOWNTO 0);
     signal regWriteOut_EX_MEM1_buff,pcSrcOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff: std_logic;
+    signal Interrupt_EX_MEM1_buff: std_logic;
 
     --####################MEMORY FORWARDING UNIT####################
     signal RS1dataOutForwardedMEM, RS2dataOutForwardedMEM: std_logic_vector(15 DOWNTO 0);
@@ -69,6 +73,7 @@ Architecture Processor_design of Processor is
     signal ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, writeDataOut_MEM1_MEM2_buff: std_logic_vector(15 DOWNTO 0);
     signal writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff: std_logic;
     signal writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff: std_logic_vector(9 DOWNTO 0);
+    signal Interrupt_MEM1_MEM2_buff: std_logic;
     --####################MEMORY2 STAGE#####################
     signal DataOut_MEM2 : std_logic_vector(15 DOWNTO 0);
     --##################MEMORY2/WRITE BACK BUFFER##############
@@ -94,14 +99,14 @@ Architecture Processor_design of Processor is
 
 
     --####################Interrupt testing signals kda, hb2a ashelha b3dein####################
-    signal interruptsignal: std_logic;
+    signal interruptsignall: std_logic;
 
 
 
 BEGIN
     ControlHazardUnit:  entity work.ControlHazardUnit port map(pcSrcJmpORcall_ID, pcSrc_EX, pcSrcOut_MEM2_WB_buff, RS1dataOutForwardedDecode, RS1dataOutForwarded1, writeDataOut_MEM2_WB_buff, PcSelect, PcData, IF_ID_Flush, ID_EX_Flush, EX_MEM1_Flush, MEM1_MEM2_Flush, MEM2_WB_Flush);
-    fetchStagee:        entity work.fetchStage port map(clk, reset,not stall,PcSelect, PcData, instruction_IF, immediate_IF, PC_IF);
-    IF_ID_bufferr:      entity work.IF_ID_buffer port map(clk, reset or IF_ID_Flush, INPort, instruction_IF, immediate_IF, PC_IF,InPortData_IF_ID_buff, RS1_IF_ID_buff, RS2_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff);
+    fetchStagee:        entity work.fetchStage port map(clk, reset,not stall,PcSelect, PcData, instruction_IF, immediate_IF, PC_IF, InterruptSignal);
+    IF_ID_bufferr:      entity work.IF_ID_buffer port map(clk, reset or IF_ID_Flush, INPort, instruction_IF, immediate_IF, PC_IF,InPortData_IF_ID_buff, RS1_IF_ID_buff, RS2_IF_ID_buff, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff, InterruptSignal, Interrupt_IF_ID_buff);
     --Not completed yet
     hazardDetection:    entity work.hazardDetectionUnit port map(instruction_IF_ID_buff,RS1_IF_ID_buff,RS2_IF_ID_buff,memread_ID,memWrite_ID,RD_ID_EX_buff,regwrite_ID_EX_buff, memread_ID_EX_buff,memWrite_ID_EX_buff,RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff,memWriteOut_EX_MEM1_buff,
                                                                  RD_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, stall);
@@ -110,11 +115,11 @@ BEGIN
     RD_MEM2_WB_buff,regWriteOut_MEM2_WB_buff, writeBackData_WB,RS1dataOutForwardedDecode);
                                                                 
     decodeStagee:       entity work.decodingStage port map(clk, stall, reset, RS1_IF_ID_buff, RS2_IF_ID_buff , RD_WB, regWriteOut_WB, writeBackData_WB, instruction_IF_ID_buff
-                                                    , RS1Data_ID, RS2Data_ID, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID,pcSrcJmpORcall_ID);
+                                                    , RS1Data_ID, RS2Data_ID, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID,pcSrcJmpORcall_ID, Interrupt_IF_ID_buff);
                                                     
     ID_EX_bufferr:      entity work.ID_EX_buffer port map(clk, reset or ID_EX_Flush, InPortData_IF_ID_buff, RS1Data_ID, RS2Data_ID, instruction_IF_ID_buff, immediate_IF_ID_buff, PC_IF_ID_buff, regwrite_ID, pcSrc_ID, memread_ID, memWrite_ID, memToReg_ID, inPort_ID, outPort_ID, spInc_ID, spDec_ID
                                                     , InPortData_ID_EX_buff, RS1Data_ID_EX_buff, RS2Data_ID_EX_buff, opcode_ID_EX_buff, isImmediate_ID_EX_buff, RD_ID_EX_buff, RS1_ID_EX_buff, RS2_ID_EX_buff, immediateOut_ID_EX_buff, PCout_ID_EX_buff
-                                                    , regwrite_ID_EX_buff, pcSrc_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff, outPort_ID_EX_buff, spInc_ID_EX_buff, spDec_ID_EX_buff);
+                                                    , regwrite_ID_EX_buff, pcSrc_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff, outPort_ID_EX_buff, spInc_ID_EX_buff, spDec_ID_EX_buff, Interrupt_IF_ID_buff, Interrupt_ID_EX_buff);
 
     forwardingUnit:     entity work.forwardingExecute port map(RS1_ID_EX_buff,RS2_ID_EX_buff,RS1Data_ID_EX_buff,RS2Data_ID_EX_buff,RD_EX_MEM1_buff,regWriteOut_EX_MEM1_buff,ALUresultOut_EX_MEM1_buff,RD_MEM1_MEM2_buff,regWriteOut_MEM1_MEM2_buff,ALUoutput_MEM1_MEM2_buff,
                                                           RD_MEM2_WB_buff,regWriteOut_MEM2_WB_buff, writeBackData_WB,RS1dataOutForwarded1,RS2dataOutForwarded1);
@@ -123,18 +128,18 @@ BEGIN
 
     EX_MEM1_bufferr:    entity work.EX_MEM1_buffer port map(clk, reset or EX_MEM1_Flush,RS1_ID_EX_buff,RS2_ID_EX_buff , RD_ID_EX_buff, RS1Data_ID_EX_buff, MuxOut_EX, execOutput_EX, PCout_ID_EX_buff, regwrite_ID_EX_buff,pcSrc_ID_EX_buff, memread_ID_EX_buff, memWrite_ID_EX_buff, memToReg_ID_EX_buff, inPort_ID_EX_buff
                                                     , outPort_ID_EX_buff, spInc_ID_EX_buff, spDec_ID_EX_buff,RS1_EX_MEM1_buff,RS2_EX_MEM1_buff ,RD_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff, RS2dataOut_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff, PCout_EX_MEM1_buff
-                                                    , regWriteOut_EX_MEM1_buff, pcSrcOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff);
+                                                    , regWriteOut_EX_MEM1_buff, pcSrcOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, outPortOut_EX_MEM1_buff, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff, Interrupt_ID_EX_buff, Interrupt_EX_MEM1_buff);
     
     forwardingUnitMem:  entity work.forwardingMemory port map(RS1_EX_MEM1_buff,RS2_EX_MEM1_buff,RS1dataOut_EX_MEM1_buff,RS2dataOut_EX_MEM1_buff,RD_MEM2_WB_buff, regWriteOut_MEM2_WB_buff, writeBackData_WB, RS1dataOutForwardedMEM, RS2dataOutForwardedMEM);
 
-    mem1Stagee:         entity work.mem1Stage port map (clk, reset, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, RS1dataOutForwardedMEM, RS2dataOutForwardedMEM, DataOut_MEM1, AddressOut_MEM1, pcSrcOut_EX_MEM1_buff, PCout_EX_MEM1_buff, interruptsignal);
+    mem1Stagee:         entity work.mem1Stage port map (clk, reset, spIncOut_EX_MEM1_buff, spDecOut_EX_MEM1_buff, memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, RS1dataOutForwardedMEM, RS2dataOutForwardedMEM, DataOut_MEM1, AddressOut_MEM1, pcSrcOut_EX_MEM1_buff, PCout_EX_MEM1_buff, Interrupt_EX_MEM1_buff);
 
     
     
     
     MEM1_MEM2_bufferr:  entity work.MEM1_MEM2_buffer port map (clk, reset or MEM1_MEM2_Flush, outPortOut_EX_MEM1_buff, inPortOut_EX_MEM1_buff, memToRegOut_EX_MEM1_buff, regWriteOut_EX_MEM1_buff,pcSrcOut_EX_MEM1_buff, RD_EX_MEM1_buff, ALUresultOut_EX_MEM1_buff, RS1dataOut_EX_MEM1_buff, DataOut_MEM1
                                                     , memWriteOut_EX_MEM1_buff, memReadOut_EX_MEM1_buff, AddressOut_MEM1, AddressOut_MEM1, outPortOut_MEM1_MEM2_buff, inPortOut_MEM1_MEM2_buff, memToRegOut_MEM1_MEM2_buff, regWriteOut_MEM1_MEM2_buff, pcSrcOut_MEM1_MEM2_buff
-                                                    , RD_MEM1_MEM2_buff, ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, writeDataOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff);
+                                                    , RD_MEM1_MEM2_buff, ALUoutput_MEM1_MEM2_buff, RS1DataOut_MEM1_MEM2_buff, writeDataOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, readAddressOut_MEM1_MEM2_buff, Interrupt_EX_MEM1_buff, Interrupt_MEM1_MEM2_buff);
 
 
     mem2Stagee:         entity work.mem2Stage port map(clk, reset, readAddressOut_MEM1_MEM2_buff, readEnableOut_MEM1_MEM2_buff, writeAddressOut_MEM1_MEM2_buff, writeEnableOut_MEM1_MEM2_buff, writeDataOut_MEM1_MEM2_buff, DataOut_MEM2);

@@ -8,7 +8,8 @@ ENTITY fetchStage IS
 PORT( 
  clk, reset, enable, pcSel:                           IN  std_logic; 
  pcData:                                              IN  std_logic_vector(15 DOWNTO 0);
- instruction,immediate,pcOut:           OUT std_logic_vector(15 DOWNTO 0)
+ instruction,immediate,pcOut:           OUT std_logic_vector(15 DOWNTO 0);
+ InterruptSignal:                                    IN std_logic
 --  memZero:                               IN std_logic_vector(15 DOWNTO 0)  
 );
 END fetchStage;
@@ -38,7 +39,8 @@ BEGIN
     pcc:            entity work.PC port map(clk, reset, enable, increment, pcSel, pcData, pcOutput, memZero);
     instructions:   instructionCache port map(reset, pcOutput(9 downto 0),outInstruction,immediate,memZero);
     isImmediate <= outInstruction(10);
-    instruction <= outInstruction;
+    instruction <= (others => '0') when InterruptSignal = '1'           -- makes the instruction a NOP when interrupt is high
+                    else outInstruction;
     increment <= x"0002" when isImmediate='1'
                          else x"0001";
     pcOut <= pcOutput;

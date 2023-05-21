@@ -32,49 +32,49 @@ Z8 o-work work -2002 -explicit
 Z9 tExplicit 1 CvgOpt 0
 Z10 =======
 !i122 947
-dC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project
+Z11 dC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project
 8C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd
 FC:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd
 l0
 L7 1
 Vz1YVoO@_LVUFG^Bb;<C;P3
 !s100 8`SAmOob5=m2bF[F2bGLU3
-Z11 !s110 1681943340
+Z12 !s110 1681943340
 32
-Z12 !s110 1681950169
+Z13 !s110 1681950169
 !i10b 1
-Z13 !s108 1681950169.000000
-Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
-Z15 !s107 C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
+Z14 !s108 1681950169.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
+Z16 !s107 C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
 !i113 1
 R8
-Z16 w1681854937
+Z17 w1681854937
 Amem1stagedesign
-Z17 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z19 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
-Z20 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z21 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z18 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z20 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z21 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z22 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 DEx4 work 9 mem1stage 0 22 z1YVoO@_LVUFG^Bb;<C;P3
 !i122 947
 l46
 L31 44
 VT:3>ejF47a2Z3Sh8f6MZF3
 !s100 9Dc8ZJZYA?4Gk:EI6P3hY0
-R11
-32
 R12
-!i10b 1
+32
 R13
+!i10b 1
 R14
 R15
+R16
 !i113 1
 R8
 <<<<<<< Updated upstream
-Z22 DEx4 work 11 memorystage 0 22 ZB>SEmbczT^:UP]0H;WJK3
+Z23 DEx4 work 11 memorystage 0 22 ZB>SEmbczT^:UP]0H;WJK3
 !i122 975
 R10
-R22
+R23
 !i122 942
 R0
 <<<<<<< Updated upstream
@@ -90,58 +90,58 @@ R8
 R9
 R0
 <<<<<<< Updated upstream
-Z23 !s108 1681943339.000000
-Z24 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
-Z25 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
+Z24 !s108 1681943339.000000
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
+Z26 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
 R10
 R1
-Z26 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
-Z27 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
+Z28 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
 R0
 <<<<<<< Updated upstream
-R23
 R24
 R25
+R26
 R10
 R1
-R26
 R27
+R28
 R0
 <<<<<<< Updated upstream
 w1681942375
-R17
-R20
+R18
 R21
+R22
 !i122 961
 R0
 8D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
 FD:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
 R10
 w1681941598
-R17
-R20
+R18
 R21
+R22
 !i122 923
-Z28 8D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
-Z29 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
-Z30 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
+Z29 8D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
+8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
+FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
 <<<<<<< Updated upstream
-R23
-Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
-Z32 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
+R24
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
+Z31 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
 R10
 R1
-Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
-Z34 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
+Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
+Z33 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
 R0
 <<<<<<< Updated upstream
-R23
+R24
+R30
 R31
-R32
 R10
 R1
+R32
 R33
-R34
 R0
 <<<<<<< Updated upstream
 !i122 978
@@ -150,21 +150,21 @@ R0
 FD:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd
 R10
 !i122 940
-R28
-Z35 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
-Z36 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
+R29
+8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
+FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
 <<<<<<< Updated upstream
 R5
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
-Z38 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
+Z35 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
 R10
-Z39 !s108 1681942437.000000
-Z40 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
-Z41 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
+Z36 !s108 1681942437.000000
+Z37 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
+Z38 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
 R0
 <<<<<<< Updated upstream
-Z42 DEx4 work 14 writebackstage 0 22 ?SX>Uaj_=S1WdGd_ol4390
-R22
+Z39 DEx4 work 14 writebackstage 0 22 ?SX>Uaj_=S1WdGd_ol4390
+R23
 DEx4 work 14 ex_mem1_buffer 0 22 c=@OggLg_Nh3I2G^c@G]X1
 DEx4 work 14 executionstage 0 22 o8R=CRN:5=kAbcAfVZ5Sd0
 DEx4 work 12 id_ex_buffer 0 22 ;?I75YcZgT`OT_0>5^<Z72
@@ -177,215 +177,215 @@ FD:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
 R0
 <<<<<<< Updated upstream
 R5
+R34
+R35
+R10
+R36
 R37
 R38
-R10
-R39
-R40
-R41
 R0
 <<<<<<< Updated upstream
-Z43 w1677934418
+Z40 w1677934418
+R10
+R40
+R0
+<<<<<<< Updated upstream
+Z41 8D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+Z42 FD:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+R10
+R41
+R42
+R0
+<<<<<<< Updated upstream
+Z43 !s110 1681648922
+!i10b 1
+Z44 !s108 1681648922.000000
+Z45 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+Z46 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
 R10
 R43
-R0
-<<<<<<< Updated upstream
-Z44 8D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
-Z45 FD:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
-R10
+!i10b 1
 R44
 R45
+R46
 R0
 <<<<<<< Updated upstream
-Z46 !s110 1681648922
+R43
 !i10b 1
-Z47 !s108 1681648922.000000
-Z48 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
-Z49 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+R44
+R45
+R46
 R10
-R46
+R43
 !i10b 1
-R47
-R48
-R49
-R0
-<<<<<<< Updated upstream
+R44
+R45
 R46
-!i10b 1
-R47
-R48
-R49
-R10
-R46
-!i10b 1
-R47
-R48
-R49
 R0
 <<<<<<< Updated upstream
 w1681921012
-R17
-R20
+R18
 R21
+R22
 !i122 964
 R0
 8D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
 FD:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
 R10
-Z50 w1681813133
-R17
-R20
+w1681813133
+R18
 R21
+R22
 !i122 926
-R28
-Z51 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
-Z52 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
+R29
+8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
+FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
 <<<<<<< Updated upstream
-Z53 !s108 1681943340.000000
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
-Z55 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+Z47 !s108 1681943340.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+Z49 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
 R10
-Z56 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
-Z57 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
-Z58 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
+Z50 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
+Z51 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
+Z52 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
 R0
 <<<<<<< Updated upstream
+R47
+R48
+R49
+R10
+R50
+R51
+R52
+R0
+<<<<<<< Updated upstream
+R0
+<<<<<<< Updated upstream
+R47
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
+Z54 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
+R10
+R50
+Z55 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
+Z56 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
+R0
+<<<<<<< Updated upstream
+R47
 R53
 R54
+R10
+R50
 R55
-R10
 R56
-R57
-R58
-R0
-<<<<<<< Updated upstream
-R0
-<<<<<<< Updated upstream
-R53
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
-Z60 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
-R10
-R56
-Z61 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
-Z62 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
-R0
-<<<<<<< Updated upstream
-R53
-R59
-R60
-R10
-R56
-R61
-R62
 R0
 <<<<<<< Updated upstream
 w1681931034
-R17
-R20
+R18
 R21
+R22
 !i122 979
 R0
 8D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd
 FD:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd
 R10
 w1681930541
-R17
-R20
+R18
 R21
+R22
 !i122 941
-R28
-Z63 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
-Z64 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
+R29
+8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
+FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
 <<<<<<< Updated upstream
 R5
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
-Z66 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z58 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
 R10
-Z67 w1681823009
-Z68 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
-Z69 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z59 w1681823009
+Z60 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z61 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
 R0
 <<<<<<< Updated upstream
-R42
+R39
 !i122 979
 l18
-Z70 L17 10
+Z62 L17 10
 VG38Fe<1^c5oE@fA;]o8Q81
-Z71 !s100 :KJ_VIc34``VQnAk9Z=Ao3
+Z63 !s100 :KJ_VIc34``VQnAk9Z=Ao3
 R3
 32
-Z72 !s110 1681943342
+Z64 !s110 1681943342
 !i10b 1
 R5
-R65
-R66
+R57
+R58
 R10
-R59
+R53
 !i122 941
 l18
-R70
+R62
 V;OYlhjh^B_HnFZVR9Xazf2
-R71
-R11
+R63
+R12
 33
 FD:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
 !i10b 1
-R67
-R68
-R69
+R59
+R60
+R61
 R0
 >>>>>>> Stashed changes
-R17
 R18
 R19
 R20
 R21
+R22
 R0
 >>>>>>> Stashed changes
 R0
 Amemorystagedesign
-R17
 R18
 R19
 R20
 R21
+R22
 >>>>>>> Stashed changes
 l77
-Z73 L43 60
+Z65 L43 60
 V82XSPQA]]>A<;kbDR<oN<2
 !s100 f?4:;X0LiW27HfWBX8o<T2
 R0
 >>>>>>> Stashed changes
 l0
 L5 1
-Z74 V]T:7DA>@ZL1HQmiZe6:543
-Z75 !s100 a<l3KZF3co3bJ6mVPomZP1
+Z66 V]T:7DA>@ZL1HQmiZe6:543
+Z67 !s100 a<l3KZF3co3bJ6mVPomZP1
 R3
 33
-R11
+R12
 !i10b 1
 R0
 >>>>>>> Stashed changes
 !i113 1
-Z76 o-work work -2008 -explicit
+Z68 o-work work -2008 -explicit
 R9
 R0
 Aa_my_ndff
-R20
 R21
-Z77 DEx4 work 7 my_ndff 0 22 ]T:7DA>@ZL1HQmiZe6:543
+R22
+Z69 DEx4 work 7 my_ndff 0 22 ]T:7DA>@ZL1HQmiZe6:543
 !i122 963
 l14
-Z78 L13 13
+Z70 L13 13
 VgRnf=;W>B=e]B_TkIo^lQ0
 !s100 70]nkXAEPk[>EQS1k2VK23
 R3
 33
-R11
+R12
 !i10b 1
 >>>>>>> Stashed changes
 !i113 1
-R76
+R68
 R9
 R0
 >>>>>>> Stashed changes
@@ -395,18 +395,18 @@ VWF@;CiRgTm]:<@ncD8FZl3
 !s100 N`BAT578LdKDSN108:nho2
 R3
 33
-Z79 !s110 1681943339
+Z71 !s110 1681943339
 !i10b 1
 R0
 >>>>>>> Stashed changes
 !i113 1
-R76
+R68
 R9
 R0
 Apc_design
-R17
-R20
+R18
 R21
+R22
 DEx4 work 2 pc 0 22 WF@;CiRgTm]:<@ncD8FZl3
 !i122 961
 l14
@@ -415,18 +415,18 @@ Vi^PM8ABDJ_6Sm89B:NznT2
 !s100 CXl0Ri_k]:401o>l[SZL`2
 R3
 33
-R79
+R71
 !i10b 1
 >>>>>>> Stashed changes
 !i113 1
-R76
+R68
 R9
 R0
 >>>>>>> Stashed changes
 l0
 L6 1
 V=c<C<GOPNF43h8@YMdjNd1
-Z80 !s100 5XooW95CJgn?>^Vo0WX`O3
+!s100 5XooW95CJgn?>^Vo0WX`O3
 R3
 32
 R4
@@ -441,12 +441,12 @@ Aprocessor_design
 >>>>>>> Stashed changes
 DEx4 work 13 decodingstage 0 22 BeaCHC8dfK47KBe3?gH@l0
 DEx4 work 12 if_id_buffer 0 22 5fdY6j3k9KEJLag0nTf?I2
-R18
 R19
-DEx4 work 10 fetchstage 0 22 1jmT?mh^0G`hG?5if:LBB0
-R17
 R20
+DEx4 work 10 fetchstage 0 22 1jmT?mh^0G`hG?5if:LBB0
+R18
 R21
+R22
 DEx4 work 9 processor 0 22 =c<C<GOPNF43h8@YMdjNd1
 !i122 978
 l55
@@ -464,8 +464,8 @@ R8
 R9
 R0
 >>>>>>> Stashed changes
-R20
 R21
+R22
 !i122 7
 R0
 >>>>>>> Stashed changes
@@ -478,12 +478,12 @@ R3
 R0
 >>>>>>> Stashed changes
 !i113 1
-R76
+R68
 R9
 R0
 Aregfiledesign
-R20
 R21
+R22
 DEx4 work 7 regfile 0 22 7NWHjOO;J52E9WV9Y3g<Q0
 !i122 7
 l40
@@ -494,17 +494,17 @@ R3
 33
 >>>>>>> Stashed changes
 !i113 1
-R76
+R68
 R9
 R0
 >>>>>>> Stashed changes
 l0
 L5 1
 VVUF9:zUJCUTXlmV0Yi1CG2
-Z81 !s100 M4`PjnPo>L5:0bbJ6ej4c2
+Z72 !s100 M4`PjnPo>L5:0bbJ6ej4c2
 R3
 32
-R11
+R12
 !i10b 1
 R0
 >>>>>>> Stashed changes
@@ -513,18 +513,18 @@ R8
 R9
 R0
 Aregfilememdesign
-R17
-R20
+R18
 R21
+R22
 DEx4 work 10 regfilemem 0 22 VUF9:zUJCUTXlmV0Yi1CG2
 !i122 964
 l25
-Z82 L20 25
+Z73 L20 25
 VaPRbG0j8NSo@[khM3na_<2
-Z83 !s100 mNa<69lOXRgkD<]MT;k?H0
+Z74 !s100 mNa<69lOXRgkD<]MT;k?H0
 R3
 32
-R11
+R12
 !i10b 1
 >>>>>>> Stashed changes
 !i113 1
@@ -535,10 +535,10 @@ R0
 l0
 L5 1
 VPVfP;n1fBa@lZG>Rie1Ve1
-Z84 !s100 f9J=QmfUF4EERC7X]MmL^1
+Z75 !s100 f9J=QmfUF4EERC7X]MmL^1
 R3
 32
-R11
+R12
 !i10b 1
 R0
 >>>>>>> Stashed changes
@@ -547,18 +547,18 @@ R8
 R9
 R0
 Amymux
-R17
-R20
+R18
 R21
+R22
 DEx4 work 12 writebackmux 0 22 PVfP;n1fBa@lZG>Rie1Ve1
 !i122 968
 l16
-Z85 L15 4
+Z76 L15 4
 VPoPf3m9KL4;eWRiO^BA;00
-Z86 !s100 ][H?eh]TYa27ZeA_NGl0a1
+Z77 !s100 ][H?eh]TYa27ZeA_NGl0a1
 R3
 32
-R11
+R12
 !i10b 1
 >>>>>>> Stashed changes
 !i113 1
@@ -572,7 +572,7 @@ V?SX>Uaj_=S1WdGd_ol4390
 !s100 ggX@Hk8>Ih4aAi[zIOk_g2
 R3
 32
-R72
+R64
 !i10b 1
 R0
 >>>>>>> Stashed changes
@@ -581,1465 +581,1465 @@ R8
 R9
 R0
 Amywritebackstage
-R17
-R20
+R18
 R21
+R22
 >>>>>>> Stashed changes
 !i113 1
 R8
 R9
 R0
 Ealu
-Z87 w1681859512
-R17
+Z78 w1681831366
 R18
 R19
 R20
 R21
-!i122 3541
-Z88 dC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project
-Z89 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd
-Z90 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd
+R22
+!i122 3657
+R11
+Z79 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd
+Z80 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd
 l0
 L7 1
 VC4^JoX[F]=[LfGc;0]Dcl0
 !s100 mfL9YOMWS7C21cH^8FkE:0
 R3
 33
-Z91 !s110 1684667883
+Z81 !s110 1684679638
 !i10b 1
-Z92 !s108 1684667882.000000
-Z93 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd|
-Z94 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ALU.vhd|
+Z82 !s108 1684679638.000000
+Z83 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd|
+Z84 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd|
 !i113 1
-R76
+R68
 R9
 Aaludesign
-R17
 R18
 R19
 R20
 R21
+R22
 DEx4 work 3 alu 0 22 C4^JoX[F]=[LfGc;0]Dcl0
-!i122 3541
+!i122 3657
 l20
 L16 90
 Va3g`ZR56W_IkB[n?<8k:K1
 !s100 9;F<@;lZV1LB3L0=k>V9B2
 R3
 33
-R91
+R81
 !i10b 1
-R92
-R93
-R94
+R82
+R83
+R84
 !i113 1
-R76
+R68
 R9
 Econtrolhazardunit
-Z95 w1684667583
+Z85 w1684656669
+R19
+Z86 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R18
-Z96 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-R17
-R20
 R21
-!i122 3542
-R88
-Z97 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd
-Z98 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd
+R22
+!i122 3658
+R11
+Z87 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlHazardUnit.vhd
+Z88 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlHazardUnit.vhd
 l0
 L6 1
 V=O_VBi3B90lhPOfge3_i00
 !s100 `9O:RP]NghL@SI58`Vl;R0
 R3
 33
-R91
+R81
 !i10b 1
-Z99 !s108 1684667883.000000
-Z100 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd|
-Z101 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd|
+R82
+Z89 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlHazardUnit.vhd|
+Z90 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlHazardUnit.vhd|
 !i113 1
-R76
+R68
 R9
 Amycontrolhazardunit
+R19
+R86
 R18
-R96
-R17
-R20
 R21
-Z102 DEx4 work 17 controlhazardunit 0 22 =O_VBi3B90lhPOfge3_i00
-!i122 3542
+R22
+Z91 DEx4 work 17 controlhazardunit 0 22 =O_VBi3B90lhPOfge3_i00
+!i122 3658
 l28
 L27 18
 VVS6>Sk_VUY>IL[oRS@T2J2
 !s100 cEOETQK:Q@Z:b`c?hlNlU0
 R3
 33
-R91
+R81
 !i10b 1
-R99
-R100
-R101
+R82
+R89
+R90
 !i113 1
-R76
+R68
 R9
 Econtrolunit
-Z103 w1683233784
-R17
-R20
+Z92 w1684680272
+R18
 R21
-!i122 3543
-R88
-Z104 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd
-Z105 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd
+R22
+!i122 3687
+R11
+Z93 8C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\controlUnit.vhd
+Z94 FC:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\controlUnit.vhd
 l0
 L6 1
-VS=9:8UW]dIOAI^4K6aZ2Q0
-!s100 bFEkO20Vd:_14N_j<<VYM0
+VzjVRICgAP]Z6;eMVjSVgj0
+!s100 O8QTDig<HMNPhjkHQP[iM0
 R3
 33
-Z106 !s110 1684667884
+Z95 !s110 1684680285
 !i10b 1
-R99
-Z107 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd|
-Z108 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd|
+Z96 !s108 1684680285.000000
+Z97 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\controlUnit.vhd|
+!s107 C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\controlUnit.vhd|
 !i113 1
-R76
+R68
 R9
 Acontrolunitdesign
-R17
-R20
+R18
 R21
-Z109 DEx4 work 11 controlunit 0 22 S=9:8UW]dIOAI^4K6aZ2Q0
-!i122 3543
-l31
-L22 80
-VX5]9dCHOZeJ_R;KA6B;J[0
-!s100 g[k2ESg<>0YE;oMLTNF[Y1
+R22
+Z98 DEx4 work 11 controlunit 0 22 zjVRICgAP]Z6;eMVjSVgj0
+!i122 3687
+l32
+L23 85
+VCY[R>OkIHB2PGJeXQ8WzQ3
+!s100 Qm3Z?eb035Y>9UHFgETaR3
 R3
 33
-R106
+R95
 !i10b 1
-R99
-R107
-R108
+R96
+R97
+Z99 !s107 C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\controlUnit.vhd|
 !i113 1
-R76
+R68
 R9
 Econtrolunit_tb
-Z110 w1681743425
-R20
+Z100 w1684675243
 R21
-!i122 3544
-R88
-Z111 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd
-Z112 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd
+R22
+!i122 3660
+R11
+Z101 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd
+Z102 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd
 l0
 L5 1
 V5h>32LX00DTzZO^K=?6890
 !s100 m?lEo3YaYP1W=VDMnolYg2
 R3
 33
-R106
+Z103 !s110 1684679639
 !i10b 1
-Z113 !s108 1684667884.000000
-Z114 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd|
-Z115 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlUnit_TB.vhd|
+R82
+Z104 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd|
+Z105 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd|
 !i113 1
-R76
+R68
 R9
 Atb
-R20
 R21
+R22
 DEx4 work 14 controlunit_tb 0 22 5h>32LX00DTzZO^K=?6890
-!i122 3544
+!i122 3660
 l30
 L8 196
 V1Tik=;d`[FX^Pizb]nD2o3
 !s100 >>UMdU^O<7Wz^i75SZL`W1
 R3
 33
-R106
+R103
 !i10b 1
-R113
-R114
-R115
+R82
+R104
+R105
 !i113 1
-R76
+R68
 R9
 Edatamem
-R95
-R17
-R20
+R85
+R18
 R21
-!i122 3545
-R88
-Z116 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd
-Z117 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd
+R22
+!i122 3661
+R11
+Z106 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd
+Z107 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd
 l0
 L5 1
 VB^lfj@^nAG683?IWL[WMd3
 !s100 FHI7anIj7IE]LRSQ9zVk?1
 R3
 33
-R106
+R103
 !i10b 1
-R113
-Z118 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd|
-Z119 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd|
+Z108 !s108 1684679639.000000
+Z109 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd|
+Z110 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd|
 !i113 1
-R76
+R68
 R9
 Adatamemdesign
-R17
-R20
+R18
 R21
+R22
 DEx4 work 7 datamem 0 22 B^lfj@^nAG683?IWL[WMd3
-!i122 3545
+!i122 3661
 l26
 L22 33
 VfB_cO0KCIHZee]d=S7=[:3
 !s100 JnzFA84PUQ27F39?5]iVB3
 R3
 33
-R106
+R103
 !i10b 1
-R113
-R118
-R119
+R108
+R109
+R110
 !i113 1
-R76
+R68
 R9
 Edecodingstage
-Z120 w1684668251
-R17
-R20
+Z111 w1684675521
+R18
 R21
-!i122 3569
-R88
-Z121 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd
-Z122 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd
+R22
+!i122 3662
+R11
+Z112 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd
+Z113 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd
 l0
 L5 1
-V[]>dDZS3<6bHJHhQKQm[k3
-!s100 cKnK?B`hnS4KV]DXc>QJI1
+VSZFChFmoieSP^`cPQ;M2U0
+!s100 dlh1XHKG>kQiUg]k:_i:f1
 R3
 33
-Z123 !s110 1684668270
+R103
 !i10b 1
-Z124 !s108 1684668270.000000
-Z125 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd|
-Z126 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/DecodingStage.vhd|
+R108
+Z114 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd|
+Z115 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd|
 !i113 1
-R76
+R68
 R9
 Adecoding
-Z127 DEx4 work 10 regfilemem 0 22 J[9EhVI`<1zg[?zP2060K1
-R109
-R17
-R20
+Z116 DEx4 work 10 regfilemem 0 22 J[9EhVI`<1zg[?zP2060K1
+R98
+R18
 R21
-Z128 DEx4 work 13 decodingstage 0 22 []>dDZS3<6bHJHhQKQm[k3
-!i122 3569
-l25
-L23 12
-V<4UOkcbSeILhk>ZUngYk20
-!s100 1:I=RImMn7<K;jT8@FnSg2
+R22
+Z117 DEx4 work 13 decodingstage 0 22 SZFChFmoieSP^`cPQ;M2U0
+!i122 3662
+l26
+L24 13
+VPo]b@;E6AoYT;VbURVBH53
+!s100 zI4R>hFkU`@CPhKa[o>k82
 R3
 33
-R123
+R103
 !i10b 1
-R124
-R125
-R126
+R108
+R114
+R115
 !i113 1
-R76
+R68
 R9
 Eex_mem1_buffer
-R95
-R17
+Z118 w1684677495
 R18
 R19
 R20
 R21
-!i122 3547
-R88
-Z129 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
-Z130 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
+R22
+!i122 3663
+R11
+Z119 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd
+Z120 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd
 l0
 L7 1
-V:>XkiGYYDW2:GeNIQLLk>3
-!s100 ;GMl<4<lCbhPid@POiZMd3
+VH^J97_3zdGLCo0H?2NM6S2
+!s100 KW9OZhK84YzLOmhLnMP^o2
 R3
 33
-Z131 !s110 1684667885
+R103
 !i10b 1
-R113
-Z132 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
-Z133 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
+R108
+Z121 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd|
+Z122 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd|
 !i113 1
-R76
+R68
 R9
 Aex_mem1_bufferdesign
-R17
 R18
 R19
 R20
 R21
-Z134 DEx4 work 14 ex_mem1_buffer 0 22 :>XkiGYYDW2:GeNIQLLk>3
-!i122 3547
-l37
-L22 39
-VYhS[1QXiGH?Xf@[HYC3dJ2
-!s100 OX5l4Xz4Fbz]7Ado?en:F2
+R22
+Z123 DEx4 work 14 ex_mem1_buffer 0 22 H^J97_3zdGLCo0H?2NM6S2
+!i122 3663
+l39
+L24 40
+V`fiEEL1D]VOnCG961bPba1
+!s100 T0IbQE3Db8[J?BYPb`knF1
 R3
 33
-R131
+R103
 !i10b 1
-R113
-R132
-R133
+R108
+R121
+R122
 !i113 1
-R76
+R68
 R9
 Eexecutionstage
-R95
-R17
+R85
 R18
 R19
 R20
 R21
-!i122 3548
-R88
-Z135 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd
-Z136 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd
+R22
+!i122 3664
+R11
+Z124 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd
+Z125 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd
 l0
 L7 1
 Vn:`nFjQkX2QRA6W;I?@kg2
 !s100 ih]@6D6NCP0H?[Fn>ZXTC1
 R3
 33
-R131
+Z126 !s110 1684679640
 !i10b 1
-Z137 !s108 1684667885.000000
-Z138 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd|
-Z139 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd|
+Z127 !s108 1684679640.000000
+Z128 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd|
+Z129 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd|
 !i113 1
-R76
+R68
 R9
 Aexecutionstagedesign
-R17
 R18
 R19
 R20
 R21
-Z140 DEx4 work 14 executionstage 0 22 n:`nFjQkX2QRA6W;I?@kg2
-!i122 3548
+R22
+Z130 DEx4 work 14 executionstage 0 22 n:`nFjQkX2QRA6W;I?@kg2
+!i122 3664
 l54
 L22 52
 V:WZF^76kiaI3_ooIWzAE`2
 !s100 2jMJn4D>k3F3ZXH>>9?:l3
 R3
 33
-R131
+R126
 !i10b 1
-R137
-R138
-R139
+R127
+R128
+R129
 !i113 1
-R76
+R68
 R9
 Efetchstage
-R95
-R17
+Z131 w1684677129
 R18
 R19
 R20
 R21
-!i122 3549
-R88
-Z141 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd
-Z142 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd
+R22
+!i122 3665
+R11
+Z132 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd
+Z133 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd
 l0
 L7 1
-Vn09T]il2T4mGOIA]<m<Sf0
-!s100 0W;<4Lo4MXjZ6bk9IGJ7=1
+VK1ZKI]0_8jn3^]GZaz9`]2
+!s100 P?o5iHQE8PGkNnNTfK^HI0
 R3
 33
-R131
+R126
 !i10b 1
-R137
-Z143 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd|
-Z144 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd|
+R127
+Z134 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd|
+Z135 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd|
 !i113 1
-R76
+R68
 R9
 Afetchstagedesign
-Z145 DEx4 work 2 pc 0 22 M@_jD]?l_fEY^j4:`0KDc1
-R17
+Z136 DEx4 work 2 pc 0 22 M@_jD]?l_fEY^j4:`0KDc1
 R18
 R19
 R20
 R21
-Z146 DEx4 work 10 fetchstage 0 22 n09T]il2T4mGOIA]<m<Sf0
-!i122 3549
-l36
-L16 31
-VPFG4eeT<jj=fI;7M1QKDC3
-!s100 GM`FZlAKLF`dgU@binCSM0
+R22
+Z137 DEx4 work 10 fetchstage 0 22 K1ZKI]0_8jn3^]GZaz9`]2
+!i122 3665
+l37
+L17 32
+VO@]8cD>WAjal[]_D9IocM3
+!s100 _JlS7RH_m`;6c:bhCY_0d1
 R3
 33
-R131
+R126
 !i10b 1
-R137
-R143
-R144
+R127
+R134
+R135
 !i113 1
-R76
+R68
 R9
 Eflagcontrolunit
-Z147 w1683233785
-R17
+Z138 w1683229979
 R18
 R19
 R20
 R21
-!i122 3550
-R88
-Z148 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd
-Z149 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd
+R22
+!i122 3666
+R11
+Z139 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd
+Z140 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd
 l0
 L7 1
 VL9Q2L^2^fDB`UQ1T;c;6V0
 !s100 E?A<Y34]bc:`8GD9MNCI90
 R3
 33
-Z150 !s110 1684667886
+R126
 !i10b 1
-R137
-Z151 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd|
-Z152 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd|
+R127
+Z141 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd|
+Z142 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd|
 !i113 1
-R76
+R68
 R9
 Aflagcontrolunitdesign
-R17
 R18
 R19
 R20
 R21
+R22
 DEx4 work 15 flagcontrolunit 0 22 L9Q2L^2^fDB`UQ1T;c;6V0
-!i122 3550
+!i122 3666
 l16
 L15 21
 V7@oabZGCZ]1Y]5`KYOQK]1
 !s100 8IiE8`9^[VMK4UF7ioHhW1
 R3
 33
-R150
+R126
 !i10b 1
-R137
-R151
-R152
+R127
+R141
+R142
 !i113 1
-R76
+R68
 R9
 Eforwardingdecode
-Z153 w1684597956
-R17
-R20
+Z143 w1684605279
+R18
 R21
-!i122 3540
-R0
-Z154 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
-Z155 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
+R22
+!i122 3667
+R11
+Z144 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingDecode.vhd
+Z145 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingDecode.vhd
 l0
 L5 1
-V4>ln0GUYo3M^9CX_V[jS?3
+V4VOlg4;RN5G`WMZ>>OoH^3
 !s100 b11`L32bJYWX<]CW:nh;70
 R3
-32
-Z156 !s110 1684625887
+33
+Z146 !s110 1684679641
 !i10b 1
-Z157 !s108 1684625887.000000
-Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
-Z159 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
+R127
+Z147 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingDecode.vhd|
+Z148 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingDecode.vhd|
 !i113 1
-R8
+R68
 R9
 Aforwardingdecodedesign
-R17
-R20
+R18
 R21
-Z160 DEx4 work 16 forwardingdecode 0 22 4>ln0GUYo3M^9CX_V[jS?3
-!i122 3540
+R22
+Z149 DEx4 work 16 forwardingdecode 0 22 4VOlg4;RN5G`WMZ>>OoH^3
+!i122 3667
 l29
 L28 22
-VEY<E_6LJUlIjZ?0EGJQ=^2
+Vnj3m^7f>]ab<OXUUhhzb^2
 !s100 Fk[`f??gmn]?U1djC^eQ]3
 R3
-32
-R156
+33
+R146
 !i10b 1
-R157
-R158
-R159
+R127
+R147
+R148
 !i113 1
-R8
+R68
 R9
 Eforwardingexecute
-Z161 w1683300367
-R17
-R20
+Z150 w1683396983
+R18
 R21
-!i122 3551
-R88
-Z162 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd
-Z163 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd
+R22
+!i122 3668
+R11
+Z151 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingExecute.vhd
+Z152 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingExecute.vhd
 l0
 L5 1
 VK?:Jj8`X2PYef43eYmNG11
 !s100 dM<?k_SjUF^M4GlVnP>d>0
 R3
 33
-R150
+R146
 !i10b 1
-Z164 !s108 1684667886.000000
-Z165 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd|
-Z166 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd|
+Z153 !s108 1684679641.000000
+Z154 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingExecute.vhd|
+Z155 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingExecute.vhd|
 !i113 1
-R76
+R68
 R9
 Aforwardingexecutedesign
-R17
-R20
+R18
 R21
-Z167 DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
-!i122 3551
+R22
+Z156 DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
+!i122 3668
 l28
 L27 27
 Vc=>c5PBf@MO3b2[GS<;A50
 !s100 M:aI=o<JSS]YYcmdjlRUD1
 R3
 33
-R150
+R146
 !i10b 1
-R164
-R165
-R166
+R153
+R154
+R155
 !i113 1
-R76
+R68
 R9
 Eforwardingmemory
-R161
-R17
-R20
+R150
+R18
 R21
-!i122 3552
-R88
-Z168 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd
-Z169 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd
+R22
+!i122 3669
+R11
+Z157 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingMemory.vhd
+Z158 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingMemory.vhd
 l0
 L5 1
 V9lIzC9?3=`3<n0eHkX2VT3
 !s100 Y[_8`aB0hRdS[[7Ua<ONf2
 R3
 33
-R150
+R146
 !i10b 1
-R164
-Z170 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd|
-Z171 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd|
+R153
+Z159 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingMemory.vhd|
+Z160 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingMemory.vhd|
 !i113 1
-R76
+R68
 R9
 Aforwardingmemorydesign
-R17
-R20
+R18
 R21
-Z172 DEx4 work 16 forwardingmemory 0 22 9lIzC9?3=`3<n0eHkX2VT3
-!i122 3552
+R22
+Z161 DEx4 work 16 forwardingmemory 0 22 9lIzC9?3=`3<n0eHkX2VT3
+!i122 3669
 l20
 L19 19
 V5H3Z2_PIRgk]miZZg<J:32
 !s100 V_MMmgTRM0S[8TJIeb3S?3
 R3
 33
-R150
+R146
 !i10b 1
-R164
-R170
-R171
+R153
+R159
+R160
 !i113 1
-R76
+R68
 R9
 Ehazarddetectionunit
-R95
-R17
+R85
 R18
-R96
-R20
+R19
+R86
 R21
-!i122 3553
-R88
-Z173 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/hazardDetectionUnit.vhd
-Z174 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/hazardDetectionUnit.vhd
+R22
+!i122 3670
+R11
+Z162 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/hazardDetectionUnit.vhd
+Z163 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/hazardDetectionUnit.vhd
 l0
 L6 1
 VePYC4mBZKNY5z_KfeM]>10
 !s100 2`58DaK5^n16f`@>MI_Ra2
 R3
 33
-R150
+R146
 !i10b 1
-R164
-Z175 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
-Z176 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
+R153
+Z164 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/hazardDetectionUnit.vhd|
+Z165 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/hazardDetectionUnit.vhd|
 !i113 1
-R76
+R68
 R9
 Ahazarddetectionunitdesign
-R17
 R18
-R96
-R20
+R19
+R86
 R21
-Z177 DEx4 work 19 hazarddetectionunit 0 22 ePYC4mBZKNY5z_KfeM]>10
-!i122 3553
+R22
+Z166 DEx4 work 19 hazarddetectionunit 0 22 ePYC4mBZKNY5z_KfeM]>10
+!i122 3670
 l32
 L22 69
 VNb^SDjjL2jzQ_6^UEeL[a2
 !s100 GlaKj[fV22Ca4TRE[NG>12
 R3
 33
-R150
+R146
 !i10b 1
+R153
 R164
-R175
-R176
+R165
 !i113 1
-R76
+R68
 R9
 Eid_ex_buffer
-Z178 w1683162883
-R17
+Z167 w1684677947
 R18
 R19
 R20
 R21
-!i122 3554
-R88
-Z179 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd
-Z180 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd
+R22
+!i122 3671
+R11
+Z168 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd
+Z169 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd
 l0
 L7 1
-VID==1ZQmKBCX>k_DFm^_U0
-!s100 cU]h=dG>AFE?PA2aN0Rh`2
+Vc99M_J549i6^c`Mgz;b5>2
+!s100 EeOTHAKi@84ND4hmzac<53
 R3
 33
-Z181 !s110 1684667887
+Z170 !s110 1684679642
 !i10b 1
-R164
-Z182 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd|
-Z183 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ID_EX_buffer.vhd|
+R153
+Z171 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd|
+Z172 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd|
 !i113 1
-R76
+R68
 R9
 Aid_ex_bufferdesign
-R17
 R18
 R19
 R20
 R21
-Z184 DEx4 work 12 id_ex_buffer 0 22 ID==1ZQmKBCX>k_DFm^_U0
-!i122 3554
-l41
-L26 42
-VfLNB4h_>c:Z:1>]>SlL^U3
-!s100 ;kGaV>z:Cd@Iil98?Si=S2
+R22
+Z173 DEx4 work 12 id_ex_buffer 0 22 c99M_J549i6^c`Mgz;b5>2
+!i122 3671
+l44
+L29 43
+V5d1D<Fh7^P@J<YE^nDN`62
+!s100 NoP]F1iCmbLQbmbHnclKB0
 R3
 33
-R181
+R170
 !i10b 1
-R164
-R182
-R183
+R153
+R171
+R172
 !i113 1
-R76
+R68
 R9
 Eif_id_buffer
-Z185 w1683236843
-R17
+Z174 w1684676709
 R18
 R19
 R20
 R21
-!i122 3555
-R88
-Z186 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd
-Z187 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd
+R22
+!i122 3672
+R11
+Z175 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd
+Z176 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd
 l0
 L7 1
-VGSn`1jI3DH@OkzjHC9:?i1
-!s100 Ohg5DOOQ^^lIiPzoODS_[1
+VHO4VJn:V7bBh4IVK=Tid=0
+!s100 N1];X[PNkZ?Cd6lVj1IND2
 R3
 33
-R181
+R170
 !i10b 1
-Z188 !s108 1684667887.000000
-Z189 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
-Z190 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+Z177 !s108 1684679642.000000
+Z178 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd|
+Z179 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd|
 !i113 1
-R76
+R68
 R9
 Aif_id_bufferdesign
-R17
 R18
 R19
 R20
 R21
-Z191 DEx4 work 12 if_id_buffer 0 22 GSn`1jI3DH@OkzjHC9:?i1
-!i122 3555
-l36
-L21 29
-V^[EQLg0NUCcO>m]>7<[H@1
-!s100 F;MhYE]F;PB1@]eL>?9`O0
+R22
+Z180 DEx4 work 12 if_id_buffer 0 22 HO4VJn:V7bBh4IVK=Tid=0
+!i122 3672
+l38
+L23 30
+VBJO_8<Uk?ckT[C3cXRcH]2
+!s100 lCPh9]jKXVL@W=_gZDZ7M1
 R3
 33
-R181
+R170
 !i10b 1
-R188
-R189
-R190
+R177
+R178
+R179
 !i113 1
-R76
+R68
 R9
 Einstructioncache
-Z192 w1683160452
-R17
-R20
+Z181 w1683204617
+R18
 R21
-!i122 3556
-R88
-Z193 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd
-Z194 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd
+R22
+!i122 3673
+R11
+Z182 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd
+Z183 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd
 l0
 L5 1
 VE;PA:Kjz=0jBTZA0bCG@m3
 !s100 A5e_OfXj`9V^?]_V4Wfo93
 R3
 33
-R181
+R170
 !i10b 1
-R188
-Z195 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd|
-Z196 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/instructionCache.vhd|
+R177
+Z184 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd|
+Z185 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd|
 !i113 1
-R76
+R68
 R9
 Ainstructioncache_design
-R17
-R20
+R18
 R21
+R22
 DEx4 work 16 instructioncache 0 22 E;PA:Kjz=0jBTZA0bCG@m3
-!i122 3556
+!i122 3673
 l22
 L17 21
 VQ?<TobK79aAleDAd:=lOf0
 !s100 hm;g;?Q]72407J==@Ci]o2
 R3
 33
-R181
+R170
 !i10b 1
-R188
-R195
-R196
+R177
+R184
+R185
 !i113 1
-R76
+R68
 R9
 Emem1_mem2_buffer
-R95
-R17
+Z186 w1684677868
 R18
 R19
 R20
 R21
-!i122 3557
-R88
-Z197 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
-Z198 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
+R22
+!i122 3674
+R11
+Z187 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM1_MEM2_buffer.vhd
+Z188 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM1_MEM2_buffer.vhd
 l0
 L7 1
-VzBaM5?2cIfbB^8Wk5jW[b2
-!s100 ]lhS>N=Tece7`Z?<W[S591
+Vd9hzLzMChN@LUW8_Cz0Q_2
+!s100 Re2T6i=Vz6fh^VMi_4NDf2
 R3
 33
-Z199 !s110 1684667888
+R170
 !i10b 1
-R188
-Z200 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
-Z201 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
+R177
+Z189 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM1_MEM2_buffer.vhd|
+Z190 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM1_MEM2_buffer.vhd|
 !i113 1
-R76
+R68
 R9
 Amem1_mem2_bufferdesign
-R17
 R18
 R19
 R20
 R21
-Z202 DEx4 work 16 mem1_mem2_buffer 0 22 zBaM5?2cIfbB^8Wk5jW[b2
-!i122 3557
-l40
-L25 37
-VTgQC3gY<7cbI3>;KZ>V`01
-!s100 eM]o>BAT]b9=L[C7K`KfK1
+R22
+Z191 DEx4 work 16 mem1_mem2_buffer 0 22 d9hzLzMChN@LUW8_Cz0Q_2
+!i122 3674
+l42
+L27 38
+VL1]CnQ;V4Scd3PZUZA2PN3
+!s100 3`6knjaG[b:[lE7:F@^YW1
 R3
 33
-R199
+R170
 !i10b 1
-R188
-R200
-R201
+R177
+R189
+R190
 !i113 1
-R76
+R68
 R9
 Emem1stage
-R95
-R17
+Z192 w1684679030
 R18
 R19
 R20
 R21
-!i122 3558
-R88
-Z203 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem1Stage.vhd
-Z204 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem1Stage.vhd
+R22
+!i122 3675
+R11
+Z193 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem1Stage.vhd
+Z194 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem1Stage.vhd
 l0
 L7 1
 V]:H<AYR`be]g5OjKTkDRQ2
 !s100 EfTK6LN8BMh@c[T^=9k;03
 R3
 33
-R199
+Z195 !s110 1684679643
 !i10b 1
-Z205 !s108 1684667888.000000
-Z206 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem1Stage.vhd|
-Z207 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem1Stage.vhd|
+R177
+Z196 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem1Stage.vhd|
+Z197 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem1Stage.vhd|
 !i113 1
-R76
+R68
 R9
 Amem1stagedesign
-R17
 R18
 R19
 R20
 R21
-Z208 DEx4 work 9 mem1stage 0 22 ]:H<AYR`be]g5OjKTkDRQ2
-!i122 3558
+R22
+Z198 DEx4 work 9 mem1stage 0 22 ]:H<AYR`be]g5OjKTkDRQ2
+!i122 3675
 l53
-L37 44
-VJ1iNFoH:FEBT`6]8]=NWX0
-!s100 OJ0^05hhOH]]9`2LKCf^D3
+L37 46
+V4^gV`b90EaEnJY`5MKGo00
+!s100 n[fD:clKBP32=D5:^YeDo2
 R3
 33
-R199
+R195
 !i10b 1
-R205
-R206
-R207
+R177
+R196
+R197
 !i113 1
-R76
+R68
 R9
 Emem2_wb_buffer
-Z209 w1683299165
-R17
+R150
 R18
 R19
 R20
 R21
-!i122 3559
-R88
-Z210 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
-Z211 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
+R22
+!i122 3676
+R11
+Z199 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM2_WB_buffer.vhd
+Z200 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM2_WB_buffer.vhd
 l0
 L7 1
 V:Pe6SzSnz4?VZ8a6PWQXc0
 !s100 69kBHz3U[?M^H`BanlKG03
 R3
 33
-R199
+R195
 !i10b 1
-R205
-Z212 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
-Z213 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
+Z201 !s108 1684679643.000000
+Z202 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM2_WB_buffer.vhd|
+Z203 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM2_WB_buffer.vhd|
 !i113 1
-R76
+R68
 R9
 Amem2_wb_bufferdesign
-R17
 R18
 R19
 R20
 R21
-Z214 DEx4 work 14 mem2_wb_buffer 0 22 :Pe6SzSnz4?VZ8a6PWQXc0
-!i122 3559
+R22
+Z204 DEx4 work 14 mem2_wb_buffer 0 22 :Pe6SzSnz4?VZ8a6PWQXc0
+!i122 3676
 l41
 L26 41
 V>UB086gmHXiNVj7I<C]2:1
 !s100 Je8JegOH9mH7Yf9SQLSKa2
 R3
 33
-R199
+R195
 !i10b 1
-R205
-R212
-R213
+R201
+R202
+R203
 !i113 1
-R76
+R68
 R9
 Emem2stage
-R147
-R17
+Z205 w1683207937
 R18
 R19
 R20
 R21
-!i122 3560
-R88
-Z215 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem2Stage.vhd
-Z216 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem2Stage.vhd
+R22
+!i122 3677
+R11
+Z206 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem2Stage.vhd
+Z207 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem2Stage.vhd
 l0
 L8 1
 VzZ;P2@iD?9=GJVDZ=`S880
 !s100 8a4QIeLNH`ZfkDa2Kdfa]3
 R3
 33
-Z217 !s110 1684667889
+R195
 !i10b 1
-R205
-Z218 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem2Stage.vhd|
-Z219 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/mem2Stage.vhd|
+R201
+Z208 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem2Stage.vhd|
+Z209 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem2Stage.vhd|
 !i113 1
-R76
+R68
 R9
 Amem2stagedesign
-R17
 R18
 R19
 R20
 R21
-Z220 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
-!i122 3560
+R22
+Z210 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
+!i122 3677
 l41
 L23 21
 V1m5gUBgQ>FYd0iMnYHgSI1
 !s100 :HfUl4^c5OQJF0fT3h42_2
 R3
 33
-R217
+R195
 !i10b 1
-R205
-R218
-R219
+R201
+R208
+R209
 !i113 1
-R76
+R68
 R9
 Ememorystage
-Z221 w1683155465
-R17
+R181
 R18
 R19
 R20
 R21
-!i122 3561
-R88
-Z222 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd
-Z223 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd
+R22
+!i122 3649
+R11
+Z211 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd
+Z212 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd
 l0
 L7 1
-Z224 VT3=W1Jj?d]d0jN_zzbOGo0
-Z225 !s100 C?Nfi4;`eZW8_H2k1S6RN3
+Z213 VT3=W1Jj?d]d0jN_zzbOGo0
+Z214 !s100 C?Nfi4;`eZW8_H2k1S6RN3
 R3
 33
-R217
+Z215 !s110 1684679062
 !i10b 1
-Z226 !s108 1684667889.000000
-Z227 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd|
-Z228 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd|
+Z216 !s108 1684679062.000000
+Z217 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd|
+Z218 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd|
 !i113 1
-R76
+R68
 R9
 Amemorystagedesign
-R17
 R18
 R19
 R20
 R21
-Z229 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
-!i122 3561
+R22
+Z219 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
+!i122 3649
 l77
-R73
-Z230 V9nEQai=2Ok`FH<6^=Bom91
-Z231 !s100 zSEA;HiZc:=810iLkfeTb3
+R65
+Z220 V9nEQai=2Ok`FH<6^=Bom91
+Z221 !s100 zSEA;HiZc:=810iLkfeTb3
 R3
 33
-R217
+R215
 !i10b 1
+R216
+R217
+R218
+!i113 1
+R68
+R9
+Ememorystage
+R181
+R18
+R19
+R20
+R21
+R22
+!i122 3678
+R11
+R211
+R212
+l0
+L7 1
+R213
+R214
+R3
+33
+R195
+!i10b 1
+R201
+R217
+R218
+!i113 1
+R68
+R9
+Amemorystagedesign
+R18
+R19
+R20
+R21
+R22
+R219
+!i122 3678
+l77
+R65
+R220
+R221
+R3
+33
+R195
+!i10b 1
+R201
+R217
+R218
+!i113 1
+R68
+R9
+Emy_ndff
+R150
+R21
+R22
+!i122 3679
+R11
+Z222 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd
+Z223 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd
+l0
+L5 1
+R66
+R67
+R3
+33
+Z224 !s110 1684679644
+!i10b 1
+Z225 !s108 1684679644.000000
+Z226 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd|
+Z227 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd|
+!i113 1
+R68
+R9
+Aa_my_ndff
+R21
+R22
+R69
+!i122 3679
+l14
+R70
+Z228 VmFH]mN[n8JbF=n16BQV0k1
+Z229 !s100 =HN7jb28Xd2z5jGnSD3[b1
+R3
+33
+R224
+!i10b 1
+R225
 R226
 R227
+!i113 1
+R68
+R9
+Emy_ndff
+R150
+R21
+R22
+!i122 3650
+R11
+R222
+R223
+l0
+L5 1
+R66
+R67
+R3
+33
+R215
+!i10b 1
+R216
+R226
+R227
+!i113 1
+R68
+R9
+Aa_my_ndff
+R21
+R22
+R69
+!i122 3650
+l14
+R70
 R228
-!i113 1
-R76
-R9
-Ememorystage
-Z232 w1683162396
-R17
-R18
-R19
-R20
-R21
-!i122 3532
-R0
-R1
-R2
-l0
-L7 1
-R224
-R225
-R3
-33
-Z233 !s110 1684625884
-!i10b 1
-Z234 !s108 1684625884.000000
-Z235 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
-R7
-!i113 1
-R76
-R9
-Amemorystagedesign
-R17
-R18
-R19
-R20
-R21
 R229
-!i122 3532
-l77
-R73
-R230
-R231
 R3
 33
-R233
+R215
 !i10b 1
-R234
-R235
-R7
-!i113 1
-R76
-R9
-Emy_ndff
-Z236 w1684608336
-R20
-R21
-!i122 3533
-R0
-Z237 8D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
-Z238 FD:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
-l0
-L5 1
-R74
-R75
-R3
-33
-Z239 !s110 1684625885
-!i10b 1
-R234
-R24
-R25
-!i113 1
-R76
-R9
-Aa_my_ndff
-R20
-R21
-R77
-!i122 3533
-l14
-R78
-Z240 VmFH]mN[n8JbF=n16BQV0k1
-Z241 !s100 =HN7jb28Xd2z5jGnSD3[b1
-R3
-33
-R239
-!i10b 1
-R234
-R24
-R25
-!i113 1
-R76
-R9
-Emy_ndff
-Z242 w1683307158
-R20
-R21
-!i122 3562
-R88
-Z243 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd
-Z244 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd
-l0
-L5 1
-R74
-R75
-R3
-33
-R217
-!i10b 1
+R216
 R226
-R26
-R27
+R227
 !i113 1
-R76
-R9
-Aa_my_ndff
-R20
-R21
-R77
-!i122 3562
-l14
-R78
-R240
-R241
-R3
-33
-R217
-!i10b 1
-R226
-R26
-R27
-!i113 1
-R76
+R68
 R9
 Epc
-R95
-R17
-R20
+R85
+R18
 R21
-!i122 3563
-R88
-R29
-R30
+R22
+!i122 3680
+R11
+Z230 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/PC.vhd
+Z231 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/PC.vhd
 l0
 L5 1
 VM@_jD]?l_fEY^j4:`0KDc1
 !s100 ]jhIZgnB?1nTf=<H]`_g>3
 R3
 33
-R217
+R224
 !i10b 1
-R226
-R33
-R34
+R225
+Z232 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/PC.vhd|
+Z233 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/PC.vhd|
 !i113 1
-R76
+R68
 R9
 Apc_design
-R17
-R20
+R18
 R21
-R145
-!i122 3563
+R22
+R136
+!i122 3680
 l16
 L15 24
 VJic<UeXL_nG[G2SPI_gN<0
 !s100 RbKGMk<;MGB7;eEzSNX?D3
 R3
 33
-R217
+R224
 !i10b 1
-R226
-R33
-R34
+R225
+R232
+R233
 !i113 1
-R76
+R68
 R9
 Eprocessor
-R95
-R17
-R20
+Z234 w1684677795
+R18
 R21
-!i122 3564
-R88
-R35
-R36
+R22
+!i122 3681
+R11
+Z235 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/Processor.vhd
+Z236 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/Processor.vhd
 l0
 L6 1
-VcaoPIVmEYF@hFk^>aR9<40
-R80
+Va0>;KmXYj2CONM4@@bCRX0
+!s100 ?k?bbOmRVEcFdkfX4=a>K2
 R3
 33
-Z245 !s110 1684667890
+R224
 !i10b 1
-R226
-R40
-R41
+R225
+Z237 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/Processor.vhd|
+Z238 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/Processor.vhd|
 !i113 1
-R76
+R68
 R9
 Aprocessor_design
-Z246 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
-R214
-R220
-R202
-R208
-R172
-R134
-R140
-R167
-R184
-R128
-R160
-R177
+Z239 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
+R204
+R210
 R191
-R19
-R146
-R18
-R96
-R102
-R17
+R198
+R161
+R123
+R130
+R156
+R173
+R117
+R149
+R166
+R180
 R20
+R137
+R19
+R86
+R91
+R18
 R21
-DEx4 work 9 processor 0 22 caoPIVmEYF@hFk^>aR9<40
-!i122 3564
-l101
-L15 138
-V0=EVK]zQ5<FOVkL[eODA:1
-!s100 ^ol?nMA6<M@lF`;FYHCz@1
+R22
+DEx4 work 9 processor 0 22 a0>;KmXYj2CONM4@@bCRX0
+!i122 3681
+l106
+L16 142
+VcBIgT9dDLBoj4b:?@l:4?3
+!s100 e5XhR_HIkSRX1UYG0dIo11
 R3
 33
-R245
+R224
 !i10b 1
-R226
-R40
-R41
+R225
+R237
+R238
 !i113 1
-R76
+R68
 R9
 Eregfile
 R0
 Eregfilemem
-R50
-R17
-R20
+Z240 w1681844623
+R18
 R21
-!i122 3565
-R88
-R51
-R52
+R22
+!i122 3682
+R11
+Z241 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd
+Z242 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd
 l0
 L5 1
 VJ[9EhVI`<1zg[?zP2060K1
-R81
+R72
 R3
 33
-R245
+Z243 !s110 1684679645
 !i10b 1
-Z247 !s108 1684667890.000000
-R57
-R58
+R225
+Z244 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd|
+Z245 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd|
 !i113 1
-R76
+R68
 R9
 Aregfilememdesign
-R17
-R20
+R18
 R21
-R127
-!i122 3565
+R22
+R116
+!i122 3682
 l25
-R82
+R73
 VoVAWj:Pm=JK]8_LMC_2@Y3
-R83
+R74
 R3
 33
-R245
+R243
 !i10b 1
-R247
-R57
-R58
+R225
+R244
+R245
 !i113 1
-R76
+R68
 R9
 Esp
-Z248 w1681961706
-R17
-R20
+Z246 w1681952417
+R18
 R21
-!i122 3566
-R88
-Z249 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/SP.vhd
-Z250 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/SP.vhd
+R22
+!i122 3683
+R11
+Z247 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/SP.vhd
+Z248 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/SP.vhd
 l0
 L5 1
 V8a_VizA_1MN:46lGI8F991
 !s100 KD^NlR2Gn9>FY;0RkE^Qf1
 R3
 33
-R245
+R243
 !i10b 1
-R247
-Z251 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/SP.vhd|
-Z252 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/SP.vhd|
+Z249 !s108 1684679645.000000
+Z250 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/SP.vhd|
+Z251 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/SP.vhd|
 !i113 1
-R76
+R68
 R9
 Asp_design
-R17
-R20
+R18
 R21
+R22
 DEx4 work 2 sp 0 22 8a_VizA_1MN:46lGI8F991
-!i122 3566
+!i122 3683
 l14
 L13 19
 Vda1Y9o1ZR?TjZMLj3O`=i0
 !s100 JziB`P>UYf9UUQ5D[A>cm1
 R3
 33
-R245
+R243
 !i10b 1
-R247
+R249
+R250
 R251
-R252
 !i113 1
-R76
+R68
 R9
 Ewritebackmux
-Z253 w1681874017
-R17
-R20
+R78
+R18
 R21
-!i122 3567
-R88
-Z254 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd
-Z255 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd
+R22
+!i122 3655
+R11
+Z252 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd
+Z253 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd
 l0
 L5 1
-Z256 V0z];HVFF<_9P1oM7MfZfD3
-R84
+Z254 V0z];HVFF<_9P1oM7MfZfD3
+R75
 R3
 33
-Z257 !s110 1684667891
+Z255 !s110 1684679064
 !i10b 1
-R247
-R61
-R62
+Z256 !s108 1684679063.000000
+Z257 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd|
+Z258 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd|
 !i113 1
-R76
+R68
 R9
 Amymux
-R17
-R20
+R18
 R21
-Z258 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
-!i122 3567
+R22
+Z259 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
+!i122 3655
 l16
-R85
-Z259 V=?ZX]8MkEnM3nXHZf7U=Y3
-R86
+R76
+Z260 V=?ZX]8MkEnM3nXHZf7U=Y3
+R77
 R3
 33
-R257
+R255
 !i10b 1
-R247
-R61
-R62
-!i113 1
-R76
-R9
-Ewritebackmux
-R67
-R17
-R20
-R21
-!i122 3538
-R0
-Z260 8D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
-Z261 FD:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
-l0
-L5 1
 R256
-R84
+R257
+R258
+!i113 1
+R68
+R9
+Ewritebackmux
+R78
+R18
+R21
+R22
+!i122 3684
+R11
+R252
+R253
+l0
+L5 1
+R254
+R75
 R3
 33
-Z262 !s110 1684625886
+R243
 !i10b 1
-Z263 !s108 1684625886.000000
-Z264 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
-R60
+R249
+R257
+R258
 !i113 1
-R76
+R68
 R9
 Amymux
-R17
-R20
+R18
 R21
-R258
-!i122 3538
-l16
-R85
+R22
 R259
-R86
+!i122 3684
+l16
+R76
+R260
+R77
 R3
 33
-R262
+R243
 !i10b 1
-R263
-R264
-R60
+R249
+R257
+R258
 !i113 1
-R76
+R68
 R9
 Ewritebackstage
-R95
-R17
-R20
+R85
+R18
 R21
-!i122 3568
-R88
-R63
-R64
+R22
+!i122 3685
+R11
+Z261 8C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd
+Z262 FC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd
 l0
 L5 1
 V4nPRRQ26=8WSHO^ESN3hJ2
 !s100 oMRo4j;b40RMi;cfVI[[=3
 R3
 33
-R257
+R243
 !i10b 1
-Z265 !s108 1684667891.000000
-R68
-R69
+R249
+Z263 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd|
+Z264 !s107 C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd|
 !i113 1
-R76
+R68
 R9
 Amywritebackstage
-R17
-R20
+R18
 R21
-R246
-!i122 3568
+R22
+R239
+!i122 3685
 l18
 L17 13
 VVFh`YklkMVA_FTfiM3R1h0
 !s100 b<F:z<MZHd?Y67MigC3DV3
 R3
 33
-R257
+R243
 !i10b 1
-R265
-R68
-R69
+R249
+R263
+R264
 !i113 1
-R76
+R68
 R9

@@ -20,6 +20,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity EX_MEM1_buffer
 -- Compiling architecture EX_MEM1_bufferDesign of EX_MEM1_buffer
 
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit_TB
+-- Compiling architecture tb of ControlUnit_TB
+
 } {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/hazardDetectionUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/hazardDetectionUnit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -31,24 +39,18 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity hazardDetectionUnit
 -- Compiling architecture hazardDetectionUnitDesign of hazardDetectionUnit
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM1_MEM2_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM1_MEM2_buffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ControlUnit_TB
--- Compiling architecture tb of ControlUnit_TB
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/controlUnit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/controlUnit.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity controlUnit
--- Compiling architecture controlUnitDesign of controlUnit
+-- Compiling entity MEM1_MEM2_buffer
+-- Compiling architecture MEM1_MEM2_bufferDesign of MEM1_MEM2_buffer
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd}
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -59,7 +61,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity flagControlUnit
 -- Compiling architecture flagControlUnitDesign of flagControlUnit
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/flagControlUnit.vhd}
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/flagControlUnit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -79,7 +81,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity PC
 -- Compiling architecture PC_design of PC
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controlUnit
+-- Compiling architecture controlUnitDesign of controlUnit
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/flagControlUnit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -90,16 +101,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity flagControlUnit
 -- Compiling architecture flagControlUnitDesign of flagControlUnit
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingMemory.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingMemory.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity controlUnit
--- Compiling architecture controlUnitDesign of controlUnit
+-- Compiling entity forwardingMemory
+-- Compiling architecture forwardingMemoryDesign of forwardingMemory
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd}
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -108,7 +119,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity regFileMem
 -- Compiling architecture regFileMemDesign of regFileMem
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/regFileMem.vhd}
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -166,18 +177,26 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Processor
 -- Compiling architecture Processor_design of Processor
 -- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ControlHazardUnit
 -- Loading package STD_LOGIC_SIGNED
 -- Loading entity fetchStage
 -- Loading entity IF_ID_Buffer
+-- Loading entity hazardDetectionUnit
+-- Loading entity forwardingDecode
 -- Loading entity DecodingStage
 -- Loading entity ID_EX_buffer
+-- Loading entity forwardingExecute
 -- Loading entity executionStage
 -- Loading entity EX_MEM1_buffer
+-- Loading entity forwardingMemory
 -- Loading entity mem1Stage
--- Loading entity memoryStage
+-- Loading entity MEM1_MEM2_buffer
+-- Loading entity mem2Stage
+-- Loading entity MEM2_WB_buffer
 -- Loading entity writeBackStage
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/DecodingStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -210,6 +229,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity mem1Stage
 -- Compiling architecture mem1StageDesign of mem1Stage
 
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity IF_ID_Buffer
+-- Compiling architecture IF_ID_bufferDesign of IF_ID_Buffer
+
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -221,18 +251,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity ID_EX_buffer
 -- Compiling architecture ID_EX_bufferDesign of ID_EX_buffer
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/IF_ID_Buffer.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_SIGNED
--- Loading package NUMERIC_STD
--- Compiling entity IF_ID_Buffer
--- Compiling architecture IF_ID_bufferDesign of IF_ID_Buffer
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/EX_MEM1_buffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -243,7 +262,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity EX_MEM1_buffer
 -- Compiling architecture EX_MEM1_bufferDesign of EX_MEM1_buffer
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit_TB
+-- Compiling architecture tb of ControlUnit_TB
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/instructionCache.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -251,14 +278,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity instructionCache
 -- Compiling architecture instructionCache_design of instructionCache
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlUnit_TB.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ControlUnit_TB
--- Compiling architecture tb of ControlUnit_TB
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -429,7 +448,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity forwardingMemory
 -- Compiling architecture forwardingMemoryDesign of forwardingMemory
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/writeBackMux.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -460,7 +479,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity controlUnit
 -- Loading entity regFileMem
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem1Stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem1Stage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem1Stage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -471,55 +490,25 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity mem1Stage
 -- Compiling architecture mem1StageDesign of mem1Stage
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity forwardingExecute
--- Compiling architecture forwardingExecuteDesign of forwardingExecute
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity regFileMem
--- Compiling architecture regFileMemDesign of regFileMem
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
 -- Loading package std_logic_arith
--- Loading package STD_LOGIC_SIGNED
--- Loading package NUMERIC_STD
--- Compiling entity memoryStage
--- Compiling architecture memoryStageDesign of memoryStage
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ControlHazardUnit
+-- Compiling architecture MYControlHazardUnit of ControlHazardUnit
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity forwardingExecute
--- Compiling architecture forwardingExecuteDesign of forwardingExecute
-
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_SIGNED
--- Loading package NUMERIC_STD
--- Compiling entity fetchStage
--- Compiling architecture fetchStageDesign of fetchStage
--- Loading entity PC
+-- Compiling entity SP
+-- Compiling architecture SP_design of SP
 
 } {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -533,25 +522,55 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture fetchStageDesign of fetchStage
 -- Loading entity PC
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/fetchStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity SP
--- Compiling architecture SP_design of SP
-
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
 -- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ControlHazardUnit
--- Compiling architecture MYControlHazardUnit of ControlHazardUnit
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity fetchStage
+-- Compiling architecture fetchStageDesign of fetchStage
+-- Loading entity PC
+
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingExecute.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity forwardingExecute
+-- Compiling architecture forwardingExecuteDesign of forwardingExecute
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity memoryStage
+-- Compiling architecture memoryStageDesign of memoryStage
+
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingExecute.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity forwardingExecute
+-- Compiling architecture forwardingExecuteDesign of forwardingExecute
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/regFileMem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity regFileMem
+-- Compiling architecture regFileMemDesign of regFileMem
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -575,25 +594,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity memoryStage
 -- Compiling architecture memoryStageDesign of memoryStage
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity controlUnit
--- Compiling architecture controlUnitDesign of controlUnit
-
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/controlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/controlUnit.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity controlUnit
--- Compiling architecture controlUnitDesign of controlUnit
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/WriteBackStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -611,6 +612,35 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity instructionCache
 -- Compiling architecture instructionCache_design of instructionCache
 
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/controlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/controlUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controlUnit
+-- Compiling architecture controlUnitDesign of controlUnit
+
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/controlUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controlUnit
+-- Compiling architecture controlUnitDesign of controlUnit
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/hazardDetectionUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/hazardDetectionUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity hazardDetectionUnit
+-- Compiling architecture hazardDetectionUnitDesign of hazardDetectionUnit
+
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -621,28 +651,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity executionStage
 -- Compiling architecture executionStageDesign of executionStage
-
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_SIGNED
--- Loading package NUMERIC_STD
--- Compiling entity IF_ID_Buffer
--- Compiling architecture IF_ID_bufferDesign of IF_ID_Buffer
-
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_SIGNED
--- Loading package NUMERIC_STD
--- Compiling entity IF_ID_Buffer
--- Compiling architecture IF_ID_bufferDesign of IF_ID_Buffer
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -655,6 +663,28 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity hazardDetectionUnit
 -- Compiling architecture hazardDetectionUnitDesign of hazardDetectionUnit
 
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/IF_ID_Buffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity IF_ID_Buffer
+-- Compiling architecture IF_ID_bufferDesign of IF_ID_Buffer
+
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/IF_ID_Buffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity IF_ID_Buffer
+-- Compiling architecture IF_ID_bufferDesign of IF_ID_Buffer
+
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -666,14 +696,25 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity MEM2_WB_buffer
 -- Compiling architecture MEM2_WB_bufferDesign of MEM2_WB_buffer
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem2Stage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/mem2Stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity mem2Stage
+-- Compiling architecture mem2StageDesign of mem2Stage
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingDecode.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingDecode.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity writeBackStage
--- Compiling architecture MyWriteBackStage of writeBackStage
+-- Compiling entity forwardingDecode
+-- Compiling architecture forwardingDecodeDesign of forwardingDecode
 
 } {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/WriteBackStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -684,14 +725,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity writeBackStage
 -- Compiling architecture MyWriteBackStage of writeBackStage
 
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity writeBackMux
--- Compiling architecture MyMux of writeBackMux
+-- Compiling entity writeBackStage
+-- Compiling architecture MyWriteBackStage of writeBackStage
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -705,25 +746,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture fetchStageDesign of fetchStage
 -- Loading entity PC
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity PC
--- Compiling architecture PC_design of PC
-
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ControlHazardUnit
--- Compiling architecture MYControlHazardUnit of ControlHazardUnit
+-- Compiling entity writeBackMux
+-- Compiling architecture MyMux of writeBackMux
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -753,14 +783,25 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity MEM2_WB_buffer
 -- Loading entity writeBackStage
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/SP.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\SP.vhd}
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/ControlHazardUnit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity SP
--- Compiling architecture SP_design of SP
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ControlHazardUnit
+-- Compiling architecture MYControlHazardUnit of ControlHazardUnit
+
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PC
+-- Compiling architecture PC_design of PC
 
 } {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -773,14 +814,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity controlUnit
 -- Loading entity regFileMem
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/SP.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/SP.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity writeBackMux
--- Compiling architecture MyMux of writeBackMux
+-- Compiling entity SP
+-- Compiling architecture SP_design of SP
 
 } {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/writeBackMux.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -791,7 +832,25 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity writeBackMux
 -- Compiling architecture MyMux of writeBackMux
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd}
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity writeBackMux
+-- Compiling architecture MyMux of writeBackMux
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingExecute.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/forwardingExecute.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity forwardingExecute
+-- Compiling architecture forwardingExecuteDesign of forwardingExecute
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/executionStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -802,15 +861,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity executionStage
 -- Compiling architecture executionStageDesign of executionStage
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity dataMem
--- Compiling architecture dataMemDesign of dataMem
-
 } {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/dataMem.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -820,7 +870,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity dataMem
 -- Compiling architecture dataMemDesign of dataMem
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd}
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/dataMem.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -829,7 +879,27 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity dataMem
 -- Compiling architecture dataMemDesign of dataMem
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/dataMem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dataMem
+-- Compiling architecture dataMemDesign of dataMem
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM2_WB_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/MEM2_WB_buffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity MEM2_WB_buffer
+-- Compiling architecture MEM2_WB_bufferDesign of MEM2_WB_buffer
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ALU.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -869,7 +939,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity PC
 -- Compiling architecture PC_design of PC
 
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/fetchStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -879,6 +949,29 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity fetchStage
 -- Compiling architecture fetchStageDesign of fetchStage
+-- Loading entity PC
+
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity executionStage
+-- Compiling architecture executionStageDesign of executionStage
+
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity executionStage
+-- Compiling architecture executionStageDesign of executionStage
 
 } {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -908,7 +1001,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity MEM2_WB_buffer
 -- Loading entity writeBackStage
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/executionStage.vhd}
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -916,19 +1009,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_SIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity executionStage
--- Compiling architecture executionStageDesign of executionStage
-
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/executionStage.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_SIGNED
--- Loading package NUMERIC_STD
--- Compiling entity executionStage
--- Compiling architecture executionStageDesign of executionStage
+-- Compiling entity MEM1_MEM2_buffer
+-- Compiling architecture MEM1_MEM2_bufferDesign of MEM1_MEM2_buffer
 
 } {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -941,7 +1023,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity MEM1_MEM2_buffer
 -- Compiling architecture MEM1_MEM2_bufferDesign of MEM1_MEM2_buffer
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd}
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -949,17 +1031,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_SIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity MEM1_MEM2_buffer
--- Compiling architecture MEM1_MEM2_bufferDesign of MEM1_MEM2_buffer
-
-} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity forwardingDecode
--- Compiling architecture forwardingDecodeDesign of forwardingDecode
+-- Compiling entity MEM2_WB_buffer
+-- Compiling architecture MEM2_WB_bufferDesign of MEM2_WB_buffer
 
 } {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM2_WB_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/MEM2_WB_buffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -972,26 +1045,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity MEM2_WB_buffer
 -- Compiling architecture MEM2_WB_bufferDesign of MEM2_WB_buffer
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/MEM2_WB_buffer.vhd}
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_SIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity MEM2_WB_buffer
--- Compiling architecture MEM2_WB_bufferDesign of MEM2_WB_buffer
+-- Compiling entity forwardingDecode
+-- Compiling architecture forwardingDecodeDesign of forwardingDecode
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity my_nDFF
--- Compiling architecture a_my_nDFF of my_nDFF
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ID_EX_buffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -1010,22 +1073,24 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity my_nDFF
 -- Compiling architecture a_my_nDFF of my_nDFF
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity forwardingMemory
--- Compiling architecture forwardingMemoryDesign of forwardingMemory
-
-} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd}
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity my_nDFF
 -- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlHazardUnit.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/ControlHazardUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ControlHazardUnit
+-- Compiling architecture MYControlHazardUnit of ControlHazardUnit
 
 } {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingMemory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/forwardingMemory.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -1036,7 +1101,24 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity forwardingMemory
 -- Compiling architecture forwardingMemoryDesign of forwardingMemory
 
-} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd}
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/my_nDFF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/forwardingMemory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity forwardingMemory
+-- Compiling architecture forwardingMemoryDesign of forwardingMemory
+
+} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -1047,7 +1129,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity memoryStage
 -- Compiling architecture memoryStageDesign of memoryStage
 
-} {} {}} {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {F:/COLLEGE/SENIOR-1/Spring/Computer Architecture/Labs/ComputerArchitecture/Project/memoryStage.vhd}
+} {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/memoryStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
