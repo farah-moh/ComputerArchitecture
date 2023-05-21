@@ -29,7 +29,10 @@ PORT(
 
     pcSrc:                               IN std_logic;                           
     PC:                                  IN std_logic_vector(15 DOWNTO 0);
-    InterruptSignal:                     IN std_logic                             
+    InterruptSignal:                     IN std_logic;
+    Flags:                               IN std_logic_vector(2 DOWNTO 0);
+    counter:                             IN std_logic_vector(2 DOWNTO 0);
+    PC_IF:                               IN std_logic_vector(15 DOWNTO 0)                             
     
 );
 END mem1Stage;
@@ -71,9 +74,13 @@ BEGIN
     -- bs dh next phase, for now hya Rs1Data 3la tool
     
     -- yenfa3 a3ml + 1 3ady kda wala lazem gowa process?
-    Data <= PC when InterruptSignal = '1' else              -- Check on interrupt first, as it has highest priority
-            -- saves PC, 3lshan lama yrg3 yrg3 3la el instruction elly et3mlha interrupt (y3ny yrg3 y3mlha fetch tany)
+    Data <= PC_IF when counter = "011" else    -- Check on interrupt first, as it has highest priority
+                                            -- saves PC, 3lshan lama yrg3 yrg3 3la el instruction elly et3mlha interrupt (y3ny yrg3 y3mlha fetch tany)
+                                            -- dh lw counter = 3        (bs actually counter = 4, l2n bye7sal stall 3lshan 2 push wara ba3d)
+                                            -- PC msh PC + 1, 3lshan howa byzeed henak kda kda, w 3lshan el jump
+            "0000000000000" & Flags when counter = "010" else     -- dh 3lshan y-push el flags
             PC + 1 when spDec = '1' and pcSrc = '1' else
+            -- "0000000011110000";
             Rs1Data; --when spDec = '1' else    
             --(others => '0');
     -- Data <= Rs1Data;

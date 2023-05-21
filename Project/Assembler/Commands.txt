@@ -11,12 +11,18 @@
 100							
 .org 1	#this hw interrupt handler
 20						
+.org 2
+INC R5, R5
+INC R4, R4
 
 .org 100
+INC R1, R1     # 100
 INC R1, R1
-INC R1, R1
-INC R1, R1    # Interrupt
-INC R1, R1
+INC R6, R6
+INC R6, R6
+JMP R1          # interrupt 
+INC R1, R1      # interrupt
+INC R1, R1      # 103
 INC R2, R2
 INC R2, R2
 
@@ -25,3 +31,4 @@ INC R2, R2
 INC R3, R3
 INC R3, R3
 INC R3, R3
+

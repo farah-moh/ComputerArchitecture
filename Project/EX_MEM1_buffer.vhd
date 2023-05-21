@@ -6,18 +6,24 @@ USE IEEE.numeric_std.all;
 
 ENTITY EX_MEM1_buffer IS
 PORT( 
- clk, reset :                                   IN  std_logic; 
- RS1reg,RS2reg,RDreg:                           IN  std_logic_vector(2 DOWNTO 0);
- RS1data, RS2data, ALUresult:                   IN  std_logic_vector(15 DOWNTO 0);
- PC:                                            IN std_logic_vector(15 DOWNTO 0);
- regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec:        IN std_logic;
+    clk, reset :                                   IN  std_logic; 
+    RS1reg,RS2reg,RDreg:                           IN  std_logic_vector(2 DOWNTO 0);
+    RS1data, RS2data, ALUresult:                   IN  std_logic_vector(15 DOWNTO 0);
+    PC:                                            IN std_logic_vector(15 DOWNTO 0);
+    regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec:        IN std_logic;
 
- RS1regOut,RS2regOut,RDregOut:                  OUT  std_logic_vector(2 DOWNTO 0);
- RS1dataOut, RS2dataOut,ALUresultOut:           OUT  std_logic_vector(15 DOWNTO 0);
- PCout:                                         OUT  std_logic_vector(15 DOWNTO 0);
- regWriteOut,pcSrcOut,memReadOut,memWriteOut,memToRegOut,inPortOut,outPortOut,spIncOut,spDecOut:        OUT std_logic;
- InterruptIn:                                   IN std_logic;
- InterruptOut:                                  OUT std_logic
+    RS1regOut,RS2regOut,RDregOut:                  OUT  std_logic_vector(2 DOWNTO 0);
+    RS1dataOut, RS2dataOut,ALUresultOut:           OUT  std_logic_vector(15 DOWNTO 0);
+    PCout:                                         OUT  std_logic_vector(15 DOWNTO 0);
+    regWriteOut,pcSrcOut,memReadOut,memWriteOut,memToRegOut,inPortOut,outPortOut,spIncOut,spDecOut:        OUT std_logic;
+    InterruptIn:                                   IN std_logic;
+    InterruptOut:                                  OUT std_logic;
+    flags:                                         IN std_logic_vector(2 DOWNTO 0);
+    flagsOut:                                      OUT std_logic_vector(2 DOWNTO 0);
+    counterIN:                                     IN std_logic_vector(2 DOWNTO 0);
+    counterOUT:                                    OUT std_logic_vector(2 DOWNTO 0);
+    PCIN:                                          IN std_logic_vector(15 DOWNTO 0);
+    PCOUTdata:                                         OUT std_logic_vector(15 DOWNTO 0)
 );
 END EX_MEM1_buffer;
 
@@ -31,17 +37,20 @@ COMPONENT my_nDFF IS
     enable: IN std_logic);
 END COMPONENT;
 
-signal bufferInput:                   std_logic_vector(82 DOWNTO 0);
-signal bufferOutput:                  std_logic_vector(82 DOWNTO 0);
+signal bufferInput:                   std_logic_vector(104 DOWNTO 0);
+signal bufferOutput:                  std_logic_vector(104 DOWNTO 0);
 
 -- RDaddress(3) - rs1data(16) - rs2data(16) - ALUoutput(16) - PC(16) - control signals(8)
 
 BEGIN
     
-    bufferr:         my_nDFF generic map(83) port map (clk,reset,bufferInput,bufferOutput,'1');
+    bufferr:         my_nDFF generic map(105) port map (clk,reset,bufferInput,bufferOutput,'1');
 
-    bufferInput <= InterruptIn & RS1reg & RS2reg & RDreg & RS1data & RS2data & ALUresult & PC & regWrite & pcSrc & memRead & memWrite & memToReg & inPort & outPort & spInc & spDec;
+    bufferInput <= PCIN & counterIN & flags & InterruptIn & RS1reg & RS2reg & RDreg & RS1data & RS2data & ALUresult & PC & regWrite & pcSrc & memRead & memWrite & memToReg & inPort & outPort & spInc & spDec;
 
+    PCOUTdata           <= bufferOutput(104 downto 89);    
+    counterOUT          <= bufferOutput(88 downto 86);
+    flagsOut            <= bufferOutput(85 downto 83);
     InterruptOut        <= bufferOutput(82);
     RS1regOut           <= bufferOutput(81 downto 79);
     RS2regOut           <= bufferOutput(78 downto 76);
