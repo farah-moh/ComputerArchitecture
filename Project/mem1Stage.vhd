@@ -29,7 +29,7 @@ PORT(
 
     pcSrc:                               IN std_logic;                           
     PC:                                  IN std_logic_vector(15 DOWNTO 0);
-    InterruptSignal:                     IN std_logic                             -- interrupt signal from the interrupt controller
+    InterruptSignal:                     IN std_logic                             
     
 );
 END mem1Stage;
@@ -59,7 +59,8 @@ BEGIN
     sp_component: SP port map(clk,reset,inc,sp_out);
 
     -- sp_out w RS1Data w RS2Data hy5osho 3la mux, el output bta3o howa el address
-    Address <= sp_out(9 downto 0) when spInc = '1' else
+    Address <= sp_out(9 downto 0) when InterruptSignal = '1' else       -- msh mot2aked mn dyh brdo awy, bs azon sa7 3lshan y-save el makan
+               sp_out(9 downto 0) when spInc = '1' else
                sp_out(9 downto 0) + 1 when spDec = '1' else
                Rs1Data(9 downto 0) when readEnable = '1' else
                Rs2Data(9 downto 0) when writeEnable = '1' else
@@ -71,6 +72,7 @@ BEGIN
     
     -- yenfa3 a3ml + 1 3ady kda wala lazem gowa process?
     Data <= PC when InterruptSignal = '1' else              -- Check on interrupt first, as it has highest priority
+            -- saves PC, 3lshan lama yrg3 yrg3 3la el instruction elly et3mlha interrupt (y3ny yrg3 y3mlha fetch tany)
             PC + 1 when spDec = '1' and pcSrc = '1' else
             Rs1Data; --when spDec = '1' else    
             --(others => '0');

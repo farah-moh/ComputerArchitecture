@@ -19,7 +19,10 @@ PORT(
  RD,RS1,RS2:                     OUT  std_logic_vector(2 DOWNTO 0);
  immediateOut:                   OUT  std_logic_vector(15 DOWNTO 0);
  PCout:                          OUT  std_logic_vector(15 DOWNTO 0);
- regWriteOut,pcSrcOut,memReadOut,memWriteOut,memToRegOut,inPortOut,outPortOut,spIncOut,spDecOut:        OUT std_logic
+ regWriteOut,pcSrcOut,memReadOut,memWriteOut,memToRegOut,inPortOut,outPortOut,spIncOut,spDecOut:        OUT std_logic;
+ InterruptIN:                    IN   std_logic;
+ InterruptOUT:                   OUT  std_logic
+
 );
 END ID_EX_buffer;
 
@@ -33,17 +36,18 @@ COMPONENT my_nDFF IS
     enable: IN std_logic);
 END COMPONENT;
 
-signal bufferInput:                   std_logic_vector(104 DOWNTO 0);
-signal bufferOutput:                  std_logic_vector(104 DOWNTO 0);
+signal bufferInput:                   std_logic_vector(105 DOWNTO 0);
+signal bufferOutput:                  std_logic_vector(105 DOWNTO 0);
 
 -- rs1data(16) - rs2data(16) - instruction(16) - immediate(16) - PC(16) - control signals(8)
 
 BEGIN
     
-    bufferr:         my_nDFF generic map(105) port map (clk,reset,bufferInput,bufferOutput,'1');
+    bufferr:         my_nDFF generic map(106) port map (clk,reset,bufferInput,bufferOutput,'1');
 
-    bufferInput <=inPortDataIN & RS1data&RS2data&instruction&immediate&PC&regWrite&pcSrc&memRead&memWrite&memToReg&inPort&outPort&spInc&spDec;
+    bufferInput <= InterruptIN & inPortDataIN & RS1data&RS2data&instruction&immediate&PC&regWrite&pcSrc&memRead&memWrite&memToReg&inPort&outPort&spInc&spDec;
 
+    InterruptOUT <= bufferOutput(105);
     inPortDataOUT       <= bufferOutput(104 downto 89);
     RS1dataOut          <= bufferOutput(88 downto 73);
     RS2dataOut          <= bufferOutput(72 downto 57); 
