@@ -36,6 +36,5 @@ BEGIN
                         '1' when (Instruction(15 downto 11) = "10011") else 
                         --'1' when (InterruptSignal = '1') else
                         '0';
-
-
+                        
 END decoding;

@@ -9,28 +9,2143 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/Boody/CompArch/ComputerArchitecture/Project
+<<<<<<< HEAD
+Z1 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
+Z2 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z3 =======
+Z4 !s108 1684610804.000000
+R2
+R0
+<<<<<<< HEAD
+R3
+!i122 3032
+l18
+Z5 L17 13
+Z6 V2b2o2;JQBdMj9V809CSQH0
+Z7 !s100 1PFMkBOb;VM;eWFm>;L061
+R0
+<<<<<<< HEAD
+!i122 3920
+R3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 w1681956466
+!i122 3539
+R0
+<<<<<<< HEAD
+Z10 FD:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd
+Z11 8D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
+Z12 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
+R0
+<<<<<<< HEAD
+R1
+R2
+R3
+R4
+R2
+R0
+<<<<<<< HEAD
+R4
+!i10b 1
+R0
+<<<<<<< HEAD
+R11
+!i122 3920
+R3
+Z13 DEx4 work 19 hazarddetectionunit 0 22 ePYC4mBZKNY5z_KfeM]>10
+Z14 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+R10
+R11
+!i122 3032
+R0
+<<<<<<< HEAD
+Z15 w1684623332
+R3
+Z16 !s110 1684625886
+!i10b 1
+Z17 8D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
+Z18 FD:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
+Z19 V0z];HVFF<_9P1oM7MfZfD3
+!i113 1
+Z20 o-work work -2008 -explicit
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
+R0
+<<<<<<< HEAD
+!i122 3860
+l16
+Z22 V]T:7DA>@ZL1HQmiZe6:543
+Z23 V=?ZX]8MkEnM3nXHZf7U=Y3
+Z24 !s100 a<l3KZF3co3bJ6mVPomZP1
+R3
+!i122 2972
+l16
+R24
+R23
+Z25 L43 60
+R0
+<<<<<<< HEAD
+Z26 L13 13
+Z27 !s100 :KJ_VIc34``VQnAk9Z=Ao3
+33
+!s110 1684682564
+!i10b 1
+!s108 1684682563.000000
+R3
+R22
+R27
+33
+Z28 !s110 1684609928
+!i10b 1
+Z29 !s108 1684609928.000000
+R0
+<<<<<<< HEAD
+!i122 3860
+R3
+!i122 2972
+R0
+<<<<<<< HEAD
+!i122 3919
+l16
+R22
+R23
+R24
+R27
+33
+R4
+!i10b 1
+R1
+R3
+!i122 3031
+l16
+R24
+R23
+R25
+R27
+33
+Z30 !s110 1684610804
+!i10b 1
+R4
+R0
+<<<<<<< HEAD
+R26
+R27
+33
+R4
+!i10b 1
+R1
+R3
+R22
+R27
+33
+R30
+!i10b 1
+R4
+R0
+<<<<<<< HEAD
+!i122 3919
+R3
+!i122 3031
+R0
+<<<<<<< HEAD
+R4
+!i10b 1
+R30
+R3
+R30
+!i10b 1
+R4
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3918
+R3
+!i122 3030
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!s110 1684691879
+!i10b 1
+R30
+R3
+R30
+!i10b 1
+R4
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+w1684669158
+R14
+R10
+R11
+!i122 3918
+R3
+R9
+R14
+R10
+R11
+!i122 3030
+R0
+<<<<<<< HEAD
+Z31 DEx4 work 10 regfilemem 0 22 J[9EhVI`<1zg[?zP2060K1
+!i122 3917
+l25
+Z32 !s110 1681943339
+Z33 VoVAWj:Pm=JK]8_LMC_2@Y3
+Z34 DEx4 work 7 my_ndff 0 22 ]T:7DA>@ZL1HQmiZe6:543
+R27
+33
+Z35 !s110 1684691878
+!i10b 1
+R30
+R3
+Z36 DEx4 work 13 decodingstage 0 22 []>dDZS3<6bHJHhQKQm[k3
+!i122 3029
+l25
+R34
+R33
+R26
+R27
+33
+R30
+!i10b 1
+Z37 VmFH]mN[n8JbF=n16BQV0k1
+R0
+<<<<<<< HEAD
+Z38 !s100 5XooW95CJgn?>^Vo0WX`O3
+R27
+33
+R35
+!i10b 1
+!s108 1684691878.000000
+R3
+R32
+R27
+33
+R30
+!i10b 1
+R37
+R0
+<<<<<<< HEAD
+!i122 3917
+R3
+!i122 3029
+R0
+<<<<<<< HEAD
+Z39 !s110 1684623355
+R3
+R37
+R0
+<<<<<<< HEAD
+R10
+R11
+DEx4 work 9 processor 0 22 a0>;KmXYj2CONM4@@bCRX0
+!i122 3916
+l106
+L16 142
+VdbjZ[;CVA6?R_QnRWVfJA0
+!s100 =5`NTCS81A80DG0ek9?K03
+R3
+Z40 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z41 w1683219845
+R14
+R10
+R11
+Z42 DEx4 work 9 processor 0 22 caoPIVmEYF@hFk^>aR9<40
+!i122 3028
+l95
+L15 132
+V=?kBeM4MkO:S2RY7@h_b43
+!s100 WR7VKQ_bzCSVMCzHZ03gf3
+R0
+<<<<<<< HEAD
+Z43 w1684625712
+R3
+R35
+!i10b 1
+R12
+Z44 w1681921012
+Z45 8D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
+!i113 1
+R20
+R21
+R0
+<<<<<<< HEAD
+Z46 DEx4 work 14 mem2_wb_buffer 0 22 :Pe6SzSnz4?VZ8a6PWQXc0
+Z47 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
+Z48 DEx4 work 16 mem1_mem2_buffer 0 22 d9hzLzMChN@LUW8_Cz0Q_2
+Z49 DEx4 work 9 mem1stage 0 22 ]:H<AYR`be]g5OjKTkDRQ2
+w1684619936
+Z50 w1683631380
+Z51 DEx4 work 14 executionstage 0 22 n:`nFjQkX2QRA6W;I?@kg2
+Z52 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
+Z53 w1683236643
+R36
+Z54 L28 22
+Z55 w1683211905
+R3
+Z56 8D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
+Z57 VT3=W1Jj?d]d0jN_zzbOGo0
+Z58 8D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
+Z59 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
+Z60 DEx4 work 16 forwardingmemory 0 22 9lIzC9?3=`3<n0eHkX2VT3
+Z61 DEx4 work 14 ex_mem1_buffer 0 22 :>XkiGYYDW2:GeNIQLLk>3
+R51
+Z62 DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
+Z63 DEx4 work 12 id_ex_buffer 0 22 ID==1ZQmKBCX>k_DFm^_U0
+Z64 w1684591577
+Z65 DEx4 work 16 forwardingdecode 0 22 4>ln0GUYo3M^9CX_V[jS?3
+R13
+R0
+<<<<<<< HEAD
+Z66 Va0>;KmXYj2CONM4@@bCRX0
+Z67 !s100 ?k?bbOmRVEcFdkfX4=a>K2
+R27
+33
+R35
+!i10b 1
+R39
+R3
+Z68 VcaoPIVmEYF@hFk^>aR9<40
+R38
+R27
+33
+Z69 !s110 1684610803
+!i10b 1
+R37
+R0
+<<<<<<< HEAD
+w1684691684
+R14
+R10
+R11
+!i122 3916
+R3
+w1684610785
+R14
+R10
+R11
+!i122 3028
+R0
+<<<<<<< HEAD
+Z70 !s100 C?Nfi4;`eZW8_H2k1S6RN3
+!i10b 1
+R39
+R3
+R69
+!i10b 1
+R37
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3915
+R3
+!i122 3027
+R0
+<<<<<<< HEAD
+R10
+R11
+Z71 DEx4 work 10 fetchstage 0 22 n09T]il2T4mGOIA]<m<Sf0
+R0
+<<<<<<< HEAD
+R70
+!i10b 1
+R39
+R3
+R69
+!i10b 1
+R37
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z72 w1684608336
+R10
+R11
+!i122 3914
+R0
+R72
+Z73 8D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
+l0
+L5 1
+Z74 !s100 ][H?eh]TYa27ZeA_NGl0a1
+Z75 !s100 f9J=QmfUF4EERC7X]MmL^1
+R27
+33
+R70
+!i10b 1
+Z76 !s108 1684691877.000000
+Z77 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
+Z78 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
+!i113 1
+Z79 L20 25
+R3
+Aa_my_ndff
+R11
+Z80 !s100 mNa<69lOXRgkD<]MT;k?H0
+!i122 3914
+l14
+Z81 !s100 M4`PjnPo>L5:0bbJ6ej4c2
+R37
+R37
+R27
+33
+R70
+!i10b 1
+R76
+R3
+R11
+!i122 3026
+R73
+R37
+l0
+L5 1
+R74
+R75
+R27
+33
+R69
+!i10b 1
+!s108 1684610803.000000
+<<<<<<< HEAD
+!i122 3855
+l14
+R81
+R37
+Z82 !s100 =HN7jb28Xd2z5jGnSD3[b1
+R27
+33
+Z83 V9nEQai=2Ok`FH<6^=Bom91
+!i10b 1
+Z84 !s110 1684609927
+R3
+!i122 2967
+l14
+R81
+R37
+R82
+R27
+33
+R84
+!i10b 1
+R72
+R0
+<<<<<<< HEAD
+R83
+!i10b 1
+R84
+R3
+R84
+!i10b 1
+R72
+R0
+<<<<<<< HEAD
+R72
+R10
+R11
+!i122 3855
+R0
+R73
+Z85 FD:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
+R3
+R72
+R10
+R11
+!i122 2967
+R0
+R73
+R85
+<<<<<<< HEAD
+Z86 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
+!i122 3854
+l77
+Z87 L15 4
+Z88 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
+R88
+R27
+33
+R83
+!i10b 1
+R84
+R69
+R3
+R88
+!i122 2966
+l77
+R87
+R88
+R83
+R27
+33
+R84
+!i10b 1
+Z89 !s110 1684623354
+R86
+R0
+<<<<<<< HEAD
+Z90 8D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd
+R10
+R11
+R0
+<<<<<<< HEAD
+R84
+!i10b 1
+!s108 1684609927.000000
+R86
+R21
+!i113 1
+R79
+R3
+R0
+<<<<<<< HEAD
+R3
+R0
+<<<<<<< HEAD
+R57
+R70
+R27
+33
+!s110 1684682562
+!i10b 1
+!s108 1684682562.000000
+R57
+R3
+R57
+R70
+R27
+33
+R69
+!i10b 1
+Z91 !s108 1684610802.000000
+R86
+R21
+!i113 1
+R79
+R3
+R0
+Amemorystagedesign
+R14
+R8
+R90
+R10
+R11
+R88
+!i122 3025
+l77
+R87
+R83
+Z92 !s100 zSEA;HiZc:=810iLkfeTb3
+R27
+33
+R69
+!i10b 1
+R91
+R86
+<<<<<<< HEAD
+!i122 3854
+R3
+!i122 3025
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R88
+!i122 3913
+l77
+R87
+R83
+R92
+R27
+33
+Z93 !s110 1684691877
+!i10b 1
+Z94 !s108 1684691876.000000
+R57
+R21
+!i113 1
+R79
+R3
+R0
+<<<<<<< HEAD
+R58
+!i10b 1
+R94
+Z95 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
+Z96 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
+!i113 1
+R79
+R3
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R47
+!i122 3912
+R3
+R47
+!i122 3024
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+R58
+!i10b 1
+R94
+R95
+R96
+R3
+Z97 !s110 1684610802
+!i10b 1
+R91
+R95
+R96
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3912
+R0
+R56
+Z98 FD:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
+R3
+!i122 3024
+R0
+R56
+R98
+<<<<<<< HEAD
+Z99 w1683229848
+R3
+R99
+R0
+<<<<<<< HEAD
+R58
+!i10b 1
+R94
+Z100 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
+R91
+R3
+R97
+!i10b 1
+R91
+R46
+R100
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R46
+!i122 3911
+R3
+R46
+!i122 3023
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+R58
+!i10b 1
+R94
+R100
+Z101 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
+R3
+R97
+!i10b 1
+R91
+R100
+R101
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3911
+R0
+Z102 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
+R59
+R3
+!i122 3023
+R0
+R102
+R59
+<<<<<<< HEAD
+Z103 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
+R3
+Z104 8D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
+R0
+<<<<<<< HEAD
+R49
+!i122 3910
+l53
+L37 46
+V4^gV`b90EaEnJY`5MKGo00
+!s100 n[fD:clKBP32=D5:^YeDo2
+R27
+33
+R58
+!i10b 1
+Z105 !s108 1684610801.000000
+Z106 FD:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
+R97
+R3
+DEx4 work 9 mem1stage 0 22 g:`G7ML9=?U=aSHS_l]5S1
+!i122 3022
+l48
+L33 35
+VJnO6G2hagmKB@CmYL>7mo1
+!s100 lU@L_I0=2E>SggLWE?aP21
+R27
+33
+R97
+!i10b 1
+R105
+R49
+Z107 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd|
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+!s110 1684691876
+!i10b 1
+R105
+R107
+Z108 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd|
+R3
+!i122 3022
+R0
+R58
+R106
+l0
+L7 1
+Vg:`G7ML9=?U=aSHS_l]5S1
+!s100 EREI<fE3>c:`O]ZPc<]QY1
+R27
+33
+R97
+!i10b 1
+R105
+R107
+R108
+<<<<<<< HEAD
+!i122 3910
+R0
+R58
+R106
+R3
+Z109 OV;C;2020.1;71
+33
+Z110 !s110 1684625883
+!i10b 1
+R48
+R58
+R106
+!i113 1
+R20
+R21
+<<<<<<< HEAD
+R64
+R3
+w1683235033
+R0
+<<<<<<< HEAD
+Z111 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
+R111
+R3
+R111
+R48
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R48
+!i122 3909
+l42
+L27 38
+VL1]CnQ;V4Scd3PZUZA2PN3
+!s100 3`6knjaG[b:[lE7:F@^YW1
+R3
+Z112 DEx4 work 16 mem1_mem2_buffer 0 22 zBaM5?2cIfbB^8Wk5jW[b2
+!i122 3021
+R3
+R112
+!i122 3528
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+R111
+Z113 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
+R3
+R111
+R113
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3909
+R0
+Z114 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
+Z115 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
+l0
+L7 1
+Vd9hzLzMChN@LUW8_Cz0Q_2
+!s100 Re2T6i=Vz6fh^VMi_4NDf2
+R3
+!i122 3021
+R0
+R114
+R115
+R3
+R109
+33
+R110
+!i10b 1
+Z116 !s108 1684625882.000000
+Z117 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd|
+R114
+!i113 1
+R20
+R21
+<<<<<<< HEAD
+R64
+R3
+w1683320914
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z118 DEx4 work 16 instructioncache 0 22 ?EFK_KS9bA0nUUjk6b[iT3
+!i122 3908
+l23
+Z119 L18 22
+Z120 VNLkNHcIPOIQzB;B8Wk4Z:1
+Z121 !s100 SFS7@8_TzlJU;6_U`H:`Z3
+R3
+Z122 DEx4 work 16 instructioncache 0 22 E;PA:Kjz=0jBTZA0bCG@m3
+!i122 3020
+R3
+R8
+R122
+!i122 3527
+R0
+<<<<<<< HEAD
+R10
+R11
+R0
+<<<<<<< HEAD
+!s108 1684691875.000000
+R3
+R105
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z123 V?EFK_KS9bA0nUUjk6b[iT3
+Z124 !s100 ofon:^LQIgABV^LCI06ai1
+R3
+VE;PA:Kjz=0jBTZA0bCG@m3
+!s100 A5e_OfXj`9V^?]_V4Wfo93
+R0
+<<<<<<< HEAD
+Z125 w1684691583
+R14
+R10
+R11
+!i122 3908
+R3
+Z126 w1683162396
+R14
+R10
+R11
+!i122 3020
+R0
+<<<<<<< HEAD
+Z127 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
+R3
+Z128 !s108 1684610800.000000
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z129 DEx4 work 12 if_id_buffer 0 22 HO4VJn:V7bBh4IVK=Tid=0
+!i122 3907
+l38
+Z130 L23 30
+Z131 VBJO_8<Uk?ckT[C3cXRcH]2
+Z132 !s100 lCPh9]jKXVL@W=_gZDZ7M1
+R3
+Z133 DEx4 work 12 if_id_buffer 0 22 GSn`1jI3DH@OkzjHC9:?i1
+!i122 3019
+R3
+R133
+!i122 3526
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+Z134 !s110 1684610801
+!i10b 1
+R128
+R0
+<<<<<<< HEAD
+Z135 VHO4VJn:V7bBh4IVK=Tid=0
+Z136 !s100 N1];X[PNkZ?Cd6lVj1IND2
+R27
+33
+!s110 1684691875
+!i10b 1
+R127
+R3
+VGSn`1jI3DH@OkzjHC9:?i1
+!s100 Ohg5DOOQ^^lIiPzoODS_[1
+R109
+33
+R0
+<<<<<<< HEAD
+!i122 3907
+R3
+!i122 3019
+R0
+<<<<<<< HEAD
+R64
+R3
+R53
+R0
+<<<<<<< HEAD
+Z137 !s110 1684610800
+!i10b 1
+R128
+Z138 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
+R116
+R0
+<<<<<<< HEAD
+DEx4 work 12 id_ex_buffer 0 22 c99M_J549i6^c`Mgz;b5>2
+!i122 3906
+l44
+L29 43
+V5d1D<Fh7^P@J<YE^nDN`62
+!s100 NoP]F1iCmbLQbmbHnclKB0
+R27
+33
+Z139 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
+!i10b 1
+R127
+R116
+R138
+R3
+R63
+!i122 3018
+R3
+R63
+!i122 3525
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+R137
+!i10b 1
+R128
+R138
+Z140 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
+R0
+<<<<<<< HEAD
+Vc99M_J549i6^c`Mgz;b5>2
+!s100 EeOTHAKi@84ND4hmzac<53
+R27
+33
+R139
+!i10b 1
+R127
+R138
+R140
+R3
+VID==1ZQmKBCX>k_DFm^_U0
+!s100 cU]h=dG>AFE?PA2aN0Rh`2
+R109
+33
+R0
+<<<<<<< HEAD
+!i122 3906
+R3
+!i122 3018
+R0
+<<<<<<< HEAD
+R64
+R3
+R55
+R0
+<<<<<<< HEAD
+R43
+R10
+R11
+DEx4 work 19 hazarddetectionunit 0 22 `Ek1Jaab[W1Z5ZlB2eg^32
+!i122 3905
+l35
+L22 94
+Vm>9=6VRnA?C?j1@<QESz62
+!s100 @D9UkEOJe;SnE6<o2`2bk2
+R27
+33
+R139
+!i10b 1
+R127
+Z141 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
+R141
+R3
+R40
+R10
+R11
+R13
+!i122 3017
+l32
+L22 71
+V1]0Jf5>QmUCMQh@1iZMS72
+!s100 0jGeo;zX`cEERgo[DK2>Y3
+R27
+33
+R137
+!i10b 1
+R128
+Z142 !s110 1684625882
+R127
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R137
+!i10b 1
+R128
+R127
+R141
+R0
+<<<<<<< HEAD
+Z143 V`Ek1Jaab[W1Z5ZlB2eg^32
+Z144 !s100 ^Yn`hENgf9QLV>NYBTXBe3
+R27
+33
+R139
+!i10b 1
+!s108 1684691874.000000
+R127
+R141
+R3
+VePYC4mBZKNY5z_KfeM]>10
+!s100 2`58DaK5^n16f`@>MI_Ra2
+R109
+33
+R0
+<<<<<<< HEAD
+w1684682517
+R14
+R8
+R43
+R10
+R11
+!i122 3905
+R3
+w1684610511
+R14
+R8
+R40
+R10
+R11
+!i122 3017
+R0
+<<<<<<< HEAD
+R3
+R137
+!i10b 1
+R128
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R60
+!i122 3904
+R3
+R60
+!i122 3016
+R0
+<<<<<<< HEAD
+R10
+R11
+R0
+<<<<<<< HEAD
+!s110 1684691874
+!i10b 1
+Z145 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
+R139
+Z146 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
+R3
+R137
+!i10b 1
+R128
+R139
+R146
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R103
+R14
+R10
+R11
+!i122 3904
+R3
+R104
+R14
+R10
+R11
+!i122 3016
+R0
+<<<<<<< HEAD
+Z147 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
+!i10b 1
+R145
+R3
+R137
+!i10b 1
+R147
+Z148 !s108 1684625881.000000
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R62
+!i122 3903
+R3
+R62
+!i122 3015
+R0
+<<<<<<< HEAD
+R10
+R11
+R0
+<<<<<<< HEAD
+R147
+!i10b 1
+R145
+Z149 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
+Z150 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
+R3
+R137
+!i10b 1
+R147
+R149
+R150
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z151 w1683307645
+R14
+R10
+R11
+!i122 3903
+R0
+R103
+Z152 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
+R3
+R104
+R14
+R10
+R11
+!i122 3015
+R0
+R103
+R152
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R65
+!i122 3921
+l29
+R54
+Z153 VEY<E_6LJUlIjZ?0EGJQ=^2
+Z154 !s100 Fk[`f??gmn]?U1djC^eQ]3
+R3
+R65
+!i122 3033
+l29
+R54
+R153
+R154
+R0
+<<<<<<< HEAD
+R10
+R11
+R0
+<<<<<<< HEAD
+!s110 1684691880
+!i10b 1
+!s108 1684691879.000000
+R1
+Z155 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
+R3
+!s110 1684610805
+!i10b 1
+!s108 1684610805.000000
+R1
+R155
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z156 w1684597956
+R14
+R10
+R11
+!i122 3921
+R3
+R156
+R14
+R10
+R11
+!i122 3033
+R0
+<<<<<<< HEAD
+R79
+R3
+R0
+<<<<<<< HEAD
+R147
+!i10b 1
+R3
+Z157 !s110 1684610799
+!i10b 1
+R147
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3902
+R3
+!i122 3014
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R147
+!i10b 1
+!s108 1684691873.000000
+R145
+Z158 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
+R3
+R157
+!i10b 1
+R147
+R145
+R158
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3902
+R3
+!i122 3014
+R0
+<<<<<<< HEAD
+R79
+R3
+R0
+<<<<<<< HEAD
+R157
+!i10b 1
+R147
+R0
+<<<<<<< HEAD
+Z159 DEx4 work 10 fetchstage 0 22 BO2eAkJ>iV<3M6Uh2QY183
+!i122 3901
+l38
+L17 33
+V5gGSBnTPn9PXY_6^oBYcO3
+!s100 533_c2PXghCaA75m4mldh0
+R27
+33
+R147
+!i10b 1
+Z160 !s108 1684625880.000000
+R3
+R71
+!i122 3013
+R3
+R71
+!i122 3520
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+R157
+!i10b 1
+!s108 1684610799.000000
+R0
+<<<<<<< HEAD
+Z161 VBO2eAkJ>iV<3M6Uh2QY183
+Z162 !s100 2A^JLg=YZ020OKM3h_bSh0
+R27
+33
+!s110 1684691873
+!i10b 1
+R160
+R3
+Vn09T]il2T4mGOIA]<m<Sf0
+!s100 0W;<4Lo4MXjZ6bk9IGJ7=1
+R109
+33
+R0
+<<<<<<< HEAD
+!i122 3901
+R3
+!i122 3013
+R0
+<<<<<<< HEAD
+w1684691864
+R3
+w1683323197
+R0
+<<<<<<< HEAD
+R3
+!i122 3012
+l54
+Z163 L22 52
+V2?G1QbQPmYS5jQClEFEh>1
+!s100 jGlWh1FoD`=JdK]Z?2L5O2
+R0
+<<<<<<< HEAD
+!i122 3900
+R3
+R51
+!i122 3519
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R51
+R0
+<<<<<<< HEAD
+R157
+!i10b 1
+Z164 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
+Z165 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
+Z166 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
+!i113 1
+R79
+R3
+R3
+Z167 !s110 1684625880
+!i10b 1
+R160
+R165
+R166
+!i113 1
+R20
+R21
+R0
+<<<<<<< HEAD
+!i122 3900
+R0
+Z168 8D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd
+Z169 FD:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd
+R3
+!i122 3012
+R0
+R168
+R169
+<<<<<<< HEAD
+Z170 w1684624259
+R3
+R50
+R0
+<<<<<<< HEAD
+R79
+R3
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+DEx4 work 14 ex_mem1_buffer 0 22 H^J97_3zdGLCo0H?2NM6S2
+!i122 3899
+l39
+L24 40
+V`fiEEL1D]VOnCG961bPba1
+!s100 T0IbQE3Db8[J?BYPb`knF1
+R3
+R61
+!i122 3011
+R3
+R61
+!i122 3518
+R0
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+Z171 !s108 1684625879.000000
+!i10b 1
+R164
+Z172 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
+Z173 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
+R0
+<<<<<<< HEAD
+VH^J97_3zdGLCo0H?2NM6S2
+!s100 KW9OZhK84YzLOmhLnMP^o2
+R27
+33
+!s110 1684691872
+!i10b 1
+!s108 1684691872.000000
+R172
+R173
+R3
+V:>XkiGYYDW2:GeNIQLLk>3
+!s100 ;GMl<4<lCbhPid@POiZMd3
+R109
+33
+R0
+<<<<<<< HEAD
+!i122 3899
+R3
+!i122 3011
+R0
+<<<<<<< HEAD
+Z174 w1684681273
+R3
+R64
+R0
+<<<<<<< HEAD
+R31
+Z175 DEx4 work 11 controlunit 0 22 5R7;haTeYNDAz4<UaQcmA0
+R14
+R10
+R11
+DEx4 work 13 decodingstage 0 22 o>>R07fV9jFc1[Zz@_okk0
+!i122 3898
+l27
+L25 13
+V8_OF1zAWbdOM_SAdhd9DU1
+!s100 b]DoZWfTc^@nZ<FZ4hKZ?2
+R27
+33
+Z176 !s110 1684691871
+!i10b 1
+Z177 !s108 1684691871.000000
+Z178 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
+R3
+R31
+Z179 w1681758824
+R14
+R10
+R11
+DEx4 work 13 decodingstage 0 22 QKB8A=HaVkzGmbF1GSBfo3
+!i122 3010
+l25
+L23 10
+VJ_TC;_h[0EBEaciUHej@:1
+!s100 jkG[S@A3M60>2Z4dZd]li1
+R27
+33
+R171
+!i10b 1
+R164
+R0
+<<<<<<< HEAD
+Vo>>R07fV9jFc1[Zz@_okk0
+!s100 lYQOYhdNKD76=Eg5H__9A1
+R27
+33
+R176
+!i10b 1
+R177
+R178
+Z180 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
+R3
+VQKB8A=HaVkzGmbF1GSBfo3
+!s100 T>U_:9o_kJf^H_<XY3MfN1
+R27
+33
+R171
+!i10b 1
+R164
+R178
+R180
+R0
+<<<<<<< HEAD
+w1684691374
+R14
+R10
+R11
+!i122 3898
+R3
+R151
+R14
+R10
+R11
+!i122 3010
+R0
+<<<<<<< HEAD
+R79
+R3
+R0
+<<<<<<< HEAD
+R177
+R3
+!i122 3009
+l26
+Z181 L22 33
+V@Bc7?Bjgd:hc7T3nmjIgR2
+!s100 QV<c1lFCh5D15bh^8ZjS82
+R27
+33
+R171
+!i10b 1
+R0
+<<<<<<< HEAD
+!i122 3897
+R3
+!i122 3516
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R177
+R164
+Z182 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
+R3
+R171
+!i10b 1
+!s108 1684610798.000000
+R164
+R182
+R0
+<<<<<<< HEAD
+R176
+!i10b 1
+R0
+<<<<<<< HEAD
+Z183 w1684617179
+R14
+R10
+R11
+!i122 3897
+R3
+w1683323513
+R14
+R10
+R11
+!i122 3009
+R0
+<<<<<<< HEAD
+Z184 !s108 1684691870.000000
+R3
+R0
+<<<<<<< HEAD
+R176
+!i10b 1
+R0
+<<<<<<< HEAD
+!i122 3896
+R3
+!i122 3008
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R184
+Z185 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
+Z186 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
+R3
+!s110 1684610798
+!i10b 1
+Z187 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
+R185
+R186
+R0
+<<<<<<< HEAD
+R176
+!i10b 1
+R0
+<<<<<<< HEAD
+R179
+R10
+R11
+!i122 3896
+R3
+R179
+R10
+R11
+!i122 3008
+R0
+<<<<<<< HEAD
+R187
+R175
+R0
+<<<<<<< HEAD
+R175
+!i122 3895
+l33
+L24 86
+VL@EieH<PO_zeXfa2?5F:K2
+!s100 Q?_mD>LDBKcNW[EM^?lD;0
+R27
+33
+Z188 !s110 1684691870
+!i10b 1
+R184
+Z189 !s110 1684625879
+R3
+Z190 DEx4 work 11 controlunit 0 22 S=9:8UW]dIOAI^4K6aZ2Q0
+!i122 3007
+R3
+R8
+R190
+!i122 3514
+R0
+<<<<<<< HEAD
+R10
+R11
+R0
+<<<<<<< HEAD
+Z191 !s110 1684625878
+!i10b 1
+R187
+Z192 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
+R0
+<<<<<<< HEAD
+R184
+R192
+R3
+R3
+Z193 !s108 1684625878.000000
+R187
+Z194 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
+!i113 1
+R20
+R21
+R0
+<<<<<<< HEAD
+V5R7;haTeYNDAz4<UaQcmA0
+!s100 :3YDS?]`Y]c[_SUUL`iQZ3
+R27
+R3
+R109
+R0
+<<<<<<< HEAD
+w1684682155
+R14
+R10
+R11
+!i122 3895
+R3
+R41
+R14
+R10
+R11
+!i122 3007
+R0
+<<<<<<< HEAD
+R184
+R3
+R0
+<<<<<<< HEAD
+R3
+R40
+R14
+R10
+R11
+Z195 DEx4 work 17 controlhazardunit 0 22 =O_VBi3B90lhPOfge3_i00
+!i122 3006
+l28
+L27 20
+VG`2CSi5A4kD`KGR6K?0a02
+!s100 T8eZGdgXFAZo`M_I>KPmJ2
+R0
+<<<<<<< HEAD
+!i122 3894
+R3
+!i122 3513
+R0
+<<<<<<< HEAD
+R43
+R3
+R193
+R187
+R194
+!i113 1
+R20
+R21
+R0
+Amycontrolhazardunit
+Z196 !s110 1681943342
+R40
+Z197 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+<<<<<<< HEAD
+R184
+R187
+R194
+R3
+!s108 1684610797.000000
+R187
+R194
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+w1684691315
+R8
+R40
+R14
+R10
+R11
+!i122 3894
+R3
+w1684607107
+R8
+R40
+R14
+R10
+R11
+!i122 3006
+R0
+<<<<<<< HEAD
+R79
+R3
+R0
+<<<<<<< HEAD
+!i122 3893
+R3
+!i122 3005
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R188
+!i10b 1
+!s108 1684691869.000000
+Z198 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
+Z199 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
+R3
+!s110 1684610797
+!i10b 1
+!s108 1684610796.000000
+R198
+R199
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+!i122 3893
+R0
+R11
+Z200 FD:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
+R3
+!i122 3005
+R0
+R11
+R200
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z201 w1681830386
+R3
+R201
+R0
+<<<<<<< HEAD
+R87
+Z202 VPoPf3m9KL4;eWRiO^BA;00
+R74
+R3
+R87
+R202
+R74
+R0
+<<<<<<< HEAD
+R75
+R3
+R75
+R0
+<<<<<<< HEAD
+R79
+Z203 VaPRbG0j8NSo@[khM3na_<2
+R80
+R3
+R79
+R203
+R80
+R0
+<<<<<<< HEAD
+R81
+R3
+R81
+R0
+<<<<<<< HEAD
+!i113 1
+R79
+R3
+R0
+<<<<<<< HEAD
+R79
+R3
+R3
+R20
+R21
+R0
+<<<<<<< HEAD
+R38
+R3
+R38
+R0
+<<<<<<< HEAD
+R20
+R3
+R0
+Aa_my_ndff
+R10
+R11
+R34
+!i122 963
+l14
+R26
+Z204 VgRnf=;W>B=e]B_TkIo^lQ0
+Z205 !s100 70]nkXAEPk[>EQS1k2VK23
+R27
+33
+Z206 !s110 1681943340
+!i10b 1
+<<<<<<< HEAD
+R90
+R10
+R11
+R0
+<<<<<<< HEAD
+Z207 FD:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
+!i10b 1
+Z208 w1681823009
+Z209 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
+Z210 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
+!i113 1
+Z211 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
+R0
 <<<<<<< Updated upstream
+R0
+<<<<<<< Updated upstream
+Z212 DEx4 work 14 writebackstage 0 22 ?SX>Uaj_=S1WdGd_ol4390
+!i122 979
+l18
+Z213 L17 10
+Z214 VG38Fe<1^c5oE@fA;]o8Q81
+R27
+R27
+32
+R196
+!i10b 1
+R196
+R21
+R211
+Z215 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
+R215
+!i122 941
+l18
+R213
+Z216 V;OYlhjh^B_HnFZVR9Xazf2
+R27
+R206
+33
+R207
+!i10b 1
+R208
+R209
+R210
+R3
+R208
+!i10b 1
+R209
+R210
+R213
+!i113 1
+R10
+R0
+<<<<<<< Updated upstream
+R196
+R21
+R211
+R215
+R208
+R209
+R210
+R0
+<<<<<<< Updated upstream
+Z217 w1681931034
+R14
+R10
+R11
+!i122 979
+R0
+R90
+R10
+R215
+Z218 w1681930541
+R14
+R10
+R11
+!i122 941
+R11
+Z219 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
+Z220 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
+<<<<<<< Updated upstream
+Z221 !s108 1681943340.000000
+R215
+Z222 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
+R215
+Z223 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
+Z224 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
+Z225 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
+R0
+<<<<<<< Updated upstream
+R221
+R215
+R222
+R215
+R223
+R224
+R225
+R0
+<<<<<<< Updated upstream
+R0
+<<<<<<< Updated upstream
+R221
+Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+Z227 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+R215
+R223
+Z228 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
+Z229 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
+R0
+<<<<<<< Updated upstream
+R221
+R226
+R227
+R215
+R223
+R228
+R229
+R0
+<<<<<<< Updated upstream
+R44
+R14
+R10
+R11
+!i122 964
+R0
+R45
+Z230 FD:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
+R215
+Z231 w1681813133
+R14
+R10
+R11
+!i122 926
+R11
+Z232 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
+Z233 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
+<<<<<<< Updated upstream
+Z234 !s110 1681648922
+!i10b 1
+Z235 !s108 1681648922.000000
+Z236 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+Z237 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
+R215
+R234
+!i10b 1
+R235
+R236
+R237
+R0
+<<<<<<< Updated upstream
+R234
+!i10b 1
+R235
+R236
+R237
+R215
+R234
+!i10b 1
+R235
+R236
+R237
+R0
+<<<<<<< Updated upstream
+Z238 8D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+Z239 FD:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
+R215
+R238
+R239
+R0
+<<<<<<< Updated upstream
+Z240 w1677934418
+R215
+R240
+R0
+<<<<<<< Updated upstream
+R196
+Z241 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
+Z242 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
+R215
+Z243 !s108 1681942437.000000
+Z244 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
+Z245 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
+R0
+<<<<<<< Updated upstream
+R212
+Z246 DEx4 work 11 memorystage 0 22 ZB>SEmbczT^:UP]0H;WJK3
+Z247 DEx4 work 14 ex_mem1_buffer 0 22 c=@OggLg_Nh3I2G^c@G]X1
+Z248 DEx4 work 14 executionstage 0 22 o8R=CRN:5=kAbcAfVZ5Sd0
+Z249 DEx4 work 12 id_ex_buffer 0 22 ;?I75YcZgT`OT_0>5^<Z72
+R215
+Z250 DEx4 work 14 writebackstage 0 22 o^1[SHkKnoTPcYS73CC8c2
+Z251 DEx4 work 11 memorystage 0 22 fJhW^<ool1RF2W8FV<2cU2
+R168
+Z252 FD:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
+Z253 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+R0
+<<<<<<< Updated upstream
+R196
+R241
+R242
+R215
+R243
+R244
+R245
+R0
+<<<<<<< Updated upstream
+!i122 978
+R0
+Z254 8D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd
+Z255 FD:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd
+R215
+!i122 940
+R11
+Z256 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
+Z257 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
+<<<<<<< Updated upstream
+Z258 !s108 1681943339.000000
+Z259 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
+Z260 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
+R215
+R212
+Z261 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
+Z262 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
+R0
+<<<<<<< Updated upstream
+R258
+R259
+R260
+R215
+R212
+R261
+R262
+R0
+<<<<<<< Updated upstream
+Z263 w1681942375
+R14
+R10
+R11
+!i122 961
+R0
+Z264 8D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
+Z265 FD:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
+R215
+Z266 w1681941598
+R14
+R10
+R11
+!i122 923
+R11
+Z267 8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
+Z268 FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
+<<<<<<< Updated upstream
+R258
+R77
+R78
+R215
+R212
+Z269 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
+Z270 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
+R0
+<<<<<<< Updated upstream
+R258
+R77
+R78
+R215
+R212
+R269
+R270
+R0
+<<<<<<< Updated upstream
+R27
+32
+R109
+!i10b 1
+R196
+Z271 !s108 1681943341.000000
+R21
+!i113 1
+R211
+R3
+R0
+<<<<<<< Updated upstream
+R246
+!i122 975
+R215
+R246
+!i122 942
 R0
 <<<<<<< Updated upstream
 !i122 975
 R0
-Z1 8D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd
-Z2 FD:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd
+Z272 8D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd
+Z273 FD:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd
 l0
 L7 1
 VZB>SEmbczT^:UP]0H;WJK3
 !s100 k@EWQBFb>@[cIkhlT4G[f2
-Z3 OV;C;2020.1;71
+R109
 32
-Z4 !s110 1681943341
+Z274 !s110 1681943341
 !i10b 1
-Z5 !s108 1681943341.000000
-Z6 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
-Z7 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
+R271
+Z275 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
+Z276 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
 !i113 1
-Z8 o-work work -2002 -explicit
-Z9 tExplicit 1 CvgOpt 0
-Z10 =======
+Z277 o-work work -2002 -explicit
+Z278 tExplicit 1 CvgOpt 0
+R3
 !i122 947
 dC:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project
 8C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd
@@ -39,3020 +2154,4073 @@ l0
 L7 1
 Vz1YVoO@_LVUFG^Bb;<C;P3
 !s100 8`SAmOob5=m2bF[F2bGLU3
-Z11 !s110 1681943340
+R206
 32
-Z12 !s110 1681950169
+!s110 1681950169
 !i10b 1
-Z13 !s108 1681950169.000000
-Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
-Z15 !s107 C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
+!s108 1681950169.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
+!s107 C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\mem1Stage.vhd|
 !i113 1
-R8
-Z16 w1681854937
+R277
+Z279 w1681854937
 Amem1stagedesign
-Z17 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z19 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
-Z20 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z21 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R197
+Z280 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z281 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R14
+R8
 DEx4 work 9 mem1stage 0 22 z1YVoO@_LVUFG^Bb;<C;P3
 !i122 947
 l46
 L31 44
 VT:3>ejF47a2Z3Sh8f6MZF3
 !s100 9Dc8ZJZYA?4Gk:EI6P3hY0
-R11
+R206
 32
-R12
-!i10b 1
-R13
-R14
-R15
-!i113 1
-R8
 <<<<<<< Updated upstream
-Z22 DEx4 work 11 memorystage 0 22 ZB>SEmbczT^:UP]0H;WJK3
+R246
 !i122 975
-R10
-R22
+R3
+R246
 !i122 942
 R0
 <<<<<<< Updated upstream
-R3
+R109
 32
-R4
+R274
 !i10b 1
-R5
-R6
-R7
+R271
+R275
+R276
 !i113 1
+R277
+R278
+R0
+<<<<<<< Updated upstream
+R258
+R77
+R78
+R3
+R272
+R269
+R270
+R0
+<<<<<<< Updated upstream
+R258
+R77
+R78
+R3
+R272
+R269
+R270
+R0
+<<<<<<< Updated upstream
+R263
+R197
+R14
 R8
-R9
-R0
-<<<<<<< Updated upstream
-Z23 !s108 1681943339.000000
-Z24 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
-Z25 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd|
-R10
-R1
-Z26 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
-Z27 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/my_nDFF.vhd|
-R0
-<<<<<<< Updated upstream
-R23
-R24
-R25
-R10
-R1
-R26
-R27
-R0
-<<<<<<< Updated upstream
-w1681942375
-R17
-R20
-R21
 !i122 961
 R0
-Z28 8D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
-Z29 FD:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd
-R10
-w1681941598
-R17
-R20
-R21
+R264
+R265
+R3
+R266
+R197
+R14
+R8
 !i122 923
-Z30 8D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
-8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
-FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd
+R11
+R267
+R268
 <<<<<<< Updated upstream
-R23
-Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
-Z32 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/PC.vhd|
-R10
-R1
-Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
-Z34 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/PC.vhd|
+R258
+R259
+R260
+R3
+R272
+R261
+R262
 R0
 <<<<<<< Updated upstream
-R23
-R31
-R32
-R10
-R1
-R33
-R34
+R258
+R259
+R260
+R3
+R272
+R261
+R262
 R0
 <<<<<<< Updated upstream
 !i122 978
 R0
-Z35 8D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd
-Z36 FD:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd
-R10
+R254
+R255
+R3
 !i122 940
-R30
-8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
-FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd
+R11
+R256
+R257
 <<<<<<< Updated upstream
-R5
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
-Z38 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
-R10
-Z39 !s108 1681942437.000000
-Z40 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
-Z41 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/Processor.vhd|
+R271
+R241
+R242
+R3
+R243
+R244
+R245
 R0
 <<<<<<< Updated upstream
-Z42 DEx4 work 14 writebackstage 0 22 ?SX>Uaj_=S1WdGd_ol4390
-R22
-DEx4 work 14 ex_mem1_buffer 0 22 c=@OggLg_Nh3I2G^c@G]X1
-DEx4 work 14 executionstage 0 22 o8R=CRN:5=kAbcAfVZ5Sd0
-DEx4 work 12 id_ex_buffer 0 22 ;?I75YcZgT`OT_0>5^<Z72
-R10
-DEx4 work 14 writebackstage 0 22 o^1[SHkKnoTPcYS73CC8c2
-DEx4 work 11 memorystage 0 22 fJhW^<ool1RF2W8FV<2cU2
-Z43 8D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd
-Z44 FD:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+R212
+R246
+R247
+R248
+R249
+R3
+R250
+R251
+R168
+R252
+R253
 R0
 <<<<<<< Updated upstream
-R5
-R37
-R38
-R10
-R39
-R40
-R41
+R271
+R241
+R242
+R3
+R243
+R244
+R245
 R0
 <<<<<<< Updated upstream
-Z45 w1677934418
-R10
-R45
+R240
+R3
+R240
 R0
 <<<<<<< Updated upstream
-Z46 8D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
-Z47 FD:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd
-R10
-R46
-R47
+R238
+R239
+R3
+R238
+R239
 R0
 <<<<<<< Updated upstream
-Z48 !s110 1681648922
+R234
 !i10b 1
-Z49 !s108 1681648922.000000
-Z50 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
-Z51 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFile.vhd|
-R10
-R48
+R235
+R236
+R237
+R3
+R234
 !i10b 1
-R49
-R50
-R51
+R235
+R236
+R237
 R0
 <<<<<<< Updated upstream
-R48
+R234
 !i10b 1
-R49
-R50
-R51
-R10
-R48
+R235
+R236
+R237
+R3
+R234
 !i10b 1
-R49
-R50
-R51
+R235
+R236
+R237
 R0
 <<<<<<< Updated upstream
-Z52 w1681921012
-R17
-R20
-R21
+R44
+R197
+R14
+R8
 !i122 964
 R0
-Z53 8D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
-Z54 FD:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd
-R10
-w1681813133
-R17
-R20
-R21
+R45
+R230
+R3
+R231
+R197
+R14
+R8
 !i122 926
-R30
-8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
-FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd
+R11
+R232
+R233
 <<<<<<< Updated upstream
-Z55 !s108 1681943340.000000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
-Z57 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
-R10
-Z58 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
-Z59 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
-Z60 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/regFileMem.vhd|
+R221
+R226
+R227
+R3
+R223
+R228
+R229
 R0
 <<<<<<< Updated upstream
-R55
-R56
-R57
-R10
-R58
-R59
-R60
+R221
+R226
+R227
+R3
+R223
+R228
+R229
 R0
 <<<<<<< Updated upstream
 R0
 <<<<<<< Updated upstream
-R55
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
-Z62 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
-R10
-R58
-Z63 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
-Z64 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/writeBackMux.vhd|
+R221
+R215
+R222
+R3
+R223
+R224
+R225
 R0
 <<<<<<< Updated upstream
-R55
-R61
-R62
-R10
-R58
-R63
-R64
+R221
+R215
+R222
+R3
+R223
+R224
+R225
 R0
 <<<<<<< Updated upstream
-w1681931034
-R17
-R20
-R21
+R217
+R197
+R14
+R8
 !i122 979
 R0
-Z65 8D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd
-Z66 FD:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd
+R90
 R10
-w1681930541
-R17
-R20
-R21
+R3
+R218
+R197
+R14
+R8
 !i122 941
-R30
-8C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
-FC:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd
+R11
+R219
+R220
 <<<<<<< Updated upstream
-R5
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
-Z68 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
-R10
-Z69 w1681823009
-Z70 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
-Z71 !s107 C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/WriteBackStage.vhd|
+R271
+R21
+R211
+R3
+R208
+R209
+R210
 R0
 <<<<<<< Updated upstream
-R42
+R212
 !i122 979
 l18
-Z72 L17 10
-VG38Fe<1^c5oE@fA;]o8Q81
-Z73 !s100 :KJ_VIc34``VQnAk9Z=Ao3
-R3
+R213
+R214
+R27
+R109
 32
-Z74 !s110 1681943342
+R196
 !i10b 1
-R5
-R67
-R68
-R10
-R61
+R271
+R21
+R211
+R3
+R215
 !i122 941
 l18
-R72
-V;OYlhjh^B_HnFZVR9Xazf2
-R73
-R11
+R213
+R216
+R27
+R206
 33
-Z75 FD:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
+R207
 !i10b 1
-R69
-R70
-R71
+R208
+R209
+R210
 R0
->>>>>>> Stashed changes
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R211
+!i113 1
+R79
+R3
+R3
+R109
+33
+Z282 !s110 1684625887
+!i10b 1
+R17
+R2
+R211
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R4
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R211
+!i113 1
+R79
+R3
+R3
+R282
+!i10b 1
+R17
+R2
+R211
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+R90
+R10
+R3
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R28
+!i10b 1
+R29
+Z283 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
+R222
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R283
+R222
+!i113 1
+R79
+R3
+R0
+Amymux
+R14
+R10
+R11
+Z284 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
 R17
 R18
+l0
+L5 1
 R19
-R20
-R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R283
+R222
+!i113 1
+R79
+R3
 R0
->>>>>>> Stashed changes
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R283
+R222
+!i113 1
+R79
+R3
 R0
-Amemorystagedesign
+Amymux
+R14
+R10
+R11
+R284
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
 R17
 R18
+l0
+L5 1
 R19
-R20
-R21
->>>>>>> Stashed changes
-l77
-Z76 L43 60
-V82XSPQA]]>A<;kbDR<oN<2
-!s100 f?4:;X0LiW27HfWBX8o<T2
-R0
->>>>>>> Stashed changes
-l0
-L5 1
-Z77 V]T:7DA>@ZL1HQmiZe6:543
-Z78 !s100 a<l3KZF3co3bJ6mVPomZP1
-R3
-33
-R11
-!i10b 1
-R0
->>>>>>> Stashed changes
-!i113 1
-Z79 o-work work -2008 -explicit
-R9
-R0
-Aa_my_ndff
-R20
-R21
-Z80 DEx4 work 7 my_ndff 0 22 ]T:7DA>@ZL1HQmiZe6:543
-!i122 963
-l14
-Z81 L13 13
-VgRnf=;W>B=e]B_TkIo^lQ0
-!s100 70]nkXAEPk[>EQS1k2VK23
-R3
-33
-R11
-!i10b 1
->>>>>>> Stashed changes
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+Z285 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
+Z286 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
 !i113 1
 R79
-R9
-R0
->>>>>>> Stashed changes
-l0
-L5 1
-VWF@;CiRgTm]:<@ncD8FZl3
-!s100 N`BAT578LdKDSN108:nho2
 R3
-33
-Z82 !s110 1681943339
-!i10b 1
 R0
->>>>>>> Stashed changes
-!i113 1
-R79
-R9
-R0
-Apc_design
-R17
-R20
-R21
-DEx4 work 2 pc 0 22 WF@;CiRgTm]:<@ncD8FZl3
-!i122 961
-l14
-L13 20
-Vi^PM8ABDJ_6Sm89B:NznT2
-!s100 CXl0Ri_k]:401o>l[SZL`2
-R3
-33
-R82
-!i10b 1
->>>>>>> Stashed changes
-!i113 1
-R79
-R9
-R0
->>>>>>> Stashed changes
-l0
-L6 1
-V=c<C<GOPNF43h8@YMdjNd1
-<<<<<<< HEAD
-!s100 5XooW95CJgn?>^Vo0WX`O3
-=======
-Z83 !s100 5XooW95CJgn?>^Vo0WX`O3
 >>>>>>> parent of 595841c (Hot fixes + working processor kinda)
 R3
-32
-R4
+!i122 3537
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R285
+R286
+!i113 1
+R79
+R3
+R3
+R16
+!i10b 1
+!s108 1684625886.000000
+R285
+R286
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z287 8D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
+Z288 FD:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
+R3
+R8
+R42
+!i122 3535
+l101
+L15 138
+V0=EVK]zQ5<FOVkL[eODA:1
+!s100 ^ol?nMA6<M@lF`;FYHCz@1
+R109
+33
+R35
+!i10b 1
+R12
+Z289 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
+R212
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R289
+R227
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R289
+R227
+!i113 1
+R79
+R3
+R0
+Aregfilememdesign
+R14
+R10
+R11
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+R45
+R230
+l0
+L5 1
+Z290 VJ[9EhVI`<1zg[?zP2060K1
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+Z291 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
+R242
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R69
 !i10b 1
 R0
->>>>>>> Stashed changes
-!i113 1
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R133
+R90
+Z292 w1683229909
 R8
-R9
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R291
+R242
+!i113 1
+R79
+R3
 R0
 Aprocessor_design
->>>>>>> Stashed changes
-DEx4 work 13 decodingstage 0 22 BeaCHC8dfK47KBe3?gH@l0
-DEx4 work 12 if_id_buffer 0 22 5fdY6j3k9KEJLag0nTf?I2
-R18
-R19
-DEx4 work 10 fetchstage 0 22 1jmT?mh^0G`hG?5if:LBB0
-R17
+R12
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+R254
+R255
+l0
+L6 1
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R259
+R260
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R8
+Z293 DEx4 work 2 pc 0 22 M@_jD]?l_fEY^j4:`0KDc1
+!i122 3534
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R259
+R260
+!i113 1
+R79
+R3
+R3
+Z294 !s110 1684625885
+!i10b 1
+!s108 1684625885.000000
+R44
+R45
+!i113 1
 R20
 R21
-DEx4 work 9 processor 0 22 =c<C<GOPNF43h8@YMdjNd1
-!i122 978
-l55
-L15 64
-V8PLf4YM1[aQ5T2MojXI0K0
-!s100 ^PT`cQdohZC?CT80JEkI`2
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+R264
+R265
 R3
-32
-R4
+R88
+!i122 3503
+l77
+R25
+R83
+R84
+R109
+33
+R72
+!i10b 1
+R72
+R88
+R90
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R77
+R78
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R77
+R78
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R77
+R78
+!i113 1
+R79
+R3
+R0
+Aa_my_ndff
+R10
+R11
+R80
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+l0
+L5 1
+R74
+R75
+R27
+33
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R21
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R89
+!i10b 1
+!s108 1684623354.000000
+R88
+R90
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R21
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+R212
+R213
+l0
+L7 1
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R47
+!i122 3531
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R46
+!i10b 1
+!s108 1684625884.000000
+R95
+R96
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R46
+!i10b 1
+R48
+R99
+R56
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R46
+!i122 3530
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+!s110 1684625884
+!i10b 1
+R48
+R100
+R101
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R49
+!i122 3529
+l53
+L37 44
+VJ1iNFoH:FEBT`6]8]=NWX0
+!s100 OJ0^05hhOH]]9`2LKCf^D3
+R109
+33
+R110
+!i10b 1
+R48
+R102
+R59
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R110
+!i10b 1
+R48
+R107
+R108
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R134
+!i10b 1
+R105
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R109
+33
+R110
+!i10b 1
+!s108 1684625883.000000
+R111
+R113
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R134
+!i10b 1
+R105
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R134
+!i10b 1
+R105
+R110
+R117
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R117
+Z295 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd|
+!i113 1
+R79
+R3
+R3
+R109
+33
+R110
+!i10b 1
+R116
+R117
+R295
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R134
 !i10b 1
 R0
->>>>>>> Stashed changes
-!i113 1
-R8
-R9
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
 R0
->>>>>>> Stashed changes
+Z296 8D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
+R207
+R3
+R109
+33
+R142
+!i10b 1
+R116
+Z297 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+R133
+!i113 1
 R20
 R21
-!i122 7
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R297
+R297
+!i113 1
+R79
+R3
 R0
->>>>>>> Stashed changes
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R134
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R297
+Z298 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
+!i113 1
+R79
+R3
+R3
+R142
+!i10b 1
+R116
+R297
+R298
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z299 8D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd
+Z300 FD:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd
+R3
+R142
+!i10b 1
+R116
+R63
+R53
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R142
+!i10b 1
+R116
+R138
+R140
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z301 8D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
+Z302 FD:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
+R3
+R13
+!i122 3524
+l32
+L22 69
+VNb^SDjjL2jzQ_6^UEeL[a2
+!s100 GlaKj[fV22Ca4TRE[NG>12
+R109
+33
+R142
+!i10b 1
+R148
+R127
+R13
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R142
+!i10b 1
+R148
+R127
+R141
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z303 8D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
+Z304 FD:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
+R3
+Z305 !s110 1684625881
+!i10b 1
+R148
+R139
+R146
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R139
+!i10b 1
+R145
+R146
+R60
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R8
+R60
+!i122 3523
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R305
+!i10b 1
+R148
+R139
+R146
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+R52
+Z306 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
+R3
+R305
+!i10b 1
+R148
+R149
+R62
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R149
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R8
+R62
+!i122 3522
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R305
+!i10b 1
+R148
+R149
+R150
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R151
+R197
+R14
+R8
+!i122 3522
+R0
+R103
+R152
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+R3
+R8
+R65
+!i122 3540
+l29
+R54
+R153
+R154
+R109
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R282
+!i10b 1
+Z307 !s108 1684625887.000000
+R1
+R155
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R305
+!i10b 1
+R160
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+!i122 3521
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R305
+!i10b 1
+R160
+R145
+R158
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z308 8D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
+Z309 FD:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
+R3
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R167
+!i10b 1
+R160
+R147
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R147
+Z310 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
+!i113 1
+R79
+R3
+R3
+R167
+!i10b 1
+R160
+R147
+R310
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z311 8D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
+R252
+R3
+R109
+33
+R167
+!i10b 1
+R160
+R165
+R166
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R157
+!i10b 1
+R164
+R165
+R166
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R171
+!i10b 1
+R164
+R3
+R109
+33
+R167
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R167
+!i10b 1
+R160
+R172
+R173
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z312 8D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
+Z313 FD:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
+R3
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R14
+R8
+R90
+R10
+R11
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R178
+R31
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R0
+Adecoding
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+R104
+Z314 FD:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
+l0
+L5 1
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R171
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R171
+R164
+R182
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z315 8D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd
+Z316 FD:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd
+R3
+R171
+R185
+R183
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R171
+!i10b 1
+R187
+R185
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+!i122 3515
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R171
+R185
+R186
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z317 8D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
+Z318 FD:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
+R3
+R193
+R175
+R77
+!i113 1
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R223
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R223
+!i113 1
+R79
+R3
+R3
+R189
+!i10b 1
+R193
+R192
+R77
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z319 8D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
+Z320 FD:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
+l0
+L6 1
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R187
+R194
+R195
+!i113 1
+R79
+R3
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+33
+R188
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R0
+Amycontrolhazardunit
+R8
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R0
+Z321 8D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
+Z322 FD:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
+R3
+R20
+R21
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+!i122 3512
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+!i113 1
+R79
+R3
+R3
+R191
+!i10b 1
+R193
+R198
+R199
+!i113 1
+R20
+R21
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
+R200
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R3
 l0
 L4 1
 V7NWHjOO;J52E9WV9Y3g<Q0
 !s100 l>Pi2]bzY1og05J29QUCK2
-R3
+R109
 33
 R0
->>>>>>> Stashed changes
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+32
+R206
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+32
+R206
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+32
+R206
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+32
+R206
+!i10b 1
+R0
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R27
+32
+R3
+R10
+R21
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+>>>>>>> parent of a415baa (smal edits)
+l18
+R5
+VVFh`YklkMVA_FTfiM3R1h0
+!s100 b<F:z<MZHd?Y67MigC3DV3
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Amywritebackstage
+R197
+R14
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+Z323 V4nPRRQ26=8WSHO^ESN3hJ2
+Z324 !s100 oMRo4j;b40RMi;cfVI[[=3
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R14
+R8
+!i122 3539
+R0
+R90
+R10
+>>>>>>> parent of a415baa (smal edits)
+l14
+Z325 L13 19
+Z326 Vda1Y9o1ZR?TjZMLj3O`=i0
+Z327 !s100 JziB`P>UYf9UUQ5D[A>cm1
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Asp_design
+R197
+R14
+R8
+DEx4 work 2 sp 0 22 8a_VizA_1MN:46lGI8F991
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+V8a_VizA_1MN:46lGI8F991
+!s100 KD^NlR2Gn9>FY;0RkE^Qf1
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R195
+R197
+R14
+R0
+>>>>>>> parent of a415baa (smal edits)
+l16
+Z328 L15 24
+Z329 VJic<UeXL_nG[G2SPI_gN<0
+Z330 !s100 RbKGMk<;MGB7;eEzSNX?D3
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Apc_design
+R197
+R14
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+Z331 VM@_jD]?l_fEY^j4:`0KDc1
+Z332 !s100 ]jhIZgnB?1nTf=<H]`_g>3
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Amemorystagedesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+R0
+R230
+R211
+l0
+L7 1
+R69
+R86
+R109
+33
+>>>>>>> parent of a415baa (smal edits)
+R0
+Amemorystagedesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l41
+L23 21
+V1m5gUBgQ>FYd0iMnYHgSI1
+!s100 :HfUl4^c5OQJF0fT3h42_2
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Amem2stagedesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L8 1
+VzZ;P2@iD?9=GJVDZ=`S880
+!s100 8a4QIeLNH`ZfkDa2Kdfa]3
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+l41
+L26 41
+V>UB086gmHXiNVj7I<C]2:1
+!s100 Je8JegOH9mH7Yf9SQLSKa2
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Amem2_wb_bufferdesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+V:Pe6SzSnz4?VZ8a6PWQXc0
+!s100 69kBHz3U[?M^H`BanlKG03
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Amem1stagedesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+V]:H<AYR`be]g5OjKTkDRQ2
+!s100 EfTK6LN8BMh@c[T^=9k;03
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+l40
+L25 37
+VTgQC3gY<7cbI3>;KZ>V`01
+!s100 eM]o>BAT]b9=L[C7K`KfK1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Amem1_mem2_bufferdesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+VzBaM5?2cIfbB^8Wk5jW[b2
+!s100 ]lhS>N=Tece7`Z?<W[S591
+R0
+>>>>>>> parent of a415baa (smal edits)
+l22
+L17 21
+VQ?<TobK79aAleDAd:=lOf0
+!s100 hm;g;?Q]72407J==@Ci]o2
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Ainstructioncache_design
+R197
+R14
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l36
+L21 29
+V^[EQLg0NUCcO>m]>7<[H@1
+!s100 F;MhYE]F;PB1@]eL>?9`O0
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aif_id_bufferdesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l41
+L26 42
+VfLNB4h_>c:Z:1>]>SlL^U3
+!s100 ;kGaV>z:Cd@Iil98?Si=S2
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aid_ex_bufferdesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Ahazarddetectionunitdesign
+R197
+R196
+R40
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L6 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l20
+Z333 L19 19
+Z334 V5H3Z2_PIRgk]miZZg<J:32
+Z335 !s100 V_MMmgTRM0S[8TJIeb3S?3
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aforwardingmemorydesign
+R197
+R14
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+Z336 V9lIzC9?3=`3<n0eHkX2VT3
+Z337 !s100 Y[_8`aB0hRdS[[7Ua<ONf2
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+l28
+Z338 L27 27
+Z339 Vc=>c5PBf@MO3b2[GS<;A50
+Z340 !s100 M:aI=o<JSS]YYcmdjlRUD1
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aforwardingexecutedesign
+R197
+R14
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+Z341 VK?:Jj8`X2PYef43eYmNG11
+Z342 !s100 dM<?k_SjUF^M4GlVnP>d>0
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+32
+R282
+!i10b 1
+R307
+R1
+R155
 !i113 1
-R79
-R9
+R10
+R21
+R0
+>>>>>>> parent of a415baa (smal edits)
+!i113 1
+R10
+R21
+R0
+Aforwardingdecodedesign
+R197
+R14
+>>>>>>> parent of a415baa (smal edits)
+R0
+Z343 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
+Z344 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
+l0
+L5 1
+Z345 V4>ln0GUYo3M^9CX_V[jS?3
+Z346 !s100 b11`L32bJYWX<]CW:nh;70
+R109
+32
+>>>>>>> parent of a415baa (smal edits)
+R145
+R158
+!i113 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l16
+Z347 L15 21
+Z348 V7@oabZGCZ]1Y]5`KYOQK]1
+Z349 !s100 8IiE8`9^[VMK4UF7ioHhW1
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aflagcontrolunitdesign
+R197
+R196
+R207
+R14
+R8
+Z350 DEx4 work 15 flagcontrolunit 0 22 L9Q2L^2^fDB`UQ1T;c;6V0
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+Z351 VL9Q2L^2^fDB`UQ1T;c;6V0
+Z352 !s100 E?A<Y34]bc:`8GD9MNCI90
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R310
+!i113 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l36
+L16 31
+VPFG4eeT<jj=fI;7M1QKDC3
+!s100 GM`FZlAKLF`dgU@binCSM0
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Afetchstagedesign
+R293
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l54
+R163
+V:WZF^76kiaI3_ooIWzAE`2
+!s100 2jMJn4D>k3F3ZXH>>9?:l3
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aexecutionstagedesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+Vn:`nFjQkX2QRA6W;I?@kg2
+!s100 ih]@6D6NCP0H?[Fn>ZXTC1
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R160
+R172
+!i113 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l37
+L22 39
+VYhS[1QXiGH?Xf@[HYC3dJ2
+!s100 OX5l4Xz4Fbz]7Ado?en:F2
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aex_mem1_bufferdesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R164
+R182
+R182
+!i113 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l26
+R181
+VfB_cO0KCIHZee]d=S7=[:3
+!s100 JnzFA84PUQ27F39?5]iVB3
+R109
+33
+R176
+!i10b 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Adatamemdesign
+R197
+R14
+R8
+DEx4 work 7 datamem 0 22 B^lfj@^nAG683?IWL[WMd3
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+VB^lfj@^nAG683?IWL[WMd3
+!s100 FHI7anIj7IE]LRSQ9zVk?1
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+l30
+Z353 L8 196
+Z354 V1Tik=;d`[FX^Pizb]nD2o3
+Z355 !s100 >>UMdU^O<7Wz^i75SZL`W1
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Atb
+R14
+R8
+Z356 DEx4 work 14 controlunit_tb 0 22 5h>32LX00DTzZO^K=?6890
+>>>>>>> parent of a415baa (smal edits)
+l0
+L5 1
+Z357 V5h>32LX00DTzZO^K=?6890
+Z358 !s100 m?lEo3YaYP1W=VDMnolYg2
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+l31
+L22 80
+VX5]9dCHOZeJ_R;KA6B;J[0
+!s100 g[k2ESg<>0YE;oMLTNF[Y1
+R109
+33
+R191
+!i10b 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Acontrolunitdesign
+R197
+R14
+>>>>>>> parent of a415baa (smal edits)
+VS=9:8UW]dIOAI^4K6aZ2Q0
+!s100 bFEkO20Vd:_14N_j<<VYM0
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+33
+R191
+!i10b 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l28
+L27 18
+VVS6>Sk_VUY>IL[oRS@T2J2
+!s100 cEOETQK:Q@Z:b`c?hlNlU0
+R0
+>>>>>>> parent of a415baa (smal edits)
+R14
+R8
+R195
+R0
+>>>>>>> parent of a415baa (smal edits)
+l0
+L6 1
+V=O_VBi3B90lhPOfge3_i00
+!s100 `9O:RP]NghL@SI58`Vl;R0
+R109
+33
+R191
+!i10b 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+l20
+Z359 L16 90
+Z360 Va3g`ZR56W_IkB[n?<8k:K1
+Z361 !s100 9;F<@;lZV1LB3L0=k>V9B2
+R109
+33
+R191
+!i10b 1
+R193
+R198
+R199
+!i113 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
+Aaludesign
+R197
+R196
+R207
+R14
+R8
+Z362 DEx4 work 3 alu 0 22 C4^JoX[F]=[LfGc;0]Dcl0
+>>>>>>> parent of a415baa (smal edits)
+l0
+L7 1
+Z363 VC4^JoX[F]=[LfGc;0]Dcl0
+Z364 !s100 mfL9YOMWS7C21cH^8FkE:0
+R109
+33
+R0
+>>>>>>> parent of a415baa (smal edits)
+R14
+R8
+!i122 7
+R0
+>>>>>>> parent of a415baa (smal edits)
 R0
 Aregfiledesign
-R20
-R21
+R14
+R8
 DEx4 work 7 regfile 0 22 7NWHjOO;J52E9WV9Y3g<Q0
 !i122 7
 l40
 L16 39
 V2g[3L5N4ca50h8kfXX_9b0
 !s100 70Zha7SjTEl_Cj4jIZZkG1
-R3
+R109
 33
+>>>>>>> parent of a415baa (smal edits)
+R109
+32
+R206
+!i10b 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R206
+!i10b 1
+R0
+>>>>>>> parent of a415baa (smal edits)
+R0
 >>>>>>> Stashed changes
-!i113 1
-R79
-R9
+R197
+R196
+R207
+R14
+R8
+R0
+>>>>>>> Stashed changes
+R0
+Amemorystagedesign
+R197
+R196
+R207
+R14
+R8
+>>>>>>> Stashed changes
+l77
+R25
+Z365 V82XSPQA]]>A<;kbDR<oN<2
+Z366 !s100 f?4:;X0LiW27HfWBX8o<T2
 R0
 >>>>>>> Stashed changes
 l0
 L5 1
-VVUF9:zUJCUTXlmV0Yi1CG2
-<<<<<<< HEAD
-Z83 !s100 M4`PjnPo>L5:0bbJ6ej4c2
-=======
-Z84 !s100 M4`PjnPo>L5:0bbJ6ej4c2
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-32
-R11
+R22
+R24
+R109
+33
+R206
 !i10b 1
 R0
 >>>>>>> Stashed changes
 !i113 1
-R8
-R9
-R0
-Aregfilememdesign
-R17
 R20
 R21
-DEx4 work 10 regfilemem 0 22 VUF9:zUJCUTXlmV0Yi1CG2
-!i122 964
-l25
-<<<<<<< HEAD
-Z84 L20 25
-VaPRbG0j8NSo@[khM3na_<2
-Z85 !s100 mNa<69lOXRgkD<]MT;k?H0
-=======
-Z85 L20 25
-VaPRbG0j8NSo@[khM3na_<2
-Z86 !s100 mNa<69lOXRgkD<]MT;k?H0
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-32
-R11
+R0
+Aa_my_ndff
+R14
+R8
+R34
+!i122 963
+l14
+R26
+R204
+R205
+R109
+33
+R206
 !i10b 1
 >>>>>>> Stashed changes
 !i113 1
-R8
-R9
-R0
->>>>>>> Stashed changes
-l0
-L5 1
-VPVfP;n1fBa@lZG>Rie1Ve1
-<<<<<<< HEAD
-Z86 !s100 f9J=QmfUF4EERC7X]MmL^1
-=======
-Z87 !s100 f9J=QmfUF4EERC7X]MmL^1
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-32
-R11
-!i10b 1
-R0
->>>>>>> Stashed changes
-!i113 1
-R8
-R9
-R0
-Amymux
-R17
 R20
 R21
-DEx4 work 12 writebackmux 0 22 PVfP;n1fBa@lZG>Rie1Ve1
-!i122 968
-l16
-<<<<<<< HEAD
-Z87 L15 4
-VPoPf3m9KL4;eWRiO^BA;00
-Z88 !s100 ][H?eh]TYa27ZeA_NGl0a1
-=======
-Z88 L15 4
-VPoPf3m9KL4;eWRiO^BA;00
-Z89 !s100 ][H?eh]TYa27ZeA_NGl0a1
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-32
-R11
-!i10b 1
->>>>>>> Stashed changes
-!i113 1
-R8
-R9
 R0
 >>>>>>> Stashed changes
 l0
 L5 1
-V?SX>Uaj_=S1WdGd_ol4390
-!s100 ggX@Hk8>Ih4aAi[zIOk_g2
-R3
-32
-R74
+Z367 VWF@;CiRgTm]:<@ncD8FZl3
+Z368 !s100 N`BAT578LdKDSN108:nho2
+R109
+33
+R32
 !i10b 1
 R0
 >>>>>>> Stashed changes
 !i113 1
+R20
+R21
+R0
+Apc_design
+R197
+R14
 R8
-R9
+Z369 DEx4 work 2 pc 0 22 WF@;CiRgTm]:<@ncD8FZl3
+!i122 961
+l14
+Z370 L13 20
+Z371 Vi^PM8ABDJ_6Sm89B:NznT2
+Z372 !s100 CXl0Ri_k]:401o>l[SZL`2
+R109
+33
+R32
+!i10b 1
+>>>>>>> Stashed changes
+!i113 1
+R20
+R21
+R0
+>>>>>>> Stashed changes
+l0
+L6 1
+Z373 V=c<C<GOPNF43h8@YMdjNd1
+R38
+R109
+32
+R224
+!i10b 1
+R0
+>>>>>>> Stashed changes
+!i113 1
+R10
+R21
+R0
+Aprocessor_design
+>>>>>>> Stashed changes
+DEx4 work 13 decodingstage 0 22 BeaCHC8dfK47KBe3?gH@l0
+DEx4 work 12 if_id_buffer 0 22 5fdY6j3k9KEJLag0nTf?I2
+R196
+R207
+DEx4 work 10 fetchstage 0 22 1jmT?mh^0G`hG?5if:LBB0
+R197
+R14
+R8
+DEx4 work 9 processor 0 22 =c<C<GOPNF43h8@YMdjNd1
+!i122 978
+l55
+L15 64
+V8PLf4YM1[aQ5T2MojXI0K0
+!s100 ^PT`cQdohZC?CT80JEkI`2
+R109
+32
+R224
+!i10b 1
+R0
+>>>>>>> Stashed changes
+!i113 1
+R10
+R21
+R0
+>>>>>>> Stashed changes
+R0
+>>>>>>> Stashed changes
+!i113 1
+R211
+R3
+R0
+>>>>>>> Stashed changes
+!i113 1
+R211
+R3
 R0
 Amywritebackstage
-R17
-R20
-R21
+R14
+R10
+R11
+>>>>>>> Stashed changes
+l0
+L5 1
+Z374 V?SX>Uaj_=S1WdGd_ol4390
+Z375 !s100 ggX@Hk8>Ih4aAi[zIOk_g2
+R27
+32
+R196
+!i10b 1
+R0
 >>>>>>> Stashed changes
 !i113 1
+R211
+R3
+R0
+>>>>>>> Stashed changes
+!i113 1
+R211
+R3
+R0
+Amymux
+R14
+R10
+R11
+Z376 DEx4 work 12 writebackmux 0 22 PVfP;n1fBa@lZG>Rie1Ve1
+!i122 968
+l16
+>>>>>>> Stashed changes
+l0
+L5 1
+Z377 VPVfP;n1fBa@lZG>Rie1Ve1
+R0
+>>>>>>> Stashed changes
+!i113 1
+R211
+R3
+R0
+>>>>>>> Stashed changes
+!i113 1
+R211
+R3
+R0
+Aregfilememdesign
+R14
+R10
+R11
+Z378 DEx4 work 10 regfilemem 0 22 VUF9:zUJCUTXlmV0Yi1CG2
+!i122 964
+l25
+>>>>>>> Stashed changes
+l0
+L5 1
+Z379 VVUF9:zUJCUTXlmV0Yi1CG2
+R0
+>>>>>>> Stashed changes
+R0
+>>>>>>> Stashed changes
+!i113 1
+R0
+>>>>>>> Stashed changes
+!i113 1
+R20
+R21
+R0
+>>>>>>> Stashed changes
+l0
+L5 1
+R379
+R81
+R0
+>>>>>>> Stashed changes
+!i113 1
+R10
+R21
+R0
+Aregfilememdesign
+R197
+R14
 R8
-R9
+R378
+!i122 964
+l25
+R79
+R203
+R80
+R109
+32
+R206
+!i10b 1
+>>>>>>> Stashed changes
+l0
+L6 1
+R373
+R0
+>>>>>>> Stashed changes
+!i113 1
+R20
+R3
+R0
+>>>>>>> Stashed changes
+!i113 1
+R20
+R3
+R0
+Apc_design
+R14
+R10
+R11
+R369
+!i122 961
+l14
+R370
+R371
+R372
+R27
+33
+R32
+!i10b 1
+>>>>>>> Stashed changes
+l0
+L5 1
+R367
+R368
+R27
+33
+R32
+!i10b 1
+R0
+>>>>>>> Stashed changes
+!i113 1
+R20
+R3
+R0
+>>>>>>> Stashed changes
+!i113 1
+R0
+>>>>>>> Stashed changes
+l0
+L5 1
+R377
+R75
+R109
+32
+R0
+>>>>>>> Stashed changes
+!i113 1
+R10
+R21
+R0
+Amymux
+R197
+R14
+R8
+R376
+!i122 968
+l16
+R87
+R202
+R74
+R109
+32
+R206
+!i10b 1
+>>>>>>> Stashed changes
+!i113 1
+R10
+R21
+R0
+>>>>>>> Stashed changes
+l0
+L5 1
+R374
+R375
+R109
+32
+R196
+!i10b 1
+R0
+>>>>>>> Stashed changes
+l0
+L5 1
+R22
+R24
+R27
+33
+R3
+R0
+>>>>>>> Stashed changes
+l77
+R25
+R365
+R366
+R0
+>>>>>>> Stashed changes
+R0
+Amemorystagedesign
+R14
+R8
+R90
+R10
+R11
+>>>>>>> Stashed changes
+!i113 1
+R10
+R21
+R0
+Amywritebackstage
+R197
+R14
+R8
+>>>>>>> Stashed changes
+!i113 1
+R10
+R21
 R0
 Ealu
-<<<<<<< HEAD
-Z89 w1681830386
-=======
-Z90 w1681830386
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3893
+R201
+R197
+R280
+R281
+R14
+R8
+!i122 3922
 R0
-R30
-Z90 FD:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
-=======
-!i122 3005
-R0
-R30
-Z91 FD:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R11
+R200
 l0
 L7 1
-VC4^JoX[F]=[LfGc;0]Dcl0
-!s100 mfL9YOMWS7C21cH^8FkE:0
-R3
+R363
+R364
+R109
 33
-<<<<<<< HEAD
-Z91 !s110 1684691870
+Z380 !s110 1684728788
 !i10b 1
-Z92 !s108 1684691869.000000
-Z93 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
-Z94 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
-=======
-Z92 !s110 1684610797
-!i10b 1
-Z93 !s108 1684610796.000000
-Z94 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
-Z95 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ALU.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+Z381 !s108 1684728788.000000
+R198
+R199
 !i113 1
-R79
-R9
+R20
+R278
 Aaludesign
-R17
-R18
-R19
-R20
-R21
-DEx4 work 3 alu 0 22 C4^JoX[F]=[LfGc;0]Dcl0
-<<<<<<< HEAD
-!i122 3893
-=======
-!i122 3005
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R197
+R280
+R281
+R14
+R8
+R362
+!i122 3922
 l20
-L16 90
-Va3g`ZR56W_IkB[n?<8k:K1
-!s100 9;F<@;lZV1LB3L0=k>V9B2
-R3
+R359
+R360
+R361
+R109
 33
-R91
+R380
 !i10b 1
-R92
-R93
-R94
+R381
+R198
+R199
 !i113 1
-R79
-R9
+R20
+R278
+Ealu
+R0
 Econtrolhazardunit
-<<<<<<< HEAD
-Z95 w1684691315
-R18
-Z96 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-R17
-R20
-R21
-!i122 3894
-=======
-Z96 w1684607107
-R18
-Z97 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-R17
-R20
-R21
-!i122 3006
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R43
+R196
+R40
+R197
+R14
+R8
+!i122 3513
 R0
-Z97 8D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
-Z98 FD:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
+R321
+R322
+Econtrolhazardunit
+Z382 w1684728462
+R280
+R40
+R197
+R14
+R8
+!i122 3923
+R0
+R321
+R322
 l0
-L6 1
-V=O_VBi3B90lhPOfge3_i00
-!s100 `9O:RP]NghL@SI58`Vl;R0
-R3
+L7 1
+V7MDB`gH02:6>2ezJ_l2Z53
+!s100 D;NWC9mCz^afJSMAD3jGF2
+R109
 33
-R91
+Z383 !s110 1684728789
 !i10b 1
-<<<<<<< HEAD
-Z99 !s108 1684691870.000000
-Z100 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
-Z101 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
-=======
-Z100 !s108 1684610797.000000
-Z101 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
-Z102 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+Z384 !s108 1684728789.000000
+R187
+R194
 !i113 1
-R79
-R9
+R20
+R278
 Amycontrolhazardunit
-R18
-<<<<<<< HEAD
-R96
-R17
-R20
-R21
-Z102 DEx4 work 17 controlhazardunit 0 22 =O_VBi3B90lhPOfge3_i00
-!i122 3894
-l28
-L27 18
-VVS6>Sk_VUY>IL[oRS@T2J2
-!s100 cEOETQK:Q@Z:b`c?hlNlU0
-=======
-R97
-R17
-R20
-R21
-Z103 DEx4 work 17 controlhazardunit 0 22 =O_VBi3B90lhPOfge3_i00
-!i122 3006
-l28
-L27 20
-VG`2CSi5A4kD`KGR6K?0a02
-!s100 T8eZGdgXFAZo`M_I>KPmJ2
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-33
-R91
-!i10b 1
-<<<<<<< HEAD
-R99
-=======
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R100
-R101
-R102
-!i113 1
-R79
-R9
-Econtrolunit
-<<<<<<< HEAD
-Z103 w1684682155
-R17
-R20
-R21
-!i122 3895
-=======
-Z104 w1683219845
-R17
-R20
-R21
-!i122 3007
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z105 8D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
-Z106 FD:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd
-l0
-L6 1
-<<<<<<< HEAD
-V5R7;haTeYNDAz4<UaQcmA0
-!s100 :3YDS?]`Y]c[_SUUL`iQZ3
-R3
-33
-R91
-!i10b 1
-R99
-Z106 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
-=======
-VS=9:8UW]dIOAI^4K6aZ2Q0
-!s100 bFEkO20Vd:_14N_j<<VYM0
-R3
-33
-R92
-!i10b 1
-R100
-Z107 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/controlUnit.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R58
-!i113 1
-R79
-R9
-Acontrolunitdesign
-R17
-R20
-R21
-<<<<<<< HEAD
-Z107 DEx4 work 11 controlunit 0 22 5R7;haTeYNDAz4<UaQcmA0
-!i122 3895
-l33
-L24 86
-VL@EieH<PO_zeXfa2?5F:K2
-!s100 Q?_mD>LDBKcNW[EM^?lD;0
-R3
-33
-R91
-!i10b 1
-R99
-R106
-=======
-Z108 DEx4 work 11 controlunit 0 22 S=9:8UW]dIOAI^4K6aZ2Q0
-!i122 3007
+R280
+R40
+R197
+R14
+R8
+DEx4 work 17 controlhazardunit 0 22 7MDB`gH02:6>2ezJ_l2Z53
+!i122 3923
 l31
-L22 80
-VX5]9dCHOZeJ_R;KA6B;J[0
-!s100 g[k2ESg<>0YE;oMLTNF[Y1
-R3
+L30 26
+VVSM>ima3::ERn^lGJA=@m3
+!s100 IOL>8GBK2CQcNkh8D4DDZ2
+R109
 33
-R92
+R383
 !i10b 1
-R100
-R107
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R58
+R384
+R187
+R194
 !i113 1
-R79
-R9
-Econtrolunit_tb
-<<<<<<< HEAD
-Z108 w1681758824
 R20
-R21
-!i122 3896
-=======
-Z109 w1681758824
-R20
-R21
-!i122 3008
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R278
+Econtrolunit
+Z385 w1684720391
+R280
+R40
+R197
+R14
+R8
+!i122 3924
 R0
-Z109 8D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
-Z110 FD:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd
-l0
-L5 1
-V5h>32LX00DTzZO^K=?6890
-!s100 m?lEo3YaYP1W=VDMnolYg2
-R3
-33
-<<<<<<< HEAD
-Z111 !s110 1684691871
-!i10b 1
-R99
-Z112 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
-Z113 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
-=======
-Z112 !s110 1684610798
-!i10b 1
-R100
-Z113 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
-Z114 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ControlUnit_TB.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Atb
-R20
-R21
-DEx4 work 14 controlunit_tb 0 22 5h>32LX00DTzZO^K=?6890
-<<<<<<< HEAD
-!i122 3896
-=======
-!i122 3008
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l30
-L8 196
-V1Tik=;d`[FX^Pizb]nD2o3
-!s100 >>UMdU^O<7Wz^i75SZL`W1
-R3
-33
-<<<<<<< HEAD
-R111
-!i10b 1
-R99
-=======
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R112
-!i10b 1
-R100
-R113
-!i113 1
-R79
-R9
-Edatamem
-<<<<<<< HEAD
-Z114 w1684617179
-R17
-R20
-R21
-!i122 3897
-=======
-Z115 w1683323513
-R17
-R20
-R21
-!i122 3009
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z115 8D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd
-Z116 FD:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd
-l0
-L5 1
-VB^lfj@^nAG683?IWL[WMd3
-!s100 FHI7anIj7IE]LRSQ9zVk?1
-R3
-33
-<<<<<<< HEAD
-R111
-!i10b 1
-Z117 !s108 1684691871.000000
-Z118 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
-Z119 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
-=======
-R112
-!i10b 1
-Z118 !s108 1684610798.000000
-Z119 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
-Z120 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/dataMem.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Adatamemdesign
-R17
-R20
-R21
-DEx4 work 7 datamem 0 22 B^lfj@^nAG683?IWL[WMd3
-<<<<<<< HEAD
-!i122 3897
-l26
-L22 33
-VfB_cO0KCIHZee]d=S7=[:3
-!s100 JnzFA84PUQ27F39?5]iVB3
-R3
-33
-R111
-!i10b 1
-R117
-=======
-!i122 3009
-l26
-L22 33
-V@Bc7?Bjgd:hc7T3nmjIgR2
-!s100 QV<c1lFCh5D15bh^8ZjS82
-R3
-33
-R112
-!i10b 1
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R118
-R119
-R120
-!i113 1
-R79
-R9
-Edecodingstage
-<<<<<<< HEAD
-Z120 w1684691374
-R17
-R20
-R21
-!i122 3898
-=======
-Z121 w1683307645
-R17
-R20
-R21
-!i122 3010
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z122 8D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
-Z123 FD:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd
-l0
-L5 1
-<<<<<<< HEAD
-Vo>>R07fV9jFc1[Zz@_okk0
-!s100 lYQOYhdNKD76=Eg5H__9A1
-R3
-33
-R111
-!i10b 1
-R117
-Z123 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
-Z124 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
-=======
-VQKB8A=HaVkzGmbF1GSBfo3
-!s100 T>U_:9o_kJf^H_<XY3MfN1
-R3
-33
-R112
-!i10b 1
-R118
-Z124 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
-Z125 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/DecodingStage.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Adecoding
-<<<<<<< HEAD
-Z125 DEx4 work 10 regfilemem 0 22 J[9EhVI`<1zg[?zP2060K1
-R107
-R17
-R20
-R21
-Z126 DEx4 work 13 decodingstage 0 22 o>>R07fV9jFc1[Zz@_okk0
-!i122 3898
-l27
-L25 13
-V8_OF1zAWbdOM_SAdhd9DU1
-!s100 b]DoZWfTc^@nZ<FZ4hKZ?2
-R3
-33
-R111
-!i10b 1
-R117
-R123
-=======
-Z126 DEx4 work 10 regfilemem 0 22 J[9EhVI`<1zg[?zP2060K1
-R108
-R17
-R20
-R21
-Z127 DEx4 work 13 decodingstage 0 22 QKB8A=HaVkzGmbF1GSBfo3
-!i122 3010
-l25
-L23 10
-VJ_TC;_h[0EBEaciUHej@:1
-!s100 jkG[S@A3M60>2Z4dZd]li1
-R3
-33
-R112
-!i10b 1
-R118
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R124
-R125
-!i113 1
-R79
-R9
-Eex_mem1_buffer
-<<<<<<< HEAD
-Z127 w1684681273
-=======
-Z128 w1684591577
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3899
-=======
-!i122 3011
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z129 8D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
-Z130 FD:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd
+R319
+R320
 l0
 L7 1
-<<<<<<< HEAD
-VH^J97_3zdGLCo0H?2NM6S2
-!s100 KW9OZhK84YzLOmhLnMP^o2
-R3
+V2`FKd<m1om25PYjFE@QCm0
+!s100 ;cQ;LRHabRckA[V5dk9LL2
+R109
 33
-Z130 !s110 1684691872
+R383
 !i10b 1
-Z131 !s108 1684691872.000000
-Z132 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
-Z133 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
-=======
-V:>XkiGYYDW2:GeNIQLLk>3
-!s100 ;GMl<4<lCbhPid@POiZMd3
-R3
-33
-R112
-!i10b 1
-R118
-Z131 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
-Z132 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/EX_MEM1_buffer.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R384
+R192
+R223
 !i113 1
-R79
-R9
-Aex_mem1_bufferdesign
-R17
-R18
-R19
 R20
-R21
-<<<<<<< HEAD
-Z134 DEx4 work 14 ex_mem1_buffer 0 22 H^J97_3zdGLCo0H?2NM6S2
-!i122 3899
+R278
+Acontrolunitdesign
+R280
+R40
+R197
+R14
+R8
+DEx4 work 11 controlunit 0 22 2`FKd<m1om25PYjFE@QCm0
+!i122 3924
 l39
-L24 40
-V`fiEEL1D]VOnCG961bPba1
-!s100 T0IbQE3Db8[J?BYPb`knF1
-=======
-Z133 DEx4 work 14 ex_mem1_buffer 0 22 :>XkiGYYDW2:GeNIQLLk>3
-!i122 3011
-l37
-L22 39
-VYhS[1QXiGH?Xf@[HYC3dJ2
-!s100 OX5l4Xz4Fbz]7Ado?en:F2
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
+L27 128
+VY>HVG_L9LR>HM>ze>=nm21
+!s100 0lcgRBEW@0;RERLFIO;1C2
+R109
 33
-R112
+R383
 !i10b 1
-R118
-R131
-R132
+R384
+R192
+R223
 !i113 1
-R79
-R9
-Eexecutionstage
-<<<<<<< HEAD
-Z135 w1684624259
-=======
-Z134 w1683631380
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
 R20
-R21
-<<<<<<< HEAD
-!i122 3900
+R278
+Econtrolunit
 R0
-R43
-Z136 FD:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd
-=======
-!i122 3012
-R0
-R43
-Z135 FD:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l0
-L7 1
-Vn:`nFjQkX2QRA6W;I?@kg2
-!s100 ih]@6D6NCP0H?[Fn>ZXTC1
-R3
-33
-Z136 !s110 1684610799
-!i10b 1
-R118
-Z137 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
-Z138 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/executionStage.vhd|
-!i113 1
-R79
-R9
-Aexecutionstagedesign
-R17
-R18
-R19
-R20
-R21
-Z139 DEx4 work 14 executionstage 0 22 n:`nFjQkX2QRA6W;I?@kg2
-<<<<<<< HEAD
-!i122 3900
-l54
-L22 52
-V:WZF^76kiaI3_ooIWzAE`2
-!s100 2jMJn4D>k3F3ZXH>>9?:l3
-=======
-!i122 3012
-l54
-L22 52
-V2?G1QbQPmYS5jQClEFEh>1
-!s100 jGlWh1FoD`=JdK]Z?2L5O2
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-33
-R136
-!i10b 1
-R118
-R137
-R138
-!i113 1
-R79
-R9
-Efetchstage
-<<<<<<< HEAD
-Z140 w1684691864
-=======
-Z140 w1683323197
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3901
-=======
-!i122 3013
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z141 8D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd
-R44
-l0
-L7 1
-<<<<<<< HEAD
-VBO2eAkJ>iV<3M6Uh2QY183
-!s100 2A^JLg=YZ020OKM3h_bSh0
-R3
-33
-Z142 !s110 1684691873
-!i10b 1
-R131
-=======
-Vn09T]il2T4mGOIA]<m<Sf0
-!s100 0W;<4Lo4MXjZ6bk9IGJ7=1
-R3
-33
-R136
-!i10b 1
-Z142 !s108 1684610799.000000
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Z143 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
-Z144 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/fetchStage.vhd|
-!i113 1
-R79
-R9
-Afetchstagedesign
-Z145 DEx4 work 2 pc 0 22 M@_jD]?l_fEY^j4:`0KDc1
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-Z146 DEx4 work 10 fetchstage 0 22 BO2eAkJ>iV<3M6Uh2QY183
-!i122 3901
-l38
-L17 33
-V5gGSBnTPn9PXY_6^oBYcO3
-!s100 533_c2PXghCaA75m4mldh0
-R3
-33
-R142
-!i10b 1
-R131
-=======
-Z146 DEx4 work 10 fetchstage 0 22 n09T]il2T4mGOIA]<m<Sf0
-!i122 3013
-l36
-L16 31
-VPFG4eeT<jj=fI;7M1QKDC3
-!s100 GM`FZlAKLF`dgU@binCSM0
-R3
-33
-R136
-!i10b 1
-R142
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R143
-R144
-!i113 1
-R79
-R9
-Eflagcontrolunit
-Z147 w1683229909
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3902
-=======
-!i122 3014
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z148 8D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
-Z149 FD:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd
-l0
-L7 1
-VL9Q2L^2^fDB`UQ1T;c;6V0
-!s100 E?A<Y34]bc:`8GD9MNCI90
-R3
-33
-<<<<<<< HEAD
-R142
-!i10b 1
-Z150 !s108 1684691873.000000
-Z151 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
-Z152 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
-=======
-R136
-!i10b 1
-R142
-Z150 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
-Z151 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/flagControlUnit.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Aflagcontrolunitdesign
-R17
-R18
-R19
-R20
-R21
-DEx4 work 15 flagcontrolunit 0 22 L9Q2L^2^fDB`UQ1T;c;6V0
-<<<<<<< HEAD
-!i122 3902
-=======
-!i122 3014
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l16
-L15 21
-V7@oabZGCZ]1Y]5`KYOQK]1
-!s100 8IiE8`9^[VMK4UF7ioHhW1
-R3
-33
-<<<<<<< HEAD
-R142
-!i10b 1
-=======
-R136
-!i10b 1
-R142
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R150
-R151
-R152
-!i113 1
-R79
-R9
-Eforwardingdecode
-<<<<<<< HEAD
-Z153 w1684597956
-R17
-R20
-R21
-!i122 3921
-=======
-Z152 w1684597956
-R17
-R20
-R21
-!i122 3033
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z154 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
-Z155 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd
-l0
-L5 1
-V4>ln0GUYo3M^9CX_V[jS?3
-!s100 b11`L32bJYWX<]CW:nh;70
-R3
-32
-<<<<<<< HEAD
-Z156 !s110 1684691880
-!i10b 1
-Z157 !s108 1684691879.000000
-Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
-Z159 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
-=======
-Z155 !s110 1684610805
-!i10b 1
-Z156 !s108 1684610805.000000
-Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
-Z158 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingDecode.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R8
-R9
-Aforwardingdecodedesign
-R17
-R20
-R21
-<<<<<<< HEAD
-Z160 DEx4 work 16 forwardingdecode 0 22 4>ln0GUYo3M^9CX_V[jS?3
-!i122 3921
-l29
-Z161 L28 22
-Z162 VEY<E_6LJUlIjZ?0EGJQ=^2
-Z163 !s100 Fk[`f??gmn]?U1djC^eQ]3
-=======
-Z159 DEx4 work 16 forwardingdecode 0 22 4>ln0GUYo3M^9CX_V[jS?3
-!i122 3033
-l29
-Z160 L28 22
-Z161 VEY<E_6LJUlIjZ?0EGJQ=^2
-Z162 !s100 Fk[`f??gmn]?U1djC^eQ]3
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-32
-R156
-!i10b 1
-R157
-R158
-R159
-!i113 1
-R8
-R9
-Eforwardingexecute
-<<<<<<< HEAD
-Z164 w1683307645
-R17
-R20
-R21
-!i122 3903
-R0
-Z165 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
-Z166 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
-=======
-R121
-R17
-R20
-R21
-!i122 3015
-R0
-Z163 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
-Z164 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l0
-L5 1
-VK?:Jj8`X2PYef43eYmNG11
-!s100 dM<?k_SjUF^M4GlVnP>d>0
-R3
-33
-<<<<<<< HEAD
-R142
-!i10b 1
-R150
-Z167 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
-Z168 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
-=======
-Z165 !s110 1684610800
-!i10b 1
-R142
-Z166 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
-Z167 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingExecute.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Aforwardingexecutedesign
-R17
-R20
-R21
-<<<<<<< HEAD
-Z169 DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
-!i122 3903
-=======
-Z168 DEx4 work 17 forwardingexecute 0 22 K?:Jj8`X2PYef43eYmNG11
-!i122 3015
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l28
-L27 27
-Vc=>c5PBf@MO3b2[GS<;A50
-!s100 M:aI=o<JSS]YYcmdjlRUD1
-R3
-33
-<<<<<<< HEAD
-R142
-!i10b 1
-R150
-=======
-R165
-!i10b 1
-R142
-R166
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R167
-!i113 1
-R79
-R9
-Eforwardingmemory
-<<<<<<< HEAD
-R164
-R17
-R20
-R21
-!i122 3904
-=======
-R121
-R17
-R20
-R21
-!i122 3016
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z169 8D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
-Z170 FD:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd
-l0
-L5 1
-V9lIzC9?3=`3<n0eHkX2VT3
-!s100 Y[_8`aB0hRdS[[7Ua<ONf2
-R3
-33
-<<<<<<< HEAD
-Z172 !s110 1684691874
-!i10b 1
-R150
-Z173 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
-Z174 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
-=======
-R165
-!i10b 1
-Z171 !s108 1684610800.000000
-Z172 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
-Z173 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/forwardingMemory.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Aforwardingmemorydesign
-R17
-R20
-R21
-<<<<<<< HEAD
-Z175 DEx4 work 16 forwardingmemory 0 22 9lIzC9?3=`3<n0eHkX2VT3
-!i122 3904
-=======
-Z174 DEx4 work 16 forwardingmemory 0 22 9lIzC9?3=`3<n0eHkX2VT3
-!i122 3016
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l20
-L19 19
-V5H3Z2_PIRgk]miZZg<J:32
-!s100 V_MMmgTRM0S[8TJIeb3S?3
-R3
-33
-<<<<<<< HEAD
-=======
-R165
-!i10b 1
-R171
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R172
-!i10b 1
-R150
-R173
-R174
-!i113 1
-R79
-R9
-Ehazarddetectionunit
-<<<<<<< HEAD
-Z176 w1684682517
-R17
-R18
-R96
-R20
-R21
-!i122 3905
-=======
-Z175 w1684610511
-R17
-R18
-R97
-R20
-R21
-!i122 3017
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z177 8D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
-Z178 FD:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd
-l0
-L6 1
-<<<<<<< HEAD
-V`Ek1Jaab[W1Z5ZlB2eg^32
-!s100 ^Yn`hENgf9QLV>NYBTXBe3
-R3
-33
-R172
-!i10b 1
-Z179 !s108 1684691874.000000
-Z180 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
-Z181 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
-=======
-VePYC4mBZKNY5z_KfeM]>10
-!s100 2`58DaK5^n16f`@>MI_Ra2
-R3
-33
-R165
-!i10b 1
-R171
-Z178 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
-Z179 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/hazardDetectionUnit.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Ahazarddetectionunitdesign
-R17
-R18
-<<<<<<< HEAD
-R96
-R20
-R21
-Z182 DEx4 work 19 hazarddetectionunit 0 22 `Ek1Jaab[W1Z5ZlB2eg^32
-!i122 3905
-l35
-L22 94
-Vm>9=6VRnA?C?j1@<QESz62
-!s100 @D9UkEOJe;SnE6<o2`2bk2
-R3
-33
-R172
-!i10b 1
+Econtrolunit_tb
 R179
-R180
-R181
-=======
-R97
-R20
-R21
-Z180 DEx4 work 19 hazarddetectionunit 0 22 ePYC4mBZKNY5z_KfeM]>10
-!i122 3017
-l32
-L22 71
-V1]0Jf5>QmUCMQh@1iZMS72
-!s100 0jGeo;zX`cEERgo[DK2>Y3
-R3
+R14
+R8
+!i122 3515
+R0
+R317
+R318
+Econtrolunit_tb
+R179
+R14
+R8
+!i122 3925
+R0
+R317
+R318
+l0
+L5 1
+R357
+R358
+R109
 33
-R165
+Z386 !s110 1684728790
+!i10b 1
+R384
+R185
+R186
+!i113 1
+R20
+R278
+Atb
+R14
+R8
+R356
+!i122 3925
+l30
+R353
+R354
+R355
+R109
+33
+R386
+!i10b 1
+R384
+R185
+R186
+!i113 1
+R20
+R278
+Edatamem
+R382
+R197
+R14
+R8
+!i122 3926
+R0
+R315
+R316
+l0
+L5 1
+V:4NDdkPXaQTS60UccZFhQ3
+!s100 9QTaDJ_[:donWSffAa>hV2
+R109
+33
+R386
+!i10b 1
+Z387 !s108 1684728790.000000
+R164
+R182
+!i113 1
+R20
+R278
+Adatamemdesign
+R197
+R14
+R8
+DEx4 work 7 datamem 0 22 :4NDdkPXaQTS60UccZFhQ3
+!i122 3926
+l27
+L23 41
+VolPEM7PP5eNBQC=N;9P?>0
+!s100 U53zl3>>ebjTRo_RCYZ>c3
+R109
+33
+R386
+!i10b 1
+R387
+R164
+R182
+!i113 1
+R20
+R278
+Edatamem
+R0
+Edecodingstage
+w1684625801
+R197
+R14
+R8
+!i122 3517
+R0
+R104
+R314
+l0
+L5 1
+V[]>dDZS3<6bHJHhQKQm[k3
+!s100 cKnK?B`hnS4KV]DXc>QJI1
+R109
+33
+R189
 !i10b 1
 R171
 R178
-R179
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R180
 !i113 1
-R79
-R9
-Eid_ex_buffer
-<<<<<<< HEAD
-R127
-=======
-Z181 w1683211905
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
 R20
 R21
-<<<<<<< HEAD
-!i122 3906
-=======
-!i122 3018
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+Adecoding
+R31
+R179
+R197
+R14
+R8
+R36
+!i122 3517
+l25
+L23 11
+V]cJ6JC^XDH1aARh][Gfa01
+!s100 V@m_4JX^IJ?WMcE]^4nf30
+R109
+33
+R189
+!i10b 1
+R171
+R178
+R180
+!i113 1
+R20
+R21
+Edecodingstage
+Z388 w1684728733
+R197
+R14
+R8
+!i122 3927
 R0
-Z182 8D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
-Z183 FD:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd
-l0
-L7 1
-<<<<<<< HEAD
-Vc99M_J549i6^c`Mgz;b5>2
-!s100 EeOTHAKi@84ND4hmzac<53
-R3
-33
-R172
-!i10b 1
-R179
-Z185 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
-Z186 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
-=======
-VID==1ZQmKBCX>k_DFm^_U0
-!s100 cU]h=dG>AFE?PA2aN0Rh`2
-R3
-33
-R165
-!i10b 1
-R171
-Z184 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
-Z185 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/ID_EX_buffer.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Aid_ex_bufferdesign
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-Z187 DEx4 work 12 id_ex_buffer 0 22 c99M_J549i6^c`Mgz;b5>2
-!i122 3906
-l44
-L29 43
-V5d1D<Fh7^P@J<YE^nDN`62
-!s100 NoP]F1iCmbLQbmbHnclKB0
-R3
-33
-R172
-!i10b 1
-R179
-R185
-R186
-=======
-Z186 DEx4 work 12 id_ex_buffer 0 22 ID==1ZQmKBCX>k_DFm^_U0
-!i122 3018
-l41
-L26 42
-VfLNB4h_>c:Z:1>]>SlL^U3
-!s100 ;kGaV>z:Cd@Iil98?Si=S2
-R3
-33
-R165
-!i10b 1
-R171
-R184
-R185
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Eif_id_buffer
-<<<<<<< HEAD
-R127
-=======
-Z187 w1683236643
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3907
-=======
-!i122 3019
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z188 8D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd
-Z189 FD:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd
-l0
-L7 1
-<<<<<<< HEAD
-VHO4VJn:V7bBh4IVK=Tid=0
-!s100 N1];X[PNkZ?Cd6lVj1IND2
-R3
-33
-Z190 !s110 1684691875
-!i10b 1
-R179
-=======
-VGSn`1jI3DH@OkzjHC9:?i1
-!s100 Ohg5DOOQ^^lIiPzoODS_[1
-R3
-33
-Z190 !s110 1684610801
-!i10b 1
-R171
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Z191 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
-Z192 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/IF_ID_Buffer.vhd|
-!i113 1
-R79
-R9
-Aif_id_bufferdesign
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-Z193 DEx4 work 12 if_id_buffer 0 22 HO4VJn:V7bBh4IVK=Tid=0
-!i122 3907
-l38
-L23 30
-VBJO_8<Uk?ckT[C3cXRcH]2
-!s100 lCPh9]jKXVL@W=_gZDZ7M1
-=======
-Z193 DEx4 work 12 if_id_buffer 0 22 GSn`1jI3DH@OkzjHC9:?i1
-!i122 3019
-l36
-L21 29
-V^[EQLg0NUCcO>m]>7<[H@1
-!s100 F;MhYE]F;PB1@]eL>?9`O0
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-33
-R190
-!i10b 1
-<<<<<<< HEAD
-R179
-=======
-R171
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R191
-R192
-!i113 1
-R79
-R9
-Einstructioncache
-<<<<<<< HEAD
-Z194 w1684691583
-R17
-R20
-R21
-!i122 3908
-=======
-Z194 w1683162396
-R17
-R20
-R21
-!i122 3020
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-Z195 8D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd
-R75
+R104
+R314
 l0
 L5 1
-<<<<<<< HEAD
-V?EFK_KS9bA0nUUjk6b[iT3
-!s100 ofon:^LQIgABV^LCI06ai1
-=======
-VE;PA:Kjz=0jBTZA0bCG@m3
-!s100 A5e_OfXj`9V^?]_V4Wfo93
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
+V<o;4PAlT24:XS2L<iUJA63
+!s100 @Jo9VbEz6YlleH<9h`<CF0
+R109
 33
-R190
+R386
 !i10b 1
-<<<<<<< HEAD
-Z196 !s108 1684691875.000000
-=======
-Z196 !s108 1684610801.000000
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Z197 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd|
-Z198 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/instructionCache.vhd|
+R387
+R178
+R180
 !i113 1
-R79
-R9
-Ainstructioncache_design
-R17
 R20
-R21
-<<<<<<< HEAD
-DEx4 work 16 instructioncache 0 22 ?EFK_KS9bA0nUUjk6b[iT3
-!i122 3908
-l23
-L18 22
-VNLkNHcIPOIQzB;B8Wk4Z:1
-!s100 SFS7@8_TzlJU;6_U`H:`Z3
-=======
-DEx4 work 16 instructioncache 0 22 E;PA:Kjz=0jBTZA0bCG@m3
-!i122 3020
-l22
-L17 21
-VQ?<TobK79aAleDAd:=lOf0
-!s100 hm;g;?Q]72407J==@Ci]o2
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-33
-R190
-!i10b 1
-R196
+R278
+Adecoding
+DEx4 work 10 regfilemem 0 0 
+R280
+R40
+DEx4 work 11 controlunit 0 0 
 R197
-R198
+R14
+R8
+DEx4 work 13 decodingstage 0 22 <o;4PAlT24:XS2L<iUJA63
+!i122 3927
+l28
+L26 15
+VKo6klm6eaGU6I<jhX?AZE3
+!s100 Vj>QWmOml65IiPRjKPozT2
+R109
+33
+R386
+!i10b 1
+R387
+R178
+R180
 !i113 1
-R79
-R9
-Emem1_mem2_buffer
-<<<<<<< HEAD
-R127
-=======
-Z199 w1683320914
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
 R20
-R21
-<<<<<<< HEAD
-!i122 3909
+R278
+Eex_mem1_buffer
+R385
+R197
+R280
+R281
+R14
+R8
+!i122 3928
 R0
-Z199 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
-Z200 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
+R312
+R313
 l0
 L7 1
-Vd9hzLzMChN@LUW8_Cz0Q_2
-!s100 Re2T6i=Vz6fh^VMi_4NDf2
-=======
-!i122 3021
-R0
-Z200 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
-Z201 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd
-l0
-L7 1
-VzBaM5?2cIfbB^8Wk5jW[b2
-!s100 ]lhS>N=Tece7`Z?<W[S591
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
+V_oB8ID?TKNU05GM9c?NB[3
+!s100 O6GJa]GWd7JSciBo]ObYn0
+R109
 33
-R190
+Z389 !s110 1684728791
 !i10b 1
-R196
-<<<<<<< HEAD
-Z201 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
-Z202 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
-=======
-Z202 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
-Z203 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/MEM1_MEM2_buffer.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+Z390 !s108 1684728791.000000
+R172
+R173
 !i113 1
-R79
-R9
-Amem1_mem2_bufferdesign
-R17
-R18
-R19
 R20
-R21
-<<<<<<< HEAD
-Z203 DEx4 work 16 mem1_mem2_buffer 0 22 d9hzLzMChN@LUW8_Cz0Q_2
-!i122 3909
-l42
-L27 38
-VL1]CnQ;V4Scd3PZUZA2PN3
-!s100 3`6knjaG[b:[lE7:F@^YW1
-=======
-Z204 DEx4 work 16 mem1_mem2_buffer 0 22 zBaM5?2cIfbB^8Wk5jW[b2
-!i122 3021
-l40
-L25 37
-VTgQC3gY<7cbI3>;KZ>V`01
-!s100 eM]o>BAT]b9=L[C7K`KfK1
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
+R278
+Aex_mem1_bufferdesign
+R197
+R280
+R281
+R14
+R8
+DEx4 work 14 ex_mem1_buffer 0 22 _oB8ID?TKNU05GM9c?NB[3
+!i122 3928
+l47
+Z391 L32 44
+VJQNMJU1bl2GdWK@^8JijO0
+!s100 68AkDOhYA0U^a[1eTmn=?3
+R109
 33
-R190
+R389
 !i10b 1
-R196
-<<<<<<< HEAD
-R201
-R202
-=======
-R202
-R203
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R390
+R172
+R173
 !i113 1
-R79
-R9
-Emem1stage
-<<<<<<< HEAD
-R127
-=======
-Z205 w1683235033
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
 R20
-R21
-<<<<<<< HEAD
-!i122 3910
+R278
+Eex_mem1_buffer
 R0
-Z204 8D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
-Z205 FD:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
-l0
-L7 1
-V]:H<AYR`be]g5OjKTkDRQ2
-!s100 EfTK6LN8BMh@c[T^=9k;03
-R3
-33
-Z206 !s110 1684691876
-!i10b 1
-R196
-Z207 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd|
-Z208 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd|
-=======
-!i122 3022
-R0
-Z206 8D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
-Z207 FD:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd
-l0
-L7 1
-Vg:`G7ML9=?U=aSHS_l]5S1
-!s100 EREI<fE3>c:`O]ZPc<]QY1
-R3
-33
-Z208 !s110 1684610802
-!i10b 1
-R196
-Z209 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd|
-Z210 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/mem1Stage.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Amem1stagedesign
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-Z209 DEx4 work 9 mem1stage 0 22 ]:H<AYR`be]g5OjKTkDRQ2
-!i122 3910
-l53
-L37 46
-V4^gV`b90EaEnJY`5MKGo00
-!s100 n[fD:clKBP32=D5:^YeDo2
-R3
-33
-R206
-!i10b 1
+Eexecutionstage
+R170
+R197
 R196
 R207
-R208
-=======
-Z211 DEx4 work 9 mem1stage 0 22 g:`G7ML9=?U=aSHS_l]5S1
-!i122 3022
-l48
-L33 35
-VJnO6G2hagmKB@CmYL>7mo1
-!s100 lU@L_I0=2E>SggLWE?aP21
-R3
+R14
+R8
+!i122 3519
+R0
+R239
+R169
+Eexecutionstage
+R382
+R197
+R280
+R281
+R14
+R8
+!i122 3929
+R0
+R168
+R169
+l0
+L7 1
+Va2oUMhLQc3zL7mbnVMk[L0
+!s100 <;O14mce_VgbRUgaWChJL2
+R109
 33
-R208
+R389
 !i10b 1
+R390
+R165
+R166
+!i113 1
+R20
+R278
+Aexecutionstagedesign
+R197
+R280
+R281
+R14
+R8
+DEx4 work 14 executionstage 0 22 a2oUMhLQc3zL7mbnVMk[L0
+!i122 3929
+l57
+L24 57
+VmZoihm_U5;<T]G7:2Feoc0
+!s100 6i2ZD]b?EVTmg:Lib`iPF2
+R109
+33
+R389
+!i10b 1
+R390
+R165
+R166
+!i113 1
+R20
+R278
+Efetchstage
+Z392 w1684711985
+R197
+R280
+R281
+R14
+R8
+!i122 3930
+R0
+R311
+R252
+l0
+L7 1
+R161
+R162
+R109
+33
+Z393 !s110 1684728792
+!i10b 1
+R390
+R147
+R310
+!i113 1
+R20
+R278
+Afetchstagedesign
+DEx4 work 2 pc 0 0 
+R197
+R280
+R281
+R14
+R8
+R159
+!i122 3930
+l38
+L17 34
+Vh5l0MO4X^>cc3Od]GgPf41
+!s100 bIS7cdlg6M`U[X8Lb_zdo3
+R109
+33
+R393
+!i10b 1
+R390
+R147
+R310
+!i113 1
+R20
+R278
+Efetchstage
+R0
+Eflagcontrolunit
+R292
+R197
 R196
-R209
-R210
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Emem2_wb_buffer
-<<<<<<< HEAD
-R164
-=======
-R121
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3911
+R207
+R14
+R8
+!i122 3521
 R0
-Z210 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
-Z211 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
-=======
-!i122 3023
+R308
+R309
+Eflagcontrolunit
+R292
+R197
+R280
+R281
+R14
+R8
+!i122 3931
 R0
-Z212 8D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
-Z213 FD:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R308
+R309
 l0
 L7 1
-V:Pe6SzSnz4?VZ8a6PWQXc0
-!s100 69kBHz3U[?M^H`BanlKG03
-R3
+R351
+R352
+R109
 33
-<<<<<<< HEAD
-R206
+R393
 !i10b 1
-Z212 !s108 1684691876.000000
-Z213 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
-Z214 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
-=======
-R208
-!i10b 1
-Z214 !s108 1684610802.000000
-Z215 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
-Z216 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/MEM2_WB_buffer.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Amem2_wb_bufferdesign
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-Z215 DEx4 work 14 mem2_wb_buffer 0 22 :Pe6SzSnz4?VZ8a6PWQXc0
-!i122 3911
-=======
-Z217 DEx4 work 14 mem2_wb_buffer 0 22 :Pe6SzSnz4?VZ8a6PWQXc0
-!i122 3023
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l41
-L26 41
-V>UB086gmHXiNVj7I<C]2:1
-!s100 Je8JegOH9mH7Yf9SQLSKa2
-R3
-33
-<<<<<<< HEAD
-R206
-!i10b 1
-R212
-R213
-R214
-=======
-R208
-!i10b 1
-R214
-R215
-R216
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Emem2stage
-<<<<<<< HEAD
-Z216 w1683229848
-=======
-Z218 w1683229848
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3912
-R0
-Z217 8D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
-Z218 FD:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
-=======
-!i122 3024
-R0
-Z219 8D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
-Z220 FD:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l0
-L8 1
-VzZ;P2@iD?9=GJVDZ=`S880
-!s100 8a4QIeLNH`ZfkDa2Kdfa]3
-R3
-33
-<<<<<<< HEAD
-R206
-!i10b 1
-R212
-Z219 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
-Z220 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
-=======
-R208
-!i10b 1
-R214
-Z221 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
-Z222 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/mem2Stage.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-!i113 1
-R79
-R9
-Amem2stagedesign
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-Z221 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
-!i122 3912
-=======
-Z223 DEx4 work 9 mem2stage 0 22 zZ;P2@iD?9=GJVDZ=`S880
-!i122 3024
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l41
-L23 21
-V1m5gUBgQ>FYd0iMnYHgSI1
-!s100 :HfUl4^c5OQJF0fT3h42_2
-R3
-33
-<<<<<<< HEAD
-R206
-!i10b 1
-R212
-R219
-R220
-!i113 1
-R79
-R9
-Ememorystage
-Z222 w1683162396
-R17
-R18
-R19
-R20
-R21
-!i122 3913
-R0
-R1
-R2
-l0
-L7 1
-Z223 VT3=W1Jj?d]d0jN_zzbOGo0
-Z224 !s100 C?Nfi4;`eZW8_H2k1S6RN3
-R3
-33
-Z225 !s110 1684691877
-!i10b 1
-R212
-Z226 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
-R7
-!i113 1
-R79
-R9
-Amemorystagedesign
-R17
-R18
-R19
-R20
-R21
-Z227 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
-!i122 3913
-l77
-R76
-Z228 V9nEQai=2Ok`FH<6^=Bom91
-Z229 !s100 zSEA;HiZc:=810iLkfeTb3
-R3
-33
-R225
-!i10b 1
-R212
-R226
-R7
-!i113 1
-R79
-R9
-Ememorystage
-R222
-=======
-R208
-!i10b 1
-R214
-R221
-R222
-!i113 1
-R79
-R9
-Ememorystage
-R194
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-!i122 3854
-=======
-!i122 3025
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-R1
-R2
-l0
-L7 1
-<<<<<<< HEAD
-R223
-R224
-R3
-33
-Z230 !s110 1684682562
-!i10b 1
-Z231 !s108 1684682562.000000
-R226
-=======
-Z224 VT3=W1Jj?d]d0jN_zzbOGo0
-Z225 !s100 C?Nfi4;`eZW8_H2k1S6RN3
-R3
-33
-Z226 !s110 1684610803
-!i10b 1
-R214
-Z227 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/memoryStage.vhd|
-R7
-!i113 1
-R79
-R9
-Amemorystagedesign
-R17
-R18
-R19
-R20
-R21
-Z228 DEx4 work 11 memorystage 0 22 T3=W1Jj?d]d0jN_zzbOGo0
-!i122 3025
-l77
-R76
-Z229 V9nEQai=2Ok`FH<6^=Bom91
-Z230 !s100 zSEA;HiZc:=810iLkfeTb3
-R3
-33
-R226
-!i10b 1
-R214
-R227
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R7
-!i113 1
-R79
-R9
-<<<<<<< HEAD
-=======
-Ememorystage
-R194
-R17
-R18
-R19
-R20
-R21
-!i122 2966
-R0
-R1
-R2
-l0
-L7 1
-R224
-R225
-R3
-33
-Z231 !s110 1684609927
-!i10b 1
-Z232 !s108 1684609927.000000
-R227
-R7
-!i113 1
-R79
-R9
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Amemorystagedesign
-R17
-R18
-R19
-R20
-R21
-<<<<<<< HEAD
-R227
-!i122 3854
-l77
-R76
-R228
-R229
-R3
-33
-R230
-!i10b 1
-R231
-R226
-=======
-R228
-!i122 2966
-l77
-R76
-R229
-R230
-R3
-33
-R231
-!i10b 1
-R232
-R227
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R7
-!i113 1
-R79
-R9
-Emy_ndff
-<<<<<<< HEAD
-Z232 w1684608336
-R20
-R21
-!i122 3855
-R0
-Z233 8D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
-Z234 FD:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
-=======
-Z233 w1684608336
-R20
-R21
-!i122 2967
-R0
-Z234 8D:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
-Z235 FD:/Boody/CompArch/ComputerArchitecture/Project/my_nDFF.vhd
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l0
-L5 1
-R77
-R78
-R3
-33
-<<<<<<< HEAD
-R230
-!i10b 1
-R231
-=======
-R231
-!i10b 1
-R232
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R24
-R25
-!i113 1
-R79
-R9
-Aa_my_ndff
-R20
-R21
-R80
-<<<<<<< HEAD
-!i122 3855
-l14
-R81
-Z235 VmFH]mN[n8JbF=n16BQV0k1
-Z236 !s100 =HN7jb28Xd2z5jGnSD3[b1
-R3
-33
-R230
-!i10b 1
-R231
-=======
-!i122 2967
-l14
-R81
-Z236 VmFH]mN[n8JbF=n16BQV0k1
-Z237 !s100 =HN7jb28Xd2z5jGnSD3[b1
-R3
-33
-R231
-!i10b 1
-R232
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R24
-R25
-!i113 1
-R79
-R9
-Emy_ndff
-<<<<<<< HEAD
-R232
-R20
-R21
-!i122 3914
-R0
-R233
-R234
-l0
-L5 1
-R77
-R78
-R3
-33
-R225
-!i10b 1
-Z237 !s108 1684691877.000000
-R24
-R25
-!i113 1
-R79
-R9
-Aa_my_ndff
-R20
-R21
-R80
-!i122 3914
-l14
-R81
-R235
-R236
-R3
-33
-R225
-!i10b 1
-R237
-=======
-R233
-R20
-R21
-!i122 3026
-R0
-R234
-R235
-l0
-L5 1
-R77
-R78
-R3
-33
-R226
-!i10b 1
-Z238 !s108 1684610803.000000
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R24
-R25
-!i113 1
-R79
-R9
-<<<<<<< HEAD
-Epc
-Z238 w1684691548
-R17
-R20
-R21
-!i122 3915
-=======
-Aa_my_ndff
-R20
-R21
-R80
-!i122 3026
-l14
-R81
-R236
-R237
-R3
-33
-R226
-!i10b 1
-R238
-R24
-R25
-!i113 1
-R79
-R9
-Epc
-Z239 w1684607096
-R17
-R20
-R21
-!i122 3027
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R0
-R28
-R29
-l0
-L5 1
-VM@_jD]?l_fEY^j4:`0KDc1
-!s100 ]jhIZgnB?1nTf=<H]`_g>3
-R3
-33
-<<<<<<< HEAD
-R225
-!i10b 1
-R237
-=======
-R226
-!i10b 1
-R238
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R31
-R32
-!i113 1
-R79
-R9
-Apc_design
-R17
-R20
-R21
+Z394 !s108 1684728792.000000
 R145
-<<<<<<< HEAD
-!i122 3915
-=======
-!i122 3027
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-l16
-L15 24
-VJic<UeXL_nG[G2SPI_gN<0
-!s100 RbKGMk<;MGB7;eEzSNX?D3
-R3
-33
-<<<<<<< HEAD
-R225
-!i10b 1
-R237
-=======
-R226
-!i10b 1
-R238
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R31
-R32
+R158
 !i113 1
-R79
-R9
-Eprocessor
-<<<<<<< HEAD
-Z239 w1684691684
-R17
 R20
-R21
-!i122 3916
-=======
-Z240 w1684610785
-R17
+R278
+Aflagcontrolunitdesign
+R197
+R280
+R281
+R14
+R8
+R350
+!i122 3931
+l16
+R347
+R348
+R349
+R109
+33
+R393
+!i10b 1
+R394
+R145
+R158
+!i113 1
 R20
-R21
-!i122 3028
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R278
+Eforwardingdecode
+R156
+R197
+R14
+R8
+!i122 3950
 R0
-R35
-R36
+R343
+R344
+l0
+L5 1
+R345
+R346
+R109
+32
+Z395 !s110 1684728798
+!i10b 1
+Z396 !s108 1684728798.000000
+R1
+R155
+!i113 1
+R277
+R278
+Aforwardingdecodedesign
+R197
+R14
+R8
+R65
+!i122 3950
+l29
+R54
+R153
+R154
+R109
+32
+R395
+!i10b 1
+R396
+R1
+R155
+!i113 1
+R277
+R278
+Eforwardingdecode
+R0
+Eforwardingexecute
+R151
+R197
+R14
+R8
+!i122 3932
+R0
+R103
+R152
+l0
+L5 1
+R341
+R342
+R109
+33
+R393
+!i10b 1
+R394
+R149
+R150
+!i113 1
+R20
+R278
+Aforwardingexecutedesign
+R197
+R14
+R8
+R62
+!i122 3932
+l28
+R338
+R339
+R340
+R109
+33
+R393
+!i10b 1
+R394
+R149
+R150
+!i113 1
+R20
+R278
+Eforwardingmemory
+R151
+R197
+R14
+R8
+!i122 3523
+R0
+R52
+R306
+Eforwardingmemory
+R151
+R197
+R14
+R8
+!i122 3933
+R0
+R52
+R306
+l0
+L5 1
+R336
+R337
+R109
+33
+Z397 !s110 1684728793
+!i10b 1
+R394
+R139
+R146
+!i113 1
+R20
+R278
+Aforwardingmemorydesign
+R197
+R14
+R8
+R60
+!i122 3933
+l20
+R333
+R334
+R335
+R109
+33
+R397
+!i10b 1
+R394
+R139
+R146
+!i113 1
+R20
+R278
+Ehazarddetectionunit
+R382
+R197
+R280
+R40
+R14
+R8
+!i122 3934
+R0
+R303
+R304
 l0
 L6 1
-<<<<<<< HEAD
-Va0>;KmXYj2CONM4@@bCRX0
-!s100 ?k?bbOmRVEcFdkfX4=a>K2
-R3
+R143
+R144
+R109
 33
-Z240 !s110 1684691878
+R397
 !i10b 1
-R237
-=======
-VcaoPIVmEYF@hFk^>aR9<40
-R83
-R3
-33
-R226
-!i10b 1
-R238
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Z241 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/Processor.vhd|
-R38
-!i113 1
-R79
-R9
-Aprocessor_design
-Z242 DEx4 work 14 writebackstage 0 22 4nPRRQ26=8WSHO^ESN3hJ2
-<<<<<<< HEAD
-R215
-R221
-R203
-R209
-R175
-R134
-R139
-R169
-R187
-R126
-R160
-R182
-=======
-R217
-R223
-R204
-R211
-R174
-R133
-R139
-R168
-R186
+Z398 !s108 1684728793.000000
 R127
-R159
-R180
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R193
-R19
-R146
-R18
-<<<<<<< HEAD
-R96
-R102
-R17
+R141
+!i113 1
 R20
-R21
-DEx4 work 9 processor 0 22 a0>;KmXYj2CONM4@@bCRX0
-!i122 3916
-l106
-L16 142
-VdbjZ[;CVA6?R_QnRWVfJA0
-!s100 =5`NTCS81A80DG0ek9?K03
-=======
-R97
-R103
-R17
-R20
-R21
-DEx4 work 9 processor 0 22 caoPIVmEYF@hFk^>aR9<40
-!i122 3028
-l95
-L15 132
-V=?kBeM4MkO:S2RY7@h_b43
-!s100 WR7VKQ_bzCSVMCzHZ03gf3
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
+R278
+Ehazarddetectionunit
+R0
+Eid_ex_buffer
+R55
+R197
+R196
+R207
+R14
+R8
+!i122 3525
+R0
+R301
+R302
+Eid_ex_buffer
+R385
+R197
+R280
+R281
+R14
+R8
+!i122 3935
+R0
+R301
+R302
+l0
+L7 1
+VmlA5nng:zC3_33[80;XOg1
+!s100 knR2VAV]l92]O_AT?6hO=0
+R109
 33
-R226
+R397
 !i10b 1
-<<<<<<< HEAD
-R237
-=======
-R238
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R241
-R38
+R398
+R138
+R140
+!i113 1
+R20
+R278
+Aid_ex_bufferdesign
+R197
+R280
+R281
+R14
+R8
+DEx4 work 12 id_ex_buffer 0 22 mlA5nng:zC3_33[80;XOg1
+!i122 3935
+l48
+L33 45
+VoEEk<OESjBe4>B=D_inD<3
+!s100 I@`gES:WN`Q<Lmm_XT<WZ1
+R109
+33
+R397
+!i10b 1
+R398
+R138
+R140
+!i113 1
+R20
+R278
+Eif_id_buffer
+R174
+R197
+R280
+R281
+R14
+R8
+!i122 3936
+R0
+R299
+R300
+l0
+L7 1
+R135
+R136
+R109
+33
+Z399 !s110 1684728794
+!i10b 1
+R398
+R297
+R298
+!i113 1
+R20
+R278
+Aif_id_bufferdesign
+R197
+R280
+R281
+R14
+R8
+R129
+!i122 3936
+l38
+R130
+R131
+R132
+R109
+33
+R399
+!i10b 1
+R398
+R297
+R298
+!i113 1
+R20
+R278
+Eif_id_buffer
+R0
+Einstructioncache
+R126
+R197
+R14
+R8
+!i122 3527
+R0
+R296
+R207
+Einstructioncache
+R125
+R197
+R14
+R8
+!i122 3937
+R0
+R296
+R207
+l0
+L5 1
+R123
+R124
+R109
+33
+R399
+!i10b 1
+Z400 !s108 1684728794.000000
+R117
+R295
+!i113 1
+R20
+R278
+Ainstructioncache_design
+R197
+R14
+R8
+R118
+!i122 3937
+l23
+R119
+R120
+R121
+R109
+33
+R399
+!i10b 1
+R400
+R117
+R295
+!i113 1
+R20
+R278
+Emem1_mem2_buffer
+R385
+R197
+R280
+R281
+R14
+R8
+!i122 3938
+R0
+R114
+R115
+l0
+L7 1
+VlJGDUGh32[L>[XMA>MnJ:3
+!s100 @0QgBa_f0hHL_EdM<lO<a1
+R109
+33
+R399
+!i10b 1
+R400
+R111
+R113
+!i113 1
+R20
+R278
+Amem1_mem2_bufferdesign
+R197
+R280
+R281
+R14
+R8
+DEx4 work 16 mem1_mem2_buffer 0 22 lJGDUGh32[L>[XMA>MnJ:3
+!i122 3938
+l44
+L29 39
+V_6Y[F[`oh5SAzG>=k^Ndg3
+!s100 65ooE>d8b3=OKfLXEM]`z1
+R109
+33
+R399
+!i10b 1
+R400
+R111
+R113
+!i113 1
+R20
+R278
+Emem1_mem2_buffer
+R0
+Emem1stage
+w1684621810
+R197
+R196
+R207
+R14
+R8
+!i122 3529
+R0
+R58
+R106
+Emem1stage
+R382
+R197
+R280
+R281
+R14
+R8
+!i122 3939
+R0
+R58
+R106
+l0
+L7 1
+VJz;9F9[30WBF[U^d7VTBD2
+!s100 RXN:Vj7Dk?A1k<E5WNhOh1
+R109
+33
+Z401 !s110 1684728795
+!i10b 1
+R400
+R107
+R108
+!i113 1
+R20
+R278
+Emem2_wb_buffer
+R385
+R197
+R280
+R281
+R14
+R8
+!i122 3940
+R0
+R102
+R59
+l0
+L7 1
+VOc:HL[724J0M@5lQJUgkS3
+!s100 ]Wfam2C[h1`OYL1E]7^MV3
+R109
+33
+R401
+!i10b 1
+Z402 !s108 1684728795.000000
+R100
+R101
+!i113 1
+R20
+R278
+Amem2_wb_bufferdesign
+R197
+R280
+R281
+R14
+R8
+DEx4 work 14 mem2_wb_buffer 0 22 Oc:HL[724J0M@5lQJUgkS3
+!i122 3940
+l47
+R391
+Ve;RmA0@TOWkgi[gHf>0h:3
+!s100 OkNE[_DN`3jK:JaSViSFo2
+R109
+33
+R401
+!i10b 1
+R402
+R100
+R101
+!i113 1
+R20
+R278
+Emem2_wb_buffer
+R0
+Emem2stage
+R99
+R197
+R196
+R207
+R14
+R8
+!i122 3531
+R0
+R56
+R98
+Emem2stage
+R385
+R197
+R280
+R281
+R14
+R8
+!i122 3941
+R0
+R56
+R98
+l0
+L8 1
+VH7=2fJMWQRHGM13EibbPj1
+!s100 kMA:3S^jXRe3llfabfT4d2
+R109
+33
+R401
+!i10b 1
+R402
+R95
+R96
+!i113 1
+R20
+R278
+Amem2stagedesign
+R197
+R280
+R281
+R14
+R8
+DEx4 work 9 mem2stage 0 22 H7=2fJMWQRHGM13EibbPj1
+!i122 3941
+l44
+L24 24
+VjzFT[J=P^M_X<TI^oY`Sd3
+!s100 7cz4mUeQCWI>HC5k2OG0>2
+R109
+33
+R401
+!i10b 1
+R402
+R95
+R96
+!i113 1
+R20
+R278
+Ememorystage
+R126
+R197
+R280
+R281
+R14
+R8
+!i122 3942
+R0
+R272
+R273
+l0
+L7 1
+R57
+R70
+R109
+33
+R401
+!i10b 1
+R402
+R86
+R276
+!i113 1
+R20
+R278
+Amemorystagedesign
+R197
+R280
+R281
+R14
+R8
+R88
+!i122 3942
+l77
+R25
+R83
+R92
+R109
+33
+R401
+!i10b 1
+R402
+R86
+R276
+!i113 1
+R20
+R278
+Ememorystage
+R126
+R14
+R8
+R90
+R10
+R11
+!i122 2966
+R3
+R88
+!i122 3532
+l77
+R25
+R83
+R92
+R109
+33
+R46
+!i10b 1
+R126
+R88
+R90
+!i113 1
+R20
+R21
+R0
+Ememorystage
+R126
+R0
+Ememorystage
+R126
+R3
+R97
+!i10b 1
+R91
+R47
+R126
 !i113 1
 R79
-R9
+R3
+R0
+Ememorystage
+R126
+R197
+R196
+R207
+R14
+R8
+!i122 3532
+R0
+R230
+R211
+l0
+L7 1
+R57
+R70
+R109
+33
+R46
+!i10b 1
+R126
+R86
+R90
+!i113 1
+R20
+R21
+Ememorystage
+R126
+R14
+R8
+R90
+R10
+R11
+!i122 3913
+R0
+R212
+R213
+l0
+L7 1
+R57
+R70
+R27
+33
+R93
+!i10b 1
+R94
+R86
+R21
+!i113 1
+R79
+R3
+R3
+R46
+!i10b 1
+R126
+R57
+R70
+!i113 1
+R20
+R21
+Emy_ndff
+R72
+R14
+R8
+!i122 3533
+R0
+R73
+R85
+l0
+L5 1
+R22
+R24
+R109
+33
+R294
+!i10b 1
+R126
+R228
+R229
+!i113 1
+R20
+R21
+Aa_my_ndff
+R14
+R8
+R34
+!i122 3533
+l14
+R26
+R37
+R82
+R109
+33
+R294
+!i10b 1
+R126
+R228
+R229
+!i113 1
+R20
+R21
+Emy_ndff
+R72
+R14
+R8
+!i122 3504
+R0
+R73
+R85
+l0
+L5 1
+R22
+R24
+R109
+33
+R39
+!i10b 1
+R72
+R228
+R229
+!i113 1
+R20
+R21
+Aa_my_ndff
+R14
+R8
+R34
+!i122 3504
+l14
+R26
+R37
+R82
+R109
+33
+R39
+!i10b 1
+R228
+R229
+!i113 1
+R20
+R21
+Emy_ndff
+R0
+Emy_ndff
+R72
+R14
+R8
+!i122 3943
+R0
+R73
+R85
+l0
+L5 1
+R22
+R24
+R109
+33
+Z403 !s110 1684728796
+!i10b 1
+Z404 !s108 1684728796.000000
+R77
+R78
+!i113 1
+R20
+R278
+Aa_my_ndff
+R14
+R8
+R34
+!i122 3943
+l14
+R26
+R37
+R82
+R109
+33
+R403
+!i10b 1
+R404
+R77
+R78
+!i113 1
+R20
+R278
+Epc
+R382
+R197
+R14
+R8
+!i122 3944
+R0
+R264
+R265
+l0
+L5 1
+R331
+R332
+R109
+33
+R403
+!i10b 1
+R404
+R259
+R260
+!i113 1
+R20
+R278
+Apc_design
+R197
+R14
+R8
+R293
+!i122 3944
+l16
+R328
+R329
+R330
+R109
+33
+R403
+!i10b 1
+R404
+R259
+R260
+!i113 1
+R20
+R278
+Epc
+w1684607096
+R14
+R10
+R11
+!i122 3027
+R0
+Epc
+Z405 w1684691548
+R14
+R10
+R11
+!i122 3915
+R3
+R0
+Aa_my_ndff
+R80
+!i122 3026
+l14
+R81
+R37
+R76
+R27
+33
+R69
+!i10b 1
+R77
+R78
+!i113 1
+R79
+R3
+Eprocessor
+w1684625869
+R197
+R14
+R8
+!i122 3535
+R0
+R235
+R236
+l0
+L6 1
+R68
+R38
+R109
+33
+R35
+!i10b 1
+R12
+R291
+R212
+!i113 1
+R20
+R21
+Aprocessor_design
+R12
+R98
+R70
+R58
+R94
+R60
+R50
+R51
+R52
+R299
+R36
+R65
+R13
+R126
+R207
+R71
+R196
+R40
+Eprocessor
+w1684728702
+R197
+R14
+R8
+!i122 3945
+R0
+R254
+R255
+l0
+L6 1
+R66
+R67
+R109
+33
+R403
+!i10b 1
+R404
+R291
+R242
+!i113 1
+R20
+R278
+Eregfile
+R0
 Eregfile
 R0
 Eregfilemem
-R52
-R17
-R20
-R21
-<<<<<<< HEAD
-!i122 3917
-=======
-!i122 3029
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R44
+R197
+R14
+R8
+!i122 3946
 R0
-R53
-R54
+R45
+R230
 l0
 L5 1
-VJ[9EhVI`<1zg[?zP2060K1
-<<<<<<< HEAD
-R83
-R3
+R290
+R81
+R109
 33
-R240
+Z406 !s110 1684728797
 !i10b 1
-Z243 !s108 1684691878.000000
-=======
-R84
-R3
-33
-Z243 !s110 1684610804
-!i10b 1
-R238
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Z244 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/regFileMem.vhd|
-R57
+R404
+R289
+R227
 !i113 1
-R79
-R9
+R20
+R278
 Aregfilememdesign
-R17
-R20
-R21
-<<<<<<< HEAD
-R125
-!i122 3917
+R197
+R14
+R8
+R31
+!i122 3946
 l25
-R84
-VoVAWj:Pm=JK]8_LMC_2@Y3
-R85
-R3
-33
-R240
-!i10b 1
-R243
-=======
-R126
-!i122 3029
-l25
-R85
-VoVAWj:Pm=JK]8_LMC_2@Y3
-R86
-R3
-33
-R243
-!i10b 1
-R238
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R244
-R57
-!i113 1
 R79
-R9
+R33
+R80
+R109
+33
+R406
+!i10b 1
+R404
+R289
+R227
+!i113 1
+R20
+R278
+Eregfilemem
+R44
+R14
+R10
+R11
+R0
 Esp
-<<<<<<< HEAD
-Z245 w1684669158
-R17
-R20
-R21
-!i122 3918
-=======
-Z245 w1681956466
-R17
-R20
-R21
-!i122 3030
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+w1684617615
+R197
+R14
+R8
+!i122 3537
 R0
-Z246 8D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
-Z247 FD:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
+R287
+R288
+Esp
+R385
+R197
+R14
+R8
+!i122 3947
+R0
+R287
+R288
 l0
 L5 1
-V8a_VizA_1MN:46lGI8F991
-!s100 KD^NlR2Gn9>FY;0RkE^Qf1
-R3
+VW47Oz>QJ`jLcTnn9HB6nj0
+!s100 T2mZ?]:RS@o@[k49gFm1n1
+R109
 33
-<<<<<<< HEAD
-Z248 !s110 1684691879
+R406
 !i10b 1
-R243
-=======
-R243
-!i10b 1
-Z248 !s108 1684610804.000000
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Z249 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
-Z250 !s107 D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd|
+Z407 !s108 1684728797.000000
+R285
+R286
 !i113 1
-R79
-R9
+R20
+R278
 Asp_design
-R17
-R20
-R21
-DEx4 work 2 sp 0 22 8a_VizA_1MN:46lGI8F991
-<<<<<<< HEAD
-!i122 3918
-=======
-!i122 3030
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R197
+R14
+R8
+DEx4 work 2 sp 0 22 W47Oz>QJ`jLcTnn9HB6nj0
+!i122 3947
 l14
-L13 19
-Vda1Y9o1ZR?TjZMLj3O`=i0
-!s100 JziB`P>UYf9UUQ5D[A>cm1
-R3
+R325
+R326
+R327
+R109
 33
-<<<<<<< HEAD
-R248
+R406
 !i10b 1
-R243
-=======
-R243
-!i10b 1
-R248
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R249
-R250
+R407
+R285
+R286
 !i113 1
-R79
-R9
-Ewritebackmux
-R69
-R17
 R20
-R21
-<<<<<<< HEAD
-!i122 3919
-=======
-!i122 3031
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R278
+Ewritebackmux
+R208
+R197
+R14
+R8
+!i122 3948
 R0
-Z251 8D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
-Z252 FD:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd
+R17
+R18
 l0
 L5 1
-Z253 V0z];HVFF<_9P1oM7MfZfD3
-<<<<<<< HEAD
-R86
-R3
+R19
+R75
+R109
 33
-R248
+R406
 !i10b 1
-R157
-=======
-R87
-R3
-33
-R243
-!i10b 1
-R248
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-Z254 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/writeBackMux.vhd|
-R62
+R407
+R283
+R222
 !i113 1
-R79
-R9
+R20
+R278
 Amymux
-R17
-R20
-R21
-Z255 DEx4 work 12 writebackmux 0 22 0z];HVFF<_9P1oM7MfZfD3
-<<<<<<< HEAD
-!i122 3919
+R197
+R14
+R8
+R284
+!i122 3948
 l16
 R87
-Z256 V=?ZX]8MkEnM3nXHZf7U=Y3
-R88
-R3
+R23
+R74
+R109
 33
-R248
+R406
 !i10b 1
-R157
-=======
-!i122 3031
-l16
-R88
-Z256 V=?ZX]8MkEnM3nXHZf7U=Y3
-R89
-R3
-33
-R243
-!i10b 1
-R248
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R254
-R62
+R407
+R283
+R222
 !i113 1
-R79
-R9
-Ewritebackmux
-R69
-R17
 R20
-R21
-<<<<<<< HEAD
-!i122 3860
-=======
-!i122 2972
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+R278
+Ewritebackmux
+R208
+R197
+R14
+R8
+!i122 3538
 R0
-R251
-R252
+R17
+R18
 l0
 L5 1
-R253
-<<<<<<< HEAD
-R86
-R3
+R19
+R75
+R109
 33
-Z257 !s110 1684682564
+R16
 !i10b 1
-Z258 !s108 1684682563.000000
-=======
-R87
-R3
-33
-Z257 !s110 1684609928
-!i10b 1
-Z258 !s108 1684609928.000000
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R254
-R62
-!i113 1
-R79
-R9
-Amymux
 R17
-R20
-R21
-R255
-<<<<<<< HEAD
-!i122 3860
-l16
-R87
-R256
-R88
-=======
-!i122 2972
-l16
-R88
-R256
-R89
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
-33
-R257
-!i10b 1
+R283
 R258
-R254
-R62
 !i113 1
-R79
-R9
-Ewritebackstage
-<<<<<<< HEAD
-Z259 w1684623332
-R17
 R20
 R21
-!i122 3920
-=======
-R181
-R17
+Amymux
+R197
+R14
+R8
+R284
+!i122 3538
+l16
+R87
+R23
+R74
+R109
+33
+R16
+!i10b 1
+R283
+R258
+!i113 1
 R20
 R21
-!i122 3032
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
+Ewritebackmux
+R208
+R14
+R10
+R11
 R0
-R65
-R66
+Ewritebackmux
+R208
+R14
+R10
+R11
+R0
+Ewritebackstage
+R15
+R197
+R0
+Ewritebackstage
+R382
+R197
+R14
+R8
+!i122 3949
+R0
+R90
+R10
 l0
 L5 1
-V4nPRRQ26=8WSHO^ESN3hJ2
-!s100 oMRo4j;b40RMi;cfVI[[=3
-R3
+R323
+R324
+R109
 33
-R248
+R395
 !i10b 1
-<<<<<<< HEAD
-R157
-Z260 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
-=======
-R248
-Z259 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/Boody/CompArch/ComputerArchitecture/Project/WriteBackStage.vhd|
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R68
+R407
+R2
+R211
 !i113 1
-R79
-R9
-Amywritebackstage
-R17
 R20
-R21
-R242
-<<<<<<< HEAD
-!i122 3920
+R278
+Amywritebackstage
+R197
+R14
+R8
+R12
+!i122 3949
 l18
-L17 13
-VVFh`YklkMVA_FTfiM3R1h0
-!s100 b<F:z<MZHd?Y67MigC3DV3
-=======
-!i122 3032
-l18
-L17 13
-V2b2o2;JQBdMj9V809CSQH0
-!s100 1PFMkBOb;VM;eWFm>;L061
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R3
+R5
+R6
+R7
+R109
 33
-R248
+R395
 !i10b 1
-<<<<<<< HEAD
-R157
-R260
-=======
-R248
-R259
->>>>>>> parent of 595841c (Hot fixes + working processor kinda)
-R68
+R407
+R2
+R211
 !i113 1
-R79
-R9
+R20
+R278
