@@ -23,7 +23,9 @@ PORT(
     counterIN:                                     IN std_logic_vector(2 DOWNTO 0);
     counterOUT:                                    OUT std_logic_vector(2 DOWNTO 0);
     PCIN:                                          IN std_logic_vector(15 DOWNTO 0);
-    PCOUTdata:                                         OUT std_logic_vector(15 DOWNTO 0)
+    PCOUTdata:                                         OUT std_logic_vector(15 DOWNTO 0);
+    instructionIN:                                 IN std_logic_vector(15 DOWNTO 0);
+    instructionOUT:                                OUT std_logic_vector(15 DOWNTO 0)
 );
 END EX_MEM1_buffer;
 
@@ -37,17 +39,18 @@ COMPONENT my_nDFF IS
     enable: IN std_logic);
 END COMPONENT;
 
-signal bufferInput:                   std_logic_vector(104 DOWNTO 0);
-signal bufferOutput:                  std_logic_vector(104 DOWNTO 0);
+signal bufferInput:                   std_logic_vector(120 DOWNTO 0);
+signal bufferOutput:                  std_logic_vector(120 DOWNTO 0);
 
 -- RDaddress(3) - rs1data(16) - rs2data(16) - ALUoutput(16) - PC(16) - control signals(8)
 
 BEGIN
     
-    bufferr:         my_nDFF generic map(105) port map (clk,reset,bufferInput,bufferOutput,'1');
+    bufferr:         my_nDFF generic map(121) port map (clk,reset,bufferInput,bufferOutput,'1');
 
-    bufferInput <= PCIN & counterIN & flags & InterruptIn & RS1reg & RS2reg & RDreg & RS1data & RS2data & ALUresult & PC & regWrite & pcSrc & memRead & memWrite & memToReg & inPort & outPort & spInc & spDec;
+    bufferInput <= instructionIN & PCIN & counterIN & flags & InterruptIn & RS1reg & RS2reg & RDreg & RS1data & RS2data & ALUresult & PC & regWrite & pcSrc & memRead & memWrite & memToReg & inPort & outPort & spInc & spDec;
 
+    instructionOUT      <= bufferOutput(120 downto 105);
     PCOUTdata           <= bufferOutput(104 downto 89);    
     counterOUT          <= bufferOutput(88 downto 86);
     flagsOut            <= bufferOutput(85 downto 83);

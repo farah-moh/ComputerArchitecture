@@ -12,7 +12,8 @@ port(
     writeAddress :    	IN std_logic_vector(9 DOWNTO 0);        -- 10 bit address
     writeEnable :       IN std_logic;
     writeData :         IN std_logic_vector(n-1 DOWNTO 0);
-    readData :          OUT std_logic_vector(n-1 DOWNTO 0)      -- the data that has been read
+    readData :          OUT std_logic_vector(n-1 DOWNTO 0);      -- the data that has been read
+    FlagsData:          OUT std_logic_vector(n-1 DOWNTO 0)       -- the flags that has been read
     -- Memzero :           OUT std_logic_vector(n-1 DOWNTO 0)       -- value of PC in case of reset
 );
 end entity;
@@ -48,7 +49,15 @@ begin
     END PROCESS;
 
     -- Memzero <= ram(0);      -- value of PC in case of reset
-    readData <= ram(to_integer(unsigned((readAddress)))) WHEN readEnable = '1'
-    ELSE (OTHERS => '0');   -- synthesizable? Latch?
+    readData <= ram(to_integer(unsigned((readAddress)))) WHEN readEnable = '1'          -- 1023
+    ELSE (OTHERS => '0');
+    
+    FlagsData <= ram(to_integer(unsigned((readAddress)))-1) WHEN readEnable = '1'       -- 1022
+    ELSE (OTHERS => '0');
+    
+    -- SP = 1021
+    -- 1022 ----> Data
+    -- 1023 ----> Flags
+
     
 end dataMemDesign;

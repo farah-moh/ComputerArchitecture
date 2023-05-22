@@ -4,7 +4,7 @@ USE IEEE.numeric_std.all;
 
 ENTITY SP IS
 	PORT (clk, reset : IN  std_logic;
-          inc : IN std_logic_vector(1 DOWNTO 0);            -- inc value (1 or -1)
+          inc : IN std_logic_vector(2 DOWNTO 0);            -- inc value (2 or 1 or -1)
         --   sp_in : IN std_logic_vector(15 DOWNTO 0);         -- sp before inc
 		  sp : OUT std_logic_vector(15 DOWNTO 0)            -- sp after inc
         );

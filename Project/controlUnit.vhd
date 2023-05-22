@@ -44,8 +44,8 @@ BEGIN
         -- counting signals
         -- 0: invalid (mgash interrupt lesa)
         -- 1: Freeze PC and flush IF/ID     -- Done, bs bndaya3 cycle 3lshan lw counter = 4, bn3ml freeze still
-        -- 2: Push flag                     -- DONE
-        -- 3: Push PC                       -- DONE        
+        -- 2: Push PC                       -- DONE        
+        -- 3: Push flag                     -- DONE
         -- 4: execute Interrupt Service Routine    -- DONE?
         IF rising_edge(clk) THEN
             if INTERRUPTsig = '1' then
@@ -127,6 +127,12 @@ BEGIN
             ELSIF funcTypeJ = RET OR funcTypeJ = RTI THEN
                 memRead <= '1';
                 spInc <= '1';
+            
+                -- IF funcTypeJ = RTI THEN
+                --     -- 3ayzeen n-pop
+                --     regWrite <= '1';
+                --     memToReg <= '1';
+                -- END IF;
             END IF;
 
         ELSIF instType = ADHOC THEN

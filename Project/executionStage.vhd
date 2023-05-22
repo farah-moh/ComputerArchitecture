@@ -15,7 +15,9 @@ PORT(
  execOutput:                                   OUT std_logic_vector(15 DOWNTO 0);
  MUXOutput:                                    OUT std_logic_vector(15 DOWNTO 0);
  flags:                                        OUT std_logic_vector(2 DOWNTO 0); -- 2: carry, 1: negative, 0: zero
- pcSrcOut:                                     OUT std_logic
+ pcSrcOut:                                     OUT std_logic;
+ Flags_MEM2_WB_buffer:                         IN std_logic_vector(2 DOWNTO 0);
+ flagCondition:                                IN std_logic
 );
 END executionStage;
 
@@ -50,6 +52,7 @@ signal secondALUoperand:                    std_logic_vector(15 DOWNTO 0);
 signal ALUoutput:                           std_logic_vector(15 DOWNTO 0);
 signal zeroSignal,negSignal,carrySignal:    std_logic;
 signal controlFlags:                        std_logic_vector(2 DOWNTO 0);
+signal finalFlags:                          std_logic_vector(2 DOWNTO 0);
 
 BEGIN
     
@@ -60,7 +63,11 @@ BEGIN
 
     ALUU:           ALU port map (RS1Data,secondALUoperand,opcode(2 DOWNTO 0),ALUoutput,zeroSignal,negSignal,carrySignal);
     flagControl:    flagControlUnit port map(opcode,zeroSignal,negSignal,carrySignal,controlFlags);
-    flagRegister:   my_nDFF generic map(3) port map (clk,reset,controlFlags,flags,'1');
+
+    finalFlags <= Flags_MEM2_WB_buffer when flagCondition = '1'
+                                else controlFlags;
+
+    flagRegister:   my_nDFF generic map(3) port map (clk,reset,finalFlags,flags,'1');
 
     execOutput <= INPortDataIN when inPort = '1'
              else immediate when opcode = "01010" -- when LDM

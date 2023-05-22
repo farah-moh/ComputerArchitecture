@@ -17,11 +17,11 @@ INC R4, R4
 
 .org 100
 INC R1, R1     # 100
-INC R1, R1
+INC R1, R1     
+DEC R6, R6     # interrupt
 INC R6, R6
-INC R6, R6
-JMP R1          # interrupt 
-INC R1, R1      # interrupt
+JMP R1          # 
+INC R1, R1      # 
 INC R1, R1      # 103
 INC R2, R2
 INC R2, R2
@@ -31,4 +31,6 @@ INC R2, R2
 INC R3, R3
 INC R3, R3
 INC R3, R3
+RTI
+INC R4, R4
 

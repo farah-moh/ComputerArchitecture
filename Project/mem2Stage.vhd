@@ -15,7 +15,8 @@ PORT(
     writeAddress:      IN std_logic_vector(9 DOWNTO 0);        -- 10 bit address
     writeEnable:       IN std_logic;
     writeData:         IN std_logic_vector(n-1 DOWNTO 0);
-    dataMemOutput:     OUT std_logic_vector(n-1 DOWNTO 0)      -- the data that has been read
+    dataMemOutput:     OUT std_logic_vector(n-1 DOWNTO 0);      -- the data that has been read
+    FlagsOutput:         OUT std_logic_vector(2 DOWNTO 0)         -- flags in case of RTI
 
 );
 END mem2Stage;
@@ -32,12 +33,15 @@ PORT(
     writeAddress:      IN std_logic_vector(9 DOWNTO 0);        -- 10 bit address
     writeEnable:       IN std_logic;
     writeData:         IN std_logic_vector(n-1 DOWNTO 0);
-    readData:          OUT std_logic_vector(n-1 DOWNTO 0)      -- the data that has been read
+    readData:          OUT std_logic_vector(n-1 DOWNTO 0);      -- the data that has been read
+    FlagsData:             OUT std_logic_vector(15 DOWNTO 0)         -- flags in case of RTI
     -- Memzero :           OUT std_logic_vector(n-1 DOWNTO 0)       -- value of PC in case of reset
 );
 END COMPONENT;
 
+signal FlagsData : std_logic_vector(15 DOWNTO 0);
 
 BEGIN
-    dataMemory: dataMem GENERIC MAP(n) PORT MAP(clk, rst, readAddress, readEnable, writeAddress, writeEnable, writeData, dataMemOutput);
+    dataMemory: dataMem GENERIC MAP(n) PORT MAP(clk, rst, readAddress, readEnable, writeAddress, writeEnable, writeData, dataMemOutput, FlagsData);
+    FlagsOutput <= FlagsData(2 DOWNTO 0);
 END mem2StageDesign;

@@ -19,7 +19,9 @@ PORT(
     writeEnableOut, readEnableOut:                              OUT  std_logic;
     writeAddressOut, readAddressOut:                            OUT  std_logic_vector(9 DOWNTO 0);
     InterruptIn:                                                IN  std_logic;
-    InterruptOut:                                               OUT std_logic
+    InterruptOut:                                               OUT std_logic;
+    conditionFlagIn:                                            IN  std_logic;
+    conditionFlagOut:                                           OUT std_logic
 
 );
 END MEM1_MEM2_buffer;
@@ -34,15 +36,15 @@ COMPONENT my_nDFF IS            -- buffer
     enable: IN std_logic);
 END COMPONENT;
 
-signal bufferInput:                   std_logic_vector(78 DOWNTO 0);
-signal bufferOutput:                  std_logic_vector(78 DOWNTO 0);
+signal bufferInput:                   std_logic_vector(79 DOWNTO 0);
+signal bufferOutput:                  std_logic_vector(79 DOWNTO 0);
 
 -- 77 bits
 
 BEGIN
     
-    bufferInput <= InterruptIn & readAddress & readEnable & writeAddress & writeEnable & writeData & RS1Data & ALUoutput & RD & pcSrc_in & regWrite_in & MemToReg_in & INN_in & OUTT_in;
-    buffer_Mem1_Mem2: my_nDFF GENERIC MAP(79) PORT MAP(clk, rst, bufferInput, bufferOutput, '1');             -- the first buffer (delays mem by one cycle)
+    bufferInput <= conditionFlagIn & InterruptIn & readAddress & readEnable & writeAddress & writeEnable & writeData & RS1Data & ALUoutput & RD & pcSrc_in & regWrite_in & MemToReg_in & INN_in & OUTT_in;
+    buffer_Mem1_Mem2: my_nDFF GENERIC MAP(80) PORT MAP(clk, rst, bufferInput, bufferOutput, '1');             -- the first buffer (delays mem by one cycle)
 
     OUTT_out            <= bufferOutput(0);                 -- 1 bit
     INN_out             <= bufferOutput(1);                 -- 1 bit
@@ -58,6 +60,7 @@ BEGIN
     readEnableOut       <= bufferOutput(67);                -- 1 bit
     readAddressOut      <= bufferOutput(77 DOWNTO 68);      -- 10 bits
     InterruptOut        <= bufferOutput(78);                -- 1 bit
+    conditionFlagOut    <= bufferOutput(79);                -- 1 bit
 
     
     

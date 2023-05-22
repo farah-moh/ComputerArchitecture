@@ -32,7 +32,9 @@ PORT(
     InterruptSignal:                     IN std_logic;
     Flags:                               IN std_logic_vector(2 DOWNTO 0);
     counter:                             IN std_logic_vector(2 DOWNTO 0);
-    PC_IF:                               IN std_logic_vector(15 DOWNTO 0)                             
+    PC_IF:                               IN std_logic_vector(15 DOWNTO 0);
+    instructionIN:                       IN std_logic_vector(15 DOWNTO 0);
+    flagCondition:                       OUT std_logic
     
 );
 END mem1Stage;
@@ -41,22 +43,25 @@ ARCHITECTURE mem1StageDesign OF mem1Stage IS
 
 COMPONENT SP IS
 	PORT (clk, reset : IN  std_logic;
-          inc : IN std_logic_vector(1 DOWNTO 0);            -- inc value (1 or -1)
+          inc : IN std_logic_vector(2 DOWNTO 0);            -- inc value (2 or 1 or -1)
         --   sp_in : IN std_logic_vector(15 DOWNTO 0);         -- sp before inc
 		  sp : OUT std_logic_vector(15 DOWNTO 0) 
         );
 END COMPONENT;
 
 
-signal inc:                                 std_logic_vector(1 DOWNTO 0);
+signal inc:                                 std_logic_vector(2 DOWNTO 0);
 -- signal sp_in:                               std_logic_vector(15 DOWNTO 0);
 signal sp_out:                              std_logic_vector(15 DOWNTO 0);
 signal PCresult:                            std_logic_vector(15 DOWNTO 0);
 
 BEGIN
     
-    
-    inc <= "01" when spInc = '1' else "11" when spDec = '1' else "00";
+    flagCondition <= '1' when instructionIN(15 downto 11) = "10101" else '0';       -- RTI
+
+    inc <=  "010" when instructionIN(15 downto 11) = "10101" else         -- +2     -- when RTI
+            "001" when spInc = '1' else          -- +1
+            "111" when spDec = '1' else "000";    -- -1
     -- inc = 1 when spInc = '1' else -1 when spDec = '1' else 0;
 
     sp_component: SP port map(clk,reset,inc,sp_out);
@@ -74,11 +79,12 @@ BEGIN
     -- bs dh next phase, for now hya Rs1Data 3la tool
     
     -- yenfa3 a3ml + 1 3ady kda wala lazem gowa process?
-    Data <= PC_IF when counter = "011" else    -- Check on interrupt first, as it has highest priority
+    -- badelna el PC wl flag
+    Data <= PC_IF when counter = "010" else    -- Check on interrupt first, as it has highest priority
                                             -- saves PC, 3lshan lama yrg3 yrg3 3la el instruction elly et3mlha interrupt (y3ny yrg3 y3mlha fetch tany)
                                             -- dh lw counter = 3        (bs actually counter = 4, l2n bye7sal stall 3lshan 2 push wara ba3d)
                                             -- PC msh PC + 1, 3lshan howa byzeed henak kda kda, w 3lshan el jump
-            "0000000000000" & Flags when counter = "010" else     -- dh 3lshan y-push el flags
+            "0000000000000" & Flags when counter = "011" else     -- dh 3lshan y-push el flags
             PC + 1 when spDec = '1' and pcSrc = '1' else
             -- "0000000011110000";
             Rs1Data; --when spDec = '1' else    
