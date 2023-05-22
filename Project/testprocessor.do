@@ -1,5 +1,12 @@
 vsim -gui work.processor
-add wave -position insertpoint sim:/*
+add wave -position insertpoint sim:/processor/reset
+add wave -position insertpoint sim:/processor/clk
+add wave -position insertpoint sim:/processor/PC_IF
+add wave -position insertpoint sim:/processor/decodeStagee/regFile/ram
+add wave -position insertpoint sim:/processor/flags_EX
+add wave -position insertpoint sim:/processor/InPort
+add wave -position insertpoint sim:/processor/OutPort
+add wave -position insertpoint sim:/processor/InterruptSignal
 mem load -filltype value -filldata {100 } -fillradix hexadecimal /processor/fetchStagee/instructions/ram(0)
 mem load -filltype value -filldata {20 } -fillradix hexadecimal /processor/fetchStagee/instructions/ram(1)
 mem load -filltype value -filldata {0000100000000000 } -fillradix binary /processor/fetchStagee/instructions/ram(256)
@@ -49,25 +56,25 @@ run
 force -freeze sim:/processor/InterruptSignal 1 0
 run
 force -freeze sim:/processor/InterruptSignal 0 0
-run 2500 ps
-run
-run
-run
-run
-run
-run
-run
-run
-run
-
-
-run
-run
-run
-run
-run
-force -freeze sim:/processor/InterruptSignal 1 0
-run
-force -freeze sim:/processor/InterruptSignal 0 0
-run 2400 ps
-run
+#run 2500 ps
+#run
+#run
+#run
+#run
+#run
+#run
+#run
+#run
+#run
+#
+#
+#run
+#run
+#run
+#run
+#run
+#force -freeze sim:/processor/InterruptSignal 1 0
+#run
+#force -freeze sim:/processor/InterruptSignal 0 0
+#run 2400 ps
+#run
