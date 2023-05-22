@@ -33,8 +33,12 @@ SIGNAL memStallSig: std_logic := '0';
 -- SIGNAL dataStall: std_logic := '0';
 
 BEGIN
+<<<<<<< HEAD
 -- instruction, RS1, RS2, memread_me, memwrite_me, RD_ID_EX, regwrite_ID_EX, memread_ID_EX,memwrite_ID_EX, RD_EX_MEM1, regwrite_EX_MEM1, memread_EX_MEM1, memwrite_EX_MEM1, RD_MEM1_MEM2, regwrite_MEM1_MEM2, memread_MEM1_MEM2,memwrite_MEM1_MEM2
     PROCESS (instruction, RS1, RS2, RD_ID_EX, regwrite_ID_EX, memread_ID_EX,memwrite_ID_EX, RD_EX_MEM1, regwrite_EX_MEM1, memread_EX_MEM1, memwrite_EX_MEM1, RD_MEM1_MEM2, regwrite_MEM1_MEM2, memread_MEM1_MEM2,memwrite_MEM1_MEM2) 
+=======
+    PROCESS (instruction,RD_ID_EX,RD_EX_MEM1,regwrite_ID_EX,regwrite_EX_MEM1,memread_ID_EX,memread_EX_MEM1) 
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
         variable instType: TYPES;
         variable opcode: std_logic_vector(4 DOWNTO 0);
     BEGIN
@@ -59,10 +63,17 @@ BEGIN
             IF (((RD_ID_EX = RS1) or (RD_ID_EX = RS2)) and (regwrite_ID_EX = '1')) THEN
                 dataStall <= '1';
                 -- in case of a store, we only need to stall once if previous instruction is a load, otherwise proper forwarding will get the correct values
+<<<<<<< HEAD
             ELSIF (((RD_EX_MEM1 = RS1) or (RD_EX_MEM1 = RS2)) and (regwrite_EX_MEM1 = '1') and (memread_EX_MEM1 = '1')) THEN
                 dataStall <= '1';
             ELSIF (((RD_MEM1_MEM2 = RS1) or (RD_MEM1_MEM2 = RS2)) and (regwrite_MEM1_MEM2 = '1') and (memread_MEM1_MEM2 = '1')) THEN
                 dataStall <= '1';
+=======
+            ELSIF ((RD_EX_MEM1 = RS1 or RD_EX_MEM1 = RS2) and regwrite_EX_MEM1 = '1' and memread_EX_MEM1 = '1') THEN
+                stall <= '1';
+            ELSIF ((RD_MEM1_MEM2 = RS1 or RD_MEM1_MEM2 = RS2) and regwrite_MEM1_MEM2 = '1' and memread_MEM1_MEM2 = '1') THEN
+                stall <= '1';
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
             ELSE
                 dataStall <= '0';
             END IF;
@@ -84,17 +95,29 @@ BEGIN
                 dataStall <= '0';
             END IF;
         ELSE 
+<<<<<<< HEAD
             dataStall <= '0';
+=======
+            -- stall <= '0';
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
         END IF;
 
         -- #################### STRUCTURAL HAZARDS ####################
         -- only one possible stall EVER, if I am a memory instruction and the one right before me is also a memory instruction
+<<<<<<< HEAD
         -- IF ((memread_me = '1' or memwrite_me ='1') and(memread_ID_EX='1' or memwrite_ID_EX='1'))  THEN
         --     memStall <= '1';
         -- ELSE
         -- memStall <= '0';
         -- END IF;
         -- stall <= dataStall OR memStall;
+=======
+        IF ((memread_me = '1' or memwrite_me ='1') and(memread_ID_EX='1' or memwrite_ID_EX='1'))  THEN
+            stall <= '1';
+        ELSE 
+            -- stall <= '0';
+        END IF;
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
     END PROCESS;
 
     PROCESS (instruction, memread_me, memwrite_me,memread_ID_EX,memwrite_ID_EX) 

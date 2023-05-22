@@ -503,6 +503,20 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity mem1Stage
 -- Compiling architecture mem1StageDesign of mem1Stage
 
+<<<<<<< HEAD
+=======
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/ControlHazardUnit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ControlHazardUnit
+-- Compiling architecture MYControlHazardUnit of ControlHazardUnit
+
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
 } {} {}} {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:/Spring 2023/Architecture/ArchRepo/ComputerArchitecture/Project/fetchStage.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -536,7 +550,20 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity forwardingExecute
 -- Compiling architecture forwardingExecuteDesign of forwardingExecute
 
+<<<<<<< HEAD
 } {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Extra_D\Ali_kolya\Ali Year 3\Projects & Assignments\Term 2\Computer Architecture\Project\Code\Project\memoryStage.vhd}
+=======
+} {} {}} D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Boody/CompArch/ComputerArchitecture/Project/SP.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SP
+-- Compiling architecture SP_design of SP
+
+} {} {}} {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Extra_D/Ali_kolya/Ali Year 3/Projects & Assignments/Term 2/Computer Architecture/Project/Code/Project/memoryStage.vhd}
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO

@@ -50,4 +50,6 @@ begin
     MEM1_MEM2_Flush <= PcSrcMEM2_WB;
     MEM2_WB_Flush <= PcSrcMEM2_WB;
     
+ 
+    
 end MYControlHazardUnit;

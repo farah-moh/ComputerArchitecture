@@ -15,10 +15,14 @@ ENTITY DecodingStage IS
         Instruction:        IN std_logic_vector(15 DOWNTO 0);
         RS1Data :           OUT std_logic_vector(15 DOWNTO 0);
         RS2Data :           OUT std_logic_vector(15 DOWNTO 0);
+<<<<<<< HEAD
         regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec,pcSrc_jmpORcall:        OUT std_logic;
         InterruptSignal:    IN std_logic;
         NOP:          OUT std_logic_vector(15 downto 0);
         count:          OUT std_logic_vector(2 downto 0)
+=======
+        regWrite,pcSrc,memRead,memWrite,memToReg,inPort,outPort,spInc,spDec:        OUT std_logic
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
 
     );
 END ENTITY DecodingStage;
@@ -31,8 +35,12 @@ BEGIN
     ControlU : entity work.ControlUnit port map(clk, Instruction,stall,regWrite, pcSrc, memRead, memWrite, memToReg, inPort, outPort, spInc, spDec, InterruptSignal, NOP, count);
     regFile: entity work.RegFileMem port map(clk, rst, RS1, RS2, RD, writeEnable, writeData, RS1Data, RS2Data); -- RS1 and RS2 check themmm! 
     -- regFile: entity work.RegFileMem port map(clk, rst, RS1, RS2, RD, writeEnable, writeData, RS1Data, RS2Data);
+<<<<<<< HEAD
     pcSrc_jmpORcall <=  '1' when (Instruction(15 downto 11) = "10010") else
                         '1' when (Instruction(15 downto 11) = "10011") else 
                         --'1' when (InterruptSignal = '1') else
                         '0';
+=======
+
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
 END decoding;

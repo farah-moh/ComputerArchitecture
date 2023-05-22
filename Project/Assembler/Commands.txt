@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #########################################################
 #        All numbers are in hex format   				#
 #        We always start by reset signal 				#
@@ -34,3 +35,18 @@ INC R3, R3
 RTI
 INC R4, R4
 
+=======
+.org 0 
+2
+.org 2
+inc R1,R1
+jmp R1
+
+.org 90
+inc R5,R5
+inc R1,R1
+inc R1,R1
+inc R1,R
+inc R1,R1
+inc R1,R1
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)

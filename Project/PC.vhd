@@ -22,7 +22,7 @@ BEGIN
             -- pc <= (others => '0');
             pc <= memZero;
             pcINC := (others => '0');
-        -- Was rising
+        -- Wsa rising
         ELSIF rising_edge(clk) THEN
             IF enable = '1' THEN
                 pcINC := std_logic_vector(unsigned(pc)+unsigned(inc));

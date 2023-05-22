@@ -22,7 +22,7 @@ architecture MyWriteBackStage of writeBackStage is
         writeBackData <= MemOutput when MemToReg = '1' else --WILL BE TESTEDDDDD
                          ALUOutput;
 
-        outPortoutput <= ALUOutput when outPort = '1' else
+        outPortoutput <= RS1Data when outPort = '1' else
                          (others => '0');
         regWriteOut <= regWrite;
         RDOut <= RD;

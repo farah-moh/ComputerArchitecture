@@ -67,12 +67,19 @@ BEGIN
     sp_component: SP port map(clk,reset,inc,sp_out);
 
     -- sp_out w RS1Data w RS2Data hy5osho 3la mux, el output bta3o howa el address
+<<<<<<< HEAD
     Address <= sp_out(9 downto 0) when InterruptSignal = '1' else       -- msh mot2aked mn dyh brdo awy, bs azon sa7 3lshan y-save el makan
                sp_out(9 downto 0) when spInc = '1' else
                sp_out(9 downto 0) + 1 when spDec = '1' else
                Rs1Data(9 downto 0) when readEnable = '1' else
                Rs2Data(9 downto 0) when writeEnable = '1' else
                (others => '0');
+=======
+    Address <= sp_out(9 downto 0) when spInc = '1' OR spDec = '1' else
+                Rs1Data(9 downto 0) when readEnable = '1' else
+                Rs2Data(9 downto 0) when writeEnable = '1' else
+                (others => '0');
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
 
     -- Rs1Data w EX/MEM1.PC + 1 hy5osho 3la mux, wl output howa el data
     -- wl interrupts hteb2a PC bs badal PC + 1
@@ -86,9 +93,14 @@ BEGIN
                                             -- PC msh PC + 1, 3lshan howa byzeed henak kda kda, w 3lshan el jump
             "0000000000000" & Flags when counter = "011" else     -- dh 3lshan y-push el flags
             PC + 1 when spDec = '1' and pcSrc = '1' else
+<<<<<<< HEAD
             -- "0000000011110000";
             Rs1Data; --when spDec = '1' else    
             --(others => '0');
+=======
+            Rs1Data when spDec = '1' else    
+            (others => '0');
+>>>>>>> parent of 595841c (Hot fixes + working processor kinda)
     -- Data <= Rs1Data;
     
 
