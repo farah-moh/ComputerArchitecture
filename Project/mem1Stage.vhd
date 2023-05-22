@@ -34,7 +34,8 @@ PORT(
     counter:                             IN std_logic_vector(2 DOWNTO 0);
     PC_IF:                               IN std_logic_vector(15 DOWNTO 0);
     instructionIN:                       IN std_logic_vector(15 DOWNTO 0);
-    flagCondition:                       OUT std_logic
+    flagCondition:                       OUT std_logic;
+    instructionIN2:           IN std_logic_vector(15 DOWNTO 0)
     
 );
 END mem1Stage;
@@ -80,7 +81,8 @@ BEGIN
     
     -- yenfa3 a3ml + 1 3ady kda wala lazem gowa process?
     -- badelna el PC wl flag
-    Data <= PC_IF when counter = "010" else    -- Check on interrupt first, as it has highest priority
+    Data <= PC_IF - 1 when counter = "010" and instructionIN2(10) = '1' else
+            PC_IF  when counter = "010" else    -- Check on interrupt first, as it has highest priority
                                             -- saves PC, 3lshan lama yrg3 yrg3 3la el instruction elly et3mlha interrupt (y3ny yrg3 y3mlha fetch tany)
                                             -- dh lw counter = 3        (bs actually counter = 4, l2n bye7sal stall 3lshan 2 push wara ba3d)
                                             -- PC msh PC + 1, 3lshan howa byzeed henak kda kda, w 3lshan el jump

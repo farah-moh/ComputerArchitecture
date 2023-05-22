@@ -31,8 +31,8 @@ BEGIN
     ControlU : entity work.ControlUnit port map(clk, Instruction,stall,regWrite, pcSrc, memRead, memWrite, memToReg, inPort, outPort, spInc, spDec, InterruptSignal, NOP, count);
     regFile: entity work.RegFileMem port map(clk, rst, RS1, RS2, RD, writeEnable, writeData, RS1Data, RS2Data); -- RS1 and RS2 check themmm! 
     -- regFile: entity work.RegFileMem port map(clk, rst, RS1, RS2, RD, writeEnable, writeData, RS1Data, RS2Data);
-    pcSrc_jmpORcall <=  '1' when (Instruction(15 downto 11) = "10010") else
-                        '1' when (Instruction(15 downto 11) = "10011") else 
+    pcSrc_jmpORcall <=  '1' when (Instruction(15 downto 11) = "10010") and pcSrc = '1' else
+                        '1' when (Instruction(15 downto 11) = "10011") and pcSrc = '1' else 
                         --'1' when (InterruptSignal = '1') else
                         '0';
 END decoding;
