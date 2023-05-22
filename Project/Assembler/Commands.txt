@@ -7,35 +7,35 @@
 # ---------- Don't forget to Reset before you start anything ---------- #
 
 
-.org 0	#this means the the following line would be  at address  0 , and this is the reset address
-100	    						
-.org 1	#this hw interrupt handler
+.org 0       #this means the the following line would be  at address  0 , and this is the reset address
+100							
+.org 1         #this hw interrupt handler
 20	
 
 #test1  JC taken
 .org 100
-SETC      #100                                                                       # 5
-LDM R1,0F0F   # 101, 102                      #INTERRUPT HERE                                # 6       INTERRUPT (run - interrupt - run - lower interrupt)
-LDM R3,80     # 103, 104                                                                   
+SETC
+LDM R1,0F0F                        #INTERRUPT HERE
+LDM R3,80
 NOT R2,R1
-JC R3                              #this should be taken, forward
-OUT R3
+JC R3                #this should be taken, forward
+OUT R3 			
 
 #test2 JC not taken, JZ taken
 .org 80
 LDM R3, 150
-JC R3                              #NOT TAKEN, SINCE JC CLEAR CARRY
+JC R3        #NOT TAKEN, SINCE JC CLEAR CARRY
 LDM R4, 08
 AND R5,R3,R4
 JZ R4
-INC R4,R4                          #THIS SHOULDN’T EXECUTE
+INC R4,R4           #THIS SHOULDN’T EXECUTE
 
 #test3  load-use + unconditional jump
 .ORG 8
 Push R3
 Pop R5                               
-JMP R5                #load-use + unconditional jump
-INC R5,R5             #THIS SHOULDN’T HAPPEN
+JMP R5                             #load-use + unconditional jump
+INC R5,R5       #THIS SHOULDN’T HAPPEN
 
 
 #test4 call 
@@ -43,7 +43,7 @@ INC R5,R5             #THIS SHOULDN’T HAPPEN
 SETC
 LDM R1,200
 CALL R1
-NOT R1,R1              #THIS SHOULD BE EXECUTED AFTER CALL
+NOT R1,R1            #THIS SHOULD BE EXECUTED AFTER CALL
 OUT R1
 
 
@@ -57,9 +57,9 @@ OUT R1
 
 #test INTERRUPT
 .org 20
-CLRC                                                                   # enters at 7, finishes at 12
-LDM R7, 300                                                            # 13 (momkn ab2a dost wa7da zyada)
-OUT R7                                                                 # 14
+CLRC
+LDM R7, 300
+OUT R7
 RTI
 INC R2, R2
 
